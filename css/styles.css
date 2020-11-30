@@ -907,6 +907,74 @@ a.button {
 ---------------------Responsive Styles------------------------
 ============================================================== 
 */
+@media only screen and (max-width: 854px){
+  #-h1 {
+    left: 200px;
+    bottom: 40%;
+  }
+
+  
+ #about-h1 {
+  top: -30px;
+  left: -20px;
+}
+#-about-h1 {
+  left: -20px;
+  top: 10%;
+}
+ .main-wraper .container header .about-con{
+   width: 100%;
+   height: 90%;
+   display: flex;
+ }
+ .main-wraper .container header .about-con .about-text-con {
+  position: relative;
+  width: 60%;
+  max-height: 60%;
+  top: 0;
+  left: 0;
+}
+.main-wraper .container header .about-con .about-text-con .about-text{
+  position: absolute;
+  top: 40%;
+  left: 100px;
+}
+.main-wraper .container header .about-con .about-text-con h1 {
+  font-size: 30px;
+  color: #08fdd8;
+  font-weight: 700;
+  line-height: 35px;
+  margin-bottom: 0px;
+  letter-spacing: -2px;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+.main-wraper .container header .about-con .about-text-con p {
+  color: #fff;
+  font-weight: 100;
+  font-size: 0.7rem;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  letter-spacing: 1px;
+  line-height: 0.87rem;
+}
+.main-wraper .container header .about-con .about-logo-con {
+  width: 40%;
+  max-height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 30%;
+}
+.main-wraper .container header .about-con .about-logo-con .about-logo {
+  width: 60%;
+  margin-top: 0;
+}
+.main-wraper .container header .about-con .about-logo-con .about-logo svg {
+  width: 100%;
+  height: 250px;
+}
+}
 @media only screen and (max-width: 500px) {
   /* #-h1 {
     left: 230px;

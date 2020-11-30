@@ -1,0 +1,107 @@
+<!-- =================================================================
+Template Name: Devfolio
+Description:  Personal portfolio Template
+Author: Abdul Aziz | Front End Developer
+Author URI: http://devfolio.cf
+Authur Email: abdulaziz652369@gmail.com
+Author Telegram: abdulaziz_dev
+Version: 1.0
+Created By: Abdul Aziz
+================================================================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+
+	<!-- ---------------Fonts Style link----------- -->
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+	<!-- ---------------Icons Style link----------- -->
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/svg" href="images/AA logo.svg">
+    
+
+	<title>AA | Front End Developer</title>
+</head>
+<body>
+    <div class="main-wraper">
+        <section id="header">
+			<div class="container">
+			<nav>
+				<div class="logo">
+					<a href="index.html"><img src="images/AA logo.png" alt=""></a>
+				</div>
+				<div class="menu">
+                    <input type="checkbox" name="check" id="check">
+                            <label for="check" class="checkbtn">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </label>
+					<ul class="menu-list">
+                        <li><a href="index.html"><span class="nav-icon"><i class="fa fa-home" aria-hidden="true"></i></span>  <span class="nav-hov-text">Home</span></a></li>
+                        <li><a href="about.html"><span class="nav-icon"><i class="fa fa-user" aria-hidden="true"></i></span>  <span class=" nav-hov-text">About</span></a></li>
+                        <li><a href="skills.html"><span class="nav-icon"><i class="fa fa-gear" aria-hidden="true"></i></span>  <span class=" nav-hov-text">Skills</span></a></li>
+                        <li><a href="work.html"><span class="nav-icon"><i class="fa fa-eye" aria-hidden="true"></i></span>  <span class=" nav-hov-text">My Work</span></a></li>
+                        <li><a href="contact.html" class="active"><span class="nav-icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>  <span class=" nav-hov-text">Contact</span></a></li>
+                    </ul>
+                </div>
+                <div class="social-menu">
+                    <ul>
+                        <li><a href="https://www.instagram.com/AbdulAz19145803" target="blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://linkedin.com/in/abdul-aziz-110227194" target="blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/aa.frontenddev/" target="blank"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://github.com/abdulaziz65" target="blank"><i class="fa fa-github"></i></a></li>
+                    </ul>
+                </div>
+			</nav>
+			<header>
+                <span id="html"><<span>html></span></span>
+                <span id="-html"><<span>/html></span></span>
+                <span id="body"><<span>body></span></span>
+                <span id="-body"><<span>/body></span></span>
+
+				<div class="contact-con">
+                    <div class="contact-text-con">
+                        <div class="contact-text">
+                            <span id="contact-h1"><<span>h1></span></span>
+                            <span id="-contact-h1"><<span>/h1></span></span>
+                            <h1>Contact &nbsp;me</h1>
+                            <p>
+                                I am interested in freelance opportunities especially - ambious or <br> large projects. However, if you have other request or questions, don't hesitate to contact me using below form either.
+                            </p>
+                            <div class="form-container">
+                                <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                                    <input type="text" name="name" id="name" class="name" placeholder="Name">
+                                    <input type="text" name="email" id="email" class="email" placeholder="Email"><br>
+                                    <input type="text" name="subject" id="subject" class="subject" placeholder="Subject"><br>
+                                    <textarea name="message" id="message" class="msg" cols="30" rows="10" placeholder="Message"></textarea> 
+                                    <input type="submit" value="Send" name="submit" class="btn-submit" >
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</header>
+			</div>
+		</section><!--Header Section End-->
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./bundle.js"></script>
+</body>
+</html>

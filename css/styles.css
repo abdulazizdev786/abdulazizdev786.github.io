@@ -990,7 +990,7 @@ a.button {
     justify-content: center;
     align-items: none;
     position: relative;
-    top: 0;
+    top: 10%;
   }
   .main-wraper .container header .about-con .about-logo-con .about-logo {
     width: 50%;

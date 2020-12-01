@@ -2000,14 +2000,14 @@ span {
     height: auto;
   }
   .main-wraper .container header .work-con .work-item-con .work-item:hover .overlay {
-    opacity: 0;
+    opacity: 1;
   }
   .main-wraper .container header .work-con .work-item-con .work-item:hover .btn-view {
-    opacity: 0;
-    transform: scale(0);
+    opacity: 1;
+    transform: scale(1);
   }
   .main-wraper .container header .work-con .work-item-con .work-item:hover img {
-    transform: scale(1);
+    transform: scale(1.05);
   }
   .main-wraper .container header .work-con .work-item-con .work-item:active .overlay {
     opacity: 1;
@@ -2220,6 +2220,47 @@ span {
   }
   .main-wraper .container header .contact-con .contact-text-con {
     width: 100%;
+  }
+}
+@media only screen and (max-width: 736px){
+   #contact-h1 {
+    top: -20px;
+    left: -20px;
+  }
+  #-contact-h1 {
+    left: -20px;
+    top: 10%;
+  }
+  .main-wraper .container header .contact-con .contact-text-con {
+    width: 100%;
+  }
+  .main-wraper .container header .contact-con .contact-text-con .contact-text {
+    position: absolute;
+    top: 16%;
+    width: 80%;
+    left: 15%;
+  }
+  .main-wraper .container header .contact-con .contact-text-con .contact-text h1 {
+    font-size: 30px;
+    color: #08fdd8;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 20px;
+    letter-spacing: -2px;
+  }
+  .main-wraper .container header .contact-con .contact-text-con .contact-text p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+  }
+  .main-wraper .container header .contact-con .contact-text-con .form-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
   }
 }
 @media only screen and (max-width: 500px){

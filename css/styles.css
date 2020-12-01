@@ -1631,7 +1631,7 @@ span {
   }
 
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 854px) {
   #skills-h1 {
     top: 5px;
     left: -20px;
@@ -1640,6 +1640,50 @@ span {
     left: -20px;
     top: 28%;
   }
+  
+  .main-wraper .container header .skills-area-con .skills-text-con .skills-text {
+    position: absolute;
+    top: 12%;
+    left: 40px;
+  }
+  .main-wraper .container header .skills-area-con .skills-text-con .skills-text h1 {
+    font-size: 28px;
+    line-height: 25px;
+  }
+  .main-wraper .container header .skills-area-con .skills-text-con .skills-text p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.8rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill {
+    width: 42%;
+    text-align: left;
+    margin: 10px 2%;
+  }
+  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars {
+    height: 40vh;
+    padding: 2% 1%;
+  }
+ 
+  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill strong {
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+  }
+  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill.skillbar {
+    margin: 5px 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #skills-h1 {
+    top: 5px;
+    left: -20px;
+  }
+  #-skills-h1 {
+    left: -20px;
+    top: 25%;
+  }
   .main-wraper .container header .skills-area-con .skills-text-con .skills-text {
     position: absolute;
     top: 10%;
@@ -1647,7 +1691,7 @@ span {
   }
   .main-wraper .container header .skills-area-con .skills-text-con .skills-text h1 {
     font-size: 40px;
-    line-height: 50px;
+    line-height: 40px;
   }
   .main-wraper .container header .skills-area-con .skills-text-con .skills-text p {
     color: #fff;
@@ -1666,6 +1710,50 @@ span {
     padding: 2% 3%;
   }
 
+}
+@media only screen and (max-width: 736px) {
+  #skills-h1 {
+    top: 5px;
+    left: -20px;
+  }
+  #-skills-h1 {
+    left: -20px;
+    top: 28%;
+  }
+  
+  .main-wraper .container header .skills-area-con .skills-text-con .skills-text {
+    position: absolute;
+    top: 12%;
+    left: 40px;
+  }
+  .main-wraper .container header .skills-area-con .skills-text-con .skills-text h1 {
+    font-size: 28px;
+    line-height: 25px;
+  }
+  .main-wraper .container header .skills-area-con .skills-text-con .skills-text p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.8rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill {
+    width: 42%;
+    text-align: left;
+    margin: 10px 2%;
+  }
+  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars {
+    height: 40vh;
+    padding: 2% 1%;
+  }
+ 
+  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill strong {
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+  }
+  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill.skillbar {
+    margin: 5px 0;
+  }
 }
 @media only screen and (max-width:500px){
   #skills-h1 {
@@ -1831,7 +1919,7 @@ span {
 }
 .main-wraper .container header .work-con .work-item-con .work-item {
   width: 25%;
-  height: 33.33%;
+  height: auto;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -1891,7 +1979,7 @@ span {
 @media only screen and (max-width: 1080px){
   .main-wraper .container header .work-con .work-item-con .work-item {
     width: 33.33%;
-    height: 25%;
+    height: auto;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -1903,40 +1991,52 @@ span {
 @media only screen and (max-width: 900px){
   .main-wraper .container header .work-con .work-item-con .work-item {
     width: 33.33%;
-    height: 25%;
+    height:auto;
   }
 }
-@media only screen and (max-width: 900px){
-  .main-wraper .container header .work-con .work-item-con .work-item {
-    width: 33.33%;
-    height: 25%;
-  }
-}
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 768px){
   .main-wraper .container header .work-con .work-item-con .work-item {
     width: 50%;
-    height: 33.33%;
+    height: auto;
+  }
+  .main-wraper .container header .work-con .work-item-con .work-item:hover .overlay {
+    opacity: 0;
+  }
+  .main-wraper .container header .work-con .work-item-con .work-item:hover .btn-view {
+    opacity: 0;
+    transform: scale(0);
+  }
+  .main-wraper .container header .work-con .work-item-con .work-item:hover img {
+    transform: scale(1);
+  }
+  .main-wraper .container header .work-con .work-item-con .work-item:active .overlay {
+    opacity: 1;
+  }
+  .main-wraper .container header .work-con .work-item-con .work-item:active .btn-view {
+    opacity: 1;
+    transform: scale(1);
+  }
+  .main-wraper .container header .work-con .work-item-con .work-item:active img {
+    transform: scale(1.05);
+  }
+}
+@media only screen and (max-width: 736px){
+  .main-wraper .container header .work-con .work-item-con .work-item {
+    width: 33.33%;
+    height: auto;
   }
 }
 @media only screen and (max-width: 500px) {
-  .main-wraper .container header .work-con{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-  }
-  .main-wraper .container header .work-con .work-item-con{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    overflow: auto;
-  }
+  
   .main-wraper .container header .work-con .work-item-con .work-item {
     width: 50%;
-    height: 20%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 280px){
+  .main-wraper .container header .work-con .work-item-con .work-item {
+    width: 100%;
+    height: auto;
   }
 }
 

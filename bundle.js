@@ -1,10 +1,8 @@
 // =================================================================
-// Template Name: Devfolio
-// Description:  Personal portfolio Template
+// Template Description:  Personal portfolio Website
 // Author: Abdul Aziz | Front End Developer
-// Author URI: http://devfolio.cf
+// Author URI: https://frontendaz.ga
 // Authur Email: abdulaziz652369@gmail.com
-// Author Telegram: abdulaziz_dev
 // Version: 1.0
 // Created By: Abdul Aziz
 // ==================================================================

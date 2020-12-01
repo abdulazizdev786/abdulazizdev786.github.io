@@ -1,13 +1,12 @@
 /* =================================================================
-Template Name: Devfolio
-Description:  Personal portfolio Template
+Template Description:  Personal portfolio Website
 Author: Abdul Aziz | Front End Developer
-Author URI: http://devfolio.cf
+Author URI: https://frontendaz.ga
 Authur Email: abdulaziz652369@gmail.com
 Version: 1.0
 Created By: Abdul Aziz
 ================================================================== */
-
+@charset "UTF-8";
 
 * {
     margin: 0;
@@ -928,7 +927,7 @@ a.button {
 }
 #-about-h1 {
   left: -20px;
-  top: 15%;
+  top: 17%;
 }
  .main-wraper .container header .about-con{
    width: 100%;
@@ -937,7 +936,7 @@ a.button {
  }
  .main-wraper .container header .about-con .about-text-con {
   position: relative;
-  width: 35%;
+  width: 40%;
   height: 100%;
   top: 0;
   left: 0;
@@ -947,12 +946,12 @@ a.button {
   top: 25%;
   left: 100px;
 }
-.main-wraper .container header .about-con .about-text-con h1 {
+.main-wraper .container header .about-con .about-text-con .about-text h1 {
   font-size: 60px;
   color: #08fdd8;
   font-weight: 700;
   line-height: 55px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   letter-spacing: -2px;
   font-family: 'Archivo Narrow', sans-serif;
 }
@@ -960,8 +959,9 @@ a.button {
   color: #fff;
   font-weight: 300;
   font-size: 1rem;
-  margin-top: 60px;
-  margin-bottom: 70px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  letter-spacing: 1px;
 }
 
 
@@ -984,7 +984,7 @@ a.button {
 ---------------------Responsive Styles------------------------
 ============================================================== 
 */
-@media only screen and (max-width: 854px){
+@media only screen and (max-width: 860px){
  #about-h1 {
   top: -30px;
   left: -20px;
@@ -1010,7 +1010,7 @@ a.button {
   top: 40%;
   left: 100px;
 }
-.main-wraper .container header .about-con .about-text-con h1 {
+.main-wraper .container header .about-con .about-text-con .about-text h1 {
   font-size: 30px;
   color: #08fdd8;
   font-weight: 700;
@@ -1023,8 +1023,8 @@ a.button {
   color: #fff;
   font-weight: 100;
   font-size: 0.7rem;
-  margin-top: 30px;
-  margin-bottom: 70px;
+  margin-top: 10px;
+  margin-bottom: 0px;
   letter-spacing: 1px;
   line-height: 0.87rem;
 }
@@ -1047,59 +1047,144 @@ a.button {
 }
 }
 @media only screen and (max-width: 768px){
-  #-about-h1{
-    top: 12%;
-  }
-  .main-wraper .container header .about-con {
-    flex-direction: column;
-    justify-content: none;
-    align-items: none;
-  
+  #about-h1 {
+   top: -30px;
+   left: -20px;
+ }
+ #-about-h1 {
+   left: -20px;
+   top: 20%;
+ }
+  .main-wraper .container header .about-con{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
   }
   .main-wraper .container header .about-con .about-text-con {
+   position: relative;
+   width:100%;
+   max-height: 60%;
+   top: 0;
+   left: 0;
+ }
+ .main-wraper .container header .about-con .about-text-con .about-text{
+   position: absolute;
+   width: 80%;
+   top: 30%;
+   left: 10%;
+ }
+ .main-wraper .container header .about-con .about-text-con .about-text h1 {
+   font-size: 60px;
+   color: #08fdd8;
+   font-weight: 700;
+   line-height: 60px;
+   margin-bottom: 30px;
+   letter-spacing: -2px;
+   font-family: 'Archivo Narrow', sans-serif;
+ }
+ .main-wraper .container header .about-con .about-text-con p {
+   color: #fff;
+   font-weight: 100;
+   font-size: 1.2rem;
+   margin-top: 10px;
+   margin-bottom: 0px;
+   letter-spacing: 1px;
+   line-height: 1.4rem;
+ }
+ .main-wraper .container header .about-con .about-logo-con {
+   width: 100%;
+   max-height: 30%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   top: 0;
+ }
+ .main-wraper .container header .about-con .about-logo-con .about-logo {
+   width: 60%;
+   margin-top: 0;
+ }
+ .main-wraper .container header .about-con .about-logo-con .about-logo svg {
+   width: 100%;
+   height: 250px;
+ }
+ }
+ @media only screen and (max-width: 736px){
+  #about-h1 {
+   top: -30px;
+   left: -20px;
+ }
+ #-about-h1 {
+   left: -20px;
+   top: 8%;
+ }
+ /* .main-wraper .container header{
+  width: 100%;
+  top: 60px;
+  left: 0;
+  height: 100vh;
+} */
+  .main-wraper .container header .about-con{
     width: 100%;
-    height: 50%;
+    height: 90%;
+    display: flex;
   }
-  .main-wraper .container header .about-con .about-text-con .about-text {
-    width: 80%;
-    top: 20%;
-    left: 10%;
-  }
-  .main-wraper .container header .about-con .about-text-con .about-text h1 {
-    font-size: 60px;
-    line-height: 40px;
-    margin-bottom: 10px;
-  }
-  .main-wraper .container header .about-con .about-text-con p {
-    font-size: 1.2rem;
-    line-height: 1.8rem;
-    margin-top: 50px;
-    margin-bottom: 0px;
-  }
-  .main-wraper .container header .about-con .about-logo-con {
-    width: 100%;
-    height: 30%;
-    justify-content: center;
-    align-items: none;
-    position: relative;
-    top: 0;
-  }
-  .main-wraper .container header .about-con .about-logo-con .about-logo {
-    position: relative;
-    top: 50%;
-    width: 50%;
-  }
-  .main-wraper .container header .about-con .about-logo-con .about-logo svg {
-    width: 100%;
-  }
-}
+  .main-wraper .container header .about-con .about-text-con {
+   position: relative;
+   width: 60%;
+   max-height: 70%;
+   top: 0;
+   left: 0;
+ }
+ .main-wraper .container header .about-con .about-text-con .about-text{
+   position: absolute;
+   width: 90%;
+   top: 40%;
+   left: 10%;
+ }
+ .main-wraper .container header .about-con .about-text-con .about-text h1 {
+   font-size: 25px;
+   color: #08fdd8;
+   font-weight: 700;
+   line-height: 10px;
+   margin-bottom:30px;
+   letter-spacing: -2px;
+   font-family: 'Archivo Narrow', sans-serif;
+ }
+ .main-wraper .container header .about-con .about-text-con p {
+   color: #fff;
+   font-weight: 100;
+   font-size: 0.7rem;
+   margin-top: 8px;
+   margin-bottom: 0px;
+   letter-spacing: 0px;
+   line-height: 0.87rem;
+ }
+ .main-wraper .container header .about-con .about-logo-con {
+   width: 40%;
+   max-height: 60%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   top: 30%;
+ }
+ .main-wraper .container header .about-con .about-logo-con .about-logo {
+   width: 60%;
+   margin-top: 0;
+ }
+ .main-wraper .container header .about-con .about-logo-con .about-logo svg {
+   width: 100%;
+   height: 250px;
+ }
+ }
 @media only screen and (max-width: 500px) {
  
   .main-wraper .container header .about-con {
     flex-direction: column;
     justify-content: none;
     align-items: none;
-    /* min-height: 89.5vh; */
   }
   .main-wraper .container header .about-con .about-text-con {
     width: 100%;
@@ -1113,11 +1198,11 @@ a.button {
   .main-wraper .container header .about-con .about-text-con .about-text h1 {
     font-size: 40px;
     line-height: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
   .main-wraper .container header .about-con .about-text-con p {
     font-size: 0.9rem;
-    margin-top: 40px;
+    margin-top: 10px;
     line-height: 0.9rem;
     margin-bottom: 0px;
   }
@@ -1154,12 +1239,12 @@ a.button {
   .main-wraper .container header .about-con .about-text-con .about-text h1 {
     font-size: 40px;
     line-height: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
   .main-wraper .container header .about-con .about-text-con p {
     font-size: 0.9rem;
     line-height: 1rem;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 0px;
   }
   .main-wraper .container header .about-con .about-logo-con {
@@ -1180,7 +1265,9 @@ a.button {
   }
 }
 @media only screen and (max-width: 375px) {
- 
+ #-about-h1{
+   top: 18%;
+ }
   .main-wraper .container header .about-con {
     flex-direction: column;
     justify-content: none;
@@ -1199,12 +1286,12 @@ a.button {
   .main-wraper .container header .about-con .about-text-con .about-text h1 {
     font-size: 40px;
     line-height: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
   .main-wraper .container header .about-con .about-text-con p {
     font-size: 0.9rem;
-    margin-top: 40px;
-    line-height: 0.9rem;
+    margin-top: 10px;
+    line-height: 1rem;
     margin-bottom: 0px;
   }
   .main-wraper .container header .about-con .about-logo-con {
@@ -1234,12 +1321,11 @@ a.button {
   .main-wraper .container header .about-con .about-text-con .about-text h1 {
     font-size: 30px;
     line-height: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .main-wraper .container header .about-con .about-text-con p {
     font-size: 0.8rem;
-    margin-top: 30px;
-    margin-bottom: 0px;
+  
   }
   .main-wraper .container header .about-con .about-logo-con {
     width: 100%;
@@ -1254,9 +1340,6 @@ a.button {
     width: 45%;
   }
 }
-
-
-
 
 /* 
 ============================================
@@ -2132,10 +2215,9 @@ span {
 
 
 /* =================================================================
-Template Name: Devfolio
-Description:  Personal portfolio Template
+Template Description:  Personal portfolio Website
 Author: Abdul Aziz | Front End Developer
-Author URI: http://devfolio.cf
+Author URI: https://frontendaz.ga
 Authur Email: abdulaziz652369@gmail.com
 Version: 1.0
 Created By: Abdul Aziz

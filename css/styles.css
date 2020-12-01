@@ -335,55 +335,13 @@ Created By: Abdul Aziz
   }
 
   nav .social-menu {
-    width: 100%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    bottom: 2%;
     display: none;
   }
-  /* nav .social-menu ul li {
-    margin: 10px 0;
-  }
-  nav .social-menu ul li a {
-    font-size: 1rem;
-    color: #a5a5a5;
-  }
-  nav .social-menu ul li a:hover {
-    color: #08fdd8;
-  } */
-  /* #html {
-    top: 62px;
-    left: 0;
-  }
-  #-html {
-    left: 0;
-    bottom: 0;
-  }
-
-  #body {
-    top: 90px;
-    left: 30px;
-  }
-  #-body {
-    left: 40px;
-    bottom: 30px;
-  }
-
-  #h1 {
-    top: -30px;
-    left: -20px;
-  }
-  #-h1 {
-    right: 10%;
-    bottom: 49%;
-  } */
+   
 }
-
 /* 
 ============================================
---------Home Styles------------
+---------------- Home Styles ---------------
 ============================================
  */
  
@@ -464,7 +422,6 @@ Created By: Abdul Aziz
   letter-spacing: -2px;
   font-family: 'Archivo Narrow', sans-serif;
   cursor: default;
-  /* font-family: "Archivo Black", sans-serif; */
 }
 .main-wraper .container header .header-con .header-text-con .header-text h3 {
   color: #a5a5a5;
@@ -603,7 +560,6 @@ a.button {
   90% {
     stroke-dashoffset: 0;
     fill-opacity: 0;
-    /* stroke-dasharray: 0; */
   }
   95% {
     fill-opacity: 0.5;
@@ -616,7 +572,6 @@ a.button {
   90% {
     stroke-dashoffset: 0;
     fill-opacity: 0;
-    /* stroke-dasharray: 0; */
   }
   95% {
     fill-opacity: 0.5;
@@ -666,7 +621,6 @@ a.button {
     margin-bottom: 20px;
     letter-spacing: -2px;
     font-family: 'Archivo Narrow', sans-serif;
-    /* font-family: "Archivo Black", sans-serif; */
   }
   .main-wraper .container header .header-con .header-text-con .header-text h3 {
     color: #a5a5a5;
@@ -698,7 +652,7 @@ a.button {
     transform: translateY(0);
     width: 70%;
   }
-  .main-wraper .container header .header-con .header-logo svg{
+  .main-wraper .container header .header-con .header-logo-con .header-logo svg{
     width: 100%;
   }
 }
@@ -738,11 +692,134 @@ a.button {
     justify-content: center;
     align-items: center;
   }
-  .main-wraper .container header .header-con .header-logo {
+  .main-wraper .container header .header-con .header-logo-con .header-logo {
     transform: translateY(0);
     width: 70%;
   }
   .main-wraper .container header .header-con .header-logo svg{
+    width: 100%;
+  }
+}
+@media only screen and (max-width:812px){
+  .main-wraper .container header .header-con .header-logo-con .header-logo {
+    transform: translateY(0);
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 768px) {
+    #-h1 {
+      left: 360px;
+      bottom: 46%;
+    }
+    .main-wraper .container header{
+      width: 100%;
+      top: 60px;
+      left: 0;
+      height: 91.5vh;
+    }
+    .main-wraper .container header .header-con {
+      width: 100%;
+      height: 100%;
+      margin-left: 0px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .main-wraper .container header .header-con .header-text-con {
+      width: 100%;
+      height: 50%;
+    }
+    .main-wraper .container header .header-con .header-text-con .header-text {
+      position: relative;
+      width: 90%;
+      top: 28%;
+      left: 90px;
+    }
+    .main-wraper .container header .header-con .header-text-con .header-text h1 {
+      font-size: 60px;
+      color: #ffffff;
+      line-height: 55px;
+      margin-bottom: 20px;
+      letter-spacing: -2px;
+      font-family: 'Archivo Narrow', sans-serif;
+    }
+    .main-wraper .container header .header-con .header-text-con .header-text h3 {
+      color: #a5a5a5;
+      font-weight: 500;
+      font-size: 0.7rem;
+      letter-spacing: 1.5px;
+      font-family: "Montserrat", sans-serif;
+      margin-bottom: 70px;
+    }
+    .main-wraper .container header .header-con .header-text-con .header-text a {
+      color: #08fdd8;
+      letter-spacing: 2px;
+      padding: 15px 30px;
+      background: transparent;
+      border: 1px solid #08fdd8;
+      font-family: "Montserrat", sans-serif;
+      font-size: 0.87rem;
+      font-weight: 600;
+    }
+    .main-wraper .container header .header-con .header-logo-con {
+      width: 100%;
+      height: 50%;
+    }
+    .main-wraper .container header .header-con .header-logo-con .header-logo {
+      transform: translateY(0);
+      width: 50%;
+    }
+    .main-wraper .container header .header-con .header-logo-con .header-logo svg{
+      width: 100%;
+    }
+}
+@media only screen and (max-width: 736px){
+  #-h1 {
+    left: 200px;
+    bottom: 40%;
+  }
+  .main-wraper .container header .header-con .header-text-con{
+    width: 50%;
+    height: 100%;
+  }
+  .main-wraper .container header .header-con .header-text-con .header-text {
+    position: relative;
+    width: 100%;
+    top: 30%;
+    left: 90px;
+  }  
+  .main-wraper .container header .header-con .header-text-con .header-text h1 {
+    font-size: 35px;
+    line-height: 32px;
+    margin-bottom: 15px;
+  }
+  .main-wraper .container header .header-con .header-text-con .header-text h3 {
+    font-size: 0.6rem;
+    margin-bottom: 20px;
+  }
+  .main-wraper .container header .header-con .header-text-con .header-text a {
+    color: #08fdd8;
+    letter-spacing: 2px;
+    padding: 8px 15px;
+    background: transparent;
+    border: 1px solid #08fdd8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.57rem;
+    font-weight: 600;
+  }
+  .main-wraper .container header .header-con .header-logo-con {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-wraper .container header .header-con .header-logo-con .header-logo {
+    transform: translateY(0);
+    width: 50%;
+  }
+  .main-wraper .container header .header-con .header-logo-con .header-logo svg {
     width: 100%;
   }
 }
@@ -772,7 +849,7 @@ a.button {
 
 @media only screen and (max-width: 500px) {
   #-h1 {
-    left: 230px;
+    left: 290px;
     bottom: 35%;
   }
   .main-wraper .container header .header-con .header-text-con {
@@ -781,10 +858,10 @@ a.button {
   }
   .main-wraper .container header .header-con .header-text-con .header-text {
     top: 28%;
-    left: 60px;
+    left: 50px;
   }
   .main-wraper .container header .header-con .header-text-con .header-text h1 {
-    font-size: 40px;
+    font-size: 50px;
     line-height: 40px;
     margin-bottom: 15px;
   }
@@ -908,12 +985,6 @@ a.button {
 ============================================================== 
 */
 @media only screen and (max-width: 854px){
-  #-h1 {
-    left: 200px;
-    bottom: 40%;
-  }
-
-  
  #about-h1 {
   top: -30px;
   left: -20px;
@@ -975,11 +1046,55 @@ a.button {
   height: 250px;
 }
 }
+@media only screen and (max-width: 768px){
+  #-about-h1{
+    top: 12%;
+  }
+  .main-wraper .container header .about-con {
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
+  
+  }
+  .main-wraper .container header .about-con .about-text-con {
+    width: 100%;
+    height: 50%;
+  }
+  .main-wraper .container header .about-con .about-text-con .about-text {
+    width: 80%;
+    top: 20%;
+    left: 10%;
+  }
+  .main-wraper .container header .about-con .about-text-con .about-text h1 {
+    font-size: 60px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .main-wraper .container header .about-con .about-text-con p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+  .main-wraper .container header .about-con .about-logo-con {
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: none;
+    position: relative;
+    top: 0;
+  }
+  .main-wraper .container header .about-con .about-logo-con .about-logo {
+    position: relative;
+    top: 50%;
+    width: 50%;
+  }
+  .main-wraper .container header .about-con .about-logo-con .about-logo svg {
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 500px) {
-  /* #-h1 {
-    left: 230px;
-    bottom: 35%;
-  } */
+ 
   .main-wraper .container header .about-con {
     flex-direction: column;
     justify-content: none;
@@ -1003,6 +1118,7 @@ a.button {
   .main-wraper .container header .about-con .about-text-con p {
     font-size: 0.9rem;
     margin-top: 40px;
+    line-height: 0.9rem;
     margin-bottom: 0px;
   }
   .main-wraper .container header .about-con .about-logo-con {
@@ -1022,11 +1138,49 @@ a.button {
     width: 100%;
   }
 }
+@media only screen and (max-width: 415px){
+ #-about-h1{
+   top: 15%;
+ }
+  .main-wraper .container header .about-con .about-text-con {
+    width: 100%;
+    height: 50%;
+  }
+  .main-wraper .container header .about-con .about-text-con .about-text {
+    width: 80%;
+    top: 30%;
+    left: 35px;
+  }
+  .main-wraper .container header .about-con .about-text-con .about-text h1 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .main-wraper .container header .about-con .about-text-con p {
+    font-size: 0.9rem;
+    line-height: 1rem;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  .main-wraper .container header .about-con .about-logo-con {
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: none;
+    position: relative;
+    top: 0;
+  }
+  .main-wraper .container header .about-con .about-logo-con .about-logo {
+    position: relative;
+    top: 50%;
+    width: 50%;
+  }
+  .main-wraper .container header .about-con .about-logo-con .about-logo svg {
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 375px) {
-  /* #-h1 {
-    left: 230px;
-    bottom: 35%;
-  } */
+ 
   .main-wraper .container header .about-con {
     flex-direction: column;
     justify-content: none;
@@ -1039,7 +1193,7 @@ a.button {
   }
   .main-wraper .container header .about-con .about-text-con .about-text {
     width: 80%;
-    top: 20%;
+    top: 25%;
     left: 35px;
   }
   .main-wraper .container header .about-con .about-text-con .about-text h1 {
@@ -1050,6 +1204,7 @@ a.button {
   .main-wraper .container header .about-con .about-text-con p {
     font-size: 0.9rem;
     margin-top: 40px;
+    line-height: 0.9rem;
     margin-bottom: 0px;
   }
   .main-wraper .container header .about-con .about-logo-con {
@@ -1058,15 +1213,46 @@ a.button {
     justify-content: center;
     align-items: none;
     position: relative;
-    top: 10%;
+    top: 0;
   }
   .main-wraper .container header .about-con .about-logo-con .about-logo {
-    width: 50%;
+    top: 30%;
+    width: 45%;
   }
   .main-wraper .container header .about-con .about-logo-con .about-logo svg {
     width: 100%;
   }
   
+}
+@media only screen and (max-width: 320px){
+  #-about-h1{
+    top: 10%;
+  }
+  .main-wraper .container header .about-con .about-text-con .about-text {
+    width: 83%;
+  }
+  .main-wraper .container header .about-con .about-text-con .about-text h1 {
+    font-size: 30px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .main-wraper .container header .about-con .about-text-con p {
+    font-size: 0.8rem;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .main-wraper .container header .about-con .about-logo-con {
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: none;
+    position: relative;
+    top: 0;
+  }
+  .main-wraper .container header .about-con .about-logo-con .about-logo {
+    top: 35%;
+    width: 45%;
+  }
 }
 
 
@@ -1466,7 +1652,78 @@ span {
   }
 
 }
-
+@media only screen and (max-width: 320px){
+  #skills-h1 {
+    top: -5px;
+    left: -20px;
+  }
+  #-skills-h1 {
+    left: -20px;
+    top: 18%;
+  }
+  .main-wraper .container header .skills-area-con {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-wraper .container header .skills-area-con .skills-text-con {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .main-wraper .container header .skills-area-con .skills-text-con .skills-text {
+    width: 85%;
+    position: absolute;
+    top: 18%;
+    left: 40px;
+  }
+  .main-wraper .container header .skills-area-con .skills-text-con .skills-text h1 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .main-wraper .container header .skills-area-con .skills-text-con .skills-text p {
+    color: #fff;
+    font-weight: 100;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    line-height: 0.9rem;
+    margin-bottom: 30px;
+  }
+  .main-wraper .container header .skills-area-con .skills-con {
+    width: 100%;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-wraper .container header .skills-area-con .skills-con .skills-anim{
+    display: none;
+  }
+  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill strong {
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+  }
+  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill {
+    width: 92%;
+    text-align: left;
+    margin: 10px 2%;
+  }
+  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars {
+    margin-top: 60px;
+    height: 25vh;
+    padding: 2% 3%;
+  }
+  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill strong {
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+  }
+  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill {
+    width: 46%;
+    text-align: left;
+    margin: 10px 2%;
+  }
+}
 
 /* 
 ============================================

@@ -2252,6 +2252,21 @@ span {
   justify-content: center;
   align-items: center;
 }
+.main-wrapper .container header .work-con .work-item-con .work-item  .pic-loader {
+  border: 5px solid #7e7e7e; /* Light grey */
+  border-top: 5px solid #404041; /* dark grey */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  animation: spin 3s linear infinite;
+  z-index: -1;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 .main-wrapper .container header .work-con .work-item-con .work-item img {
   width: 100%;
   transition: all 0.3s;

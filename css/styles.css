@@ -9,134 +9,134 @@ Created By: Abdul Aziz
 @charset "UTF-8";
 
 * {
-    margin: 0;
-    padding: 0;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  ::-webkit-scrollbar {
-    display: none;
-  }
-  body {
-    margin: 0;
-    padding: 0;
-    background-color: #1d1d1d;
-    font-family: "Archivo Narrow", sans-serif;
-  }
-  ul {
-    list-style: none;
-  }
-  a {
-    text-decoration: none;
-  }
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1d1d1d;
+  font-family: "Archivo Narrow", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 /* 
 ===========================================
 --------- Heading Hover animation----------
 =========================================== 
 */
-  b {
-    display: inline-block;
-    padding: 0.2px;
-    cursor: default;
-  }
-  b:hover {
-    color: #fff;
-  }
-  .main-wraper .container header .header-con b:hover {
-    color: #08fdd8;
-  }
-  /*
+b {
+  display: inline-block;
+  padding: 0.2px;
+  cursor: default;
+}
+b:hover {
+  color: #fff;
+}
+.main-wrapper .container header .header-con b:hover {
+  color: #08fdd8;
+}
+/*
 =================================================================================================
 -------------------------------------------NavBar styes------------------------------------------
 =================================================================================================
 */
-.main-wraper{
-    width: 100vw;
-    height: 100vh;
-    max-width: 1920px;
-    position: relative;
+.main-wrapper {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1920px;
+  position: relative;
 }
-.main-wraper .container{
-    width: 100%;
-    height: 100%;
-    position: relative;
+.main-wrapper .container {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
-.main-wraper .container nav{
-    width: 60px;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
-    background-color: #181818;
+.main-wrapper .container nav {
+  width: 60px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  background-color: #181818;
 }
-.main-wraper .container nav .logo{
-    width: 100%;
-    height: 80px;
+.main-wrapper .container nav .logo {
+  width: 100%;
+  height: 80px;
 }
-.main-wraper .container nav .logo a {
-    width: 90%;
-    padding: 5%;
-    height: 90%;
-    background-color: #0c0c0c;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .main-wraper .container nav .logo img {
-    width: 100%;
-  }
-  .main-wraper .container nav .menu{
-    width: 100%;
-    height: 55%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 34%;
-    transform: translateY(-30%);
-  }
-  .main-wraper .container nav ul li .nav-hov-text {
-    display: none;
-    opacity: 0;
-  }
-  .main-wraper .container nav .menu-list{
-    position: absolute;
-    z-index: 3;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .main-wraper .container nav .menu .menu-list li{
-    width: 60px;
-    height: 45px;
-    text-align: center;
-    cursor: pointer;
-    padding-top: 15px;
-  }
-  .main-wraper .container nav .menu ul li a{
-    width: 100%;
-    height: 100%;
-    font-size: 1.6rem;
-    color: #a5a5a5;
-  }
-.main-wraper .container nav .menu ul li .active {
+.main-wrapper .container nav .logo a {
+  width: 90%;
+  padding: 5%;
+  height: 90%;
+  background-color: #0c0c0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-wrapper .container nav .logo img {
+  width: 100%;
+}
+.main-wrapper .container nav .menu {
+  width: 100%;
+  height: 55%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 34%;
+  transform: translateY(-30%);
+}
+.main-wrapper .container nav ul li .nav-hov-text {
+  display: none;
+  opacity: 0;
+}
+.main-wrapper .container nav .menu-list {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-wrapper .container nav .menu .menu-list li {
+  width: 60px;
+  height: 45px;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 15px;
+}
+.main-wrapper .container nav .menu ul li a {
+  width: 100%;
+  height: 100%;
+  font-size: 1.6rem;
+  color: #a5a5a5;
+}
+.main-wrapper .container nav .menu ul li .active {
   color: #08fdd8;
 }
-.main-wraper .container nav .menu ul li:hover a {
+.main-wrapper .container nav .menu ul li:hover a {
   color: #08fdd8;
 }
-.main-wraper .container nav .menu ul li:hover .nav-icon {
+.main-wrapper .container nav .menu ul li:hover .nav-icon {
   opacity: 0;
   transition: all 0.8s;
 }
-.main-wraper .container nav .menu ul li:hover .nav-hov-text {
+.main-wrapper .container nav .menu ul li:hover .nav-hov-text {
   opacity: 1;
   margin-top: -20px;
   display: block;
@@ -145,7 +145,7 @@ Created By: Abdul Aziz
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-.main-wraper .container nav .menu .checkbtn {
+.main-wrapper .container nav .menu .checkbtn {
   color: #cacaca;
   border-color: #cacaca;
   font-size: 220%;
@@ -156,23 +156,23 @@ Created By: Abdul Aziz
   cursor: pointer;
   display: none;
 }
-.main-wraper .container .menu .checkbtn .fa-bars {
+.main-wrapper .container .menu .checkbtn .fa-bars {
   display: block;
   transition: all 0.5s;
 }
-.main-wraper .container nav .menu .checkbtn .fa-times {
+.main-wrapper .container nav .menu .checkbtn .fa-times {
   display: none;
   font-weight: 100;
   transition: all 0.5s;
 }
-.main-wraper .container nav .menu #check {
+.main-wrapper .container nav .menu #check {
   right: 0;
   position: absolute;
   top: 0;
   display: none;
 }
 
-.main-wraper .container nav .social-menu {
+.main-wrapper .container nav .social-menu {
   width: 100%;
   position: absolute;
   display: flex;
@@ -180,14 +180,14 @@ Created By: Abdul Aziz
   align-items: center;
   bottom: 2%;
 }
-.main-wraper .container nav .social-menu ul li {
+.main-wrapper .container nav .social-menu ul li {
   margin: 10px 0;
 }
-.main-wraper .container nav .social-menu ul li a {
+.main-wrapper .container nav .social-menu ul li a {
   font-size: 1rem;
   color: #a5a5a5;
 }
-.main-wraper .container nav .social-menu ul li a:hover {
+.main-wrapper .container nav .social-menu ul li a:hover {
   color: #08fdd8;
 }
 /* 
@@ -196,20 +196,19 @@ Created By: Abdul Aziz
 =====================================================
  */
 
-
- @media only screen and (max-width: 1080px) {
-  .main-wraper .container nav{
+@media only screen and (max-width: 1080px) {
+  .main-wrapper .container nav {
     width: 100%;
     height: 60px;
     flex-direction: row;
     display: flex;
     align-items: center;
   }
-  .main-wraper .container nav .logo{
+  .main-wrapper .container nav .logo {
     width: 60px;
     height: 100%;
   }
-  .main-wraper .container nav .logo a{
+  .main-wrapper .container nav .logo a {
     width: 90%;
     padding: 5%;
     height: 90%;
@@ -219,24 +218,24 @@ Created By: Abdul Aziz
     align-items: center;
     outline: none;
   }
-  .main-wraper .container nav .logo img {
+  .main-wrapper .container nav .logo img {
     width: 90%;
   }
 
-  .main-wraper .container nav .menu {
+  .main-wrapper .container nav .menu {
     height: 100%;
     top: 0;
     width: 100%;
     transform: translateY(0);
   }
-  .main-wraper .container nav .menu ul{
+  .main-wrapper .container nav .menu ul {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
-  .main-wraper .container nav .menu ul li{
+  .main-wrapper .container nav .menu ul li {
     width: 5%;
     height: 45px;
     text-align: center;
@@ -244,57 +243,53 @@ Created By: Abdul Aziz
     padding-top: 15px;
     display: inline-block;
   }
-  .main-wraper .container nav .menu ul li a {
+  .main-wrapper .container nav .menu ul li a {
     font-size: 1.5rem;
   }
-  .main-wraper .container nav .menu ul li:hover .nav-hov-text {
+  .main-wrapper .container nav .menu ul li:hover .nav-hov-text {
     font-size: 0.5rem;
     letter-spacing: 1px;
   }
-  .main-wraper .container nav .social-menu {
+  .main-wrapper .container nav .social-menu {
     width: 20%;
     height: 100%;
     justify-content: center;
     align-items: center;
     right: 0;
   }
-  .main-wraper .container nav .social-menu ul li {
+  .main-wrapper .container nav .social-menu ul li {
     display: inline-block;
     margin: 0 8px;
   }
-  .main-wraper .container nav .social-menu ul li a {
+  .main-wrapper .container nav .social-menu ul li a {
     font-size: 1rem;
     color: #a5a5a5;
   }
 }
 
-
-@media only screen and (max-width: 854px){
-  .main-wraper .container nav .menu ul li a {
+@media only screen and (max-width: 854px) {
+  .main-wrapper .container nav .menu ul li a {
     font-size: 1.4rem;
   }
- .main-wraper .container nav .social-menu {
+  .main-wrapper .container nav .social-menu {
     width: 20%;
     height: 100%;
     justify-content: center;
     align-items: center;
     right: 0;
-
   }
-
 }
-@media only screen and (max-width: 658px){
-  .main-wraper .container nav .menu ul li a {
+@media only screen and (max-width: 658px) {
+  .main-wrapper .container nav .menu ul li a {
     font-size: 1.4rem;
   }
- .main-wraper .container nav .social-menu {
+  .main-wrapper .container nav .social-menu {
     display: none;
   }
 }
 
 @media only screen and (max-width: 500px) {
-
- .main-wraper .container nav .menu {
+  .main-wrapper .container nav .menu {
     height: 50px;
     position: absolute;
     width: 100%;
@@ -302,7 +297,7 @@ Created By: Abdul Aziz
     top: 0px;
     left: 0;
   }
-.main-wraper .container nav .menu .menu-list {
+  .main-wrapper .container nav .menu .menu-list {
     height: 50px;
     background-color: #2b2b2bb9;
     position: absolute;
@@ -313,14 +308,14 @@ Created By: Abdul Aziz
     z-index: 3;
     transition: all 0.4s;
   }
- .main-wraper .container nav .menu .menu-list li .active {
+  .main-wrapper .container nav .menu .menu-list li .active {
     color: #08fdd8;
   }
- .main-wraper .container nav .menu .menu-list li:hover a {
+  .main-wrapper .container nav .menu .menu-list li:hover a {
     color: #08fdd8;
   }
 
- .main-wraper .container nav .menu .checkbtn {
+  .main-wrapper .container nav .menu .checkbtn {
     display: block;
   }
   #check:checked ~ .menu-list {
@@ -336,14 +331,13 @@ Created By: Abdul Aziz
   nav .social-menu {
     display: none;
   }
-   
 }
 /* 
 ============================================
 ---------------- Home Styles ---------------
 ============================================
  */
- 
+
 #html,
 #-html,
 #body,
@@ -389,7 +383,7 @@ Created By: Abdul Aziz
   bottom: 40%;
 }
 
-.main-wraper .container header{
+.main-wrapper .container header {
   width: 95.5%;
   height: 100vh;
   position: relative;
@@ -397,32 +391,32 @@ Created By: Abdul Aziz
   overflow: hidden;
   position: relative;
 }
-.main-wraper .container header .header-con{
+.main-wrapper .container header .header-con {
   width: 100%;
   height: 100%;
   display: flex;
 }
-.main-wraper .container header .header-con .header-text-con{
+.main-wrapper .container header .header-con .header-text-con {
   width: 40%;
   height: 100%;
 }
-.main-wraper .container header .header-con .header-text-con .header-text {
+.main-wrapper .container header .header-con .header-text-con .header-text {
   position: relative;
   width: 100%;
   top: 30%;
   left: 90px;
 }
-.main-wraper .container header .header-con .header-text-con .header-text h1 {
+.main-wrapper .container header .header-con .header-text-con .header-text h1 {
   font-size: 64px;
   color: #ffffff;
   font-weight: 700;
   line-height: 55px;
   margin-bottom: 20px;
   letter-spacing: -2px;
-  font-family: 'Archivo Narrow', sans-serif;
+  font-family: "Archivo Narrow", sans-serif;
   cursor: default;
 }
-.main-wraper .container header .header-con .header-text-con .header-text h3 {
+.main-wrapper .container header .header-con .header-text-con .header-text h3 {
   color: #a5a5a5;
   font-weight: 300;
   font-size: 0.6rem;
@@ -431,7 +425,7 @@ Created By: Abdul Aziz
   margin-bottom: 50px;
   cursor: default;
 }
-.main-wraper .container header .header-con .header-text-con .header-text a {
+.main-wrapper .container header .header-con .header-text-con .header-text a {
   color: #08fdd8;
   letter-spacing: 2px;
   padding: 12px 28px;
@@ -441,11 +435,23 @@ Created By: Abdul Aziz
   font-size: 0.77rem;
   font-weight: 600;
 }
-.main-wraper .container header .header-con .header-text-con .header-text a:hover {
+.main-wrapper
+  .container
+  header
+  .header-con
+  .header-text-con
+  .header-text
+  a:hover {
   background-color: #08fdd8;
   color: #181818;
 }
-.main-wraper .container header .header-con .header-text-con .header-text span:hover {
+.main-wrapper
+  .container
+  header
+  .header-con
+  .header-text-con
+  .header-text
+  span:hover {
   cursor: default;
   animation: rubberBand 1s;
 }
@@ -453,18 +459,18 @@ a.button {
   display: inline-block;
 }
 
-.main-wraper .container header .header-con .header-logo-con {
+.main-wrapper .container header .header-con .header-logo-con {
   width: 60%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.main-wraper .container header .header-con .header-logo-con .header-logo {
+.main-wrapper .container header .header-con .header-logo-con .header-logo {
   transform: translateY();
   width: 60%;
 }
-.main-wraper .container header .header-con .header-logo-con .header-logo svg {
+.main-wrapper .container header .header-con .header-logo-con .header-logo svg {
   width: 100%;
 }
 
@@ -580,48 +586,47 @@ a.button {
   }
 }
 
-
 /* 
 ============================================
 -------Responsive Styles------------
 ============================================
  */
- @media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1080px) {
   #-h1 {
     left: 360px;
     bottom: 46%;
   }
-  .main-wraper .container header{
+  .main-wrapper .container header {
     width: 100%;
     top: 60px;
     left: 0;
     height: 91.5vh;
   }
-  .main-wraper .container header .header-con {
+  .main-wrapper .container header .header-con {
     width: 100%;
     height: 100%;
     margin-left: 0px;
     display: flex;
   }
-  .main-wraper .container header .header-con .header-text-con {
+  .main-wrapper .container header .header-con .header-text-con {
     width: 50%;
     height: 100%;
   }
-  .main-wraper .container header .header-con .header-text-con .header-text {
+  .main-wrapper .container header .header-con .header-text-con .header-text {
     position: relative;
     width: 90%;
     top: 28%;
     left: 90px;
   }
-  .main-wraper .container header .header-con .header-text-con .header-text h1 {
+  .main-wrapper .container header .header-con .header-text-con .header-text h1 {
     font-size: 60px;
     color: #ffffff;
     line-height: 55px;
     margin-bottom: 20px;
     letter-spacing: -2px;
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: "Archivo Narrow", sans-serif;
   }
-  .main-wraper .container header .header-con .header-text-con .header-text h3 {
+  .main-wrapper .container header .header-con .header-text-con .header-text h3 {
     color: #a5a5a5;
     font-weight: 500;
     font-size: 0.7rem;
@@ -629,7 +634,7 @@ a.button {
     font-family: "Montserrat", sans-serif;
     margin-bottom: 70px;
   }
-  .main-wraper .container header .header-con .header-text-con .header-text a {
+  .main-wrapper .container header .header-con .header-text-con .header-text a {
     color: #08fdd8;
     letter-spacing: 2px;
     padding: 15px 30px;
@@ -639,7 +644,7 @@ a.button {
     font-size: 0.87rem;
     font-weight: 600;
   }
-  .main-wraper .container header .header-con .header-logo-con {
+  .main-wrapper .container header .header-con .header-logo-con {
     width: 50%;
     position: relative;
     display: flex;
@@ -647,32 +652,37 @@ a.button {
     justify-content: center;
     align-items: center;
   }
-  .main-wraper .container header .header-con .header-logo {
+  .main-wrapper .container header .header-con .header-logo {
     transform: translateY(0);
     width: 70%;
   }
-  .main-wraper .container header .header-con .header-logo-con .header-logo svg{
+  .main-wrapper
+    .container
+    header
+    .header-con
+    .header-logo-con
+    .header-logo
+    svg {
     width: 100%;
   }
 }
 
-
-@media only screen and (max-width: 854px){
+@media only screen and (max-width: 854px) {
   #-h1 {
     left: 200px;
     bottom: 40%;
   }
 
-  .main-wraper .container header .header-con .header-text-con .header-text h1 {
+  .main-wrapper .container header .header-con .header-text-con .header-text h1 {
     font-size: 35px;
     line-height: 32px;
     margin-bottom: 15px;
   }
-  .main-wraper .container header .header-con .header-text-con .header-text h3 {
+  .main-wrapper .container header .header-con .header-text-con .header-text h3 {
     font-size: 0.6rem;
     margin-bottom: 20px;
   }
-  .main-wraper .container header .header-con .header-text-con .header-text a {
+  .main-wrapper .container header .header-con .header-text-con .header-text a {
     color: #08fdd8;
     letter-spacing: 2px;
     padding: 8px 15px;
@@ -683,7 +693,7 @@ a.button {
     font-weight: 600;
   }
 
-  .main-wraper .container header .header-con .header-logo-con {
+  .main-wrapper .container header .header-con .header-logo-con {
     width: 50%;
     position: relative;
     display: flex;
@@ -691,111 +701,117 @@ a.button {
     justify-content: center;
     align-items: center;
   }
-  .main-wraper .container header .header-con .header-logo-con .header-logo {
+  .main-wrapper .container header .header-con .header-logo-con .header-logo {
     transform: translateY(0);
     width: 70%;
   }
-  .main-wraper .container header .header-con .header-logo svg{
+  .main-wrapper .container header .header-con .header-logo svg {
     width: 100%;
   }
 }
-@media only screen and (max-width:812px){
-  .main-wraper .container header .header-con .header-logo-con .header-logo {
+@media only screen and (max-width: 812px) {
+  .main-wrapper .container header .header-con .header-logo-con .header-logo {
     transform: translateY(0);
     width: 45%;
   }
 }
 @media only screen and (max-width: 768px) {
-    #-h1 {
-      left: 360px;
-      bottom: 46%;
-    }
-    .main-wraper .container header{
-      width: 100%;
-      top: 60px;
-      left: 0;
-      height: 91.5vh;
-    }
-    .main-wraper .container header .header-con {
-      width: 100%;
-      height: 100%;
-      margin-left: 0px;
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .main-wraper .container header .header-con .header-text-con {
-      width: 100%;
-      height: 50%;
-    }
-    .main-wraper .container header .header-con .header-text-con .header-text {
-      position: relative;
-      width: 90%;
-      top: 28%;
-      left: 90px;
-    }
-    .main-wraper .container header .header-con .header-text-con .header-text h1 {
-      font-size: 60px;
-      color: #ffffff;
-      line-height: 55px;
-      margin-bottom: 20px;
-      letter-spacing: -2px;
-      font-family: 'Archivo Narrow', sans-serif;
-    }
-    .main-wraper .container header .header-con .header-text-con .header-text h3 {
-      color: #a5a5a5;
-      font-weight: 500;
-      font-size: 0.7rem;
-      letter-spacing: 1.5px;
-      font-family: "Montserrat", sans-serif;
-      margin-bottom: 70px;
-    }
-    .main-wraper .container header .header-con .header-text-con .header-text a {
-      color: #08fdd8;
-      letter-spacing: 2px;
-      padding: 15px 30px;
-      background: transparent;
-      border: 1px solid #08fdd8;
-      font-family: "Montserrat", sans-serif;
-      font-size: 0.87rem;
-      font-weight: 600;
-    }
-    .main-wraper .container header .header-con .header-logo-con {
-      width: 100%;
-      height: 50%;
-    }
-    .main-wraper .container header .header-con .header-logo-con .header-logo {
-      transform: translateY(0);
-      width: 50%;
-    }
-    .main-wraper .container header .header-con .header-logo-con .header-logo svg{
-      width: 100%;
-    }
+  #-h1 {
+    left: 360px;
+    bottom: 46%;
+  }
+  .main-wrapper .container header {
+    width: 100%;
+    top: 60px;
+    left: 0;
+    height: 91.5vh;
+  }
+  .main-wrapper .container header .header-con {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-wrapper .container header .header-con .header-text-con {
+    width: 100%;
+    height: 50%;
+  }
+  .main-wrapper .container header .header-con .header-text-con .header-text {
+    position: relative;
+    width: 90%;
+    top: 28%;
+    left: 90px;
+  }
+  .main-wrapper .container header .header-con .header-text-con .header-text h1 {
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 55px;
+    margin-bottom: 20px;
+    letter-spacing: -2px;
+    font-family: "Archivo Narrow", sans-serif;
+  }
+  .main-wrapper .container header .header-con .header-text-con .header-text h3 {
+    color: #a5a5a5;
+    font-weight: 500;
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 70px;
+  }
+  .main-wrapper .container header .header-con .header-text-con .header-text a {
+    color: #08fdd8;
+    letter-spacing: 2px;
+    padding: 15px 30px;
+    background: transparent;
+    border: 1px solid #08fdd8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.87rem;
+    font-weight: 600;
+  }
+  .main-wrapper .container header .header-con .header-logo-con {
+    width: 100%;
+    height: 50%;
+  }
+  .main-wrapper .container header .header-con .header-logo-con .header-logo {
+    transform: translateY(0);
+    width: 50%;
+  }
+  .main-wrapper
+    .container
+    header
+    .header-con
+    .header-logo-con
+    .header-logo
+    svg {
+    width: 100%;
+  }
 }
-@media only screen and (max-width: 736px){
+@media only screen and (max-width: 736px) {
   #-h1 {
     left: 200px;
     bottom: 40%;
   }
-  .main-wraper .container header .header-con .header-text-con{
+  .main-wrapper .container header .header-con .header-text-con {
     width: 50%;
     height: 100%;
   }
-  .main-wraper .container header .header-con .header-text-con .header-text {
+  .main-wrapper .container header .header-con .header-text-con .header-text {
     position: relative;
     width: 100%;
     top: 30%;
     left: 90px;
-  }  
-  .main-wraper .container header .header-con .header-text-con .header-text h1 {
+  }
+  .main-wrapper .container header .header-con .header-text-con .header-text h1 {
     font-size: 35px;
     line-height: 32px;
     margin-bottom: 15px;
   }
-  .main-wraper .container header .header-con .header-text-con .header-text h3 {
+  .main-wrapper .container header .header-con .header-text-con .header-text h3 {
     font-size: 0.6rem;
     margin-bottom: 20px;
   }
-  .main-wraper .container header .header-con .header-text-con .header-text a {
+  .main-wrapper .container header .header-con .header-text-con .header-text a {
     color: #08fdd8;
     letter-spacing: 2px;
     padding: 8px 15px;
@@ -805,7 +821,7 @@ a.button {
     font-size: 0.57rem;
     font-weight: 600;
   }
-  .main-wraper .container header .header-con .header-logo-con {
+  .main-wrapper .container header .header-con .header-logo-con {
     width: 50%;
     height: 100%;
     position: relative;
@@ -814,57 +830,61 @@ a.button {
     justify-content: center;
     align-items: center;
   }
-  .main-wraper .container header .header-con .header-logo-con .header-logo {
+  .main-wrapper .container header .header-con .header-logo-con .header-logo {
     transform: translateY(0);
     width: 50%;
   }
-  .main-wraper .container header .header-con .header-logo-con .header-logo svg {
+  .main-wrapper
+    .container
+    header
+    .header-con
+    .header-logo-con
+    .header-logo
+    svg {
     width: 100%;
   }
 }
-@media only screen and (max-width: 658px){
+@media only screen and (max-width: 658px) {
   #-h1 {
     left: 230px;
     bottom: 40%;
   }
-  .main-wraper .container header .header-con .header-text-con {
+  .main-wrapper .container header .header-con .header-text-con {
     width: 100%;
   }
-  .main-wraper .container header .header-con .header-text-con .header-text h1 {
+  .main-wrapper .container header .header-con .header-text-con .header-text h1 {
     font-size: 40px;
     line-height: 32px;
     margin-bottom: 15px;
   }
-  .main-wraper .container header .header-con .header-text-con .header-text h3 {
+  .main-wrapper .container header .header-con .header-text-con .header-text h3 {
     font-size: 0.6rem;
     margin-bottom: 20px;
   }
-  .main-wraper .container header .header-con .header-logo-con {
+  .main-wrapper .container header .header-con .header-logo-con {
     display: none;
   }
-  
 }
-
 
 @media only screen and (max-width: 500px) {
   #-h1 {
     left: 290px;
     bottom: 35%;
   }
-  .main-wraper .container header .header-con .header-text-con {
+  .main-wrapper .container header .header-con .header-text-con {
     width: 100%;
     height: 100%;
   }
-  .main-wraper .container header .header-con .header-text-con .header-text {
+  .main-wrapper .container header .header-con .header-text-con .header-text {
     top: 28%;
     left: 50px;
   }
-  .main-wraper .container header .header-con .header-text-con .header-text h1 {
+  .main-wrapper .container header .header-con .header-text-con .header-text h1 {
     font-size: 50px;
     line-height: 40px;
     margin-bottom: 15px;
   }
-  .main-wraper .container header .header-con .header-logo-con {
+  .main-wrapper .container header .header-con .header-logo-con {
     display: none;
   }
 }
@@ -873,13 +893,13 @@ a.button {
     left: 230px;
     bottom: 38%;
   }
-  .main-wraper .container header .header-con .header-text-con .header-text {
+  .main-wrapper .container header .header-con .header-text-con .header-text {
     position: relative;
     width: 100%;
     top: 30%;
     left: 40px;
   }
-  .main-wraper .container header .header-con .header-text-con .header-text h1 {
+  .main-wrapper .container header .header-con .header-text-con .header-text h1 {
     font-size: 40px;
     color: #ffffff;
     line-height: 35px;
@@ -888,40 +908,39 @@ a.button {
   }
 }
 @media only screen and (max-width: 300px) {
-  #h1,#-h1{
+  #h1,
+  #-h1 {
     font-size: 1rem;
   }
   #-h1 {
     left: 160px;
     bottom: 42%;
   }
-  .main-wraper .container header .header-con .header-text-con .header-text {
+  .main-wrapper .container header .header-con .header-text-con .header-text {
     position: relative;
     width: 100%;
     top: 30%;
     left: 30px;
   }
-  .main-wraper .container header .header-con .header-text-con .header-text h1 {
+  .main-wrapper .container header .header-con .header-text-con .header-text h1 {
     font-size: 28px;
     color: #ffffff;
     line-height: 26px;
     margin-bottom: 20px;
     letter-spacing: -2px;
   }
-  .main-wraper .container header .header-con .header-text-con .header-text h3 {
+  .main-wrapper .container header .header-con .header-text-con .header-text h3 {
     font-size: 0.4rem;
     margin-bottom: 20px;
   }
 }
-
-
 
 /* 
 ============================================
 --------About Styles------------
 ============================================
  */
- #about-h1 {
+#about-h1 {
   top: -30px;
   left: -20px;
 }
@@ -929,33 +948,33 @@ a.button {
   left: -20px;
   top: 17%;
 }
- .main-wraper .container header .about-con{
-   width: 100%;
-   height: 100%;
-   display: flex;
- }
- .main-wraper .container header .about-con .about-text-con {
+.main-wrapper .container header .about-con {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.main-wrapper .container header .about-con .about-text-con {
   position: relative;
   width: 40%;
   height: 100%;
   top: 0;
   left: 0;
 }
-.main-wraper .container header .about-con .about-text-con .about-text{
+.main-wrapper .container header .about-con .about-text-con .about-text {
   position: absolute;
   top: 25%;
   left: 100px;
 }
-.main-wraper .container header .about-con .about-text-con .about-text h1 {
+.main-wrapper .container header .about-con .about-text-con .about-text h1 {
   font-size: 60px;
   color: #08fdd8;
   font-weight: 700;
   line-height: 55px;
   margin-bottom: 50px;
   letter-spacing: -2px;
-  font-family: 'Archivo Narrow', sans-serif;
+  font-family: "Archivo Narrow", sans-serif;
 }
-.main-wraper .container header .about-con .about-text-con p {
+.main-wrapper .container header .about-con .about-text-con p {
   color: #fff;
   font-weight: 300;
   font-size: 1rem;
@@ -964,18 +983,17 @@ a.button {
   letter-spacing: 1px;
 }
 
-
-.main-wraper .container header .about-con .about-logo-con {
+.main-wrapper .container header .about-con .about-logo-con {
   width: 60%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.main-wraper .container header .about-con .about-logo-con .about-logo {
+.main-wrapper .container header .about-con .about-logo-con .about-logo {
   width: 60%;
 }
-.main-wraper .container header .about-con .about-logo-con .about-logo svg {
+.main-wrapper .container header .about-con .about-logo-con .about-logo svg {
   width: 100%;
 }
 
@@ -984,229 +1002,228 @@ a.button {
 ---------------------Responsive Styles------------------------
 ============================================================== 
 */
-@media only screen and (max-width: 860px){
- #about-h1 {
-  top: -30px;
-  left: -20px;
-}
-#-about-h1 {
-  left: -20px;
-  top: 10%;
-}
- .main-wraper .container header .about-con{
-   width: 100%;
-   height: 90%;
-   display: flex;
- }
- .main-wraper .container header .about-con .about-text-con {
-  position: relative;
-  width: 60%;
-  max-height: 60%;
-  top: 0;
-  left: 0;
-}
-.main-wraper .container header .about-con .about-text-con .about-text{
-  position: absolute;
-  top: 40%;
-  left: 100px;
-}
-.main-wraper .container header .about-con .about-text-con .about-text h1 {
-  font-size: 30px;
-  color: #08fdd8;
-  font-weight: 700;
-  line-height: 35px;
-  margin-bottom: 0px;
-  letter-spacing: -2px;
-  font-family: 'Archivo Narrow', sans-serif;
-}
-.main-wraper .container header .about-con .about-text-con p {
-  color: #fff;
-  font-weight: 100;
-  font-size: 0.7rem;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  letter-spacing: 1px;
-  line-height: 0.87rem;
-}
-.main-wraper .container header .about-con .about-logo-con {
-  width: 40%;
-  max-height: 60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  top: 30%;
-}
-.main-wraper .container header .about-con .about-logo-con .about-logo {
-  width: 60%;
-  margin-top: 0;
-}
-.main-wraper .container header .about-con .about-logo-con .about-logo svg {
-  width: 100%;
-  height: 250px;
-}
-}
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 860px) {
   #about-h1 {
-   top: -30px;
-   left: -20px;
- }
- #-about-h1 {
-   left: -20px;
-   top: 20%;
- }
-  .main-wraper .container header .about-con{
+    top: -30px;
+    left: -20px;
+  }
+  #-about-h1 {
+    left: -20px;
+    top: 10%;
+  }
+  .main-wrapper .container header .about-con {
+    width: 100%;
+    height: 90%;
+    display: flex;
+  }
+  .main-wrapper .container header .about-con .about-text-con {
+    position: relative;
+    width: 60%;
+    max-height: 60%;
+    top: 0;
+    left: 0;
+  }
+  .main-wrapper .container header .about-con .about-text-con .about-text {
+    position: absolute;
+    top: 40%;
+    left: 100px;
+  }
+  .main-wrapper .container header .about-con .about-text-con .about-text h1 {
+    font-size: 30px;
+    color: #08fdd8;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 0px;
+    letter-spacing: -2px;
+    font-family: "Archivo Narrow", sans-serif;
+  }
+  .main-wrapper .container header .about-con .about-text-con p {
+    color: #fff;
+    font-weight: 100;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    line-height: 0.87rem;
+  }
+  .main-wrapper .container header .about-con .about-logo-con {
+    width: 40%;
+    max-height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30%;
+  }
+  .main-wrapper .container header .about-con .about-logo-con .about-logo {
+    width: 60%;
+    margin-top: 0;
+  }
+  .main-wrapper .container header .about-con .about-logo-con .about-logo svg {
+    width: 100%;
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #about-h1 {
+    top: -30px;
+    left: -20px;
+  }
+  #-about-h1 {
+    left: -20px;
+    top: 20%;
+  }
+  .main-wrapper .container header .about-con {
     width: 100%;
     height: 90%;
     display: flex;
     flex-wrap: wrap;
   }
-  .main-wraper .container header .about-con .about-text-con {
-   position: relative;
-   width:100%;
-   max-height: 60%;
-   top: 0;
-   left: 0;
- }
- .main-wraper .container header .about-con .about-text-con .about-text{
-   position: absolute;
-   width: 80%;
-   top: 30%;
-   left: 10%;
- }
- .main-wraper .container header .about-con .about-text-con .about-text h1 {
-   font-size: 60px;
-   color: #08fdd8;
-   font-weight: 700;
-   line-height: 60px;
-   margin-bottom: 30px;
-   letter-spacing: -2px;
-   font-family: 'Archivo Narrow', sans-serif;
- }
- .main-wraper .container header .about-con .about-text-con p {
-   color: #fff;
-   font-weight: 100;
-   font-size: 1.2rem;
-   margin-top: 10px;
-   margin-bottom: 0px;
-   letter-spacing: 1px;
-   line-height: 1.4rem;
- }
- .main-wraper .container header .about-con .about-logo-con {
-   width: 100%;
-   max-height: 30%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   position: relative;
-   top: 0;
- }
- .main-wraper .container header .about-con .about-logo-con .about-logo {
-   width: 60%;
-   margin-top: 0;
- }
- .main-wraper .container header .about-con .about-logo-con .about-logo svg {
-   width: 100%;
-   height: 250px;
- }
- }
- @media only screen and (max-width: 736px){
+  .main-wrapper .container header .about-con .about-text-con {
+    position: relative;
+    width: 100%;
+    max-height: 60%;
+    top: 0;
+    left: 0;
+  }
+  .main-wrapper .container header .about-con .about-text-con .about-text {
+    position: absolute;
+    width: 80%;
+    top: 30%;
+    left: 10%;
+  }
+  .main-wrapper .container header .about-con .about-text-con .about-text h1 {
+    font-size: 60px;
+    color: #08fdd8;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 30px;
+    letter-spacing: -2px;
+    font-family: "Archivo Narrow", sans-serif;
+  }
+  .main-wrapper .container header .about-con .about-text-con p {
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    line-height: 1.4rem;
+  }
+  .main-wrapper .container header .about-con .about-logo-con {
+    width: 100%;
+    max-height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+  }
+  .main-wrapper .container header .about-con .about-logo-con .about-logo {
+    width: 60%;
+    margin-top: 0;
+  }
+  .main-wrapper .container header .about-con .about-logo-con .about-logo svg {
+    width: 100%;
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 736px) {
   #about-h1 {
-   top: -30px;
-   left: -20px;
- }
- #-about-h1 {
-   left: -20px;
-   top: 8%;
- }
- /* .main-wraper .container header{
+    top: -30px;
+    left: -20px;
+  }
+  #-about-h1 {
+    left: -20px;
+    top: 8%;
+  }
+  /* .main-wrapper .container header{
   width: 100%;
   top: 60px;
   left: 0;
   height: 100vh;
 } */
-  .main-wraper .container header .about-con{
+  .main-wrapper .container header .about-con {
     width: 100%;
     height: 90%;
     display: flex;
   }
-  .main-wraper .container header .about-con .about-text-con {
-   position: relative;
-   width: 60%;
-   max-height: 70%;
-   top: 0;
-   left: 0;
- }
- .main-wraper .container header .about-con .about-text-con .about-text{
-   position: absolute;
-   width: 90%;
-   top: 40%;
-   left: 10%;
- }
- .main-wraper .container header .about-con .about-text-con .about-text h1 {
-   font-size: 25px;
-   color: #08fdd8;
-   font-weight: 700;
-   line-height: 10px;
-   margin-bottom:30px;
-   letter-spacing: -2px;
-   font-family: 'Archivo Narrow', sans-serif;
- }
- .main-wraper .container header .about-con .about-text-con p {
-   color: #fff;
-   font-weight: 100;
-   font-size: 0.7rem;
-   margin-top: 8px;
-   margin-bottom: 0px;
-   letter-spacing: 0px;
-   line-height: 0.87rem;
- }
- .main-wraper .container header .about-con .about-logo-con {
-   width: 40%;
-   max-height: 60%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   position: relative;
-   top: 30%;
- }
- .main-wraper .container header .about-con .about-logo-con .about-logo {
-   width: 60%;
-   margin-top: 0;
- }
- .main-wraper .container header .about-con .about-logo-con .about-logo svg {
-   width: 100%;
-   height: 250px;
- }
- }
+  .main-wrapper .container header .about-con .about-text-con {
+    position: relative;
+    width: 60%;
+    max-height: 70%;
+    top: 0;
+    left: 0;
+  }
+  .main-wrapper .container header .about-con .about-text-con .about-text {
+    position: absolute;
+    width: 90%;
+    top: 40%;
+    left: 10%;
+  }
+  .main-wrapper .container header .about-con .about-text-con .about-text h1 {
+    font-size: 25px;
+    color: #08fdd8;
+    font-weight: 700;
+    line-height: 10px;
+    margin-bottom: 30px;
+    letter-spacing: -2px;
+    font-family: "Archivo Narrow", sans-serif;
+  }
+  .main-wrapper .container header .about-con .about-text-con p {
+    color: #fff;
+    font-weight: 100;
+    font-size: 0.7rem;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    letter-spacing: 0px;
+    line-height: 0.87rem;
+  }
+  .main-wrapper .container header .about-con .about-logo-con {
+    width: 40%;
+    max-height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30%;
+  }
+  .main-wrapper .container header .about-con .about-logo-con .about-logo {
+    width: 60%;
+    margin-top: 0;
+  }
+  .main-wrapper .container header .about-con .about-logo-con .about-logo svg {
+    width: 100%;
+    height: 250px;
+  }
+}
 @media only screen and (max-width: 500px) {
- 
-  .main-wraper .container header .about-con {
+  .main-wrapper .container header .about-con {
     flex-direction: column;
     justify-content: none;
     align-items: none;
   }
-  .main-wraper .container header .about-con .about-text-con {
+  .main-wrapper .container header .about-con .about-text-con {
     width: 100%;
     height: 50%;
   }
-  .main-wraper .container header .about-con .about-text-con .about-text {
+  .main-wrapper .container header .about-con .about-text-con .about-text {
     width: 80%;
     top: 20%;
     left: 35px;
   }
-  .main-wraper .container header .about-con .about-text-con .about-text h1 {
+  .main-wrapper .container header .about-con .about-text-con .about-text h1 {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
   }
-  .main-wraper .container header .about-con .about-text-con p {
+  .main-wrapper .container header .about-con .about-text-con p {
     font-size: 0.9rem;
     margin-top: 10px;
     line-height: 0.9rem;
     margin-bottom: 0px;
   }
-  .main-wraper .container header .about-con .about-logo-con {
+  .main-wrapper .container header .about-con .about-logo-con {
     width: 100%;
     height: 30%;
     justify-content: center;
@@ -1214,40 +1231,40 @@ a.button {
     position: relative;
     top: 0;
   }
-  .main-wraper .container header .about-con .about-logo-con .about-logo {
+  .main-wrapper .container header .about-con .about-logo-con .about-logo {
     position: relative;
     top: 20%;
     width: 40%;
   }
-  .main-wraper .container header .about-con .about-logo-con .about-logo svg {
+  .main-wrapper .container header .about-con .about-logo-con .about-logo svg {
     width: 100%;
   }
 }
-@media only screen and (max-width: 415px){
- #-about-h1{
-   top: 15%;
- }
-  .main-wraper .container header .about-con .about-text-con {
+@media only screen and (max-width: 415px) {
+  #-about-h1 {
+    top: 15%;
+  }
+  .main-wrapper .container header .about-con .about-text-con {
     width: 100%;
     height: 50%;
   }
-  .main-wraper .container header .about-con .about-text-con .about-text {
+  .main-wrapper .container header .about-con .about-text-con .about-text {
     width: 80%;
     top: 30%;
     left: 35px;
   }
-  .main-wraper .container header .about-con .about-text-con .about-text h1 {
+  .main-wrapper .container header .about-con .about-text-con .about-text h1 {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
   }
-  .main-wraper .container header .about-con .about-text-con p {
+  .main-wrapper .container header .about-con .about-text-con p {
     font-size: 0.9rem;
     line-height: 1rem;
     margin-top: 10px;
     margin-bottom: 0px;
   }
-  .main-wraper .container header .about-con .about-logo-con {
+  .main-wrapper .container header .about-con .about-logo-con {
     width: 100%;
     height: 30%;
     justify-content: center;
@@ -1255,46 +1272,46 @@ a.button {
     position: relative;
     top: 0;
   }
-  .main-wraper .container header .about-con .about-logo-con .about-logo {
+  .main-wrapper .container header .about-con .about-logo-con .about-logo {
     position: relative;
     top: 50%;
     width: 50%;
   }
-  .main-wraper .container header .about-con .about-logo-con .about-logo svg {
+  .main-wrapper .container header .about-con .about-logo-con .about-logo svg {
     width: 100%;
   }
 }
 @media only screen and (max-width: 375px) {
- #-about-h1{
-   top: 18%;
- }
-  .main-wraper .container header .about-con {
+  #-about-h1 {
+    top: 18%;
+  }
+  .main-wrapper .container header .about-con {
     flex-direction: column;
     justify-content: none;
     align-items: none;
     height: 94.5vh;
   }
-  .main-wraper .container header .about-con .about-text-con {
+  .main-wrapper .container header .about-con .about-text-con {
     width: 100%;
     height: 50%;
   }
-  .main-wraper .container header .about-con .about-text-con .about-text {
+  .main-wrapper .container header .about-con .about-text-con .about-text {
     width: 80%;
     top: 25%;
     left: 35px;
   }
-  .main-wraper .container header .about-con .about-text-con .about-text h1 {
+  .main-wrapper .container header .about-con .about-text-con .about-text h1 {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
   }
-  .main-wraper .container header .about-con .about-text-con p {
+  .main-wrapper .container header .about-con .about-text-con p {
     font-size: 0.9rem;
     margin-top: 10px;
     line-height: 1rem;
     margin-bottom: 0px;
   }
-  .main-wraper .container header .about-con .about-logo-con {
+  .main-wrapper .container header .about-con .about-logo-con {
     width: 100%;
     height: 30%;
     justify-content: center;
@@ -1302,32 +1319,30 @@ a.button {
     position: relative;
     top: 0;
   }
-  .main-wraper .container header .about-con .about-logo-con .about-logo {
+  .main-wrapper .container header .about-con .about-logo-con .about-logo {
     top: 30%;
     width: 45%;
   }
-  .main-wraper .container header .about-con .about-logo-con .about-logo svg {
+  .main-wrapper .container header .about-con .about-logo-con .about-logo svg {
     width: 100%;
   }
-  
 }
-@media only screen and (max-width: 320px){
-  #-about-h1{
+@media only screen and (max-width: 320px) {
+  #-about-h1 {
     top: 10%;
   }
-  .main-wraper .container header .about-con .about-text-con .about-text {
+  .main-wrapper .container header .about-con .about-text-con .about-text {
     width: 83%;
   }
-  .main-wraper .container header .about-con .about-text-con .about-text h1 {
+  .main-wrapper .container header .about-con .about-text-con .about-text h1 {
     font-size: 30px;
     line-height: 25px;
     margin-bottom: 20px;
   }
-  .main-wraper .container header .about-con .about-text-con p {
+  .main-wrapper .container header .about-con .about-text-con p {
     font-size: 0.8rem;
-  
   }
-  .main-wraper .container header .about-con .about-logo-con {
+  .main-wrapper .container header .about-con .about-logo-con {
     width: 100%;
     height: 30%;
     justify-content: center;
@@ -1335,7 +1350,7 @@ a.button {
     position: relative;
     top: 0;
   }
-  .main-wraper .container header .about-con .about-logo-con .about-logo {
+  .main-wrapper .container header .about-con .about-logo-con .about-logo {
     top: 35%;
     width: 45%;
   }
@@ -1346,7 +1361,7 @@ a.button {
 --------Skills Styles------------
 ============================================
  */
- #skills-h1 {
+#skills-h1 {
   top: 5px;
   left: -20px;
 }
@@ -1354,23 +1369,29 @@ a.button {
   left: -20px;
   top: 35%;
 }
- .main-wraper .container header .skills-area-con {
+.main-wrapper .container header .skills-area-con {
   width: 100%;
   height: 100%;
   display: flex;
 }
-.main-wraper .container header .skills-area-con .skills-text-con {
+.main-wrapper .container header .skills-area-con .skills-text-con {
   width: 50%;
   height: 100%;
   position: relative;
 }
 
-.main-wraper .container header .skills-area-con .skills-text-con .skills-text {
+.main-wrapper .container header .skills-area-con .skills-text-con .skills-text {
   position: absolute;
   top: 22%;
   left: 130px;
 }
-.main-wraper .container header .skills-area-con .skills-text-con .skills-text h1 {
+.main-wrapper
+  .container
+  header
+  .skills-area-con
+  .skills-text-con
+  .skills-text
+  h1 {
   font-size: 60px;
   color: #08fdd8;
   font-weight: 700;
@@ -1379,24 +1400,36 @@ a.button {
   letter-spacing: -2px;
   line-height: 50px;
 }
-.main-wraper .container header .skills-area-con .skills-text-con .skills-text p {
+.main-wrapper
+  .container
+  header
+  .skills-area-con
+  .skills-text-con
+  .skills-text
+  p {
   color: #fff;
   font-weight: 300;
   font-size: 1rem;
   margin-top: 60px;
   margin-bottom: 70px;
 }
-.main-wraper .container header .skills-area-con .skills-text-con .skills-text a {
+.main-wrapper
+  .container
+  header
+  .skills-area-con
+  .skills-text-con
+  .skills-text
+  a {
   color: #08fdd8;
 }
-.main-wraper .container header .skills-area-con .skills-con {
+.main-wrapper .container header .skills-area-con .skills-con {
   width: 50%;
   padding: 0;
   position: relative;
   display: flex;
   flex-wrap: wrap;
 }
-.main-wraper .container header .skills-area-con .skills-con .skills-anim {
+.main-wrapper .container header .skills-area-con .skills-con .skills-anim {
   width: 100%;
   color: #fff;
   font-weight: 400;
@@ -1418,14 +1451,20 @@ a.button {
 span {
   display: inline-block;
 }
-.main-wraper .container header .skills-area-con .skills-con .skills-bars-con {
+.main-wrapper .container header .skills-area-con .skills-con .skills-bars-con {
   width: 100%;
   padding: 0;
   position: relative;
   display: flex;
   justify-content: center;
 }
-.main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars {
+.main-wrapper
+  .container
+  header
+  .skills-area-con
+  .skills-con
+  .skills-bars-con
+  .skills-bars {
   width: 70%;
   height: 30vh;
   border: 3px solid #1a1b20;
@@ -1436,7 +1475,14 @@ span {
   padding: 0 3%;
   color: #fff;
 }
-.main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills {
+.main-wrapper
+  .container
+  header
+  .skills-area-con
+  .skills-con
+  .skills-bars-con
+  .skills-bars
+  .skills {
   width: 100%;
   height: 100%;
   display: flex;
@@ -1445,19 +1491,53 @@ span {
   justify-content: center;
 }
 
-.main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill {
+.main-wrapper
+  .container
+  header
+  .skills-area-con
+  .skills-con
+  .skills-bars-con
+  .skills-bars
+  .skills
+  .skill {
   width: 46%;
   text-align: left;
   margin: 10px 2%;
 }
-.main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill strong {
+.main-wrapper
+  .container
+  header
+  .skills-area-con
+  .skills-con
+  .skills-bars-con
+  .skills-bars
+  .skills
+  .skill
+  strong {
   font-size: 0.8rem;
   letter-spacing: 2px;
 }
-.main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill.skillbar {
+.main-wrapper
+  .container
+  header
+  .skills-area-con
+  .skills-con
+  .skills-bars-con
+  .skills-bars
+  .skills
+  .skill.skillbar {
   margin: 5px 0;
 }
-.main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill .skillbar {
+.main-wrapper
+  .container
+  header
+  .skills-area-con
+  .skills-con
+  .skills-bars-con
+  .skills-bars
+  .skills
+  .skill
+  .skillbar {
   width: 100%;
   height: 8px;
   background-color: #3e4044;
@@ -1613,23 +1693,39 @@ span {
     left: -20px;
     top: 32%;
   }
-  .main-wraper .container header .skills-area-con .skills-text-con .skills-text {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-text-con
+    .skills-text {
     position: absolute;
     top: 20%;
     left: 60px;
   }
-  .main-wraper .container header .skills-area-con .skills-text-con .skills-text h1 {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-text-con
+    .skills-text
+    h1 {
     font-size: 40px;
     line-height: 50px;
   }
-  .main-wraper .container header .skills-area-con .skills-text-con .skills-text p {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-text-con
+    .skills-text
+    p {
     color: #fff;
     font-weight: 300;
     font-size: 1rem;
     margin-top: 40px;
     margin-bottom: 70px;
   }
-
 }
 @media only screen and (max-width: 854px) {
   #skills-h1 {
@@ -1640,38 +1736,86 @@ span {
     left: -20px;
     top: 28%;
   }
-  
-  .main-wraper .container header .skills-area-con .skills-text-con .skills-text {
+
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-text-con
+    .skills-text {
     position: absolute;
     top: 12%;
     left: 40px;
   }
-  .main-wraper .container header .skills-area-con .skills-text-con .skills-text h1 {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-text-con
+    .skills-text
+    h1 {
     font-size: 28px;
     line-height: 25px;
   }
-  .main-wraper .container header .skills-area-con .skills-text-con .skills-text p {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-text-con
+    .skills-text
+    p {
     color: #fff;
     font-weight: 300;
     font-size: 0.8rem;
     margin-top: 30px;
     margin-bottom: 10px;
   }
-  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-con
+    .skills-bars-con
+    .skills-bars
+    .skills
+    .skill {
     width: 42%;
     text-align: left;
     margin: 10px 2%;
   }
-  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-con
+    .skills-bars-con
+    .skills-bars {
     height: 40vh;
     padding: 2% 1%;
   }
- 
-  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill strong {
+
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-con
+    .skills-bars-con
+    .skills-bars
+    .skills
+    .skill
+    strong {
     font-size: 0.7rem;
     letter-spacing: 1px;
   }
-  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill.skillbar {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-con
+    .skills-bars-con
+    .skills-bars
+    .skills
+    .skill.skillbar {
     margin: 5px 0;
   }
 }
@@ -1684,32 +1828,62 @@ span {
     left: -20px;
     top: 25%;
   }
-  .main-wraper .container header .skills-area-con .skills-text-con .skills-text {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-text-con
+    .skills-text {
     position: absolute;
     top: 10%;
     left: 40px;
   }
-  .main-wraper .container header .skills-area-con .skills-text-con .skills-text h1 {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-text-con
+    .skills-text
+    h1 {
     font-size: 40px;
     line-height: 40px;
   }
-  .main-wraper .container header .skills-area-con .skills-text-con .skills-text p {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-text-con
+    .skills-text
+    p {
     color: #fff;
     font-weight: 300;
     font-size: 1rem;
     margin-top: 40px;
     margin-bottom: 70px;
   }
-  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-con
+    .skills-bars-con
+    .skills-bars
+    .skills
+    .skill {
     width: 92%;
     text-align: left;
     margin: 10px 2%;
   }
-  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-con
+    .skills-bars-con
+    .skills-bars {
     height: 40vh;
     padding: 2% 3%;
   }
-
 }
 @media only screen and (max-width: 736px) {
   #skills-h1 {
@@ -1720,42 +1894,90 @@ span {
     left: -20px;
     top: 28%;
   }
-  
-  .main-wraper .container header .skills-area-con .skills-text-con .skills-text {
+
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-text-con
+    .skills-text {
     position: absolute;
     top: 12%;
     left: 40px;
   }
-  .main-wraper .container header .skills-area-con .skills-text-con .skills-text h1 {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-text-con
+    .skills-text
+    h1 {
     font-size: 28px;
     line-height: 25px;
   }
-  .main-wraper .container header .skills-area-con .skills-text-con .skills-text p {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-text-con
+    .skills-text
+    p {
     color: #fff;
     font-weight: 300;
     font-size: 0.8rem;
     margin-top: 30px;
     margin-bottom: 10px;
   }
-  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-con
+    .skills-bars-con
+    .skills-bars
+    .skills
+    .skill {
     width: 42%;
     text-align: left;
     margin: 10px 2%;
   }
-  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-con
+    .skills-bars-con
+    .skills-bars {
     height: 40vh;
     padding: 2% 1%;
   }
- 
-  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill strong {
+
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-con
+    .skills-bars-con
+    .skills-bars
+    .skills
+    .skill
+    strong {
     font-size: 0.7rem;
     letter-spacing: 1px;
   }
-  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill.skillbar {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-con
+    .skills-bars-con
+    .skills-bars
+    .skills
+    .skill.skillbar {
     margin: 5px 0;
   }
 }
-@media only screen and (max-width:500px){
+@media only screen and (max-width: 500px) {
   #skills-h1 {
     top: 5px;
     left: -20px;
@@ -1764,66 +1986,113 @@ span {
     left: -20px;
     top: 26%;
   }
-  .main-wraper .container header .skills-area-con {
+  .main-wrapper .container header .skills-area-con {
     width: 100%;
     height: 50%;
     display: flex;
     flex-wrap: wrap;
   }
-  .main-wraper .container header .skills-area-con .skills-text-con {
+  .main-wrapper .container header .skills-area-con .skills-text-con {
     width: 100%;
     height: 100%;
     position: relative;
   }
-  .main-wraper .container header .skills-area-con .skills-text-con .skills-text {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-text-con
+    .skills-text {
     width: 85%;
     position: absolute;
     top: 15%;
     left: 40px;
   }
-  .main-wraper .container header .skills-area-con .skills-text-con .skills-text h1 {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-text-con
+    .skills-text
+    h1 {
     font-size: 30px;
     line-height: 30px;
   }
-  .main-wraper .container header .skills-area-con .skills-text-con .skills-text p {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-text-con
+    .skills-text
+    p {
     color: #fff;
     font-weight: 300;
     font-size: 0.9rem;
     margin-top: 40px;
     margin-bottom: 30px;
   }
-  .main-wraper .container header .skills-area-con .skills-con {
+  .main-wrapper .container header .skills-area-con .skills-con {
     width: 100%;
     padding: 0;
     position: relative;
     display: flex;
     flex-wrap: wrap;
   }
-  .main-wraper .container header .skills-area-con .skills-con .skills-anim{
+  .main-wrapper .container header .skills-area-con .skills-con .skills-anim {
     display: none;
   }
-  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-con
+    .skills-bars-con
+    .skills-bars
+    .skills
+    .skill {
     width: 92%;
     text-align: left;
     margin: 10px 2%;
   }
-  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-con
+    .skills-bars-con
+    .skills-bars {
     margin-top: 60px;
     height: 20vh;
     padding: 2% 3%;
   }
-  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill strong {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-con
+    .skills-bars-con
+    .skills-bars
+    .skills
+    .skill
+    strong {
     font-size: 0.6rem;
     letter-spacing: 2px;
   }
-  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-con
+    .skills-bars-con
+    .skills-bars
+    .skills
+    .skill {
     width: 46%;
     text-align: left;
     margin: 10px 2%;
   }
-
 }
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 320px) {
   #skills-h1 {
     top: -5px;
     left: -20px;
@@ -1832,28 +2101,45 @@ span {
     left: -20px;
     top: 18%;
   }
-  .main-wraper .container header .skills-area-con {
+  .main-wrapper .container header .skills-area-con {
     width: 100%;
     height: 50%;
     display: flex;
     flex-wrap: wrap;
   }
-  .main-wraper .container header .skills-area-con .skills-text-con {
+  .main-wrapper .container header .skills-area-con .skills-text-con {
     width: 100%;
     height: 100%;
     position: relative;
   }
-  .main-wraper .container header .skills-area-con .skills-text-con .skills-text {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-text-con
+    .skills-text {
     width: 85%;
     position: absolute;
     top: 18%;
     left: 40px;
   }
-  .main-wraper .container header .skills-area-con .skills-text-con .skills-text h1 {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-text-con
+    .skills-text
+    h1 {
     font-size: 20px;
     line-height: 20px;
   }
-  .main-wraper .container header .skills-area-con .skills-text-con .skills-text p {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-text-con
+    .skills-text
+    p {
     color: #fff;
     font-weight: 100;
     font-size: 0.9rem;
@@ -1861,35 +2147,75 @@ span {
     line-height: 0.9rem;
     margin-bottom: 30px;
   }
-  .main-wraper .container header .skills-area-con .skills-con {
+  .main-wrapper .container header .skills-area-con .skills-con {
     width: 100%;
     padding: 0;
     position: relative;
     display: flex;
     flex-wrap: wrap;
   }
-  .main-wraper .container header .skills-area-con .skills-con .skills-anim{
+  .main-wrapper .container header .skills-area-con .skills-con .skills-anim {
     display: none;
   }
-  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill strong {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-con
+    .skills-bars-con
+    .skills-bars
+    .skills
+    .skill
+    strong {
     font-size: 0.5rem;
     letter-spacing: 1px;
   }
-  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-con
+    .skills-bars-con
+    .skills-bars
+    .skills
+    .skill {
     width: 92%;
     text-align: left;
     margin: 10px 2%;
   }
-  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-con
+    .skills-bars-con
+    .skills-bars {
     margin-top: 60px;
     height: 25vh;
     padding: 2% 3%;
   }
-  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill strong {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-con
+    .skills-bars-con
+    .skills-bars
+    .skills
+    .skill
+    strong {
     font-size: 0.6rem;
     letter-spacing: 2px;
   }
-  .main-wraper .container header .skills-area-con .skills-con .skills-bars-con .skills-bars .skills .skill {
+  .main-wrapper
+    .container
+    header
+    .skills-area-con
+    .skills-con
+    .skills-bars-con
+    .skills-bars
+    .skills
+    .skill {
     width: 46%;
     text-align: left;
     margin: 10px 2%;
@@ -1902,14 +2228,14 @@ span {
 ============================================
  */
 
-.main-wraper .container header .work-con {
+.main-wrapper .container header .work-con {
   position: relative;
   width: 100%;
   height: 100vh;
   top: 0;
   left: 0px;
 }
-.main-wraper .container header .work-con .work-item-con {
+.main-wrapper .container header .work-con .work-item-con {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1917,7 +2243,7 @@ span {
   flex-wrap: wrap;
   overflow: auto;
 }
-.main-wraper .container header .work-con .work-item-con .work-item {
+.main-wrapper .container header .work-con .work-item-con .work-item {
   width: 25%;
   height: auto;
   position: relative;
@@ -1926,11 +2252,11 @@ span {
   justify-content: center;
   align-items: center;
 }
-.main-wraper .container header .work-con .work-item-con .work-item img {
+.main-wrapper .container header .work-con .work-item-con .work-item img {
   width: 100%;
   transition: all 0.3s;
 }
-.main-wraper .container header .work-con .work-item-con .work-item .overlay {
+.main-wrapper .container header .work-con .work-item-con .work-item .overlay {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1941,7 +2267,7 @@ span {
   transition: all 0.3s;
   opacity: 0;
 }
-.main-wraper .container header .work-con .work-item-con .work-item .btn-view {
+.main-wrapper .container header .work-con .work-item-con .work-item .btn-view {
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -1956,7 +2282,14 @@ span {
   transform: scale(0.5);
   transition: all 0.3s;
 }
-.main-wraper .container header .work-con .work-item-con .work-item .btn-view a {
+.main-wrapper
+  .container
+  header
+  .work-con
+  .work-item-con
+  .work-item
+  .btn-view
+  a {
   text-align: center;
   position: absolute;
   color: #181818;
@@ -1966,18 +2299,30 @@ span {
   font-family: "Montserrat", sans-serif;
   padding: 30px 20px;
 }
-.main-wraper .container header .work-con .work-item-con .work-item:hover .overlay {
+.main-wrapper
+  .container
+  header
+  .work-con
+  .work-item-con
+  .work-item:hover
+  .overlay {
   opacity: 1;
 }
-.main-wraper .container header .work-con .work-item-con .work-item:hover .btn-view {
+.main-wrapper
+  .container
+  header
+  .work-con
+  .work-item-con
+  .work-item:hover
+  .btn-view {
   opacity: 1;
   transform: scale(1);
 }
-.main-wraper .container header .work-con .work-item-con .work-item:hover img {
+.main-wrapper .container header .work-con .work-item-con .work-item:hover img {
   transform: scale(1.05);
 }
-@media only screen and (max-width: 1080px){
-  .main-wraper .container header .work-con .work-item-con .work-item {
+@media only screen and (max-width: 1080px) {
+  .main-wrapper .container header .work-con .work-item-con .work-item {
     width: 33.33%;
     height: auto;
     position: relative;
@@ -1988,55 +2333,164 @@ span {
     z-index: 0;
   }
 }
-@media only screen and (max-width: 900px){
-  .main-wraper .container header .work-con .work-item-con .work-item {
+@media only screen and (max-width: 900px) {
+  .main-wrapper .container header .work-con .work-item-con .work-item {
     width: 33.33%;
-    height:auto;
+    height: auto;
   }
 }
-@media only screen and (max-width: 768px){
-  .main-wraper .container header .work-con .work-item-con .work-item {
+@media only screen and (max-width: 768px) {
+  .main-wrapper .container header .work-con .work-item-con .work-item {
     width: 50%;
     height: auto;
   }
-  .main-wraper .container header .work-con .work-item-con .work-item:hover .overlay {
+  .main-wrapper
+    .container
+    header
+    .work-con
+    .work-item-con
+    .work-item:hover
+    .overlay {
     opacity: 1;
   }
-  .main-wraper .container header .work-con .work-item-con .work-item:hover .btn-view {
+  .main-wrapper
+    .container
+    header
+    .work-con
+    .work-item-con
+    .work-item:hover
+    .btn-view {
     opacity: 1;
     transform: scale(1);
   }
-  .main-wraper .container header .work-con .work-item-con .work-item:hover img {
+  .main-wrapper
+    .container
+    header
+    .work-con
+    .work-item-con
+    .work-item:hover
+    img {
     transform: scale(1.05);
   }
-  .main-wraper .container header .work-con .work-item-con .work-item:active .overlay {
+  .main-wrapper
+    .container
+    header
+    .work-con
+    .work-item-con
+    .work-item:active
+    .overlay {
     opacity: 1;
   }
-  .main-wraper .container header .work-con .work-item-con .work-item:active .btn-view {
+  .main-wrapper
+    .container
+    header
+    .work-con
+    .work-item-con
+    .work-item:active
+    .btn-view {
     opacity: 1;
     transform: scale(1);
   }
-  .main-wraper .container header .work-con .work-item-con .work-item:active img {
+  .main-wrapper
+    .container
+    header
+    .work-con
+    .work-item-con
+    .work-item:active
+    img {
     transform: scale(1.05);
   }
 }
-@media only screen and (max-width: 736px){
-  .main-wraper .container header .work-con .work-item-con .work-item {
+@media only screen and (max-width: 736px) {
+  .main-wrapper .container header .work-con .work-item-con .work-item {
     width: 33.33%;
     height: auto;
   }
 }
 @media only screen and (max-width: 500px) {
-  
-  .main-wraper .container header .work-con .work-item-con .work-item {
+  .main-wrapper .container header .work-con .work-item-con .work-item {
     width: 50%;
     height: auto;
   }
 }
-@media only screen and (max-width: 280px){
-  .main-wraper .container header .work-con .work-item-con .work-item {
+@media only screen and (max-width: 280px) {
+  .main-wrapper .container header .work-con .work-item-con .work-item {
     width: 100%;
     height: auto;
+  }
+}
+
+/* ===========================================================================
+---------------------Loader Styles-----------------------------------------
+=========================================================================== */
+
+.loader-con{
+  width: 100vw;
+  height: 100%;
+  background-color:#1d1d1d;
+  position: fixed;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 100;
+  visibility: hidden;
+  animation: load-anim 11s 1;
+}
+.loader-con .loader-logo{
+  width: 40%;
+  position: relative;
+}
+.loader-con .loader{
+  width: 80%;
+  height: 10px;
+  margin: 10px 0;
+  background-color:#000;
+  position: relative;
+}
+.loader-con .loader .progress{
+position: absolute;
+width: 100%;
+height: 100%;
+background-color:#08FDD8;
+animation: load 10s 1;
+transition: all 0.4s;
+}
+@keyframes load{
+  0%{
+    width: 0;
+  }
+  30%{
+    width: 20%;
+  }
+  40%{
+    width: 30%;
+  }
+  50%{
+    width: 50%;
+  }
+  70%{
+    width: 60%;
+  }
+  80%{
+    width: 70%;
+  }
+  90%{
+    width: 80%;
+  }
+  100%{
+    width: 100%;
+  }
+}
+@keyframes load-anim{
+  0%{
+    visibility: visible;
+  }
+  99.99%{
+    visibility: visible;
+  }
+  100%{
+    visibility: hidden;
   }
 }
 
@@ -2045,7 +2499,17 @@ span {
 --------Contact Styles------------
 ============================================
  */
- #contact-h1 {
+ #contact-html, #-contact-html,
+ #contact-body,#-contact-body{
+  position: absolute;
+  color: #444444;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-family: "La Belle Aurore", cursive;
+  cursor: default;
+ }
+ 
+#contact-h1 {
   top: -30px;
   left: -20px;
 }
@@ -2053,24 +2517,54 @@ span {
   left: -20px;
   top: 12%;
 }
-.main-wraper .container header .contact-con{
+
+.main-wrapper .container header #contact-html {
+  left: 10px;
+}
+.main-wrapper .container header #-contact-html {
+  left: 10px;
+  bottom: 0;
+}
+
+.main-wrapper .container header #contact-body {
+  top: 20px;
+  left: 40px;
+}
+.main-wrapper .container header #-contact-body {
+  left: 40px;
+  bottom: 20px;
+}
+.main-wrapper .container header .contact-con {
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
- .main-wraper .container header .contact-con .contact-text-con {
+.main-wrapper .container header .contact-con .contact-text-con {
   position: relative;
   width: 50%;
   height: 100%;
   top: 0;
   left: 0;
 }
-.main-wraper .container header .contact-con .contact-text-con .contact-text {
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-text-con
+  .contact-text {
   position: absolute;
   top: 15%;
   width: 80%;
   left: 15%;
 }
-.main-wraper .container header .contact-con .contact-text-con .contact-text h1 {
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-text-con
+  .contact-text
+  h1 {
   font-size: 60px;
   color: #08fdd8;
   font-weight: 700;
@@ -2078,7 +2572,13 @@ span {
   margin-bottom: 20px;
   letter-spacing: -2px;
 }
-.main-wraper .container header .contact-con .contact-text-con .contact-text p {
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-text-con
+  .contact-text
+  p {
   color: #fff;
   font-weight: 300;
   font-size: 1rem;
@@ -2086,64 +2586,116 @@ span {
   margin-bottom: 30px;
   letter-spacing: 0.5px;
 }
-.main-wraper .container header .contact-con .contact-text-con  .contact-text .form-container {
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-text-con
+  .contact-text
+  .form-container {
   position: relative;
   width: 100%;
   height: 48vh;
   display: flex;
   flex-wrap: wrap;
 }
-.main-wraper .container header .contact-con .contact-text-con  .contact-text .form-container .form-contact{
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-text-con
+  .contact-text
+  .form-container
+  .form-contact {
   width: 100%;
-  
+
   display: flex;
   flex-wrap: wrap;
-  color:#cacaca;
+  color: #cacaca;
 }
-.main-wraper .container header .contact-con .contact-text-con  .contact-text .form-container .form-contact .name{
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-text-con
+  .contact-text
+  .form-container
+  .form-contact
+  .name {
   width: 40%;
   background-color: #2b2b2b;
   border: none;
   outline: none;
-  margin: 1% 0;
+  margin: 5px 0;
   padding: 0 4%;
   height: 40px;
   margin-right: 4%;
-  color:#cacaca;
+  color: #cacaca;
 }
-.main-wraper .container header .contact-con .contact-text-con  .contact-text .form-container .form-contact .email{
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-text-con
+  .contact-text
+  .form-container
+  .form-contact
+  .email {
   width: 40%;
   background-color: #2b2b2b;
   border: none;
   outline: none;
-  margin: 1% 0;
+  margin: 5px 0;
   padding: 0 4%;
   height: 40px;
-  color:#cacaca;
+  color: #cacaca;
 }
-.main-wraper .container header .contact-con .contact-text-con  .contact-text .form-container .form-contact .subject{
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-text-con
+  .contact-text
+  .form-container
+  .form-contact
+  .subject {
   width: 100%;
   background-color: #2b2b2b;
   border: none;
   outline: none;
-  margin: 1% 0 0 0;
+  margin: 5px 0 0 0;
   padding: 0 4%;
   height: 40px;
-  color:#cacaca;
+  color: #cacaca;
 }
-.main-wraper .container header .contact-con .contact-text-con  .contact-text .form-container .form-contact .msg{
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-text-con
+  .contact-text
+  .form-container
+  .form-contact
+  .msg {
   width: 100%;
   background-color: #2b2b2b;
   border: none;
   outline: none;
-  margin: 10px 0;
-  padding: 0 4%;
+  margin: 5px 0;
+  padding: 1% 4%;
   height: 150px;
-  color:#cacaca;
+  color: #cacaca;
   margin-top: -10px;
 }
 
-.main-wraper .container header .contact-con .contact-text-con  .contact-text .form-container .btn-submit{
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-text-con
+  .contact-text
+  .form-container
+  .btn-submit {
   width: 80px;
   height: 30px;
   background-color: transparent;
@@ -2151,19 +2703,249 @@ span {
   border: 1px solid #08fdd8;
   color: #08fdd8;
   position: relative;
-  left:  85%;
+  left: 85%;
   margin-top: 5px;
   bottom: 0;
   font-size: 0.8rem;
   border-radius: 3px;
-  cursor:pointer;
+  cursor: pointer;
 }
-.main-wraper .container header .contact-con .contact-text-con  .contact-text .form-container .btn-submit:hover{
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-text-con
+  .contact-text
+  .form-container
+  .btn-submit:hover {
   background-color: #08fdd8;
   color: #181818;
-} 
+}
 
-@media only screen and (max-width:1080px){
+.main-wrapper .container header .contact-con .contact-sites-con {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  padding: 50px;
+  border-radius: 0 30px 0 30px;
+  box-shadow: 5px 8px 15px #08fdd8, -5px -8px 15px #08fdd8;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites
+  .contact-sites-title {
+  width: 100%;
+  height: 10%;
+  color: #08fdd8;
+  font-weight: 700;
+  position: relative;
+  top: 0;
+  text-align: center;
+  cursor: default;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites
+  .contact-sites-title
+  h1 {
+  font-size: 30px;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites
+  .contact-sites-title
+  h2 {
+  display: inline-block;
+  font-size: 1rem;
+  color: #ffffff;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites
+  .contact-freelance-sites {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites
+  .contact-freelance-sites
+  .fiverr
+  {
+  width: 62px;
+  height: 62px;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites
+  .contact-freelance-sites
+  .upwork
+  {
+    width:108.99px;
+    height:33.05px;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites
+  .contact-freelance-sites
+  .freelancer
+  {
+    width:117.51px;
+    height:28.33px;
+}
+
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites
+  .contact-freelance-sites
+  .fiverr
+  svg {
+  width: 100%;
+  height: 100%;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites
+  .contact-freelance-sites
+  .upwork
+  svg {
+    width:100%;
+    height:100%;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites
+  .contact-freelance-sites
+  .freelancer
+  svg {
+    width: 100%;
+    height: 100%;
+}
+
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites
+  .contact-freelance-sites
+  .fiverr
+  .st0 {
+  fill: #00b22d;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites
+  .contact-freelance-sites
+  .fiverr
+  .st1 {
+  fill: #ffffff;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites
+  .contact-freelance-sites
+  .upwork
+  .st0 {
+  fill: #dadada;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites
+  .contact-freelance-sites
+  .upwork
+  .st1 {
+  fill: #6fda44;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites
+  .contact-freelance-sites
+  .freelancer
+  .st0 {
+  fill: #29b2fe;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites
+  .contact-freelance-sites
+  .freelancer
+  .st1 {
+  fill: #fff;
+}
+
+/* 
+=============================================================================
+----------------------- Responsive Contact Styles ---------------------------
+=============================================================================
+ */
+@media only screen and (max-width: 1080px) {
   #contact-h1 {
     top: -30px;
     left: -20px;
@@ -2172,16 +2954,33 @@ span {
     left: -20px;
     top: 7%;
   }
-  .main-wraper .container header .contact-con .contact-text-con {
-    width: 55%;
+  .main-wrapper .container header {
+    width: 100%;
+    min-height: 95.5vh;
+    overflow: auto;
+    position: relative;
   }
-  .main-wraper .container header .contact-con .contact-text-con .contact-text {
+  .main-wrapper .container header .contact-con .contact-text-con {
+    width: 60%;
+  }
+  .main-wrapper
+    .container
+    header
+    .contact-con
+    .contact-text-con
+    .contact-text {
     position: absolute;
     top: 14%;
     width: 80%;
     left: 15%;
   }
-  .main-wraper .container header .contact-con .contact-text-con .contact-text h1 {
+  .main-wrapper
+    .container
+    header
+    .contact-con
+    .contact-text-con
+    .contact-text
+    h1 {
     font-size: 40px;
     color: #08fdd8;
     font-weight: 700;
@@ -2189,7 +2988,13 @@ span {
     margin-bottom: 20px;
     letter-spacing: -2px;
   }
-  .main-wraper .container header .contact-con .contact-text-con .contact-text p {
+  .main-wrapper
+    .container
+    header
+    .contact-con
+    .contact-text-con
+    .contact-text
+    p {
     color: #fff;
     font-weight: 300;
     font-size: 1rem;
@@ -2197,33 +3002,70 @@ span {
     margin-bottom: 10px;
     letter-spacing: 0.5px;
   }
-  .main-wraper .container header .contact-con .contact-text-con .form-container {
+  .main-wrapper
+    .container
+    header
+    .contact-con
+    .contact-text-con
+    .contact-text
+    .form-container {
     position: relative;
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
   }
+  .main-wrapper .container header .contact-con .contact-sites-con {
+    width: 40%;
+  }
+  .main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites {
+  box-shadow: 3px 5px 15px #08fdd8, -3px -5px 15px #08fdd8;
+}
+  .main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites
+  .contact-freelance-sites
+  .fiverr
+  svg {
+  width: 80%;
+  height: 80%;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites
+  .contact-freelance-sites
+  .upwork
+  svg {
+    width:  80%;
+    height: 80%;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-sites-con
+  .contact-sites
+  .contact-freelance-sites
+  .freelancer
+  svg {
+    width: 80%;
+    height:80%;
 }
 
-@media only screen and (max-width: 860px){
-  #contact-h1 {
-    top: -30px;
-    left: -20px;
-  }
-  #-contact-h1 {
-    left: -20px;
-    top: 28%;
-  }
-  .main-wraper .container header{
-    overflow: auto;
-    min-height: 90.5vh;
-  }
-  .main-wraper .container header .contact-con .contact-text-con {
-    width: 100%;
-  }
 }
-@media only screen and (max-width: 736px){
-   #contact-h1 {
+
+@media only screen and (max-width: 740px) {
+  #contact-h1 {
     top: -20px;
     left: -20px;
   }
@@ -2231,16 +3073,27 @@ span {
     left: -20px;
     top: 10%;
   }
-  .main-wraper .container header .contact-con .contact-text-con {
+  .main-wrapper .container header .contact-con .contact-text-con {
     width: 100%;
   }
-  .main-wraper .container header .contact-con .contact-text-con .contact-text {
+  .main-wrapper
+    .container
+    header
+    .contact-con
+    .contact-text-con
+    .contact-text {
     position: absolute;
     top: 16%;
     width: 80%;
     left: 15%;
   }
-  .main-wraper .container header .contact-con .contact-text-con .contact-text h1 {
+  .main-wrapper
+    .container
+    header
+    .contact-con
+    .contact-text-con
+    .contact-text
+    h1 {
     font-size: 30px;
     color: #08fdd8;
     font-weight: 700;
@@ -2248,7 +3101,13 @@ span {
     margin-bottom: 20px;
     letter-spacing: -2px;
   }
-  .main-wraper .container header .contact-con .contact-text-con .contact-text p {
+  .main-wrapper
+    .container
+    header
+    .contact-con
+    .contact-text-con
+    .contact-text
+    p {
     color: #fff;
     font-weight: 300;
     font-size: 0.9rem;
@@ -2256,14 +3115,23 @@ span {
     margin-bottom: 10px;
     letter-spacing: 0.5px;
   }
-  .main-wraper .container header .contact-con .contact-text-con .form-container {
+  .main-wrapper
+    .container
+    header
+    .contact-con
+    .contact-text-con
+    .form-container {
     position: relative;
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
   }
+  .main-wrapper .container header .contact-con .contact-sites-con {
+    display: none;
+  }
+
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) {
   #contact-h1 {
     top: -30px;
     left: -20px;
@@ -2272,13 +3140,24 @@ span {
     left: -20px;
     top: 20%;
   }
-  .main-wraper .container header .contact-con .contact-text-con .contact-text {
+  .main-wrapper
+    .container
+    header
+    .contact-con
+    .contact-text-con
+    .contact-text {
     position: absolute;
     top: 14%;
     width: 80%;
     left: 10%;
   }
-  .main-wraper .container header .contact-con .contact-text-con .contact-text p {
+  .main-wrapper
+    .container
+    header
+    .contact-con
+    .contact-text-con
+    .contact-text
+    p {
     color: #fff;
     font-weight: 300;
     font-size: 1rem;
@@ -2286,37 +3165,38 @@ span {
     margin-bottom: 20px;
     letter-spacing: 0;
   }
-  .main-wraper .container header .contact-con .contact-text-con .contact-text .form-container {
+  .main-wrapper
+    .container
+    header
+    .contact-con
+    .contact-text-con
+    .contact-text
+    .form-container {
     position: absolute;
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
   }
-  .main-wraper .container header .contact-con .contact-text-con  .contact-text .form-container .btn-submit{
-    left:  75%;
+  .main-wrapper
+    .container
+    header
+    .contact-con
+    .contact-text-con
+    .contact-text
+    .form-container
+    .btn-submit {
+    left: 75%;
     bottom: -10px;
   }
-  .main-wraper .container header .contact-con .contact-text-con  .contact-text .form-container .form-contact .name{
-    width: 92%;
-    background-color: #2b2b2b;
-    border: none;
-    outline: none;
-    margin:0 0 5px 0;
-    padding: 0 4%;
-    height: 40px;
-    color:#cacaca;
-  }
-  .main-wraper .container header .contact-con .contact-text-con  .contact-text .form-container .form-contact .email{
-    width: 92%;
-    background-color: #2b2b2b;
-    border: none;
-    outline: none;
-    margin:0 0 5px 0;
-    padding: 0 4%;
-    height: 40px;
-    color:#cacaca;
-  }
-  .main-wraper .container header .contact-con .contact-text-con  .contact-text .form-container .form-contact .subject{
+  .main-wrapper
+    .container
+    header
+    .contact-con
+    .contact-text-con
+    .contact-text
+    .form-container
+    .form-contact
+    .name {
     width: 92%;
     background-color: #2b2b2b;
     border: none;
@@ -2324,36 +3204,131 @@ span {
     margin: 0 0 5px 0;
     padding: 0 4%;
     height: 40px;
-    color:#cacaca;
+    color: #cacaca;
   }
-  .main-wraper .container header .contact-con .contact-text-con  .contact-text .form-container .form-contact .msg{
+  .main-wrapper
+    .container
+    header
+    .contact-con
+    .contact-text-con
+    .contact-text
+    .form-container
+    .form-contact
+    .email {
+    width: 92%;
+    background-color: #2b2b2b;
+    border: none;
+    outline: none;
+    margin: 0 0 5px 0;
+    padding: 0 4%;
+    height: 40px;
+    color: #cacaca;
+  }
+  .main-wrapper
+    .container
+    header
+    .contact-con
+    .contact-text-con
+    .contact-text
+    .form-container
+    .form-contact
+    .subject {
+    width: 92%;
+    background-color: #2b2b2b;
+    border: none;
+    outline: none;
+    margin: 0 0 5px 0;
+    padding: 0 4%;
+    height: 40px;
+    color: #cacaca;
+  }
+  .main-wrapper
+    .container
+    header
+    .contact-con
+    .contact-text-con
+    .contact-text
+    .form-container
+    .form-contact
+    .msg {
     width: 100%;
     background-color: #2b2b2b;
     border: none;
     outline: none;
     margin: 5px 0 10px 0;
-    padding: 0 4%;
-    height: 150px;
-    color:#cacaca;
-    
-  }
-  
-  .main-wraper .container header .contact-con .contact-text-con  .contact-text .form-container .btn-submit{
-   margin-top: 0; 
+    padding: 2% 4%;
+    height: 130px;
+    color: #cacaca;
   }
 
+  .main-wrapper
+    .container
+    header
+    .contact-con
+    .contact-text-con
+    .contact-text
+    .form-container
+    .btn-submit {
+    margin-top: 0;
+  }
+ 
 }
 
-@media only screen and (max-width: 380px){
-  .main-wraper .container header{
+@media only screen and (max-width: 380px) {
+  .main-wrapper .container header {
     overflow: auto;
     min-height: 100vh;
   }
   
 }
+@media only screen and (max-width:320px){
+  .main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-text-con
+  .contact-text
+  .form-container
+  .form-contact
+  .name {
+  height: 30px;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-text-con
+  .contact-text
+  .form-container
+  .form-contact
+  .email {
+  height: 30px;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-text-con
+  .contact-text
+  .form-container
+  .form-contact
+  .subject {
+  height: 30px;
+}
+.main-wrapper
+  .container
+  header
+  .contact-con
+  .contact-text-con
+  .contact-text
+  .form-container
+  .form-contact
+  .msg {
+  height: 80px;
+  color: #cacaca;
+}
 
-
-
+}
 
 /* =================================================================
 Template Description:  Personal portfolio Website

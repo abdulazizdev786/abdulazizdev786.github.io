@@ -217,9 +217,13 @@ b:hover {
     justify-content: center;
     align-items: center;
     outline: none;
+    position: relative;
+    z-index: 99;
   }
-  .main-wrapper .container nav .logo img {
+  .main-wrapper .container nav .logo a img {
     width: 90%;
+    position: relative;
+    z-index: 99;
   }
 
   .main-wrapper .container nav .menu {

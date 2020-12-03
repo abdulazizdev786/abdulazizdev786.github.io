@@ -1,27 +1,27 @@
 <?php
     $to = 'abdulaziz652369@gmail.com';
-    $name = $_POST["name"];
-    $email= $_POST["email"];
+    $name1 = $_POST["name"];
+    $email1= $_POST["email"];
     $text= $_POST["message"];
-    $subject= $_POST["subject"];
+    $subject1= $_POST["subject"];
     
 
 
     $headers = 'MIME-Version: 1.0' . "\r\n";
-    $headers .= "From: " . $email . "\r\n";
+    $headers .= "From: " . $email1 . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
-    $message ='<table style="width:100%">
+    $body ='<table style="width:100%">
         <tr>
-            <td>'.$name.'  '.$message.'</td>
+            <td>'.$name1.'</td>
         </tr>
-        <tr><td>Email: '.$email.'</td></tr>
-        <tr><td>Subject: '.$subject.'</td></tr>
+        <tr><td>Email: '.$email1.'</td></tr>
+        <tr><td>Subject: '.$subject1.'</td></tr>
         <tr><td>Text: '.$text.'</td></tr>
         
     </table>';
 
-    if (@mail($to, $email, $message, $headers))
+    if (@mail($to, $email, $body, $headers))
     {
         echo 'The message has been sent.';
     }else{
@@ -29,3 +29,4 @@
     }
 
 ?>
+

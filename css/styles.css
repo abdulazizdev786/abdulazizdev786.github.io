@@ -481,40 +481,40 @@ a.button {
 #header-logo path:nth-child(1) {
   stroke-dasharray: 994;
   stroke-dashoffset: 994;
-  animation: logo-anim0 2s ease forwards;
+  animation: logo-anim0 2s ease forwards 1s;
 }
 #header-logo path:nth-child(2) {
   stroke-dasharray: 963;
   stroke-dashoffset: 963;
-  animation: logo-anim0 2s ease forwards 0.5s;
+  animation: logo-anim0 2s ease forwards 1.5s;
 }
 #header-logo path:nth-child(3) {
   stroke-dasharray: 444;
   stroke-dashoffset: 444;
-  animation: logo-anim1 3s ease forwards 0.6s;
+  animation: logo-anim1 3s ease forwards 1.6s;
   fill-opacity: 0;
 }
 #header-logo path:nth-child(4) {
   stroke-dasharray: 442;
   stroke-dashoffset: 442;
-  animation: logo-anim4 3s ease forwards 0.9s;
+  animation: logo-anim4 3s ease forwards 1.9s;
   fill-opacity: 0;
 }
 #header-logo path:nth-child(5) {
   stroke-dasharray: 177;
   stroke-dashoffset: 177;
-  animation: logo-anim3 2s ease forwards 1.2s;
+  animation: logo-anim3 2s ease forwards 2.2s;
   fill-opacity: 0;
 }
 #header-logo path:nth-child(6) {
   stroke-dasharray: 690;
   stroke-dashoffset: 690;
-  animation: logo-anim 2s ease forwards 1.5s;
+  animation: logo-anim 2s ease forwards 2.5s;
 }
 #header-logo path:nth-child(7) {
   stroke-dasharray: 177;
   stroke-dashoffset: 177;
-  animation: logo-anim4 2s ease forwards 1.8s;
+  animation: logo-anim4 2s ease forwards 2.8s;
   fill-opacity: 0;
 }
 #header-logo path:nth-child(8) {
@@ -1565,7 +1565,7 @@ span {
   position: absolute;
   border-radius: 4px;
   background-color: #f9bf3f;
-  animation: html 2s;
+  animation: html 2s 1s;
 }
 .skill .html span {
   left: 90%;
@@ -1578,7 +1578,7 @@ span {
   position: absolute;
   border-radius: 4px;
   background-color: #a84c88;
-  animation: css 2s;
+  animation: css 2.5s 1s;
 }
 .skill .css span {
   left: 82%;
@@ -1591,7 +1591,7 @@ span {
   position: absolute;
   border-radius: 4px;
   background-color: #ec5453;
-  animation: js 2s;
+  animation: js 2s 1s;
 }
 .skill .javascript span {
   left: 52%;
@@ -1604,7 +1604,7 @@ span {
   position: absolute;
   border-radius: 4px;
   background-color: #2fa499;
-  animation: wordpress 2s;
+  animation: wordpress 2.5s 1s;
 }
 .skill .wordpress span {
   left: 72%;
@@ -1618,7 +1618,7 @@ span {
   border-radius: 4px;
   background-color: #2c98f0;
   overflow: hidden;
-  animation: photoshop 2s;
+  animation: photoshop 2s 1s;
 }
 .skill .photoshop span {
   left: 82%;
@@ -1631,7 +1631,7 @@ span {
   position: absolute;
   border-radius: 4px;
   background-color: #f9bf3f;
-  animation: illustrator 1 1s;
+  animation: illustrator 1.7s 1s;
 }
 .skill .illustrator span {
   left: 68%;
@@ -2454,15 +2454,18 @@ span {
   flex-direction: column;
   z-index: 100;
   visibility: hidden;
-  animation: load-anim 11s 1;
+  animation: load-anim 1s 1;
+  transition:all 0.5s;
 }
 .loader-con .loader-logo{
   width: 40%;
+  max-width: 300px;
   position: relative;
 }
 .loader-con .loader{
   width: 80%;
-  height: 10px;
+  max-width: 400px;
+  height: 8px;
   margin: 10px 0;
   background-color:#000;
   position: relative;
@@ -2472,10 +2475,58 @@ position: absolute;
 width: 100%;
 height: 100%;
 background-color:#08FDD8;
-animation: load 10s 1;
-transition: all 0.4s;
+visibility: hidden;
+animation: load 1s 1;
+}
+
+.work-loader-con{
+  width: 100vw;
+  height: 100%;
+  background-color:#1d1d1d;
+  position: fixed;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 100;
+  visibility: hidden;
+  animation: load-anim 11s 1;
+}
+.work-loader-con .work-loader-logo{
+  width: 40%;
+  max-width: 300px;
+  position: relative;
+}
+.work-loader-con .work-loader{
+  width: 80%;
+  max-width: 400px;
+  height: 8px;
+  margin: 10px 0;
+  background-color:#000;
+  position: relative;
+}
+.work-loader-con .work-loader .work-progress{
+position: absolute;
+width: 100%;
+height: 100%;
+background-color:#08FDD8;
+animation: work-load 10s 1;
 }
 @keyframes load{
+  0%{
+    width: 0;
+  }
+  90.998%{
+    width: 100%;
+  }
+  99.999%{
+    visibility: visible;
+  }
+  100%{
+    visibility: hidden;
+  }
+}
+@keyframes work-load{
   0%{
     width: 0;
   }
@@ -2497,18 +2548,24 @@ transition: all 0.4s;
   90%{
     width: 80%;
   }
-  100%{
+  98%{
     width: 100%;
+  }
+  99.9999%{
+    visibility: visible;
+  }
+  100%{
+    visibility: hidden;
   }
 }
 @keyframes load-anim{
   0%{
     visibility: visible;
   }
-  99.99%{
+  99.9998%{
     visibility: visible;
   }
-  100%{
+  99.9999%{
     visibility: hidden;
   }
 }

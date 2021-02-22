@@ -1448,9 +1448,6 @@ a.button {
   letter-spacing: 6px;
   margin: 0;
   line-height: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 span {
   display: inline-block;

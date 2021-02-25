@@ -1,0 +1,558 @@
+@media (max-width: 1080px) {
+  .main-wrapper {
+    width: 100%;
+    height: auto;
+    background: none;
+  }
+  .navbar{
+    background:#5538a4;
+  }
+  .navbar-nav .nav-item a {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 2.5vw;
+    text-align: center;
+    color: #fff !important;
+    text-transform: uppercase;
+    outline: none;
+  }
+  .jumbotron {
+    height: 90vh;
+    background: #5538a4;
+    background: linear-gradient(
+      90deg,
+      rgba(101, 28, 199, 1) 0%,
+      rgba(79, 67, 152, 1) 100%
+    );
+    box-shadow: 0 20px 20px rgba(101, 28, 199, 1) ;
+    border-radius: 0;
+    border: none;
+    outline: none;
+  }
+  .jumbotron .container-fluid {
+    height: 90%;
+    margin: 0 !important;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .header-text {
+    width: 100%;
+    padding-left: 5%;
+    margin-bottom: 10%;
+  }
+  .header-text h2 {
+    font-size: 5vw;
+    text-align: left;
+    color: #fff;
+  }
+  .header-text p {
+    font-size: 2.2vw;
+  }
+  .header-text .btn-signup a{
+    padding: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 1.7vw;
+}
+  .container-fluid .header-img {
+    width: 100%;
+  }
+  .container-fluid .header-img img {
+    width: 70%;
+  }
+  /* =========================================
+--------Learn and Practice section------
+========================================= */
+  .L-P-area {
+    width: 100%;
+    height: 70vh;
+    display: grid;
+    place-items: center;
+    background: url("../images/LP-md-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .L-P-text h2 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 3.4vw;
+  }
+  .L-P-text p {
+    width: 95%;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1.6vw;
+    text-align: left;
+    color: #2b2a41;
+  }
+  .container .L-P-img {
+    display: grid;
+    place-items: center;
+  }
+  .container .L-P-img img {
+    width: 90%;
+  }
+  /* =========================================
+--------Code Verification section styles----
+========================================= */
+  .mid-wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: url("../images/verification-bg.png");
+    background-size: 80%;
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+  }
+  .code-verification-area {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .code-verification-text h2 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2.6vw;
+    text-align: left;
+    color: #2b2a41;
+  }
+  .code-verification-text p {
+    width: 85%;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    color: #2b2a41;
+  }
+  .container-fluid .code-verification-img {
+    display: grid;
+    place-items: center;
+  }
+  .container-fluid .code-verification-img img {
+    width: 80%;
+  }
+
+  /* =================================================
+--------Discuss with community section styles-------
+================================================== */
+  .discuss-area {
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    place-items: center;
+  }
+  .discuss-area .container {
+    place-items: center;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+  }
+  .discuss-text {
+    padding-right: 0;
+  }
+  .discuss-text h2 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 4vw;
+    text-align: left;
+    color: #2b2a41;
+  }
+  .discuss-text h2 span {
+    color: #ff6262;
+  }
+  .discuss-text .community-icon {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto 20px;
+  }
+  .discuss-text .community-icon i {
+    font-size:  3vw;
+    padding: 20px;
+    color: #ffffff;
+    background: #5538a4;
+    border-radius: 50%;
+  }
+
+  .discuss-text p {
+    width: 85%;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+    color: #2b2a41;
+  }
+  .container .discuss-img {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .container .discuss-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-wrapper {
+    width: 100%;
+    height: auto;
+    background: none;
+  }
+  .navbar-nav .nav-item a {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size:  2.4vw;
+    text-align: center;
+    color: #fff !important;
+    text-transform: uppercase;
+    outline: none;
+  }
+  .navbar-nav .nav-item {
+    margin: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .jumbotron {
+    height: 90vh;
+    background: #5538a4;
+    display: grid;
+    place-items: center;
+  }
+  .header-text .btn-signup {
+    margin-top: 42px;
+  }
+  .header-text .btn-signup a {
+    padding: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  /* =========================================
+--------Learn and Practice section------
+========================================= */
+  .L-P-area {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  .container {
+    place-items: center;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+  }
+  .L-P-text {
+    margin-bottom: 10%;
+  }
+  .L-P-text h2 {
+    font-size:  4vw;
+  }
+  .L-P-text p {
+    width: 90%;
+    font-size:  2.2vw;
+    text-align: left;
+  }
+  .container .L-P-img img {
+    width: 60%;
+  }
+
+}
+
+@media (max-width: 540px) {
+  .navbar-brand {
+    font-size: 5vw;
+    outline: none;
+    margin-left: 10px;
+  }
+  .navbar-nav .nav-item a{
+    font-size: 4.6vw;
+    text-align: center;
+}
+.navbar-nav .nav-item{
+    margin: 2vw;
+    margin-top:1vw;
+    margin-bottom: 1vw;
+}
+  .jumbotron .container-fluid {
+    display: flex;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .container-fluid .header-img img {
+    width: 80%;
+  }
+  .header-text h2{
+    font-size: 6vw;
+}
+.header-text p{
+    font-size: 2.5vw;
+    margin-bottom: 10px;
+}
+.header-text .btn-signup{
+    margin-top: 20px;
+}
+.header-text .btn-signup a{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 3.5vw;
+}
+  /* =========================================
+--------Learn and Practice section------
+========================================= */
+  .L-P-area {
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    place-items: center;
+    background: url("../images/LP-md-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+.L-P-area .container{
+    width: 100vw;
+}
+.L-P-text h2{
+    font-size: 6vw;
+}
+.L-P-text p{
+    width: 85%;
+    font-size:2.7vw;
+}
+.container .L-P-img img{
+    width: 65%;
+}
+
+/* =========================================
+--------Code Verification section styles----
+========================================= */
+.mid-wrapper{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background: url('../images/verification-bg.png');
+  background-size: 80%;
+  background-position-x: right;
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+.code-verification-area{
+  width: 100%;
+  height: 80vh;
+  display: grid;
+  place-items: center;
+  background:transparent;
+}
+.code-verification-area .container-fluid{
+  place-items: center;
+  align-self: center;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-areas: 'cv-text' 'cv-img';
+}
+.code-verification-text{
+  padding-right: 0;
+  grid-area: cv-text;
+}
+.code-verification-text h2{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 4.5vw;
+  text-align: left;
+  color: #2B2A41;
+}
+.code-verification-text .verify-icon{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+.code-verification-text .verify-icon img{
+   width: 80px;
+   height: 80px;
+}
+.code-verification-text p{
+  width: 85%;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: left;
+  color: #2B2A41;
+}
+.container-fluid .code-verification-img{
+  display: grid;
+  grid-area: cv-img;
+  place-items: center;
+}
+.container-fluid .code-verification-img img{
+  width: 70%;
+}
+  /* =================================================
+--------Discuss with community section styles-------
+================================================== */
+.discuss-area{
+  width: 100%;
+  height: 100vh;
+  padding: 10vh 0;
+  display: grid;
+  place-items: center;
+}
+.discuss-area .container{
+  display:flex;
+  align-items: center;
+  margin: 0;
+  padding: 0; 
+}
+.discuss-text{
+  width: 100%;
+  padding-right: 0;
+  margin-bottom: 30px;
+
+}
+.discuss-text h2{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 5vw;
+  text-align: left;
+  color: #2B2A41;
+}
+.discuss-text .community-icon{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 30px;
+}
+.discuss-text .community-icon i{
+  font-size: 5vw;
+}
+.discuss-text p{
+  width: 90%;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+}
+.container .discuss-img{
+  display: flex;
+  height: 50%;
+  padding: 0;
+  justify-content: center;
+  align-items: flex-start;
+}
+.container .discuss-img img{
+  width: 60%;
+}
+
+  /* ==================================
+--------Footer section styles--------
+===================================== */
+.footer-area{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20vh;
+  place-items: center;
+  background: url('../images/footer-bg.png');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.footer-area .footer-con{
+  place-items: center;
+  align-self: center;
+  margin: 0;
+  padding: 0; 
+  display: grid;
+  grid-template-areas: 'footer-form' 'footer-img';
+}
+.footer-form-con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-area: footer-form;
+  margin-bottom: 10ch;
+}
+.footer-form-con h2{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 4vw;
+  text-align: left;
+  color: #2B2A41;
+}
+.footer-form-con h2 span{
+  color: #FF6262;
+}
+.footer-form-con .mail-icon{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+.footer-form-con .mail-icon i{
+  font-size: 5vw;
+  padding:20px;
+  color:#ffffff;
+  background: #5538a4;
+  border-radius: 50%;
+}
+.footer-form-con p{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 2.5vw;
+}
+.container .footer-img{
+  display: flex;
+  justify-content: flex-end;
+  grid-area:footer-img;
+}
+.footer-con .footer-img img{
+  width: 60%;
+}
+.footer-form-con .footer-form{
+  width: 80%;
+  height: 30px;
+  border-radius: 30px;
+  padding: 2px 2px 2px 10px;
+  position:relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer-form-con .footer-form .email{
+  position: relative;
+  width: 68%;
+  height: 100%;
+  background:transparent;
+  outline:none;
+  border: none;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+}
+.footer-form-con .footer-form .btn-submit{
+  position: relative;
+  width: 29%;
+  height: 100%;
+  border:none;
+  font-size: 14px;
+}
+.footer-area .copyright{
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-area .copyright h4{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 2.5vw;
+}
+}

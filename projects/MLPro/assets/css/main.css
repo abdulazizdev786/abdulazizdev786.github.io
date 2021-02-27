@@ -37,6 +37,13 @@ body{
     margin-left:32px;
     outline: none;
 }
+.navbar-brand{
+    width: 4%;
+    margin-left: 3%;
+}
+.navbar-brand img{
+    width: 100%;
+}
 .navbar-nav .nav-item a{
     font-family: "Montserrat";
     font-weight: 500;

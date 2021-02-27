@@ -7,6 +7,13 @@
   .navbar{
     background:#5538a4;
   }
+  .navbar-brand{
+    width: 5%;
+    margin-left: 3%;
+}
+.navbar-brand img{
+    width: 100%;
+}
   .navbar-nav .nav-item a {
     font-family: "Montserrat";
     font-weight: 500;
@@ -269,6 +276,13 @@
     outline: none;
     margin-left: 10px;
   }
+  .navbar-brand{
+    width: 8%;
+    margin-left: 3%;
+}
+.navbar-brand img{
+    width: 100%;
+}
   .navbar-nav .nav-item a{
     font-size: 4.6vw;
     text-align: center;

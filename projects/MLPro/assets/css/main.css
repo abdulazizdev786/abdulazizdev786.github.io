@@ -55,7 +55,7 @@ body{
 }
 .navbar-nav .nav-item a.signin{
     font-weight: 700;
-    color: #FF6262 !important;
+    color: #00204f !important;
 }
 .navbar-nav .nav-item{
     margin: 2vw;
@@ -90,7 +90,7 @@ body{
     animation: fade-up 1s 1;
 }
 .header-text h2 span{
-    color: #FF6262;
+    color: #00204f;
 }
 .header-text p{
     width: 90%;
@@ -115,11 +115,11 @@ body{
     font-weight: 600;
     font-size: 1.5vw;
     text-align: left;
-    color: #6321c1;
+    color: #00aeef;
     text-decoration: none;
 }
 .header-text .btn-signup a:hover{
-    color: #FF6262;
+    color: #00204f;
 }
 .container-fluid .header-img{
     display: grid;
@@ -177,7 +177,7 @@ body{
     font-weight: bold;
     font-size: 3vw;
     text-align: left;
-    color: #FF6262;
+    color: #00aeef;
     position: relative;
 }
 .L-P-text h2 span{
@@ -247,7 +247,7 @@ body{
     color: #2B2A41;
 }
 .code-verification-text h2 span{
-    color:  #FF6262;
+    color:  #00aeef;
 }
 .code-verification-text .verify-icon{
     width: 100%;
@@ -301,7 +301,7 @@ body{
     color: #2B2A41;
 }
 .discuss-text h2 span{
-    color: #FF6262;
+    color: #00aeef;
 }
 .discuss-text .community-icon{
     width: 100%;
@@ -313,7 +313,7 @@ body{
     font-size:  3vw;
     padding: 20px;
     color:#ffffff;
-    background: #5538a4;
+    background: #00aeef;
     border-radius: 50%;
 }
 
@@ -366,7 +366,7 @@ body{
     color: #2B2A41;
 }
 .footer-form-con h2 span{
-    color: #FF6262;
+    color: #00aeef;
 }
 .footer-form-con .mail-icon{
     width: 100%;
@@ -378,7 +378,7 @@ body{
     font-size: 3vw;
     padding:20px;
     color:#ffffff;
-    background: #5538a4;
+    background: #00aeef;
     border-radius: 50%;
 }
 .footer-form-con p{
@@ -427,7 +427,7 @@ body{
     border:none;
     font-size: 1.5vw;
     border-radius: 30px;
-    background:#FF6262;
+    background:#00aeef;
     color:#fff
 }
 .footer-area .copyright{

@@ -1,32 +1,4 @@
 $(document).ready(function () {
-    // const lptext = document.querySelector('.L-P-text');
-    // const lpImg = document.querySelector('.L-P-img');
-    // window.onscroll = function() {scrollFunction()};
-
-    // function scrollFunction() {
-
-    //     if(document.body.scrollTop > 200 || document.documentElement.scrollTop > 200){
-    //         lptext.style.opacity = "1";
-    //             lptext.style.animation = "slide-right 0.5s 1";
-    //             lptext.style.transistion = "all 0.6s";
-    //     }
-    //     if(document.body.scrollTop < 200 || document.documentElement.scrollTop < 200){
-    //         lptext.style.animation = "none";
-    //         lptext.style.opacity =  "0";
-    //         lptext.style.transistion = "all 0.6s";
-    //     }
-    //     if(document.body.scrollTop < 650 || document.documentElement.scrollTop < 650){
-    //         lptext.style.animation = "none";
-    //         lptext.style.opacity =  "1";
-    //         lptext.style.transistion = "all 0.6s";
-    //     }
-    //     if(document.body.scrollTop > 650 || document.documentElement.scrollTop > 650){
-    //         lptext.style.animation = "none";
-    //         lptext.style.opacity =  "0";
-    //         lptext.style.transistion = "all 0.6s";
-    //     }
-
-    // }
     function isInViewport(el) {
         const rect = el.getBoundingClientRect();
         return (
@@ -121,7 +93,7 @@ $(document).ready(function () {
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
         if (scroll > 300) {
-            $(".navbar").css("background", "#5538a4");
+            $(".navbar").css("background", "#00aeef");
             $(".navbar").css("box-shadow", "0 4px 10px rgba(0,0,0,0.2)");
         }
         else {

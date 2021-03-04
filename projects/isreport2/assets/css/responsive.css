@@ -1,0 +1,713 @@
+/* ============================================
+-----------------Page-1 Styles--------------
+============================================ */
+@media (max-width: 1080px) {
+  .p1-content-con h2 {
+    font-size: 5vw;
+    line-height: 5.7vw;
+  }
+  .p1-content-con .main-logo {
+    width: 100%;
+  }
+  .p1-content-con .main-logo img {
+    width: 30%;
+  }
+  .p1-content-con .p1-text {
+    margin-top: 8%;
+  }
+  .p1-content-con .brand-box {
+    width: 25vw;
+    height: 80px;
+  }
+}
+@media (max-width: 992px) {
+  .p1-content-con h2 {
+    font-size: 7vw;
+  }
+  .p1-content-con .main-logo {
+    width: 100%;
+  }
+  .p1-content-con .main-logo img {
+    width: 40%;
+  }
+  .p1-content-con .p1-text {
+    margin-top: 8%;
+  }
+
+  .p1-content-con .brand-box {
+    width: 25vw;
+    height: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .p1-content-con h2 {
+    font-size: 8vw;
+  }
+  .page1-wrapper .p1-content-con {
+    padding-top: 10%;
+  }
+  .p1-content-con .main-logo {
+    width: 100%;
+  }
+  .p1-content-con .main-logo img {
+    width: 40%;
+  }
+  .p1-content-con .p1-text {
+    margin-top: 10%;
+  }
+  .p1-content-con .brand-box {
+    width: 30vw;
+    height: 60px;
+  }
+}
+@media (max-width: 500px) {
+  .p1-content-con h2 {
+    font-size: 12vw;
+    line-height: 13vw;
+  }
+  .page1-wrapper .p1-content-con {
+    padding-top: 10%;
+  }
+  .p1-content-con .main-logo {
+    width: 100%;
+  }
+  .p1-content-con .main-logo img {
+    width: 70%;
+  }
+  .p1-content-con .p1-text {
+    margin-top: 20%;
+  }
+  .p1-content-con .brand-box {
+    width: 35vw;
+    height: 40px;
+  }
+}
+
+/* ============================================
+-----------------Page-2 Styles--------------
+============================================ */
+@media (max-width: 520px) {
+  .p2-content-con h3 {
+    font-size: 5vw !important;
+    line-height: 6.5vw !important;
+    color: #fff;
+  }
+  .page2-wrapper .p2-content-con {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .p2-content-con .p2-title-col {
+    width: 100%;
+    height: 40%;
+  }
+  .p2-content-con .p2-img-col {
+    padding: 0;
+    width: 100%;
+    height: 60%;
+  }
+}
+
+/* ================================================
+-------------Page 3 Styles----------------------
+================================================ */
+
+@media (max-width:768px){
+  .p3-row1-item.item-1 .item-text h3{
+    font-size: 1.6vw;
+    width: 50%;
+  }
+
+  /* ----------------p3 row-2 styles------------- */
+  .p3-row1-item.item-3 .item-icon-con{
+    width: 100%;
+  }
+.p3-row1-item.item-1 .item-text h3{
+    font-size: 2.2vw;
+    line-height: 2.6vw;
+  }
+  .p3-content .item-text p{
+    font-size: 1.2vw;
+    line-height: 1.6vw;
+  }
+  .p3-row1-item.item-3 .item-icon-con .item-icon{
+    justify-content: center;
+    align-items: center;
+    margin:0 ;
+    padding: 0;
+  }
+  .p3-row1-item.item-3 .item-icon-con .item-icon img{
+    width: 100%;
+  }
+
+
+}
+
+@media (max-width:580px){
+  .p3-wrapper {
+    height: auto;
+  }
+  
+/* ------------p3 row 1-------------- */
+.p3-wrapper .p3-content .p3-row1{
+  color: #fff;
+}
+.p3-row1-item.item-1 .item-text h3{
+  font-size: 6vw;
+  line-height: 6.6vw;
+  width: 50%;
+}
+.p3-row1-item.item-1 .item-text p{
+  font-size: 2vw;
+  line-height: 2.8vw;
+}
+.p3-wrapper .p3-content .p3-row1 .p3-row1-item{
+  padding: 2% 1%;
+  position: relative;
+  justify-content: center;
+  align-items: flex-start;
+}
+.p3-content .p3-row1 .p3-row1-item.item-1{
+  padding: 10% 0;
+  background: #2E3A6E;
+  align-items: center;
+}
+.p3-content .p3-row1 .p3-row1-item.item-1::before{
+  content: "";
+  position: absolute;
+  bottom:-14.2vw;
+  left: 12%;
+  width: 0; 
+  height: 0; 
+  border-left: 14.2vw solid transparent;
+  border-right: 14.2vw solid transparent;
+  border-top: 14.2vw solid #2E3A6E;
+}
+.p3-row1-item.item-1 .item-icon {
+  width: 100%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.p3-row1-item.item-1 .item-icon span{
+  width: 13vw;
+  height: 13vw;
+}
+.p3-row1-item.item-1 .item-icon span img{
+  width: 60%;
+}
+
+
+.p3-row1-item.item-2 {
+  padding: 5% 0;
+}
+.p3-row1-item.item-2  h4{
+  font-size: 4vw;
+  line-height: 4.6vw;
+  margin: 5% 0;
+}
+.p3-row1-item.item-2  .item-text{
+  margin: 5% 0;
+}
+.p3-row1-item.item-2  .item-text p{
+  font-size: 2vw ;
+  line-height: 2.6vw;
+}
+.p3-row1-item.item-2 .item-icon-con .item-icon img{
+  width: 20%;
+}
+
+.p3-row1-item.item-3 .item-icon-con{
+  width: 100%;
+}
+.p3-row1-item.item-3 .item-text h4{
+  font-size: 4vw;
+  line-height: 4.6vw;
+}
+.p3-row1-item.item-3 .item-text p{
+  margin: 5% 0;
+  font-size: 2vw;
+  line-height: 2.6vw;
+}
+.p3-row1-item.item-3 .item-icon-con .item-text p{
+  font-size: 2vw;
+  line-height: 2.6vw;
+  margin: 0;
+}
+
+.p3-row1-item.item-1{
+  position: relative;
+  z-index: 3;
+}
+.p3-row1-item.item-2{
+  position: relative;
+  z-index: 2;
+}
+.p3-row1-item.item-3{
+  position: relative;
+  z-index: 1;
+}
+.p3-content .p3-row1 .p3-row1-item.item-1::before{
+  content: "";
+  position: absolute;
+  bottom:-4.5vw;
+  left: 12%;
+  width: 0; 
+  height: 0; 
+  border-left: 5vw solid transparent;
+  border-right: 5vw solid transparent;
+  border-top: 5vw solid #2E3A6E;
+}
+
+.p3-content .p3-row1 .p3-row1-item.item-2::before{
+  content: "";
+  position: absolute;
+  top: calc(95% + 5vw);
+  left: 80%;
+  bottom: -5vw;
+  border-right: 5vw solid transparent;
+  border-left: 5vw solid transparent;
+  border-top: 5vw solid #00AFEF;
+}
+
+
+.p3-content .p3-row1 .p3-row1-item.item-3::before{
+  content: "";
+  position: absolute;
+  top: calc(95% + 5vw);
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-left: 5vw solid transparent;
+  border-right: 5vw solid transparent;
+  border-top: 5vw solid #B4B22F;
+}
+  /* ----------------p3 row-2 styles------------- */
+
+
+
+  .p3-row2-item .item-text h4{
+    font-size: 4vw;
+    line-height: 4.6vw;
+  }
+  .p3-row2-item .item-text p{
+    font-size: 1.8vw;
+    line-height: 2vw;
+  }
+
+  .p3-row2-item .item-icon {
+    width: 8vw;
+    height: 8vw;
+  }
+  .p3-row2-item .item-icon span{
+    width: 7vw;
+    height: 7vw;
+  }
+
+  
+/* ----------------p3 row-3 styles------------- */
+.p3-row3-item .item-text h4{
+  font-size: 3vw;
+  line-height: 3.6vw;
+}
+.p3-row3-item .item-text p{
+  font-size: 2vw;
+  line-height: 2.6vw;
+}
+
+.p3-row3-item .item-icon span img{
+  width: 90%;
+}
+
+}
+
+/* ==========================================
+-------------Page 4 Styles----------------
+========================================== */
+@media (max-width:768px){
+  
+.p4-wrapper{
+  width: 100%;
+  height: auto;
+}
+.p4-wrapper .p4-content-con{
+  width: 100%;
+  height: 100%;
+}
+.p4-content-con .p4-section1{
+  height: 65vh;
+}
+.p4-content-con .p4-section2{
+  width: 100%;
+  height: 35vh;
+}
+/* -------- P4 Section 1 Row 1---------------- */
+.p4-section1 .p4-sec1-row-1{
+  height: 50%;
+  padding: 2% 4% 3% 10%;
+  border-bottom: 6px solid #00AFEF;
+}
+.p4-section1 .p4-sec1-row-1 .p4-title h3{
+  font-size: 2.5vw;
+  line-height: 2.8vw;
+}
+.p4-section1 .p4-sec1-row-1 .p4-title{
+  padding: 2%;
+}
+.p4-sec1-row-1 .p4-row1-item-box{
+  padding: 2% 2% 2% 10%;
+  border: 2px dashed #122867;
+}
+.p4-sec1-row-1 .p4-row1-item-box h4{
+  font-size: 3vw;
+  line-height: 3.3vw;
+}
+.p4-sec1-row-1 .p4-row1-item-box p{
+  font-size: 1.1vw;
+  line-height: 1.4vw;
+}
+/* ----------P4 Section 1 Row 2-------------- */
+.p4-sec1-row-2 .p4-row2-item .item-text h4{
+  font-size: 3vw;
+  line-height: 3.3vw;
+}
+
+.p4-sec1-row-2 .p4-row2-item .item-text p{
+  font-size: 1.1vw;
+  line-height: 1.4vw;
+}
+/* --------- P4 Section 1 Row 3 Styles ------------*/
+.p4-sec1-row3-items{
+  background-size: 70%;
+}
+.p4-sec1-row3-items .p4-row3-item {
+   align-items: center;
+}
+.p4-row3-item .item-icon{
+  width: 7vw;
+  height: 7vw;
+}
+
+.p4-row3-item .item-text h4{
+  font-size: 2vw;
+}
+.p4-row3-item .item-text p{
+  font-size: 1vw;
+  line-height: 1.3vw;
+}
+.p4-row3-item.item-2 .item-text{
+  position: absolute;
+  right: -25%;
+  top: -30%;
+}
+ @media (max-width:500px){
+  .p4-section1 .p4-sec1-row-1{
+    height: 50%;
+    padding: 8% 4% 3% 10%;
+    border-bottom: 6px solid #00AFEF;
+    display: grid;
+    place-items: start;
+  }
+  .p4-section1 .p4-sec1-row-1 .p4-title h3{
+    font-size: 3.5vw;
+    line-height: 3.8vw;
+  }
+ }
+}
+/* ================================================
+-------------Page 5 Styles----------------------
+================================================ */
+@media (max-width: 768px){
+  
+/* -------- P4 Section 1---------------- */
+.p5-sec1-items-row .p5-sec1-item .item-icon .item-perc{
+  margin: 2% 0;
+  
+}
+.p5-sec1-items-row .p5-sec1-item .item-icon .item-perc h4{
+  font-size: 2vw;
+}
+.p5-sec1-items-row .p5-sec1-item .item-text p{
+  font-size: 1.6vw;
+  line-height: 1.9vw;
+}
+.p5-sec1-items-row .p5-sec1-item .item-icon{
+  width: 12vw;
+  height: 12vw;
+}
+
+/* ------------------P 5 Section 2-------------------- */
+.p5-content-con .p5-section-2 h4{
+  font-size: 2vw;
+}
+.p5-content-con .p5-section-2 p{
+  font-size: 1.4vw;
+  line-height: 1.9vw;
+}
+.p5-section-2 .p5-sec2-row.row-1{
+  padding: 5% 10% 2%;
+  height: auto;
+}
+.p5-section-2 .p5-sec2-row.row-2{
+  padding: 2% 10%;
+  height: auto;
+}
+.p5-section-2 .p5-sec2-row.row-3{
+  padding: 2% 10%;
+  height: auto;
+}
+
+}
+@media (max-width:500px){
+  /* ------------------P 5 Section 1-------------------- */
+  .p5-content-con .p5-section-1{
+    height: 50vh;
+    padding: 12% 3%;
+  }
+  .p5-content-con .p5-section-1 .p5-title h4{
+    font-size: 3.5vw;
+    line-height: 4vw;
+  }
+  .p5-section-1 .p5-sec1-items{
+    margin-top: 10%;
+  }
+  .p5-sec1-items-row .p5-sec1-item .item-icon{
+    width: 14vw;
+    height: 14vw;
+  }
+  /* ------------------P 5 Section 2-------------------- */
+  .p5-content-con .p5-section-2 h4{
+    font-size: 2vw;
+  }
+  .p5-content-con .p5-section-2 p{
+    font-size: 1.6vw;
+    line-height: 1.9vw;
+  }
+  .p5-content-con .p5-section-2{
+    height: 50vh;
+  }
+  .p5-section-2 .p5-sec2-row.row-1{
+    padding: 5% 10% 2%;
+    height: 33.33%;
+  }
+  .p5-section-2 .p5-sec2-row.row-2{
+    padding: 2% 10%;
+    height: 33.33%;
+  }
+  .p5-section-2 .p5-sec2-row.row-3{
+    padding: 2% 10%;
+    height: 33.33%;
+  }
+}
+/* ================================================
+-------------Page 6 Styles----------------------
+================================================ */
+@media (max-width: 768px){
+  .p6-section-1 .p6-sec1-title{
+    padding-left: 10%;
+    margin: 5% 0 10% ;
+  }
+  .p6-section-1 .p6-sec1-title h2{
+    font-size: 2.8vw;
+    line-height: 3vw;
+  }
+  .p6-section-1 .p6-sec1-item h4{
+    font-size: 2.8vw;
+    line-height: 3vw;
+    margin: 0 10px;
+  }
+  .p6-section-1 .p6-sec1-item p{
+    font-size: 1.3vw;
+    line-height: 1.6vw;
+  }
+  /* -----------page 6 section 2----------- */
+  .p6-section-2 .p6-sec2-item h4{
+    font-size: 4vw;
+    line-height: 6vw;
+  }
+  .p6-section-2 .p6-sec2-item p{
+    font-size: 1.8vw;
+    line-height: 2.3vw;
+  }
+  /* -----------page 6 section 3----------- */
+  .p6-section-3 .p6-sec3-title h2{
+    font-size: 3vw;
+    line-height: 3.4vw;
+  }
+  .p6-section-3 .p6-sec3-items h4{
+    font-size: 1.8vw;
+    line-height: 1.8vw;
+    margin: 0 10px;
+  }
+  .p6-section-3 .p6-sec3-items h3{
+    font-size: 2.5vw;
+    line-height: 5vw;
+    font-family: "Montserrat", sans-serif;
+  }
+  .p6-section-3 .p6-sec3-items p{
+    font-size: 1.8vw;
+    line-height: 2.4vw;
+  }
+  .p6-sec3-item.item-3 h4{
+    font-size: 4vw;
+  }
+}
+@media (max-width:500px){
+  .p6-section-1 .p6-sec1-title{
+    padding-left: 10%;
+    margin: 5% 0 10% ;
+  }
+  .p6-section-1 .p6-sec1-title h2{
+    font-size: 4vw;
+    line-height: 4.5vw;
+  }
+    /* -----------page 6 section 3----------- */
+    .p6-section-3 .p6-sec3-title h2{
+      font-size: 4vw;
+      line-height: 4.4vw;
+    }
+    .p6-section-3 .p6-sec3-items h4{
+      font-size: 2vw;
+      line-height: 2.4vw;
+      margin: 0 10px;
+    }
+    .p6-section-3 .p6-sec3-items h3{
+      font-size: 3vw;
+      line-height: 5vw;
+      font-family: "Montserrat", sans-serif;
+    }
+    .p6-section-3 .p6-sec3-items p{
+      font-size: 2vw;
+      line-height: 2.4vw;
+    }
+    .p6-sec3-item.item-3 h4{
+      font-size: 5vw;
+    }
+}
+
+/* ================================================
+-------------Page 7 Styles----------------------
+================================================ */
+@media (max-width:768px){
+  /* ---------------p7 section 1 ----------  */
+  .p7-section-1 .p7-title h2{
+    font-size: 3.5vw;
+    line-height: 3.8vw;
+  }
+  .p7-section-1 .p7-sec1-items p{
+    font-size: 1.7vw;
+    line-height: 1.9vw;
+    font-weight: 500;
+  }
+  /* ---------------p7 section 2 ----------  */
+  .p7-section-2{
+    height: auto;
+  }
+  .p7-section-2  h4{
+    font-size: 3.5vw;
+    line-height: 3.8vw;
+  }
+  .p7-section-2  p{
+    font-size: 1.7vw;
+    line-height: 1.9vw;
+    font-weight: 600;
+  }
+  .p7-sec2-item.item-1{
+    width: 100%;
+    height: 30vh;
+  }
+  .p7-sec2-item.item-1 .p7-sec2-logo{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    padding-right: 20%;
+  
+  }
+  .p7-sec2-item.item-2{
+    width: 100%;
+    height: auto;
+  }
+  .p7-sec2-item.item-3{
+    width: 100%;
+    height: auto;
+  }
+  .p7-sec2-item.item-3 .p7-sec2-item-row{
+    padding: 3% 4%;
+    height: auto;
+    align-items: center;
+  }
+}
+/* ================================================
+-------------Page 8 Styles----------------------
+================================================ */
+@media (max-width: 500px) {
+  .p8-content h3 {
+    font-size: 4.5vw;
+    line-height: 6.6vw;
+    margin: 0;
+    padding: 0;
+  }
+  .p8-section2 {
+    font-size: 1.3vw;
+  }
+  .p8-wrapper .p8-content {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .p8-content .p8-section1 {
+    padding: 0;
+    height: 40vh;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .p8-content .p8-section2 {
+    height: 50vh;
+    position: relative;
+    z-index: 1;
+    padding: 2% 3% !important;
+    background: #fff;
+  }
+  .p8-content .p8-section2 .row {
+    font-size: 2vw;
+    line-height: 2.8vw;
+  }
+}
+/* ================================================
+-------------Page 9 Styles----------------------
+================================================ */
+@media (max-width: 768px) {
+  .p9-content-con h2 {
+    font-size: 7vw;
+    line-height: 7.8vw;
+  }
+  .p9-content-con .main-logo {
+    bottom: 5%;
+    position: absolute;
+    width: 30%;
+  }
+  .p9-content-con .main-logo img {
+    width: 100%;
+  }
+  .p9-content-con .p9-text {
+    position: absolute;
+    bottom: 50%;
+    left: 30%;
+  }
+
+  .p9-content-con .brand-box {
+    width: 30vw;
+    height: 60px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 10px 0 0;
+  }
+  .p9-content-con .brand-box img {
+    width: 70%;
+  }
+}

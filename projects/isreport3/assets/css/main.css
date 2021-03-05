@@ -1,0 +1,876 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main-wrapper {
+  width: 100%;
+  height: 100%;
+}
+/* ============================================
+-----------------Page-1 Styles--------------
+============================================ */
+.page1-wrapper {
+  width: 100%;
+  height: 100vh;
+  padding: 5%;
+}
+h2 {
+  font-size: 4vw;
+  line-height: 4.3vw;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+}
+h3 {
+  font-size: 2.5vw;
+  line-height: 2.8vw;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+  margin-bottom: 0;
+}
+h4 {
+  font-size: 2vw;
+  line-height: 2.4vw;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+p {
+  font-size: 0.9vw;
+  line-height: 1.1vw;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.page1-wrapper .p1-content-con {
+  width: 100%;
+  height: 100%;
+  background: url("../images/page-1-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5%;
+  position: relative;
+}
+.p1-content-con .main-logo {
+  width: 100%;
+}
+.p1-content-con .main-logo img {
+  width: 20%;
+}
+.p1-content-con .p1-text {
+  margin-top: 6%;
+}
+.p1-content-con .p1-text h2 {
+  color: #ffffff;
+}
+.p1-content-con .brand-box {
+  width: 15vw;
+  height: 60px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 7%;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p1-content-con .brand-box img {
+  width: 70%;
+}
+/* ============================================
+-----------------Page-2 Styles--------------
+============================================ */
+.page2-wrapper {
+  width: 100%;
+  height: 100vh;
+}
+.page2-wrapper .p2-content-con {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.p2-content-con .p2-title-col {
+  width: 100%;
+  height: 100%;
+  background: #122867;
+  display: grid;
+  place-items: center;
+}
+.p2-content-con .p2-title-col h3 {
+  font-size: 3vw;
+  line-height: 3.7vw;
+  color: #fff;
+}
+.p2-content-con .p2-img-col {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/p2-img.png");
+  background-size: cover;
+  background-position: center;
+}
+/* ================================================
+-------------Page 3 Styles----------------------
+================================================ */
+.p3-wrapper {
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+.p3-wrapper .p3-content-con {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.p3-content-con .p3-section-1{
+  width:100%;
+  height:100%;
+}
+.p3-content-con .p3-section-1 .p3-sec1-items{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.p3-sec1-items .row-item{
+  align-items: center;
+  padding: 2% 0;
+}
+.p3-sec1-items .p3-sec1-item.item-1{
+  background: #122867;
+  color: #ffffff;
+  padding: 6% 2% 0;
+}
+.p3-content-con h2{
+  font-size: 3vw;
+}
+.p3-content-con h4{
+  font-size: 2vw;
+}
+
+.p3-content-con p{
+  font-size: 0.8vw;
+  line-height: 1vw;
+  font-weight: 500;
+}
+
+/* -----------------p3 sec1 item 2------------------------ */
+.p3-sec1-items .p3-sec1-item.item-2{
+  color: #122867;
+  background: #E6E7E8;
+  padding: 4% 2%;
+}
+
+/* -----------------p3 sec1 item 3------------------------ */
+.p3-sec1-items .p3-sec1-item.item-3{
+  color: #ffffff;
+  background: #122867;
+  padding: 5% 2%;
+}
+
+/* -----------------p3 sec1 item 4------------------------ */
+.p3-sec1-items .p3-sec1-item.item-4{
+  color: #122867;
+  background: #E6E7E8;
+  padding: 3% 2% 7.5%;
+  height: auto;
+}
+/* -----------------p3 sec 2------------------------ */
+.p3-content-con .p3-section-2{
+  width:100%;
+  height:100%;
+}
+.p3-content-con .p3-section-2 .p3-sec2-item{
+  padding: 3% 0;
+  margin: 0;
+}
+.p3-sec2-item .row-item{
+  align-items: center;
+  padding: 2% 0;
+}
+
+
+/* -----------------p3 sec 2 item 1------------------------ */
+.p3-section-2 .p3-sec2-item.item-1{
+  color: #122867;
+}
+/* -----------------p3 sec 2 item 2------------------------ */
+.p3-section-2 .p3-sec2-item.item-2 .row-item{
+  padding: 4% 0;
+}
+.p3-section-2 .p3-sec2-item.item-2 .row-item.row-item-1{
+  color: #ffffff;
+  background: #1f79be;
+}
+.p3-section-2 .p3-sec2-item.item-2 .row-item.row-item-2{
+  color: #ffffff;
+  background: #122867;
+}
+.p3-section-2 .p3-sec2-item.item-2 .row-item.row-item-2::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -1vw;
+  transform: translateY(-50%);
+  width: 0; 
+  height: 0; 
+  border-top: 1.5vw solid transparent;
+  border-bottom: 1.5vw solid transparent;
+  border-right: 1vw solid #122867;
+}
+.p3-sec2-item.item-2 .row-item.row-item-2 .item-1{
+  border-right: 1px solid #ffffff;
+}
+/* -----------------p3 sec 2 item 3------------------------ */
+.p3-section-2 .p3-sec2-item.item-3{
+  height: auto;
+  padding: 2% 3%;
+}
+.p3-section-2 .p3-sec2-item.item-3 .p3-sec2-item3-title-text{
+  height: 10%;
+  font-size: 0.9vw;
+  font-weight: 600;
+  margin-bottom: 2%;
+}
+
+.p3-sec2-item.item-3 .p3-sec2-item3-items .row-item{
+  padding: 2% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #ffffff;
+}
+.p3-section-2 .p3-sec2-item.item-3 .row-item .perc{
+  display: grid;
+  place-items: center;
+  padding: 30% 2% 3%;
+}
+.p3-section-2 .p3-sec2-item.item-3 .row-item .item-text{
+  display: flex;
+  justify-content: center;
+  padding: 30% 10% 40%;
+}
+.p3-sec2-item.item-3 .row-item.row-item-1{
+  background: linear-gradient(180deg, rgba(78,82,85,1) 8%, rgba(101,101,102,1) 22%, rgba(72,76,82,1) 39%);
+}
+.p3-sec2-item.item-3 .row-item.row-item-2{
+  background: linear-gradient(180deg, rgba(46,101,148,1) 8%, rgba(30,120,188,1) 22%, rgba(44,94,141,1) 39%);
+}
+.p3-sec2-item.item-3 .row-item.row-item-3{
+  background: linear-gradient(180deg, rgba(78,82,85,1) 8%, rgba(101,101,102,1) 22%, rgba(72,76,82,1) 39%);
+}
+.p3-sec2-item.item-3 .row-item.row-item-4{
+  background: linear-gradient(180deg, rgba(46,101,148,1) 8%, rgba(30,120,188,1) 22%, rgba(44,94,141,1) 39%);
+}
+.p3-sec2-item.item-3 .row-item.row-item-5{
+  background: linear-gradient(180deg, rgba(78,82,85,1) 8%, rgba(101,101,102,1) 22%, rgba(72,76,82,1) 39%);
+}
+.p3-sec2-item.item-3 .row-item.row-item-6{
+  height: auto;
+  padding: 2% 0;
+  flex-direction: row;
+  background: linear-gradient(180deg, rgba(46,101,148,1) 8%, rgba(30,120,188,1) 22%, rgba(44,94,141,1) 39%);
+  color: #ffffff;
+}
+.p3-sec2-item.item-3 .row-item.row-item-6 .item-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p3-sec2-item.item-3 .row-item.row-item-6 .perc h4{
+  font-size: 2.5vw;
+}
+.p3-sec2-item.item-3 .row-item.row-item-6 .item-icon img{
+  width: 80%;
+}
+.p3-sec2-item.item-3 .row-item.row-item-6 .item-text{
+  justify-content: flex-start;
+}
+/* -----------------p3 sec 2 item 4------------------------ */
+.p3-section-2 .p3-sec2-item.item-4{
+  background: #666666;
+  color: #ffffff;
+  height:auto;
+}
+/* ================================================
+-------------Page 4 Styles----------------------
+================================================ */
+.p4-wrapper {
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+.p4-wrapper .p4-content-con {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.p4-content-con .p4-section-1{
+  width: 100%;
+  height: auto;
+  background: url('../images/page4/p4-buildings-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ----------------p4 section 2------------------- */
+.p4-content-con h2{
+  font-size: 2.5vw;
+  line-height: 2.6vw;
+}
+.p4-content-con h4{
+  font-size: 2vw;
+}
+.p4-content-con p{
+  font-size: 0.8vw;
+  line-height: 1vw;
+  font-weight: 500;
+}
+.p4-section-2 .p4-sec2-item-1 {
+  background: #666666;
+  color: #ffffff;
+  padding: 4% 5% 1%;
+  height: auto;
+}
+ .p4-sec2-item-1 .p4-item1-row.row-1{
+  border-bottom: 1px solid #ffffff;
+  padding: 10px 0;
+}
+.p4-sec2-item-1 .p4-item1-row.row-2{
+  padding:4% 0;
+}
+.p4-sec2-item-1 .p4-item1-row  .row-item{
+  padding:2% 0;
+}
+
+/* -----------------------P4 section 2 item 2------------- */
+.p4-section-2 .p4-sec2-item-2{
+  width: 100%;
+  height: auto;
+  background: url('../images/page4/p4-blue-bg.png');
+  color: #ffffff;
+  padding: 10% 4% 4% 20%;
+  position: relative;
+}
+.p4-sec2-item-2 .p4-sec2-item2-stripe{
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.p4-sec2-item-2 .p4-sec2-item2-stripe img{
+  width: 100%;
+}
+.p4-section-2 .p4-sec2-item-2 .row{
+  align-items: center;
+}
+.p4-sec2-item-2 .row-item-icon{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p4-sec2-item-2 .row-item-icon span{
+     width: 6vw;
+    height: 6vw;
+    position: absolute;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p4-sec2-item-2 .row-item-icon img{
+  width: 60%;
+}
+.p4-sec2-item-2 .row-item{
+  padding: 4% 0;
+  border-bottom: 1px solid #ffffff;
+}
+.p4-sec2-item-2 .row-item.item-3{
+  border-bottom:none;
+}
+/* ============================================
+-----------------Page-5 Styles--------------
+============================================ */
+.p5-wrapper {
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+.p5-wrapper .p5-content-con {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.p5-content-con h2{
+  font-size: 2.5vw;
+  line-height: 2.6vw;
+}
+.p5-content-con h4{
+  font-size: 2vw;
+}
+.p5-content-con p{
+  font-size: 0.8vw;
+  line-height: 1vw;
+  font-weight: 500;
+}
+/* ------------Page 5 section 1------------- */
+.p5-content-con .p5-section-1{
+  width: 100%;
+  height:auto;
+}
+.p5-section-1 .p5-title{
+  color: #122867;
+  padding: 6% 3% 3%;
+}
+.p5-section-1 .p5-sec1-row .row-title{
+  position: absolute;
+  background: #122867;
+  color: #ffffff;
+  padding: 1% 3%;
+  top: -9%;
+  left: 5%;
+}
+.p5-section-1 .p5-sec1-row .row-title h3{
+  font-size: 0.8vw;
+  line-height: 1.1vw;
+  padding: 0;
+  margin: 0;
+}
+
+.p5-section-1 .p5-sec1-row .row-item{
+  padding: 1%;
+  align-items: center;
+}
+/* -------------P5 section 1 row 1------------  */
+.p5-section-1 .p5-sec1-row.row-1{
+  padding: 3% 2%;
+  background: #E6E7E8;
+  align-items: center;
+}
+.p5-section-1 .p5-sec1-row.row-1 {
+  padding: 3% 2%;
+  background: #E6E7E8;
+  align-items: center;
+}
+/* -------------P5 section 1 row 2------------  */
+.p5-section-1 .p5-sec1-row.row-2{
+  padding: 3% 2%;
+  background: #1f79be;
+  color: #ffffff;
+  align-items: center;
+}
+/* -------------P5 section 1 row 3------------  */
+.p5-section-1 .p5-sec1-row.row-3{
+  padding: 3% 2%;
+  background: #122867;
+  color: #ffffff;
+  align-items: center;
+}
+.p5-section-1 .p5-sec1-row.row-3 .row-icon img{
+  width: 80%;
+}
+.p5-section-1 .p5-sec1-row.row-3 p{
+  font-size: 1.1vw;
+  line-height: 1.5vw;
+}
+/* -------------P5 section 1 row 4------------  */
+.p5-section-1 .p5-sec1-row.row-4{
+  padding: 3% 2%;
+  background: #B4B22F;
+  color: #ffffff;
+}
+
+
+/* ------------Page 5 section 2------------- */
+.p5-content-con .p5-section-2{
+  width: 100%;
+  height: auto;
+  background: url('../images/page5/p5-img.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.p5-content-con .p5-section-2 .p5-sec2-logo{
+  width: 10%;
+  position: relative;
+  bottom: 20%;
+}
+.p5-content-con .p5-section-2 .p5-sec2-logo img{
+ width: 100%;
+}
+/* ============================================
+-----------------Page-6 Styles--------------
+============================================ */
+.p6-wrapper {
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+.p6-wrapper .p6-content-con {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.p6-content-con h2{
+  font-size: 2.5vw;
+  line-height: 2.6vw;
+}
+.p6-content-con h4{
+  font-size: 2vw;
+}
+.p6-content-con p{
+  font-size: 0.8vw;
+  line-height: 1vw;
+  font-weight: 500;
+}
+/* ------------Page 6 section 1------------- */
+.p6-content-con .p6-section-1{
+  width: 100%;
+  height:auto;
+}
+.p6-section-1 .p6-title{
+  color: #122867;
+  padding: 5% 10% 6%;
+}
+.p6-section-1 .p6-sec1-item.item-1{
+  background: #1f79be;
+  color: #ffffff;
+  padding: 4% 2%;
+}
+.p6-section-1 .p6-sec1-item.item-1 .perc h4{
+  font-size: 4vw;
+}
+.p6-section-1 .p6-sec1-item.item-2{
+  padding: 4% 3%;
+}
+.p6-section-1 .p6-sec1-item.item-2 .p6-sec1-item2-item-1{
+  padding-top: 7%;
+  height: 30vh;
+  background: url('../images/page6/cmntBoxRight.png');
+  background-size: 70%;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-bottom: 0;
+
+}
+.p6-section-1 .p6-sec1-item.item-2 .p6-sec1-item2-item-1 .item-text{
+  padding: 1% 0;
+  position: relative;
+  left: 24%;
+}
+.p6-section-1 .p6-sec1-item.item-2 .p6-sec1-item2-item-1 .item-text p{
+  font-size: 0.9vw;
+  line-height: 1.1vw;
+  font-weight: 700;
+  color: #000000;
+}
+.p6-sec1-item2-item-1 .item-profile{
+  position: relative;
+  bottom: 0;
+  align-items: center;
+  left: 20%;
+  top: 45%;
+}
+.p6-sec1-item2-item-1 .item-profile .profile-img img{
+ width: 90%;
+}
+.p6-sec1-item2-item-1 .item-profile .profile-title h4{
+  font-size: 1.1vw;
+  line-height: 1.3vw;
+  color: #122867;
+ }
+/* ----------------P6 Section 1 comment box 2-------------  */
+.p6-section-1 .p6-sec1-item.item-2 .p6-sec1-item2-item-2{
+  padding-top: 2%;
+  height: 30vh;
+  background: url('../images/page6/cmntBoxLeft.png');
+  background-size: 70%;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-bottom: 0;
+  margin-top: 2%;
+}
+.p6-section-1 .p6-sec1-item.item-2 .p6-sec1-item2-item-2 .item-text{
+  padding: 3%;
+  position: relative;
+  left: 19%;
+}
+.p6-section-1 .p6-sec1-item.item-2 .p6-sec1-item2-item-2 .item-text p{
+  font-size: 0.9vw;
+  line-height: 1.1vw;
+  font-weight: 700;
+  color: #000000;
+}
+.p6-sec1-item2-item-2 .item-profile{
+  position: relative;
+  bottom: 0;
+  align-items: center;
+  justify-content: flex-end;
+  right: -25%;
+  top: 25%;
+}
+.p6-sec1-item2-item-2 .item-profile .profile-img img{
+ width: 90%;
+}
+.p6-sec1-item2-item-2 .item-profile .profile-title h4{
+  font-size: 1.1vw;
+  line-height: 1.3vw;
+  color: #122867;
+  text-align: right;
+  padding: 0;
+ }
+/* ----------Page 6 Section 2---------- */
+.p6-section-2{
+  width: 100%;
+  height: auto;
+}
+.p6-content-con .p6-section-2 h4{
+  font-size: 1.6vw;
+}
+.p6-content-con .p6-section-2 p{
+  font-size: 0.7vw;
+  line-height: 0.9vw;
+  font-weight: 600;
+}
+.p6-section-2 .p6-sec2-item.item-1{
+  padding: 10% 5% 8%;
+  background: #1f79be;
+  color:#ffffff;
+}
+/* -------------P6 Section 2 item 2----------- */
+.p6-section-2 .p6-sec2-item.item-2{
+  padding: 3% 4%;
+  background:#122867;
+  color:#ffffff;
+}
+.p6-sec2-item.item-2 .row{
+  padding: 3% 0;
+  border-bottom: 1px solid #ffffff;
+}
+.p6-sec2-item.item-2 .row.row-3{
+  border-bottom: none;
+}
+/* -------------P6 Section 2 item 3----------- */
+.p6-section-2 .p6-sec2-item.item-3{
+  padding: 5% 4% 15%;
+  background:#1f79be;
+  color:#ffffff;
+}
+.p6-sec2-item.item-3 .row-item{
+  padding: 3% 0;
+  border-bottom: 1px solid #ffffff;
+}
+.p6-sec2-item.item-3 .row-item.row-item-3{
+  border-bottom: none;
+}
+/* -------------P6 Section 3----------- */
+.p6-content-con .p6-section-3{
+  width: 100%;
+  height:auto;
+}
+.p6-section-3 .p6-sec3-item.item-1{
+  height: auto;
+  background: url('../images/page6/p6-img.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  padding: 15% 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p6-section-3 .p6-sec3-item.item-1 .item-logo{
+  width: 20%;
+}
+.p6-section-3 .p6-sec3-item.item-1 .item-logo img{
+  width: 100%;
+}
+.p6-section-3 .p6-sec3-item.item-2{
+  padding: 4% 3%;
+}
+.p6-section-3 .p6-sec3-item.item-2 .p6-sec3-item2-item-1{
+  padding-top: 7%;
+  height: 30vh;
+  background: url('../images/page6/cmntBoxLeft.png');
+  background-size: 80%;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-bottom: 0;
+}
+.p6-section-3 .p6-sec3-item.item-2 .p6-sec3-item2-item-1 .item-text{
+  padding: 1% 0;
+  position: relative;
+  left: 24%;
+}
+.p6-section-3 .p6-sec3-item.item-2 .p6-sec3-item2-item-1 .item-text p{
+  font-size: 0.9vw;
+  line-height: 1.1vw;
+  font-weight: 700;
+  color: #000000;
+}
+.p6-sec3-item2-item-1 .item-profile{
+  position: relative;
+  bottom: 0;
+  align-items: center;
+  left: 40%;
+  top: 40%;
+}
+.p6-sec3-item2-item-1 .item-profile .profile-img img{
+ width: 90%;
+}
+.p6-section-3 .item-profile .profile-title h4{
+  font-size: 1.1vw;
+  line-height: 1.3vw;
+  text-align: right;
+  color: #122867;
+ }
+/* ----------------P6 Section 1 comment box 2-------------  */
+.p6-section-3 .p6-sec3-item.item-2 .p6-sec3-item2-item-2{
+  padding-top: 2%;
+  height: 30vh;
+  background: url('../images/page6/cmntBoxRight.png');
+  background-size: 80%;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-bottom: 0;
+  margin-top: 2%;
+}
+.p6-section-3 .p6-sec3-item.item-2 .p6-sec3-item2-item-2 .item-text{
+  padding: 3%;
+  position: relative;
+  left: 19%;
+}
+.p6-section-3 .p6-sec3-item.item-2 .p6-sec3-item2-item-2 .item-text p{
+  font-size: 0.9vw;
+  line-height: 1.1vw;
+  font-weight: 700;
+  color: #000000;
+}
+.p6-sec3-item2-item-2 .item-profile{
+  position: relative;
+  bottom: 0;
+  align-items: center;
+  justify-content: flex-end;
+  right: -15%;
+  top: 32%;
+}
+.p6-sec3-item2-item-2 .item-profile .profile-img img{
+ width: 100%;
+}
+.p6-sec3-item2-item-2 .item-profile .profile-title h4{
+  font-size: 1.1vw;
+  line-height: 1.3vw;
+  color: #122867;
+  text-align: left;
+  padding: 0;
+ }
+
+/* ================================================
+-------------Page 7 Styles----------------------
+================================================ */
+.p7-wrapper {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+}
+.p7-wrapper .p7-content {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.p7-content .p7-section1 {
+  background: url(../images/p7-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  box-shadow: 10px 0 15px rgba(0, 0, 0, 0.2);
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+.p7-section1 h3{
+  font-size: 2vw;
+}
+.p7-section2 {
+  font-size: 1.2vw;
+}
+.p7-content .p7-section2 {
+  position: relative;
+  z-index: 1;
+  padding: 4% 3% 3% 0 !important;
+  background: #fff;
+}
+
+
+/* ============================================
+-----------------Page-8 Styles--------------
+============================================ */
+.page8-wrapper {
+  width: 100%;
+  height: 100vh;
+  padding: 5%;
+}
+.page8-wrapper .p8-content-con {
+  width: 100%;
+  height: 100%;
+  background: url("../images/page-9-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5%;
+  position: relative;
+  display: flex;
+}
+.p8-content-con .main-logo {
+  bottom: 5%;
+  position: absolute;
+  width: 30%;
+}
+.p8-content-con .main-logo img {
+  width: 70%;
+}
+.p8-content-con .p8-text {
+  position: absolute;
+  bottom: 3%;
+  left: 40%;
+}
+.p8-content-con .p8-text h2 {
+  color: #ffffff;
+}
+.p8-content-con .brand-box {
+  width: 15vw;
+  height: 60px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 20px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p8-content-con .brand-box img {
+  width: 70%;
+}

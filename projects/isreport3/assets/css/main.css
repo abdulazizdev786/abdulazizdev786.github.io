@@ -162,7 +162,7 @@ p {
 .p3-sec1-items .p3-sec1-item.item-2{
   color: #122867;
   background: #E6E7E8;
-  padding: 4% 2%;
+  padding: 5% 2%;
 }
 
 /* -----------------p3 sec1 item 3------------------------ */
@@ -176,7 +176,7 @@ p {
 .p3-sec1-items .p3-sec1-item.item-4{
   color: #122867;
   background: #E6E7E8;
-  padding: 3% 2% 7.5%;
+  padding: 3% 2% 9%;
   height: auto;
 }
 /* -----------------p3 sec 2------------------------ */
@@ -253,7 +253,7 @@ p {
 .p3-section-2 .p3-sec2-item.item-3 .row-item .item-text{
   display: flex;
   justify-content: center;
-  padding: 30% 10% 40%;
+  padding: 25% 10% 40%;
 }
 .p3-sec2-item.item-3 .row-item.row-item-1{
   background: linear-gradient(180deg, rgba(78,82,85,1) 8%, rgba(101,101,102,1) 22%, rgba(72,76,82,1) 39%);

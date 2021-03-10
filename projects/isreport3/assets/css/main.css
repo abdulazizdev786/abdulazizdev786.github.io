@@ -12,7 +12,7 @@ body {
 .page1-wrapper {
   width: 100%;
   height: 100vh;
-  padding: 5%;
+  padding: 5% 0;
 }
 h2 {
   font-size: 4vw;
@@ -830,7 +830,7 @@ p {
 .page8-wrapper {
   width: 100%;
   height: 100vh;
-  padding: 5%;
+  padding: 5% 0;
 }
 .page8-wrapper .p8-content-con {
   width: 100%;

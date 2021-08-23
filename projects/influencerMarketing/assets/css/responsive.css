@@ -1,6 +1,31 @@
 /* ========================
 ------Header styles--------
 ======================== */
+@media only screen and (max-width:1366px) {
+    .navbar-brand{
+        font-size: clamp(1em,2vw,1.5em);
+    }
+    .nav-menu .navbar-nav .nav-link{
+        font-size: clamp(0.7em,2vw,1em);
+    }
+
+    .header-text  h1{
+        font-size: clamp(1.5em,5vw,3.5em);
+    }
+    .header-text h2{
+        font-size: clamp(1.5em,5vw,3.5em);
+    }
+    .header-text p{
+        font-size: clamp(0.6em,2vw,1em);
+        line-height:  clamp(1.25em,2vw,1.4em) ;
+    }
+    .header-content .btn-group{
+        margin-top: 2%;
+    }
+    .header-content .btn-group .header-btn{
+        font-size: clamp(0.6em,1.5vw,0.9em);
+    }
+}
 @media only screen and (max-width:1024px ) and (min-height:1024px){
     .main-wrapper .hero-section{
         min-height: 100vh;
@@ -80,6 +105,25 @@
 /* ========================
 ------Features styles-----
 ======================== */
+@media only screen and (max-width:1366px) {
+    .features-content h2{
+        font-size: clamp(1.5em,3vw,2em);
+    }
+    .features-content p{
+        font-size: clamp(0.6em,2vw,1.2em);
+        line-height:  clamp(0.9em,2vw,1em);
+    }
+    .feature-items .feature-item h3{
+        font-size: clamp(1em,3vw,1.5em);
+    }
+    .feature-items .feature-item.f-item-2 h3{
+        margin-top: 17%;
+    }
+    .feature-items .feature-item.f-item-2 p{
+        font-size: clamp(0.6em,2vw,1em);
+        line-height:  clamp(1.2em,2vw,1.4em) ;
+    }
+}
 @media only screen and (max-width:768px ) and (min-height:1024px){
     .feature-items .feature-item{
         padding: 2em 1em;
@@ -93,6 +137,29 @@
 /* ========================
 ------Solutions styles-----
 ======================== */
+@media only screen and (max-width:1366px) {
+    .solutions-title h2{
+        font-size: clamp(1em,4vw,2em);
+    }
+    .solutions-title a{
+        font-size: clamp(0.9em,2vw,1.2em);
+    }
+    .solution-item-content .s-item-text h3{
+        font-size: clamp(0.75em,1.5vw,0.9em);
+    }
+    .solution-item-content .s-item-text h2{
+        font-size: clamp(1.3em,2.5vw,2.3em);
+    }
+    .solution-item-content .s-item-text p{
+        font-size: clamp(0.6em,2vw,1em);
+        line-height:  clamp(1.2em,2vw,1.4em) ;
+    }
+    .solution-item-content .s-item-text a{
+        font-size: clamp(0.6em,1.5vw,0.9em);
+
+    }
+
+}
 @media only screen and (max-width: 992px ){
     .solution-item-content .s-item-text h3 span{
         width: 7.5vw;
@@ -152,6 +219,41 @@
 /* ===================================
 ------Featured Influencers styles-----
 ================================== */
+@media only screen and (max-width:1366px) {
+    .f-influencers-text h2{
+        font-size: clamp(3em,10vw,8em);
+        line-height: 0.7em;       
+    }
+    .f-influencers-text h3{
+        font-size: clamp(2em,4vw,2em);
+    }
+    .f-influencers-text p{
+        font-size: clamp(0.6em,1.5vw,1em);
+    }
+    .f-inf-item .item-content{
+        height: 40%;
+    }
+    .f-inf-item .item-text h3{
+        font-size: clamp(0.7em,1.5vw,1em);
+    }
+    .f-inf-item .item-text p{
+        font-size: clamp(0.6em,1.3vw,0.7em);
+        font-family: 'Poppins', sans-serif;
+    }
+    .item-footer .profile p{ 
+        font-size: clamp(0.6em,1.2vw,0.9em);
+     }
+     .item-footer .profile .profile-img{
+        width: 30px;
+        height: 30px;
+    }
+    .item-footer .location i{ 
+        font-size: clamp(0.6em,1.3vw,0.8em);
+     }
+    .item-footer .location p{ 
+        font-size: clamp(0.6em,1.3vw,0.8em);
+     }
+}
 @media only screen and (max-width: 1132px ){
     .f-inf-item .item-content{
         height: 45%;
@@ -238,6 +340,14 @@
 /* ==============================
 ------Featured Brands styles-----
 ============================= */
+@media only screen and (max-width:1366px) {
+    .f-brands-title h2{
+        font-size: clamp(1.7em,4vw,2.3em);
+    }
+    .f-brands-title P{
+        font-size: clamp(0.75em,1.5vw,1em);
+    }
+}
 @media only screen and (max-width: 1024px ){
     .f-brands-con .f-brand img{
         width: 80%;
@@ -246,6 +356,24 @@
 /* ===========================
 ------Testimonials styles-----
 ========================== */
+@media only screen and (max-width:1366px) {
+    .testimonials-title h2{
+        font-size: clamp(1.5em,4vw,2.3em);
+    }
+    .testimonials-title P{
+        font-size: clamp(0.7em,1.5vw,0.9em);
+    }
+    .t-item-con .t-item-text p{
+        font-size: clamp(0.7em,1.5vw,0.9em);
+    }
+    .t-item-text .t-item-name h3{
+        font-size: clamp(1em,1.5vw,1.3em);
+        line-height: clamp(0.5em,1.5vw,0.6em);
+    }
+    .t-item-text .t-item-name p{
+        font-size: clamp(0.6em,1.5vw,0.8em);
+    }
+}
 @media only screen and (max-width: 768px ){
     .testimonial-item .t-item-con{
         width: 70%;
@@ -274,6 +402,31 @@
 /* ===========================
 ------Footer styles ---------
 ========================== */
+@media only screen and (max-width:1366px) {
+    .signup-sec-con h2{
+        font-size: clamp(1.5em,4vw,2em);
+    }
+    .signup-sec-con P{
+        font-size: clamp(0.7em,1.5vw,1em);
+    }
+    .signup-sec-con .btn-signup{
+        font-size: clamp(0.7em,2vw,1.2em);
+    }
+    footer .contact-details-con h3{
+        font-size: clamp(0.7em,1.5vw,0.9em);
+    }
+    footer .social-menu li a{
+        font-size: clamp(1em,1.5vw,1.5em);
+    }
+    .navbar-nav.footer-nav li a{
+        font-size: clamp(0.6em,1.5vw,0.9em);
+    }
+    .copyrights p{
+        font-size: clamp(0.6em,1.5vw,0.9em);
+        margin-top: 0.5em;
+    }
+    
+}
 @media only screen and (max-width: 500px ){
     footer .social-menu{
         justify-content: center;

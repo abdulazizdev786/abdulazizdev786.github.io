@@ -31,9 +31,10 @@ body{
     width: 100%;
     height: auto;
     box-sizing: border-box;
+    padding-top: 1em;
 }
 .navbar .container{
-    padding: 0.5em 0;
+    padding: 1em 0;
     display: flex;
     
 }
@@ -47,7 +48,7 @@ body{
 .navbar-brand{
     color: #ffffff !important;
     font-weight: bold;
-    font-size: clamp(1em,2vw,1.5em);
+    font-size: clamp(1em,2vw,1.7em);
 }
 .navbar-brand img{
     width: 20% ;
@@ -63,6 +64,7 @@ body{
     margin:0 0.6em;
 }
 .nav-menu .navbar-nav .nav-link{
+    font-size: clamp(1em,2vw,1.5em);
     color: #ffffff;
 }
 .nav-menu .btn-login{
@@ -87,28 +89,30 @@ header .header-content{
     margin-top: 10%;
 }
 .header-text  h1{
-    font-size: clamp(1.5em,5vw,3.5em);
+    font-size: clamp(1.5em,5vw,4.6em);
     font-weight: 300;
     color: #ffffff;
 }
 .header-text h2{
-    font-size: clamp(1.5em,5vw,3.5em);
+    font-size: clamp(1.5em,5vw,4em);
     font-weight: 800;
     color: #ffffff;
 }
 .header-text p{
-    font-size: clamp(0.6em,2vw,1em);
-    line-height:  clamp(1.25em,2vw,1.4em) ;
+    font-size: clamp(0.6em,2vw,1.7em);
+    line-height:  clamp(1.1em,2vw,1.25em) ;
     color: #ffffff;
+    margin-top: 0.5em;
 }
 .header-content .btn-group{
     margin-top: 3%;
 }
 .header-content .btn-group .header-btn{
-    width: 160px;
+    width: 15vw;
+    min-width: 150px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: clamp(0.6em,1.5vw,0.9em);
+    font-size: clamp(0.8em,1.4vw,1.2em);
     padding: 0.6em 1.3em;
     margin-right: 1em;
     border-radius: 5px;
@@ -139,8 +143,14 @@ header .header-content{
 }
 .features-content h2{
     color: #352660;
-    font-size: clamp(1.5em,4vw,2.3em);
-    font-weight: normal;
+    font-size: clamp(1.5em,4vw,2.8em);
+    font-weight: 600;
+}
+.features-content p{
+    font-size: clamp(0.6em,2vw,1.6em);
+    line-height:  clamp(1.2em,2vw,1.4em);
+    font-weight: 600;
+    color: #989aa9;
 }
 .feature-items .feature-item{
     display: flex;
@@ -151,9 +161,11 @@ header .header-content{
 }
 .feature-items .feature-item h3{
     color: #2e3542;
-    font-size: clamp(1em,3vw,1.5em);
+    font-size: clamp(1em,2vw,1.8em);
     font-weight: bold;
+    margin-top: 3%;
 }
+
 .feature-items .feature-item.f-item-2{
     background-image: url(../images/feature-2-bg.png);
     background-position: center;
@@ -162,12 +174,12 @@ header .header-content{
     box-shadow: 10px 10px 15px #5e0ef248, -10px -10px 15px #5e0ef248;
 }
 .feature-items .feature-item.f-item-2 h3{
-    margin-top: 17%;
+    margin-top: 20%;
     color: #ffffff;
 }
 .feature-items .feature-item.f-item-2 p{
     color: #ffffff;
-    font-size: clamp(0.6em,2vw,1em);
+    font-size: clamp(0.7em,2vw,1.2em);
     line-height:  clamp(1.2em,2vw,1.4em) ;
 }
 /* ===========================
@@ -184,14 +196,15 @@ header .header-content{
     text-align: center;
     padding: 1.5em 0;
 }
-.solutions-title h3{
+.solutions-title h2{
     color: #352660;
-    font-size: clamp(1em,4vw,2.3em);
+    font-size: clamp(1em,4vw,2.8em);
     font-weight: normal;
 }
 .solutions-title a{
     background: linear-gradient(to right, #621cea20, #9838f420);
-    padding: 0.7em 1em;
+    padding: 0.5em 1em;
+    font-size: clamp(1em,1.5vw,1.9em);
     color: #9838f4;
     border-radius: 5px;
 }
@@ -201,7 +214,7 @@ header .header-content{
 }
 .solution-item-content .s-item-text h3{
     color: #352660;
-    font-size: clamp(0.75em,1.5vw,0.9em);
+    font-size: clamp(0.9em,1.5vw,1.4em);
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -225,24 +238,25 @@ header .header-content{
 
 .solution-item-content .s-item-text h2{
     color: #352660;
-    font-size: clamp(1.3em,2.5vw,2.3em);
+    font-size: clamp(1.3em,2.5vw,2.6em);
     font-weight: bold;
 }
 .solution-item-content .s-item-text p{
     color: #9193a5;
-    font-size: clamp(0.6em,2vw,1em);
+    font-size: clamp(0.6em,2vw,1.4em);
     line-height:  clamp(1.2em,2vw,1.4em) ;
     width: 80%;
 }
 .solution-item-content .s-item-text a{
-    width: 150px;
+    width: 12vw;
+    min-width: 150px;
     text-align: center;
     background: #9637f1;
     border-radius: 5px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: clamp(0.6em,1.5vw,0.9em);
+    font-size: clamp(0.7em,1.5vw,1em);
     color: #ffffff;
     padding: 0.6em 1em;
     font-family: 'Montserrat', sans-serif;
@@ -286,18 +300,17 @@ header .header-content{
     position: relative;
 }
 .f-influencers-text h2{
-    font-size: clamp(3em,10vw,8em);
+    font-size: clamp(3em,10vw,10em);
     line-height: 0.7em;
     color: #ffffff;
-    
 }
 .f-influencers-text h3{
-    font-size: clamp(2em,4vw,2em);
+    font-size: clamp(2em,4vw,2.5em);
     font-weight: bold;
     color: #ffffff;
 }
 .f-influencers-text p{
-    font-size: clamp(0.6em,1.5vw,1em);
+    font-size: clamp(0.6em,1.5vw,1.5em);
     color: #ffffff;
 }
 .f-items-btns{
@@ -317,7 +330,7 @@ header .header-content{
     bottom: -50%;
     width: 25%;
     background: #ffffff;
-    margin: 0 10px;
+    margin: 0 2%;
     padding: 0;
     position: relative;
     box-shadow: 8px 8px 15px rgba(0, 0,0,0.1), -8px -8px 15px rgba(0, 0,0,0.1);
@@ -331,7 +344,7 @@ header .header-content{
     height: 100%;
 }
 .f-inf-item .item-content{
-    height: 35%;
+    height: 43%;
     padding: 5% 0 0 0;
     display: flex;
     flex-direction: column;
@@ -341,13 +354,13 @@ header .header-content{
     padding: 0 0.6em;
 }
 .f-inf-item .item-text h3{
-    font-size: clamp(0.7em,1.5vw,1em);
+    font-size: clamp(0.7em,1.5vw,1.3em);
     font-weight: 700;
     color: #352660;
     font-family: 'Montserrat', sans-serif;
 }
 .f-inf-item .item-text p{
-    font-size: clamp(0.6em,1.3vw,0.7em);
+    font-size: clamp(0.7em,1.3vw,1em);
     color: #9193a5;
     font-family: 'Poppins', sans-serif;
 }
@@ -359,13 +372,13 @@ header .header-content{
 }
 .item-footer .profile p{ 
    margin: 0;
-   font-size: clamp(0.6em,1.2vw,0.9em);
+   font-size: clamp(0.6em,1.2vw,1em);
    color: #9193a5;
    font-weight: 600;
 }
 .item-footer .profile .profile-img{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     overflow: hidden;
     margin-right: 5px;
@@ -381,15 +394,15 @@ header .header-content{
 }
 .item-footer .location i{ 
     margin: 0;
-    font-size: clamp(0.6em,1.3vw,0.8em);
+    font-size: clamp(0.6em,1.3vw,1em);
     color: #faa604;
  }
 .item-footer .location p{ 
     margin: 0;
-    font-size: clamp(0.6em,1.3vw,0.8em);
+    font-size: clamp(0.6em,1.3vw,1em);
     color: #9193a5;
     font-weight: 600;
-    margin-left: 5px;
+    margin-left: 10px;
  }
 /* ===============================
 ------FEATURED Brands STYLES------
@@ -407,12 +420,12 @@ header .header-content{
 }
 .f-brands-title h2{
     color: #352660;
-    font-size: clamp(1.7em,4vw,2.3em);
+    font-size: clamp(1.7em,4vw,2.9em);
     font-weight: bold;
 }
 .f-brands-title P{
     color: #352660;
-    font-size: clamp(0.75em,1.5vw,1em);
+    font-size: clamp(0.75em,1.5vw,1.5em);
     font-weight: 600;
 }
 .f-brands-con{
@@ -457,12 +470,12 @@ header .header-content{
 }
 .testimonials-title h2{
     color: #ffffff;
-    font-size: clamp(1.5em,4vw,2.3em);
+    font-size: clamp(1.5em,4vw,2.8em);
     font-weight: bold;
 }
 .testimonials-title P{
     color: #ffffff;
-    font-size: clamp(0.7em,1.5vw,0.9em);
+    font-size: clamp(0.7em,1.5vw,1.4em);
     font-weight: 600;
 }
 .testimonial-carousel-con{
@@ -509,7 +522,7 @@ header .header-content{
 }
 .t-item-con .t-item-text p{
     color: #2e3542;
-    font-size: clamp(0.7em,1.5vw,0.9em);
+    font-size: clamp(0.7em,1.5vw,1.3em);
     font-weight: 600;
     font-style: italic;
 }
@@ -531,7 +544,7 @@ header .header-content{
 }
 .t-item-text .t-item-name p{
     color: #414b74;
-    font-size: clamp(0.6em,1.5vw,0.8em);
+    font-size: clamp(0.6em,1.5vw,1em);
     font-weight: 700;
     text-transform: uppercase;
     font-style: normal;
@@ -566,21 +579,23 @@ header .header-content{
 }
 .signup-sec-con h2{
     color: #ffffff;
-    font-size: clamp(1.5em,4vw,2em);
+    font-size: clamp(1.5em,4vw,2.5em);
     font-weight: normal;
 }
 .signup-sec-con P{
     color: #ffffff;
-    font-size: clamp(0.7em,1.5vw,1em);
+    font-size: clamp(0.7em,1.5vw,1.4em);
     font-weight: 600;
 }
 .signup-sec-con .btn-signup{
-    width: 180px;
+    width: 12vw;
+    min-width: 160px;
     text-decoration: none;
     color: #ffffff;
     background: linear-gradient(to right, #6621ea, #983df0);
     padding: 0.6em;
     border-radius: 5px;
+    font-size: clamp(0.7em,1.5vw,1.5em);
     font-weight: 600;
 }
 footer{
@@ -597,7 +612,7 @@ footer .contact-details-con {
 }
 footer .contact-details-con h3{
     color: #ffffff;
-    font-size: clamp(0.7em,1.5vw,0.9em);
+    font-size: clamp(0.7em,1.5vw,1.1em);
     text-transform: uppercase;
 }
 
@@ -610,7 +625,7 @@ footer .social-menu{
 }
 footer .social-menu li a{
     color: #ffffff;
-    font-size: clamp(1em,1.5vw,1.5em);
+    font-size: clamp(1em,2vw,1.8em);
     
 }
 footer hr{
@@ -626,7 +641,7 @@ footer hr{
 .navbar-nav.footer-nav li a{
     color: #ffffff;
     text-transform: uppercase;
-    font-size: clamp(0.6em,1.5vw,0.9em);
+    font-size: clamp(0.6em,1.5vw,1.1em);
 }
 
 .copyrights{
@@ -637,6 +652,6 @@ footer hr{
 .copyrights p{
     color: #ffffff;
     text-transform: uppercase;
-    font-size: clamp(0.6em,1.5vw,0.9em);
+    font-size: clamp(0.6em,1.5vw,1.2em);
     margin-top: 0.5em;
 }

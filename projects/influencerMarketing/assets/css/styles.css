@@ -279,7 +279,7 @@ header .header-content{
 .featured-influencers-section{
     width: 100%;
     height: auto;
-    padding-bottom: 12%;
+    padding-bottom: 13%;
     box-sizing: border-box;
     background: #f1f1f7;
 }
@@ -355,8 +355,8 @@ header .header-content{
     height: 100%;
 }
 .f-inf-item .item-content{
-    height: 43%;
-    padding: 0 3%;
+    height: auto;
+    padding: 3%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

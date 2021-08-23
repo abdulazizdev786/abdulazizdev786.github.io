@@ -6,6 +6,24 @@ body{
     margin:0 ;
     font-family: 'Source Sans Pro', sans-serif;
 }
+.button{
+    width: auto;
+    min-width: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 32px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.arrow-icon{
+    width: 32px;
+    height: auto;
+}
+.arrow-icon img{
+    width: 100%;
+}
+
 .main-wrapper{
     width: 100%;
     max-width: 1920px;
@@ -65,13 +83,22 @@ body{
 }
 .nav-menu .navbar-nav .nav-link{
     font-size: clamp(1em,2vw,1.5em);
+    font-weight: 600;
     color: #ffffff;
 }
-.nav-menu .btn-login{
+.nav-menu .button.btn-login{
+    width: auto;
+    min-width: 100px;
+    font-size: clamp(12px,4vw,20px);
+    font-weight: 600;
     background: #ffffff;
     color: #9838f4;
     border-radius: 5px;
-    padding: auto 0.3em;
+    padding: 10px 16px;
+    display: flex;
+}
+.nav-menu .button.btn-login .arrow-icon{
+    width: 25px;
 }
 /* ========================
 ------HEADER STYLES--------
@@ -86,36 +113,35 @@ header .header-content{
     height: auto;
 }
 .header-content .header-text{
-    margin-top: 10%;
+    margin-top: 15%;
 }
-.header-text  h1{
-    font-size: clamp(1.5em,5vw,5em);
+.header-text  h2{
+    font-size: 80px;
     font-weight: 300;
     color: #ffffff;
 }
-.header-text h2{
-    font-size: clamp(1.5em,5vw,5em);
+.header-text h1{
+    font-size: 80px;
     font-weight: 800;
     color: #ffffff;
 }
 .header-text p{
-    font-size: clamp(0.6em,2vw,1.7em);
-    line-height:  clamp(1.1em,2vw,1.25em) ;
+    font-size: 19px;
+    line-height:  clamp(18px,2vw,25px) ;
     color: #ffffff;
     margin-top: 0.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 .header-content .btn-group{
     margin-top: 3%;
 }
 .header-content .btn-group .header-btn{
-    width: 15vw;
-    min-width: 150px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: clamp(0.8em,1.4vw,1.2em);
-    padding: 0.6em 1.3em;
-    margin-right: 1em;
-    border-radius: 5px;
+    font-size:15px;
+    line-height: 30px;
+    margin-right: 1.3em;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
@@ -143,12 +169,13 @@ header .header-content{
 }
 .features-content h2{
     color: #352660;
-    font-size: clamp(1.5em,4vw,2.3em);
-    font-weight: 600;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: normal;
 }
 .features-content p{
-    font-size: clamp(0.6em,2vw,1.6em);
-    line-height:  clamp(1.2em,2vw,1.4em);
+    font-size: 17px;
+    line-height: 29px;
     font-weight: 600;
     color: #989aa9;
 }
@@ -195,39 +222,51 @@ header .header-content{
 .solutions-section .solutions-title{
     text-align: center;
     padding: 1.5em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .solutions-title h2{
     color: #352660;
-    font-size: clamp(1.5em,4vw,2.3em);
+    font-size: 35px;
+    line-height: 45px;
     font-weight: normal;
 }
-.solutions-title a{
+.solutions-title a .arrow-icon{
     background: linear-gradient(to right, #621cea20, #9838f420);
-    padding: 0.6em 1em;
-    font-size: clamp(1em,1.5vw,1.9em);
-    color: #9838f4;
+    width: 52px;
+    height: 52px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.solutions-title a .arrow-icon img{
+    width:60%;
 }
 .solution-item-content{
     margin: 5% 0 15% 0;
     padding: 2% 0;
 }
 .solution-item-content .s-item-text h3{
-    color: #352660;
-    font-size: clamp(0.9em,1.5vw,1.4em);
+    color: #9637f1;
+    font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 .solution-item-content .s-item-text h3 span{
-   width: 5vw;
-   height: 5vw;
+   width: 4.7vw;
+   height: 4.7vw;
    background: #ffffff;
    border-radius: 50%;
    box-shadow: 8px 8px 15px rgba(0, 0,0,0.1), -8px -8px 15px rgba(0, 0,0,0.1);
    display: flex;
    padding: 10%;
    position: relative;
-   margin-right: 1em;
+   margin-right: 1.3em;
 }
 .solution-item-content .s-item-text h3 span img{
     position: absolute;
@@ -238,28 +277,26 @@ header .header-content{
 
 .solution-item-content .s-item-text h2{
     color: #352660;
-    font-size: clamp(1.3em,2.5vw,2.6em);
+    font-size: 27px;
+    line-height: 35px;
     font-weight: bold;
+    margin: 10px 0;
 }
 .solution-item-content .s-item-text p{
     color: #9193a5;
-    font-size: clamp(0.6em,2vw,1.4em);
-    line-height:  clamp(1.2em,2vw,1.4em) ;
-    width: 80%;
+    font-size: 15px;
+    line-height: 31px;
+    width: 90%;
+    margin: 10px 0 30px;
 }
 .solution-item-content .s-item-text a{
-    width: 12vw;
-    min-width: 150px;
-    text-align: center;
     background: #9637f1;
-    border-radius: 5px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: clamp(0.7em,1.5vw,1em);
+    font-size: 15px;
+    line-height: 30px;
     color: #ffffff;
-    padding: 0.6em 1em;
-    font-family: 'Montserrat', sans-serif;
 }
 .solution-item-content .s-item-img{
     display: flex;
@@ -300,17 +337,20 @@ header .header-content{
     position: relative;
 }
 .f-influencers-text h2{
-    font-size: clamp(3em,10vw,10em);
-    line-height: 0.7em;
+    font-size: 135px;
+    line-height: auto;
     color: #ffffff;
 }
 .f-influencers-text h3{
-    font-size: clamp(2em,4vw,2.5em);
-    font-weight: bold;
+    font-size: 35px;
+    font-weight: normal;
     color: #ffffff;
 }
 .f-influencers-text p{
-    font-size: clamp(0.6em,1.5vw,1.5em);
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: 600;
     color: #ffffff;
 }
 .f-items-btns{
@@ -356,7 +396,7 @@ header .header-content{
 }
 .f-inf-item .item-content{
     height: auto;
-    padding: 3%;
+    padding: 8%  3%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -365,21 +405,25 @@ header .header-content{
     padding: 0 0.6em;
 }
 .f-inf-item .item-text h3{
-    font-size: clamp(0.7em,1.5vw,1.3em);
+    font-size: 20px;
+    line-height: 25px;
     font-weight: 700;
     color: #352660;
     font-family: 'Montserrat', sans-serif;
 }
 .f-inf-item .item-text p{
-    font-size: clamp(0.7em,1.3vw,1em);
+    font-size:14px;
+    line-height: 25px;
     color: #9193a5;
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .item-footer .profile { 
     display: flex;
     align-items: center;
     padding:0 0.5em; 
+    margin-top: 10px;
 }
 .item-footer .profile p{ 
    margin: 0;
@@ -431,12 +475,14 @@ header .header-content{
 }
 .f-brands-title h2{
     color: #352660;
-    font-size: clamp(1.7em,4vw,2.9em);
+    font-size: 35px;
+    line-height: auto;
     font-weight: bold;
 }
 .f-brands-title P{
     color: #352660;
-    font-size: clamp(0.75em,1.5vw,1.5em);
+    font-size: 17px;
+    line-height: 23px;
     font-weight: 600;
 }
 .f-brands-con{
@@ -481,12 +527,13 @@ header .header-content{
 }
 .testimonials-title h2{
     color: #ffffff;
-    font-size: clamp(1.5em,4vw,2.8em);
+    font-size: 35px;
     font-weight: bold;
 }
 .testimonials-title P{
     color: #ffffff;
-    font-size: clamp(0.7em,1.5vw,1.4em);
+    font-size: 17px;
+    line-height: 23px;
     font-weight: 600;
 }
 .testimonial-carousel-con{
@@ -533,7 +580,8 @@ header .header-content{
 }
 .t-item-con .t-item-text p{
     color: #2e3542;
-    font-size: clamp(0.7em,1.5vw,1.3em);
+    font-size: 19px;
+    line-height: 35px;
     font-weight: 600;
     font-style: italic;
 }
@@ -590,24 +638,24 @@ header .header-content{
 }
 .signup-sec-con h2{
     color: #ffffff;
-    font-size: clamp(1.5em,4vw,2.5em);
+    font-size: 45px;
+    letter-spacing: 1px;
     font-weight: normal;
 }
 .signup-sec-con P{
     color: #ffffff;
-    font-size: clamp(0.7em,1.5vw,1.4em);
+    font-size: 25px;
+    letter-spacing: 0.7px;
     font-weight: 600;
 }
 .signup-sec-con .btn-signup{
-    width: 12vw;
-    min-width: 160px;
     text-decoration: none;
     color: #ffffff;
     background: linear-gradient(to right, #6621ea, #983df0);
-    padding: 0.6em;
-    border-radius: 5px;
-    font-size: clamp(0.7em,1.5vw,1.5em);
+    font-size: 21px;
+    line-height: 30px;
     font-weight: 600;
+    margin-top: 20px;
 }
 footer{
     width: 100%;
@@ -622,9 +670,12 @@ footer .contact-details-con {
     width: 100%;
 }
 footer .contact-details-con h3{
-    color: #ffffff;
-    font-size: clamp(0.7em,1.5vw,1.1em);
+    color: #cdcdd0;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 1.2px;
 }
 
 footer .social-menu{
@@ -637,7 +688,10 @@ footer .social-menu{
 footer .social-menu li a{
     color: #ffffff;
     font-size: clamp(1em,2vw,1.8em);
-    
+    opacity: 0.4;
+}
+footer .social-menu li a:hover{
+    opacity: 1;
 }
 footer hr{
     width:100%;
@@ -652,7 +706,7 @@ footer hr{
 .navbar-nav.footer-nav li a{
     color: #ffffff;
     text-transform: uppercase;
-    font-size: clamp(0.6em,1.5vw,1.1em);
+    font-size: 16px;
 }
 
 .copyrights{
@@ -663,6 +717,6 @@ footer hr{
 .copyrights p{
     color: #ffffff;
     text-transform: uppercase;
-    font-size: clamp(0.6em,1.5vw,1.2em);
+    font-size: 16px;
     margin-top: 0.5em;
 }

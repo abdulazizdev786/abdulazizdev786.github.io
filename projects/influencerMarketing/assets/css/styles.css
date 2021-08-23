@@ -89,12 +89,12 @@ header .header-content{
     margin-top: 10%;
 }
 .header-text  h1{
-    font-size: clamp(1.5em,5vw,4.6em);
+    font-size: clamp(1.5em,5vw,5em);
     font-weight: 300;
     color: #ffffff;
 }
 .header-text h2{
-    font-size: clamp(1.5em,5vw,4em);
+    font-size: clamp(1.5em,5vw,5em);
     font-weight: 800;
     color: #ffffff;
 }
@@ -143,7 +143,7 @@ header .header-content{
 }
 .features-content h2{
     color: #352660;
-    font-size: clamp(1.5em,4vw,2.8em);
+    font-size: clamp(1.5em,4vw,2.3em);
     font-weight: 600;
 }
 .features-content p{
@@ -183,7 +183,7 @@ header .header-content{
     line-height:  clamp(1.2em,2vw,1.4em) ;
 }
 /* ===========================
-------INFLUENCERS STYLES------
+------SOLUTIONS STYLES------
 =========================== */
 .solutions-section{
     width: 100%;
@@ -198,12 +198,12 @@ header .header-content{
 }
 .solutions-title h2{
     color: #352660;
-    font-size: clamp(1em,4vw,2.8em);
+    font-size: clamp(1.5em,4vw,2.3em);
     font-weight: normal;
 }
 .solutions-title a{
     background: linear-gradient(to right, #621cea20, #9838f420);
-    padding: 0.5em 1em;
+    padding: 0.6em 1em;
     font-size: clamp(1em,1.5vw,1.9em);
     color: #9838f4;
     border-radius: 5px;
@@ -318,8 +318,8 @@ header .header-content{
 }
 .f-influencer-items{
     width: 100%;
-    height: 400px;
-    max-height: 50vh;
+    height: 450px;
+    max-height: 53vh;
     position: relative;
     display: flex;
     justify-content: center;
@@ -328,7 +328,7 @@ header .header-content{
 .f-inf-item{
     position: relative;
     bottom: -50%;
-    width: 25%;
+    width: 27%;
     background: #ffffff;
     margin: 0 2%;
     padding: 0;
@@ -336,8 +336,19 @@ header .header-content{
     box-shadow: 8px 8px 15px rgba(0, 0,0,0.1), -8px -8px 15px rgba(0, 0,0,0.1);
     z-index: 3;
 }
+
 .f-inf-item .item-img{
     height: 50%;
+    position: relative;
+}
+.f-inf-item  .item-img .overlay{
+    width: 100%;
+    height: 100%;
+    background: #252567;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.45;
 }
 .f-inf-item .item-img img{
     width: 100%;
@@ -345,7 +356,7 @@ header .header-content{
 }
 .f-inf-item .item-content{
     height: 43%;
-    padding: 5% 0 0 0;
+    padding: 0 3%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

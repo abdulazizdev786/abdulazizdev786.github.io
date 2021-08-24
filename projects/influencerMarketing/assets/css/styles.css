@@ -203,6 +203,7 @@ header .header-content{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 10px 10px 15px #5e0ef248, -10px -10px 15px #5e0ef248;
+    border-radius: 5px;
 }
 .feature-items .feature-item.f-item-2 h3{
     margin-top: 20%;
@@ -264,8 +265,8 @@ header .header-content{
     margin-bottom: 20px;
 }
 .solution-item-content .s-item-text h3 span{
-   width: 4.7vw;
-   height: 4.7vw;
+   width: clamp(30px,4vw,90px);
+   height: clamp(30px,4vw,90px);
    background: #ffffff;
    border-radius: 50%;
    box-shadow: 8px 8px 15px rgba(0, 0,0,0.1), -8px -8px 15px rgba(0, 0,0,0.1);
@@ -290,7 +291,7 @@ header .header-content{
 }
 .solution-item-content .s-item-text p{
     color: #9193a5;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 31px;
     width: 90%;
     margin: 10px 0 30px;
@@ -662,7 +663,7 @@ button.carousel-control-prev, button.carousel-control-next{
     color: #ffffff;
     font-size: 25px;
     letter-spacing: 0.7px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .signup-sec-con .btn-signup{
     text-decoration: none;

@@ -94,7 +94,7 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     max-width: 150px;
     min-width: 100px;
-    font-size: clamp(12px,1.5vw,17px);
+    font-size: 17px;
     line-height: 30px;
     font-weight: 600;
     background: #ffffff;
@@ -145,7 +145,7 @@ header .header-content{
 .header-content .btn-group .header-btn{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: clamp(9px,1.5vw,15px);
+    font-size: 15px;
     line-height: clamp(20px,1.5vw,30px);
     margin-right: 1.3em;
     text-decoration: none;
@@ -234,8 +234,8 @@ header .header-content{
 .feature-items .feature-item.f-item-2 p{
     margin-top: 4%;
     color: #ffffff;
-    font-size: clamp(10px,3vw,16px);
-    line-height:  clamp(14px,3vw,29px);
+    font-size: 15px;
+    line-height:  29px;
     width: 80%;
 }
 /* ===========================
@@ -711,8 +711,8 @@ button.carousel-control-prev, button.carousel-control-next{
     text-decoration: none;
     color: #ffffff;
     background: linear-gradient(to right, #6621ea, #983df0);
-    font-size: clamp(14px,2vw,21px);
-    line-height: clamp(18px,2vw,30px);
+    font-size: 21px;
+    line-height: 30px;
     font-weight: 600;
     margin-top: 20px;
     padding: 13px 47px;

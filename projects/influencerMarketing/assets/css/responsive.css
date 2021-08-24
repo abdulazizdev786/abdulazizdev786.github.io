@@ -26,7 +26,7 @@
     }
     .nav-menu .button.btn-login{
         width: auto;
-        font-size: clamp(8px,3vw,12px);
+        font-size: 15px;
         padding: 2px 6px;
     }
     .nav-menu .button.btn-login .arrow-icon{
@@ -91,7 +91,7 @@
         width: auto;
         position: relative;
         width: 150px;
-        font-size: clamp(8px,3vw,13px);
+        font-size: 15px;
         padding: 7px 12px;
         display: inline-block;
     }
@@ -116,7 +116,7 @@
     }
     .header-content .btn-group .header-btn{
         width: 200px;
-        font-size: clamp(0.9em,1.5vw,1.2em);
+        font-size: 15px;
         padding: 0.8em 1.3em;
     }
 }
@@ -179,7 +179,6 @@
 
 @media only screen and (max-width: 912px ) and (max-height:500px){
     .nav-menu .button.btn-login{
-        
         justify-content: center;
         position: relative;
         display: flex;
@@ -215,7 +214,7 @@
     }
     .header-content .btn-group .header-btn{
         padding: 5px 10px;
-        font-size: clamp(6px,4vw,9px);
+        font-size: 15px;
         line-height: 14px;
     }
     .header-content .btn-group .header-btn .arrow-icon{
@@ -251,8 +250,12 @@
         font-size: clamp(1.5em,10vw,2.5em);
     }
     .header-text p{
-        font-size: clamp(8px,5vw,12px);
-        line-height:  clamp(10px,5vw,18px) ;
+        font-size: 18px;
+        line-height:  22px ;
+    }
+    .header-content .btn-group .header-btn{
+        font-size: 12px;
+        line-height: 30px;
     }
 }
 @media only screen and (max-width:392px){
@@ -270,9 +273,6 @@
 ------Features styles-----
 ======================== */
 @media only screen and (max-width:1366px) {
-    .features-content h2{
-        font-size: clamp(1.5em,3vw,2em);
-    }
     .feature-items .feature-item h3{
         font-size: clamp(1em,3vw,1.5em);
     }
@@ -322,9 +322,6 @@
     }
     .solutions-title a{
         font-size: clamp(0.9em,2vw,1.2em);
-    }
-    .solution-item-content .s-item-text h3{
-        font-size: clamp(7px,1.5vw,11px);
     }
     .solution-item-content .s-item-text h2{
         font-size: clamp(10px,2.5vw,22px);
@@ -760,7 +757,7 @@
         font-size: clamp(11px,1.5vw,14px);
     }
     .signup-sec-con .btn-signup{
-        font-size: clamp(11px,1.5vw,14px);
+        font-size:15px;
     }
     footer .contact-details-con h3{
         font-size: clamp(10px,1.5vw,12px);

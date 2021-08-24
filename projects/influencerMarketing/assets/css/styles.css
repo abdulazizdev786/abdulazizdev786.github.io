@@ -203,7 +203,7 @@ header .header-content{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 10px 10px 15px #5e0ef248, -10px -10px 15px #5e0ef248;
-    border-radius: 7px;
+    border-radius: 6px;
 }
 .feature-items .feature-item.f-item-2 h3{
     margin-top: 20%;
@@ -376,16 +376,19 @@ header .header-content{
     bottom: -50%;
     width: 368px;
     height: 466px;
-    margin: 0 2%;
+    margin: 0 1%;
     padding: 0;
     position: relative;
     z-index: 3; 
+    border-radius: 5px;
 }
 
 .f-inf-item .item-img{
     height: 50%;
     position: relative;
     box-shadow: 8px 0 15px rgba(0, 0,0,0.1), -8px -8px 15px rgba(0, 0,0,0.1);
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
 }
 .f-inf-item  .item-img .overlay{
     width: 100%;
@@ -406,6 +409,8 @@ header .header-content{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-radius: 0 0 5px 5px;
+    overflow: hidden;
     background: #ffffff ;
     box-shadow: 10px 10px 15px rgba(0,0,0,0.1), -10px 0 15px rgba(0,0,0,0.1);
 }

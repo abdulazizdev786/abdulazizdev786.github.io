@@ -38,7 +38,7 @@
     .header-text  h2{
         font-size: clamp(24px,5vw,56px);
     }
-    .header-text h1{
+    .header-text h2 strong{
         font-size: clamp(24px,5vw,56px);
     }
     .header-text p{
@@ -104,7 +104,7 @@
         background-position: right bottom;
         background-repeat: no-repeat;
     }
-    .header-text  h1{
+    .header-text  h2 strong{
         font-size: clamp(3em,6vw,4em);
     }
     .header-text h2{
@@ -201,7 +201,7 @@
     .header-content .header-text{
         margin-top: 2%;
     }
-    .header-text  h1{
+    .header-text  h2 strong{
         font-size: clamp(18px,10vw,28px);
     }
     .header-text h2{
@@ -244,7 +244,7 @@
     .hero-section header .container{
         margin-top: 10%;
     }
-    .header-text  h1{
+    .header-text  h2 strong{
         font-size: clamp(1.5em,10vw,2.3em);
     }
     .header-text h2{

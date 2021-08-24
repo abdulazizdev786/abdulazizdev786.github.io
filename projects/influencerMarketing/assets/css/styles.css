@@ -124,7 +124,7 @@ header .header-content{
     font-weight: 300;
     color: #ffffff;
 }
-.header-text h1{
+.header-text h2 strong{
     font-size: 80px;
     font-weight: 800;
     color: #ffffff;

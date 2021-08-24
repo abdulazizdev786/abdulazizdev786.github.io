@@ -166,6 +166,10 @@ header .header-content{
     height: auto;
     padding: 5% 0 8% 0;
     box-sizing: border-box;
+    background-image: url(../images/features_section_bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .features-content{
     text-align: center;
@@ -224,7 +228,9 @@ header .header-content{
     height: auto;
     padding: 5vh  0;
     box-sizing: border-box;
-    background: linear-gradient(to right,#f5f5f9, #f1f1f6 ) ;
+    background:url(../images/features_section_bg.png),  linear-gradient(to right,#f5f5f9, #f1f1f6 );
+    background-size: cover;
+    background-position: contain;
 }
 .solutions-section .solutions-title{
     text-align: center;
@@ -512,11 +518,18 @@ header .header-content{
     justify-content: center;
     align-items: center;
     border-right: 1px solid #e8e8f1;
+    border-bottom: 1px solid #e8e8f1;
     height: 140px;
-    margin: 0.5em 0;
+    margin: 0;
 }
 .f-brand.brand-4,.f-brand.brand-8{
     border-right: none;
+}
+.f-brand.brand-1 :after{
+    border-bottom: none;
+}
+.f-brand.brand-5,.f-brand.brand-6, .f-brand.brand-7,.f-brand.brand-8 {
+    border-bottom: none;
 }
 /* ===============================
 ------Testimonials STYLES--------

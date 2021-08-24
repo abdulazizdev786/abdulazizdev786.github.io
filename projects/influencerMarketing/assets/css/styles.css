@@ -164,7 +164,7 @@ header .header-content{
 .features-section{
     width: 100%;
     height: auto;
-    padding: 140px 0;
+    padding: 20px 0 140px 0;
     box-sizing: border-box;
     background-image: url(../images/features_section_bg.png);
     background-size: cover;

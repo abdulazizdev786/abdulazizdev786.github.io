@@ -273,10 +273,6 @@
     .features-content h2{
         font-size: clamp(1.5em,3vw,2em);
     }
-    .features-content p{
-        font-size: clamp(0.6em,2vw,1.2em);
-        line-height:  clamp(0.9em,2vw,1em);
-    }
     .feature-items .feature-item h3{
         font-size: clamp(1em,3vw,1.5em);
     }
@@ -284,8 +280,7 @@
         margin-top: 17%;
     }
     .feature-items .feature-item.f-item-2 p{
-        font-size: clamp(0.6em,2vw,1em);
-        line-height:  clamp(1.2em,2vw,1.4em) ;
+        width: 100%;
     }
 }
 @media only screen and (max-width:768px ) and (min-height:1024px){
@@ -334,10 +329,6 @@
     .solution-item-content .s-item-text h2{
         font-size: clamp(10px,2.5vw,22px);
         line-height: clamp(18px,2.5vw,28px);
-    }
-    .solution-item-content .s-item-text p{
-        font-size: clamp(9px,2vw,14px);
-        line-height:  clamp(11px,2vw,20px) ;
     }
     .solution-item-content .s-item-text a{
         font-size: clamp(7px,1.5vw,11px);

@@ -449,15 +449,15 @@ header .header-content{
     margin: 2% 0;
 }
 .f-inf-item .item-text h3{
-    font-size: clamp(16px,3vw,20px);
-    line-height: clamp(20px,3vw,25px);
+    font-size: 20px;
+    line-height: 25px;
     font-weight: 600;
     color: #352660;
     font-family: 'Montserrat', sans-serif;
 }
 .f-inf-item .item-text p{
-    font-size:clamp(9px,3vw,13px);
-    line-height: clamp(18px,3vw,23px);
+    font-size: 13px;
+    line-height: 23px;
     color: #9193a5;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -639,8 +639,8 @@ button.carousel-control-prev, button.carousel-control-next{
 }
 .t-item-con .t-item-text p{
     color: #2e3542;
-    font-size: clamp(14px, 1.5vw,19px);
-    line-height: clamp(20px,2vw,35px);
+    font-size: 19px;
+    line-height: 35px;
     font-weight: 600;
     font-style: italic;
 }
@@ -662,7 +662,7 @@ button.carousel-control-prev, button.carousel-control-next{
 }
 .t-item-text .t-item-name p{
     color: #414b74;
-    font-size: clamp(0.6em,1.5vw,1em);
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     font-style: normal;

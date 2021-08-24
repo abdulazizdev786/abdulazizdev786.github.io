@@ -250,7 +250,7 @@
         font-size: clamp(1.5em,10vw,2.5em);
     }
     .header-text p{
-        font-size: 18px;
+        font-size: 16px;
         line-height:  22px ;
     }
     .header-content .btn-group .header-btn{

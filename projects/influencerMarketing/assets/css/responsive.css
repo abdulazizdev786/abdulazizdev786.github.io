@@ -1,7 +1,7 @@
 /* ========================
 ------Header styles--------
 ======================== */
-@media only screen and (max-width:1366px) {
+@media only screen and (max-width:1666px) {
     .button{
         width: auto;
         min-width: 100px;
@@ -15,18 +15,22 @@
         width: 100%;
     }
     .navbar-brand{
-        font-size: clamp(1em,2vw,1.5em);
+        font-size: clamp(14px,2vw,20px);
+    }
+    .navbar-brand img{
+        width: 28% ;
+        margin-right: 0.6em;
     }
     .nav-menu .navbar-nav .nav-link{
-        font-size: clamp(0.7em,2vw,1em);
+        font-size: clamp(10px,2vw,14px);
     }
     .nav-menu .button.btn-login{
         width: auto;
-        font-size: clamp(8px,3vw,14px);
-        padding: 7px 12px;
+        font-size: clamp(8px,3vw,12px);
+        padding: 2px 6px;
     }
     .nav-menu .button.btn-login .arrow-icon{
-        width: 22px;
+        width: 18px;
     }
     .header-content .header-text{
         margin-top: 8%;
@@ -118,12 +122,13 @@
 }
 
 @media only screen and (max-width:992px){
-    .main-wrapper .hero-section header{
-        padding: 0 2em;
-    }
-    nav{
+    .hero-section nav{
         background-color: #9838f4;
-        padding: 2em 1em;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 2;
     }
     .nav-menu {
        text-align: center;
@@ -139,9 +144,23 @@
         padding:  0.6em 3em;
         text-align: center;
         display: inline;
-        align-self: center;
+        justify-content: center;
+        left: 50%;
+        position: relative;
+        transform: translateX(-50%);
     }
+    .hero-section header{
+        display: flex;
+        align-items: flex-start;
+        margin-top: 0;
+        padding: 5% 16px;
+    }
+    .hero-section header .container{
+        margin-top: 4%;
+    }
+    
 }
+
 @media only screen and (max-width:768px ){
     .nav-menu .button.btn-login{
         max-width: 150px;
@@ -155,10 +174,12 @@
     .navbar-brand{
         font-size: clamp(1em,2vw,1.8em);
     }
+    
 }
-@media only screen and (max-width: 812px ) and (max-height:500px){
+
+@media only screen and (max-width: 912px ) and (max-height:500px){
     .nav-menu .button.btn-login{
-        max-width: 150px;
+        
         justify-content: center;
         position: relative;
         display: flex;
@@ -168,30 +189,37 @@
     .hero-section header{
         display: flex;
         align-items: flex-start;
+        margin-top: 3%;
+        padding: 5% 16px;
+    }
+    .hero-section header .container{
+        margin-top: 4%;
     }
     .nav-menu .navbar-nav .nav-link{
         font-size: 1em;
-    }
-    .main-wrapper .hero-section header{
-        padding: 0 1em;
     }
     .header-content .header-text{
         margin-top: 2%;
     }
     .header-text  h1{
-        font-size: clamp(1.5em,10vw,2em);
+        font-size: clamp(18px,10vw,28px);
     }
     .header-text h2{
-        font-size: clamp(1.5em,10vw,2em);
+        font-size: clamp(18px,10vw,28px);
     }
     .header-text p{
-        font-size: clamp(0.6em,5vw,0.9em);
-        line-height:  clamp(1.1em,2vw,1em) ;
+        font-size: clamp(8px,5vw,12px);
+        line-height:  clamp(12px,4vw,18px) ;
         font-weight: 600;
         margin: 2% 0;
     }
     .header-content .btn-group .header-btn{
-        padding: 2px 10px;
+        padding: 5px 10px;
+        font-size: clamp(6px,4vw,9px);
+        line-height: 14px;
+    }
+    .header-content .btn-group .header-btn .arrow-icon{
+        width: 18px;
     }
 }
 
@@ -209,8 +237,12 @@
     .main-wrapper .hero-section{
         background-image: url(../images/banner-mobile.png);
     }
-    .main-wrapper .hero-section header{
-        padding: 2em 1em;
+    .hero-section header{
+        margin-top: 10%;
+        padding: 5% 16px;
+    }
+    .hero-section header .container{
+        margin-top: 10%;
     }
     .header-text  h1{
         font-size: clamp(1.5em,10vw,2.3em);
@@ -476,6 +508,14 @@
         font-size: clamp(10px,1.5vw,14px);
         line-height: clamp(14px, 1.5vw,19px);
     }
+    .f-influencer-items{
+        width: 100%;
+        height: 34vw;
+    }
+    .f-inf-item{
+        width: 100%;
+        height: auto !important; 
+    }
     .f-inf-item .item-content{
         height: auto;
     }
@@ -502,7 +542,7 @@
 }
 @media only screen and (max-width: 1132px ){
     .f-inf-item .item-content{
-        height: 45%;
+        height:auto;
     }
     .f-inf-item .item-text {
         padding: 0 0.4em;
@@ -516,7 +556,7 @@
         width: 33%;
     }
     .f-inf-item .item-content{
-        height: 48%;
+        height: auto;
     }
     .f-inf-item .item-text {
         margin-bottom: 5%;

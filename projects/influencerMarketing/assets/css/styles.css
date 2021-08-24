@@ -206,7 +206,7 @@ header .header-content{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 10px 10px 15px #5e0ef248, -10px -10px 15px #5e0ef248;
+    box-shadow: 0px 10px 40px 0px rgba(94,14,242,0.4);
     border-radius: 6px;
 }
 .feature-items .feature-item.f-item-2 h3{
@@ -521,13 +521,12 @@ header .header-content{
     border-bottom: 1px solid #e8e8f1;
     height: 140px;
     margin: 0;
+    position: relative;
 }
 .f-brand.brand-4,.f-brand.brand-8{
     border-right: none;
 }
-.f-brand.brand-1 :after{
-    border-bottom: none;
-}
+
 .f-brand.brand-5,.f-brand.brand-6, .f-brand.brand-7,.f-brand.brand-8 {
     border-bottom: none;
 }

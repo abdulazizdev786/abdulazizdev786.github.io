@@ -497,10 +497,7 @@
     .f-inf-item .item-text h3{
         font-size: clamp(10px,1.5vw,16px);
     }
-    .f-inf-item .item-text p{
-        font-size: clamp(8px,1.5vw,11px);
-        line-height: clamp(12px, 1.5vw,19px);
-    }
+  
     .item-footer .profile p{ 
         font-size: clamp(0.6em,1.2vw,0.9em);
      }
@@ -659,9 +656,6 @@
     .f-brands-title h2{
         font-size: clamp(18px,4vw,30px);
     }
-    .f-brands-title P{
-        font-size: clamp(11px,1.5vw,14px);
-    }
 }
 @media only screen and (max-width: 1024px ){
     .f-brands-con .f-brand img{
@@ -684,9 +678,6 @@
 @media only screen and (max-width:1366px) {
     .testimonials-title h2{
         font-size: clamp(18px,4vw,30px);
-    }
-    .testimonials-title P{
-        font-size: clamp(11px,1.5vw,14px);
     }
     .t-item-con .t-item-text p{
         font-size: clamp(11px,1.5vw,14px);

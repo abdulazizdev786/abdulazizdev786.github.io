@@ -163,8 +163,9 @@ header .header-content{
     color: #ffffff;
 }
 .header-btn.btn-blue:hover , .header-btn.btn-white:hover{
-    background: #c58aff ;
-    color: #ffffff;
+    background: #bc76ff;
+    color: #FFFFFF;
+    box-shadow: 0px 9px 18px 0px rgba(24,48,167,0.12);
 }
 .header-btn.btn-white:hover .arrow-icon .arrow-icon-white{
     display: block;
@@ -325,6 +326,11 @@ header .header-content{
     font-size: 15px;
     line-height: 30px;
     color: #ffffff;
+}
+.solution-item-content .s-item-text a:hover{
+    background: #bc76ff;
+    color: #FFFFFF;
+    box-shadow: 0px 9px 18px 0px rgba(24,48,167,0.12);
 }
 .solution-item-content .s-item-img{
     display: flex;

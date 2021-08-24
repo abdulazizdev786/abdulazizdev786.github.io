@@ -766,8 +766,8 @@ footer hr{
 .navbar-nav.footer-nav li a{
     color: #ffffff;
     text-transform: uppercase;
-    font-size: clamp(13px,1.5vw,15px);
-    line-height: clamp(20px,2vw,30px);
+    font-size: 15px;
+    line-height: 30px;
     font-weight: 700;
 }
 
@@ -779,8 +779,8 @@ footer hr{
 .copyrights p{
     color: #ffffff;
     text-transform: uppercase;
-    font-size: clamp(13px,1.5vw,15px);
-    line-height: clamp(20px,2vw,30px);
+    font-size: 15px;
+    line-height: 30px;
     font-weight: 700;
     margin-top: 0.5em;
 }

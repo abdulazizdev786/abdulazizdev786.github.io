@@ -491,10 +491,6 @@
     .f-inf-item .item-content{
         height: auto;
     }
-    .f-inf-item .item-text h3{
-        font-size: clamp(10px,1.5vw,16px);
-    }
-  
     .item-footer .profile p{ 
         font-size: clamp(0.6em,1.2vw,0.9em);
      }

@@ -15,6 +15,7 @@ body{
     padding: 13px 30px;
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif;
+    transition: all 300ms ease 0ms;
 }
 .arrow-icon{
     width: 26px;
@@ -149,6 +150,7 @@ header .header-content{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
+    transition: all 300ms ease 0ms;
 }
 .header-content .btn-group .header-btn .arrow-icon-white{
     display: none;
@@ -326,6 +328,7 @@ header .header-content{
     font-size: 15px;
     line-height: 30px;
     color: #ffffff;
+    transition: all 300ms ease 0ms;
 }
 .solution-item-content .s-item-text a:hover{
     background: #bc76ff;

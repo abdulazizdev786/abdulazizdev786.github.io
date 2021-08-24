@@ -2,11 +2,6 @@
 ------Header styles--------
 ======================== */
 @media only screen and (max-width:1666px) {
-    .button{
-        width: auto;
-        min-width: 100px;
-        padding: 7px 22px;
-    }
     .arrow-icon{
         width: 22px;
         height: auto;
@@ -223,9 +218,6 @@
 }
 
 @media only screen and (max-width:640px){
-    .button{
-        padding: 3px 18px;
-    }
     .arrow-icon{
         width: 18px;
         height: auto;
@@ -295,10 +287,6 @@
         line-height: 28px;
         font-weight: normal;
     }
-    .features-content p{
-        font-size: clamp(8px,5vw,12px);
-        line-height:  clamp(10px, 5vw,16px);
-    }
     .feature-items .feature-item h3{
         font-size: clamp(1em,5vw,2em);
     }
@@ -316,9 +304,6 @@
 @media only screen and (max-width:1366px) {
     .solutions-title a{
         font-size: clamp(0.9em,2vw,1.2em);
-    }
-    .solution-item-content .s-item-text a{
-        font-size: clamp(7px,1.5vw,11px);
     }
 
 }
@@ -373,19 +358,14 @@
 }
 @media only screen and (max-width: 640px){
     .solutions-title h2{ 
-        font-size: clamp(14px,5vw,20px);
-        line-height:  clamp(16px,6vw,28px);
+        font-size: 32px;
+        line-height:  34px;
     }
     .solutions-title a .arrow-icon{
         width: 45px;
         height: 42px;
         margin-top: 10px;
     }
-    .solution-item-content .s-item-text h3{
-        font-size: clamp(7px,5vw,11px);
-        line-height:  clamp(8px,5vw,17px);
-        margin-bottom: 2%;
-     }
      .solution-item-content .s-item-text h3 span img{
          width: 70%;
     }
@@ -400,19 +380,18 @@
         grid-area: s-item-img;
     }
     .solution-item-content .s-item-text h2{
-        font-size: clamp(16px,5vw,20px);
-        line-height:  clamp(18px,5vw,26px);
+        font-size: 24px;
+        line-height:  30px;
         margin: 0.5em 0 0.3em;
     }
+    .solution-item-content .s-item-text br{
+        display: none;
+    }
     .solution-item-content .s-item-text p{
-        font-size: clamp(7px,5vw,12px);
-        line-height:  clamp(8px,5vw,17px);
+        font-size: 16px;
+        line-height:  30px;
         width: 95%;
         margin-bottom: 2em;
-    }
-    .solution-item-content .s-item-text a{
-        font-size: clamp(7px,5vw,9px);
-        line-height:  clamp(8px,5vw,16px);
     }
     .solution-item-content .s-item-img{
         padding: 5% 0;
@@ -496,9 +475,7 @@
     }
 }
 @media only screen and (max-width: 1024px ) and (max-height:1360px){
-    .featured-influencers-section{
-        padding-bottom: 15%;
-    }
+
     .f-inf-item{
         width: 33%;
     }
@@ -510,9 +487,6 @@
     }
 }
 @media only screen and (max-width: 1024px ) and (min-height:1360px){
-    .featured-influencers-section{
-        padding-bottom: 15%;
-    }
     .f-inf-item{
         width: 30%;
     }
@@ -558,9 +532,6 @@
     }
 }
 @media only screen and (max-width: 640px){
-    .featured-influencers-section{
-        padding-bottom: 50%;
-    }
     .f-influencers-con{
         padding-top: 20%;
         position: relative;
@@ -603,11 +574,12 @@
         margin-bottom: 0%;
     }
     .f-inf-item .item-text h3{
-        font-size: clamp(0.7em,5vw,1em);
+        font-size: 18px;
     }
     .f-inf-item .item-text p{
-        font-size: clamp(7px,5vw,11px);
-        line-height:  clamp(8px,5vw,15px);
+        font-size: 14px;
+        line-height: 28px;
+        margin-bottom: 36px;
     }
     .item-footer .profile p{ 
         font-size: clamp(0.6em,3vw,1em);

@@ -317,10 +317,6 @@
     .solutions-title a{
         font-size: clamp(0.9em,2vw,1.2em);
     }
-    .solution-item-content .s-item-text h2{
-        font-size: clamp(10px,2.5vw,22px);
-        line-height: clamp(18px,2.5vw,28px);
-    }
     .solution-item-content .s-item-text a{
         font-size: clamp(7px,1.5vw,11px);
     }

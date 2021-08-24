@@ -273,9 +273,6 @@
 ------Features styles-----
 ======================== */
 @media only screen and (max-width:1366px) {
-    .feature-items .feature-item h3{
-        font-size: clamp(1em,3vw,1.5em);
-    }
     .feature-items .feature-item.f-item-2 h3{
         margin-top: 17%;
     }
@@ -317,9 +314,6 @@
 ------Solutions styles-----
 ======================== */
 @media only screen and (max-width:1366px) {
-    .solutions-title h2{
-        font-size: clamp(1em,4vw,2em);
-    }
     .solutions-title a{
         font-size: clamp(0.9em,2vw,1.2em);
     }
@@ -329,7 +323,6 @@
     }
     .solution-item-content .s-item-text a{
         font-size: clamp(7px,1.5vw,11px);
-
     }
 
 }
@@ -472,13 +465,6 @@
     .f-influencers-text h2{
         font-size: clamp(48px,10vw,100px);
         line-height: clamp(48px,10vw,100px);       
-    }
-    .f-influencers-text h3{
-        font-size: clamp(16px,4vw,28px);
-    }
-    .f-influencers-text p{
-        font-size: clamp(10px,1.5vw,14px);
-        line-height: clamp(14px, 1.5vw,19px);
     }
     .f-influencer-items{
         width: 100%;
@@ -645,11 +631,6 @@
 /* ==============================
 ------Featured Brands styles-----
 ============================= */
-@media only screen and (max-width:1366px) {
-    .f-brands-title h2{
-        font-size: clamp(18px,4vw,30px);
-    }
-}
 @media only screen and (max-width: 1024px ){
     .f-brands-con .f-brand img{
         width: 80%;
@@ -669,16 +650,6 @@
 ------Testimonials styles-----
 ========================== */
 @media only screen and (max-width:1366px) {
-    .testimonials-title h2{
-        font-size: clamp(18px,4vw,30px);
-    }
-    .t-item-con .t-item-text p{
-        font-size: clamp(11px,1.5vw,14px);
-    }
-    .t-item-text .t-item-name h3{
-        font-size: clamp(1em,1.5vw,1.3em);
-        line-height: clamp(0.5em,1.5vw,0.6em);
-    }
     .t-item-text .t-item-name p{
         font-size: clamp(0.6em,1.5vw,0.8em);
     }
@@ -746,12 +717,6 @@
 ------Footer styles ---------
 ========================== */
 @media only screen and (max-width:1366px) {
-    .signup-sec-con h2{
-        font-size: clamp(18px,3vw,30px);
-    }
-    .signup-sec-con P{
-        font-size: clamp(11px,1.5vw,14px);
-    }
     .signup-sec-con .btn-signup{
         font-size:15px;
     }

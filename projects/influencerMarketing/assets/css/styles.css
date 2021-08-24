@@ -91,6 +91,7 @@ body{
 }
 .nav-menu .button.btn-login{
     width: auto;
+    font-family: 'Source Sans Pro', sans-serif;
     max-width: 150px;
     min-width: 100px;
     font-size: clamp(12px,1.5vw,17px);

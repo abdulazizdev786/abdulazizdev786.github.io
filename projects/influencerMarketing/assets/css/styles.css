@@ -548,6 +548,18 @@ header .header-content{
     margin: 0;
     position: relative;
 }
+.f-brand.brand-1:after, .f-brand.brand-2:after, .f-brand.brand-3:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: #dfe1e8;
+    border: 5px solid #f1f1f7;
+    border-radius: 50%;
+    right: -10px;
+    bottom: -10px;
+    z-index: 3;
+}
 .f-brand.brand-4,.f-brand.brand-8{
     border-right: none;
 }

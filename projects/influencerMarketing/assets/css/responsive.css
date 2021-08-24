@@ -613,6 +613,27 @@
         font-size: clamp(8px, 5vw, 13px);
         line-height: clamp(10px, 5vw, 18px);
     }
+    .f-brand.brand-2,.f-brand.brand-6{
+        border-right: none;
+    }
+    .f-brand.brand-5,.f-brand.brand-6{
+        border-bottom: 1px solid #e8e8f1;
+    }
+    .f-brand.brand-5:after{
+        content: "";
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        background: #dfe1e8;
+        border: 5px solid #f1f1f7;
+        border-radius: 50%;
+        right: -10px;
+        bottom: -10px;
+        z-index: 3;
+    }
+    .f-brand.brand-2:after{
+        display: none;
+    }
 }
 /* ===========================
 ------Testimonials styles-----

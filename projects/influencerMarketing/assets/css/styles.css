@@ -203,7 +203,7 @@ header .header-content{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 10px 10px 15px #5e0ef248, -10px -10px 15px #5e0ef248;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 .feature-items .feature-item.f-item-2 h3{
     margin-top: 20%;

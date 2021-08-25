@@ -420,6 +420,7 @@ input[type='radio']:checked:after {
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 .c-events-con .c-events-content{
+    width: 100%;
     position: relative;
     text-align: center;
     display: flex;
@@ -438,21 +439,27 @@ input[type='radio']:checked:after {
     font-weight: 400;
     text-transform: capitalize;
     line-height: 22px;
-    width: 90%;
+    width: 80%;
+}
+.c-events-carousel-con {
+    width: 100%;
+    margin: 3% 0;
 }
 .c-events-carousel{
-    float: left;
+    width: 100%;
+    min-height: 30vw;
+    height: auto;
+    position: relative;
     overflow: hidden;
-    padding: 20px;
-    width: 99.3%;
-    position:relative;
 }
 .c-events-carousel .btn.btn-carousel-prev{
     top: 50%;
+    transform: translateY(-50%);
     left: 0;
 }
 .c-events-carousel .btn.btn-carousel-next{
     top: 50%;
+    transform: translateY(-50%);
    right: 0;
 }
 .c-events-carousel .btn{
@@ -468,17 +475,21 @@ input[type='radio']:checked:after {
     font-size: 20px;
 }
 .c-events-carousel .c-events-carousel-inner{
-    transition: 1s ease all;
-    float: left;
+    width: 133%;
+    min-height: 30vw;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    transition: all 0.5s ease;
 }
 .c-events-carousel .c-events-carousel-inner .c-events-item{
-    width: 100;
-    float: left;
-}
- .c-events-item .item-content{
+    width: 30%;
+    margin: 0 0.8%;
     background: #ffffff;
-    margin: 0 10px;
 }
+
 .c-events-item .item-img img{
     width: 100%;
 }

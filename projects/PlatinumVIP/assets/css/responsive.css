@@ -107,12 +107,12 @@
         margin: 4% 0 6%;
     }
     .header-text-con h2{
-        font-size: 28px;
-        line-height: 35px;
+        font-size: 24px;
+        line-height: 32px;
         margin-bottom: 10px;
     }
     .header-text-con h2.type-effect{
-        height: 35px;
+        height: 32px;
     }
     .header-btn{
         margin-top: 20px;
@@ -137,9 +137,15 @@
 /* =============================
 -------Current Event Styles---
 ============================= */
+@media only screen and (max-width:992px){
+    .c-events-carousel .btn{
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+}
 @media only screen and (max-width:612px){
     .current-events{
-        /* width: 100vw; */
         height: auto;
         position: relative;
     }
@@ -147,6 +153,20 @@
         max-width: 95vw;
         padding: 0;
         max-height: 100vh;
+    }
+    .c-events-content p{
+        width: 90%;
+    }
+    .c-events-carousel{
+        min-height: 80vw;
+    }
+    .c-events-carousel .c-events-carousel-inner{
+        width: 400%;
+        min-height: 70vw;
+    }
+    .c-events-carousel .c-events-carousel-inner .c-events-item{
+        width: 94%;
+        margin: 0 3%;
     }
 }
 /* =============================
@@ -198,8 +218,7 @@
     }
     .memb-sec-img p{
         font-size:14px;
-    }
-    
+    }   
 }
 /* =============================
 ----- Footer Section Styles ---
@@ -207,7 +226,7 @@
 @media only screen and (max-width:612px){
     .footer-about-items .footer-about-item p{
         font-size: 13px;
-        line-height: 5px;
+        line-height: 15px;
     }
     .footer-item.item-2 .item-row.row-2{
         margin-top: 10%;

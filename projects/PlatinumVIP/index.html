@@ -106,76 +106,28 @@
                 Register now to be part of the pre-construction events only
                 available to PLATINUMVIP members.
               </p>
-              <form action="" class="col-12 row m-0">
+              <form  class="col-12 row m-0 contact-form" id="contact-form" action="mail.php" method="POST">
                 <div class="names col-12 p-0">
-                  <input
-                    class="text-input name"
-                    type="text"
-                    name=""
-                    id="f-name"
-                    placeholder="First name"
-                  />
-                  <input
-                    class="text-input name"
-                    type="text"
-                    name=""
-                    id="l-name"
-                    placeholder="Last name"
-                  />
+                  <input class="text-input name" type="text" name="f-name" id="f-name" placeholder="First name" required />
+                  <input class="text-input name" type="text" name="l-name" id="l-name" placeholder="Last name" required/>
                 </div>
-                <input
-                  class="text-input"
-                  type="email"
-                  name=""
-                  id=""
-                  placeholder="Your Email"
-                />
-                <input
-                  class="text-input"
-                  type="text"
-                  name=""
-                  id=""
-                  placeholder="Phone"
-                />
+                <input class="text-input" type="email" name="email" id="email" placeholder="Your Email" required/>
+                <input class="text-input" type="text" name="phone" id="phone" placeholder="Phone" required/>
                 <h4>Please choose one of the following profiles</h4>
                 <div class="profiles col-12">
-                  <input
-                    type="radio"
-                    id="profile-1"
-                    name="profile"
-                    value="I am a Realtor®"
-                  />
+                  <input type="radio" id="profile-1" name="profile" value="I am a Realtor®" required/>
                   <label for="profile-1">I am a Realtor®</label><br />
-                  <input
-                    type="radio"
-                    id="profile-2"
-                    name="profile"
-                    value="I am an Investor looking to buy"
-                  />
+                  <input type="radio" id="profile-2" name="profile" value="I am an Investor looking to buy" required/>
                   <label for="profile-2">I am an Investor looking to buy</label
                   ><br />
-                  <input
-                    type="radio"
-                    id="profile-3"
-                    name="profile"
-                    value="I am looking to buy to live in"
-                  />
+                  <input type="radio" id="profile-3" name="profile" value="I am looking to buy to live in" required/>
                   <label for="profile-3">I am looking to buy to live in</label
                   ><br />
-                  <input
-                    type="radio"
-                    id="profile-3"
-                    name="profile"
-                    value="I am working with a Realtor®"
-                  />
+                  <input type="radio" id="profile-3" name="profile" value="I am working with a Realtor®" required/>
                   <label for="profile-3">I am working with a Realtor®</label
                   ><br /><br />
                 </div>
-                <input
-                  class="btn-register-now"
-                  type="submit"
-                  value="Register Now"
-                />
+                <input class="btn-register-now" type="submit" value="Register Now"/>
               </form>
             </div>
           </div>

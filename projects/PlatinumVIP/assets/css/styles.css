@@ -113,12 +113,15 @@ header{
     line-height: clamp(28px, 10vw,72px);
     margin-bottom: 10px;
 }
-.header-text-con h2 strong.type-effect{
+.header-text-con h2 strong.txt-type{
     position: relative;
     top: 0;
 }
+.header-text-con h2.type-effect{
+    height: 80px;
+}
 
-.header-text-con h2 strong.type-effect::after{
+.header-text-con h2 strong.txt-type::after{
     content: "";
     margin-left: 10px;
     position: absolute;

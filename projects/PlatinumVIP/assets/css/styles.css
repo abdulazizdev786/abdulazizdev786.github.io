@@ -113,6 +113,29 @@ header{
     line-height: clamp(28px, 10vw,72px);
     margin-bottom: 10px;
 }
+.header-text-con h2 strong.type-effect{
+    position: relative;
+    top: 0;
+}
+
+.header-text-con h2 strong.type-effect::after{
+    content: "";
+    margin-left: 10px;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-right: 3px solid #FFFFFF;
+    animation:   blink 0.5s infinite ease;
+}
+@keyframes blink {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+}
 .header-text-con h3{
     font-size: clamp(18px, 3.3vw,30px);
     line-height: clamp(26px, 10vw,48px);

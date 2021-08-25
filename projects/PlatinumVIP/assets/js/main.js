@@ -101,3 +101,27 @@ $(document).ready(function () {
     }
 
 });
+
+
+
+
+const texts = ['Home Search Portal', 'PreConstruction Portal'];
+let count = 0;
+let index = 0;
+let curentText = '';
+let letter = '';
+
+(function type(){
+    if (count === texts.length){
+        count = 0;
+    }
+    curentText = texts[count];
+    letter = curentText.slice(0, ++index);
+    document.querySelector('.type-effect').textContent = letter;
+    if(letter.length === curentText.length){
+        count++;
+        index = 0;
+    }
+    setTimeout(type, 100);
+    // setInterval(type, 00);
+}());

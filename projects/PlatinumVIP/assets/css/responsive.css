@@ -13,6 +13,12 @@
         width: auto;
         height: 100%;
     }
+    .header-text-con h2{
+        line-height: clamp(28px, 10vw,60px);
+    }
+    .header-text-con h2.type-effect{
+        height: 60px;
+    }
 }
 @media only screen and (max-width:992px){
     .main-wrapper nav{
@@ -68,6 +74,9 @@
         line-height: 45px;
         margin-bottom: 10px;
     }
+    .header-text-con h2.type-effect{
+        height: 45px;
+    }
     .header-text-con h3{
         font-size: clamp(18px, 3.3vw,30px);
         line-height: clamp(26px, 10vw,48px);
@@ -91,11 +100,19 @@
 @media only screen and (max-width:640px){
     .header-content .header-text-con {
         width: 100%;
-        padding: 0 6%;
+        padding: 7% 6%;
     }
     .header-text-con .header-logo {
         width: 50%;
-        margin: 2% 0;
+        margin: 4% 0 6%;
+    }
+    .header-text-con h2{
+        font-size: 28px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+    .header-text-con h2.type-effect{
+        height: 35px;
     }
     .header-btn{
         margin-top: 20px;

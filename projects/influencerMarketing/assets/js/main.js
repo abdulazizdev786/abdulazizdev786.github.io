@@ -9,7 +9,9 @@ fInfBtnNext.addEventListener('click', function(){
     else{
         left = 0;
     }
-    fInfItem.style.left = left+"%"
+   
+    fInfItem.style.left = left+"%";
+    fInfItem.style.transition = "all 0.3s ease";
 })
 fInfBtnPrev.addEventListener('click', function(){
     if(left>= -195.8 && left !=0){
@@ -18,5 +20,6 @@ fInfBtnPrev.addEventListener('click', function(){
     else{
         left = -194.8
     }
-    fInfItem.style.left = left+"%"
+    fInfItem.style.left = left+"%";
+    fInfItem.style.transition = "all 0.3s ease";
 })

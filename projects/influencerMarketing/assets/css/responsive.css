@@ -1,6 +1,20 @@
 /* ========================
 ------Header styles--------
 ======================== */
+@media only screen and (min-width:1921px){
+    .main-wrapper .hero-section{
+        position: relative;
+    }
+    .hero-section header{
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
 @media only screen and (max-width:1666px) {
     .arrow-icon{
         width: 22px;
@@ -790,7 +804,7 @@
         font-size: clamp(11px,1.5vw,14px);
     }
     .copyrights p{
-        font-size: clamp(11px,1.5vw,14px);
+        font-size: clamp(10px,1.5vw,14px);
         margin-top: 0.5em;
     }
     
@@ -851,5 +865,10 @@
     }
     .copyrights p{
         font-size: 0.8em
+    }
+}
+@media only screen and (max-width: 412px ){
+    .navbar-nav.footer-nav{
+        padding: 0;
     }
 }

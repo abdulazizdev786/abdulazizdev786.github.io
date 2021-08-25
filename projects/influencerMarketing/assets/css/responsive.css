@@ -271,7 +271,7 @@
         padding: 0 0.5em;
     }
     .header-text  h2 strong{
-        font-size: clamp(16px,10vw,40px);
+        font-size: clamp(16px,10vw,36px);
     }
     .header-text h2{
         font-size: clamp(20px,10vw,36px);

@@ -4,7 +4,6 @@ let fInfItem = document.querySelector(".f-influencer-items");
 let left=0;
 fInfBtnNext.addEventListener('click', function(){
     if(left <= 0 && left > -200){
-        console.log("move left")
     left -= 100
     }
     else{
@@ -15,7 +14,6 @@ fInfBtnNext.addEventListener('click', function(){
 fInfBtnPrev.addEventListener('click', function(){
     if(left>= -200 && left !=0){
         left += 100
-        console.log("move right")
     }
     else{
         left = -200

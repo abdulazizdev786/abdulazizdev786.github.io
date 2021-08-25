@@ -599,13 +599,14 @@
     }
 }
 @media only screen and (max-width: 640px){
+
     .f-influencers-con{
-        padding-top: 35%;
+        padding-top:0;
         position: relative;
     }
     .f-influencers-text{
        position: absolute;
-       top: 17%;
+       top: 12%;
        left: 50%;
        transform: translateX(-50%);
        margin-bottom: 15px;
@@ -624,13 +625,21 @@
         height: 10%;
         top: 90%;
     }
-    .f-influencer-items{
-        width: 300%;
+    .f-influencer-items-con{
+        width: 270%;
         height: 360px;
         display: flex;
         position: relative;
     }
+    .f-influencer-items{
+        width: 300%;
+        height: 360px;
+        display: flex;
+        bottom: -50%;
+        position: relative;
+    }
     .f-inf-item{
+        bottom: 0;
         width: 70%;
         margin: 0 5%;
     }
@@ -663,6 +672,92 @@
      .item-footer .location p{ 
          font-size: clamp(0.6em,3vw,1em);
       }
+      /* ========================================= */
+
+
+.f-influencers-con{
+        position: relative;
+        height: 100vw;
+        min-height: 350px;
+        padding: 0;
+    }
+    .f-influencer-items-wrapper{
+        position: relative;
+        height: 80vw;
+        min-height: 350px;
+        padding: 0;
+    }
+    .f-influencer-items-con{
+        width: 65%;
+        height:80vw;
+        min-height: 350px;
+        display: flex;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        overflow: hidden;
+    }
+    .f-influencer-items{
+        width: 300%;
+        height: 100%;
+        display: flex;
+        bottom: 0;
+        position: absolute;
+        transition: all 0.3s ease;
+    }
+    .f-inf-item{
+        width: 100%;
+        bottom: 0;
+        width: 70%;
+        margin: 0 3%;
+    }
+    .f-inf-item .item-img{
+        height: 50%;
+    }
+
+
+      /* ============================================= */
+}
+@media only screen and (max-width:500px){
+    .f-influencer-items-wrapper{
+        position: relative;
+        height: 95vw;
+    }
+    .f-influencer-items-con{
+        width: 84%;
+        height:95vw;
+    }
+
+}
+@media only screen and (max-width:456px){
+    .f-influencers-con{
+        position: relative;
+        height: 80vh;
+    }
+    .f-influencer-items-wrapper{
+        position: relative;
+        height: 70vh;
+    }
+    .f-influencer-items-con{
+        width: 84%;
+        height: 70vh;
+    }
+
+}
+@media only screen and (max-width:392px){
+    .f-influencers-con{
+        height: 80vh;
+    }
+    .f-influencer-items-wrapper{
+        position: relative;
+        height: 75vh;
+    }
+    .f-influencer-items-con{
+        width: 84%;
+        height: 75vh;
+    }
+
 }
 /* ==============================
 ------Featured Brands styles-----

@@ -1,0 +1,199 @@
+/* =============================
+----Header and Nav Styles----
+============================= */
+@media only screen and (max-width:1132px){
+    .logo-con .logo{
+        width: 80%;
+    }
+    .social-menu .menu-item{
+        color: #ffffff;
+        padding: 6px 14px;
+    }
+    .header-bg-vid video{
+        width: auto;
+        height: 100%;
+    }
+}
+@media only screen and (max-width:992px){
+    .main-wrapper nav{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-con .logo{
+        width:100%;
+        margin-left: 15px;
+    }
+    .navbar-nav{
+        padding: 5% 0;
+    }
+    .navbar-nav .nav-item .nav-link{
+        font-family: 'Mulish', sans-serif;
+        font-size: 18px;
+        text-align: center;
+        margin: 1% 0;
+    }
+    .social-menu{
+        display: none
+    }
+    .btn-register-con{
+       display: none;
+    }
+    header{
+        padding-top: 10%;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .header-bg-vid video{
+        width: auto;
+        height: 100%;
+    }
+}
+@media only screen and (max-width:868px){
+    .header-content .header-text-con {
+        width: 100%;
+        padding: 0 10%;
+    }
+    .header-text-con .header-logo {
+        width: 43%;
+        margin: 2% 0;
+    }
+    .header-text-con h2{
+        font-size: 32px;
+        line-height: 45px;
+        margin-bottom: 10px;
+    }
+    .header-text-con h3{
+        font-size: clamp(18px, 3.3vw,30px);
+        line-height: clamp(26px, 10vw,48px);
+    }
+    .header-text-con p{
+        font-size: clamp(10px, 2.5vw,16px);
+        line-height: clamp(18px, 6vw,30px);
+        margin-bottom: 5%;
+    }
+    .header-btn a{
+        font-size: 15px;
+        font-weight: 500;
+        padding: 17px 35px;
+    }
+    .header-content .header-form-con{
+        width: 100%;
+        padding: 0 10%;
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width:640px){
+    .header-content .header-text-con {
+        width: 100%;
+        padding: 0 6%;
+    }
+    .header-text-con .header-logo {
+        width: 50%;
+        margin: 2% 0;
+    }
+    .header-btn{
+        margin-top: 20px;
+    }
+    .header-btn a{
+        padding: 14px 28px;
+    }
+    .header-content .header-form-con{
+        padding: 0 6%;
+    }
+}
+
+/* =============================
+-------Quick Search Styles---
+============================= */
+@media only screen and (max-width:640px){
+    .q-s-item{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+/* =============================
+-------Current Event Styles---
+============================= */
+@media only screen and (max-width:612px){
+    .current-events{
+        /* width: 100vw; */
+        height: auto;
+        position: relative;
+    }
+    .c-events-con .c-events-content{
+        max-width: 95vw;
+        padding: 0;
+        max-height: 100vh;
+    }
+}
+/* =============================
+------- About Section Styles ---
+============================= */
+@media only screen and (max-width:768px){
+    .about-us-con{
+        padding: 10% 3%;
+    }
+}
+/* =============================
+------- FAQs Section Styles ---
+============================= */
+@media only screen and (max-width: 768px){
+    .faq-section-con .section-title{
+        font-size: 24px;
+    }
+    .faq-section-con .faq-sec-content h3{
+        font-size: 16px;
+    }
+    .faq-section-con .faq-sec-content p{
+        font-size: 12px;
+    }
+    .faq-section-con .faq-sec-content .faq-sec-list{
+        font-size: 12px;
+    }
+    .faq-dropdown .faq-item h3{
+        font-size: 16px;
+    }
+    .faq-dropdown .faq-item p{
+        font-size: 12px;
+    }
+    .faq-dropdown .faq-item li{
+        font-size: 12px;
+    }
+}
+/* =============================
+----- Members Section Styles ---
+============================= */
+@media only screen and (max-width:768px){
+    .memb-sec-img .memb-sec-title .section-title{
+        line-height: 32px;
+        font-size: 22px;
+    }
+
+    .members-sec-con .memb-sec-img{
+        height: 50vh;
+        margin-top: 10%;
+    }
+    .memb-sec-img p{
+        font-size:14px;
+    }
+    
+}
+/* =============================
+----- Footer Section Styles ---
+============================= */
+@media only screen and (max-width:612px){
+    .footer-about-items .footer-about-item p{
+        font-size: 13px;
+        line-height: 5px;
+    }
+    .footer-item.item-2 .item-row.row-2{
+        margin-top: 10%;
+    }
+    
+}

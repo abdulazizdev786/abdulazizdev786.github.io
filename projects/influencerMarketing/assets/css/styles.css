@@ -62,8 +62,11 @@ body{
     outline: none;
     border:none;
   }
-  .navbar-toggler-icon {
+  .navbar-toggler .navbar-toggler-icon {
     background-image: url("../images/togger-icon.png") !important;
+  }
+  .navbar-toggler:focus{
+      box-shadow: none;
   }
 .navbar-brand{
     color: #ffffff !important;

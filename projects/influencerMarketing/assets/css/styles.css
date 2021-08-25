@@ -8,7 +8,7 @@ body{
 }
 .button{
     width: auto;
-    min-width: 160px;
+    min-width: 140px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -146,7 +146,7 @@ header .header-content{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    line-height: clamp(20px,1.5vw,30px);
+    line-height: 30px;
     margin-right: 1.3em;
     text-decoration: none;
     text-transform: uppercase;
@@ -390,6 +390,7 @@ header .header-content{
     line-height: 29px;
     font-weight: 600;
     color: #ffffff;
+    text-align: center;
 }
 .f-items-btns{
     display: none;
@@ -595,6 +596,10 @@ button.carousel-control-prev, button.carousel-control-next{
 .testimonials-title{
     text-align: center;
     margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .testimonials-title h2{
     color: #ffffff;

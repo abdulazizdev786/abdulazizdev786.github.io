@@ -222,6 +222,13 @@
         width: 18px;
         height: auto;
     }
+    .navbar-brand{
+        font-size:18px;
+    }
+    .navbar-brand img{
+        width: 24% ;
+        margin-right: 8px;
+    }
     .nav-menu .navbar-nav .nav-link{
         font-size: 1em;
     }
@@ -246,19 +253,31 @@
         line-height:  22px ;
     }
     .header-content .btn-group .header-btn{
-        font-size: 12px;
+        font-size: 14px;
         line-height: 30px;
+        padding: 11px 22px;
     }
 }
 @media only screen and (max-width:392px){
     .navbar-brand{
-        font-size: 0.8em;
+        font-size:16px;
+        margin-right: 0;
     }
     .navbar-brand img{
-        width: 15%;
+        width: 20%;
+        margin-right: 5px;
     }
     .main-wrapper .hero-section header{
         padding: 0 0.5em;
+    }
+    .header-text p{
+        font-size: 15px;
+        line-height:  20px ;
+    }
+    .header-content .btn-group .header-btn{
+        font-size: 12px;
+        line-height: 28px;
+        padding: 6px 18px;
     }
 }
 /* ========================
@@ -533,14 +552,15 @@
 }
 @media only screen and (max-width: 640px){
     .f-influencers-con{
-        padding-top: 20%;
+        padding-top: 35%;
         position: relative;
     }
     .f-influencers-text{
        position: absolute;
-       top: 15%;
+       top: 17%;
        left: 50%;
        transform: translateX(-50%);
+       margin-bottom: 15px;
     }
     .f-influencers-text h2{
         font-size: clamp(5em,15vw,8em);
@@ -558,7 +578,7 @@
     }
     .f-influencer-items{
         width: 300%;
-        height: 320px;
+        height: 360px;
         display: flex;
         position: relative;
     }
@@ -571,15 +591,15 @@
         padding-top: 3%;
     }
     .f-inf-item .item-text {
-        margin-bottom: 0%;
+        margin-bottom:0;
     }
     .f-inf-item .item-text h3{
         font-size: 18px;
     }
     .f-inf-item .item-text p{
         font-size: 14px;
-        line-height: 28px;
-        margin-bottom: 36px;
+        line-height: 24px;
+        margin-bottom: 20px;
     }
     .item-footer .profile p{ 
         font-size: clamp(0.6em,3vw,1em);
@@ -668,6 +688,10 @@
     }
 }
 @media only screen and (max-width: 640px ){
+    .testimonials-title P{
+        text-align: center;
+        width: 85%;
+    }
     .testimonial-items{
         width: 85%;
     }
@@ -686,8 +710,8 @@
         text-align: left;
     }
     .t-item-con .t-item-text p{
-        font-size: clamp(8px, 5vw, 13px);
-        line-height: clamp(10px, 5vw, 18px);
+        font-size: 13px;
+        line-height: 18px;
     }
     .t-item-text .t-item-name{
         width: 60%;
@@ -745,6 +769,9 @@
     }
 }
 @media only screen and (max-width: 640px ){
+    .footer-section{
+        padding: 140px 0 30px;
+    }
     footer .contact-details-con h3{
         font-size: 10px;
         line-height: 16px;

@@ -776,6 +776,8 @@
         font-size: clamp(8px, 5vw, 13px);
         line-height: clamp(10px, 5vw, 18px);
     }
+}
+@media only screen and (max-width: 575px ){
     .f-brand.brand-2,.f-brand.brand-6{
         border-right: none;
     }
@@ -798,6 +800,7 @@
         display: none;
     }
 }
+
 /* ===========================
 ------Testimonials styles-----
 ========================== */

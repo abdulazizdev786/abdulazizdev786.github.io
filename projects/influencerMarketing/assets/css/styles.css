@@ -41,7 +41,7 @@ body{
     min-height: 100vh;
     height: auto;
     box-sizing: border-box;
-    background-image: url(../images/banner.png);
+    background-image: url(../images/banner.jpg);
     background-size: cover;
     background-position: right top;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@ body{
     display: flex;
 }
 .nav-menu .button.btn-login .arrow-icon{
-    width: 25px;
+    width: 19px;
 }
 /* ========================
 ------HEADER STYLES--------
@@ -139,10 +139,10 @@ header .header-content{
 }
 .header-text p{
     font-size: 19px;
-    line-height:  clamp(18px,2vw,25px) ;
+    line-height: 25px;
     color: #ffffff;
     margin-top: 0.5em;
-    font-weight: bold;
+    font-weight: 600;
     letter-spacing: 1px;
 }
 .header-content .btn-group{
@@ -354,28 +354,40 @@ header .header-content{
     width: 90%;
     
 }
+
 /* ====================================
 ------FEATURED INFLUENCERS STYLES------
 ==================================== */
 .featured-influencers-section{
     width: 100%;
     height: auto;
-    padding-bottom: 180px;
     box-sizing: border-box;
     background: #f1f1f7;
 }
-.f-influencers-con{
+.f-influencers-con {
     width: 100%;
     height: auto;
-    padding: 10% 0 0 0;
+    padding: 0;
     box-sizing: border-box;
-    background-image: url(../images/f-influencers-bg.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.f-influencers-text{
+    width: 100%;
+    height: auto;
+    padding: 10% 0 250px 0;
+    box-sizing: border-box;
+    background-image: url(../images/f-influencers-bg.jpg);
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center;
     z-index: 1;
     overflow: visible;
     position: relative;
@@ -394,127 +406,125 @@ header .header-content{
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     line-height: 29px;
-    font-weight: 600;
+    font-weight: 500;
     color: #ffffff;
     text-align: center;
 }
-.f-items-btns{
-    display: none;
-}
-.f-influencer-items{
-    width: 100%;
-    height: 466px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    z-index: 2;
-}
-.f-inf-item{
-    position: relative;
-    bottom: -50%;
-    width: 368px;
-    height: 466px;
-    margin: 0 1%;
-    padding: 0;
-    z-index: 3; 
-    border-radius: 5px;
-}
-
-.f-inf-item .item-img{
-    height: 50%;
-    position: relative;
-    box-shadow: 8px 0 15px rgba(0, 0,0,0.1), -8px -8px 15px rgba(0, 0,0,0.1);
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
-}
-.f-inf-item  .item-img .overlay{
-    width: 100%;
-    height: 100%;
-    background: #252567;
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0.45;
-}
-.f-inf-item .item-img img{
-    width: 100%;
-    height: 100%;
-}
-.f-inf-item .item-content{
-    height: auto;
-    padding: 7%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-radius: 0 0 5px 5px;
-    overflow: hidden;
-    background: #ffffff ;
-    box-shadow: 10px 10px 15px rgba(0,0,0,0.1), -10px 0 15px rgba(0,0,0,0.1);
-}
-.f-inf-item .item-text {
-    margin: 2% 0;
-}
-.f-inf-item .item-text h3{
-    font-size: 20px;
-    line-height: 25px;
-    font-weight: 600;
-    color: #352660;
-    font-family: 'Montserrat', sans-serif;
-}
-.f-inf-item .item-text p{
-    font-size: 13px;
-    line-height: 23px;
-    color: #9193a5;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    background: #ffffff;
-}
-
-.item-footer{ 
-    display: flex;
-    align-items: center;
-}
-.item-footer .profile { 
-    display: flex;
-    align-items: center;
-    padding:0; 
-}
-.item-footer .profile p{ 
-   margin: 0;
-   font-size: clamp(9px,1.2vw,14px);
-   color: #9193a5;
-   font-weight: 600;
-}
-.item-footer .profile .profile-img{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-right: 8px;
-}
-.item-footer .profile .profile-img img{
-    width: 100%;
-}
-
-.item-footer .location{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-}
-.item-footer .location i{ 
-    margin: 0;
-    font-size: clamp(0.6em,1.3vw,1em);
-    color: #faa604;
- }
-.item-footer .location p{ 
-    margin: 0;
-    font-size: clamp(8px,1.3vw,14px);
-    color: #9193a5;
-    font-weight: 600;
-    margin-left: 10px;
- }
+    .f-items-btns{
+        display: none;
+    }
+    .f-influencer-items-wrapper{
+        width: 80%;
+        position: relative;
+        z-index: 3;
+    }
+    .f-influencer-items-wrapper .f-influencer-items-con{
+        width: 100%;
+        position: relative;
+        top: -210px;
+        padding:0 0 20px 0;
+    }
+    .f-influencer-items-con .f-influencer-items{
+        width: 100%;
+        position: relative;
+    }
+    .f-influencer-items .f-inf-item{
+        width: 31%;
+        margin: 0 1%;
+        position: relative;
+        float: left;
+    }
+    .f-inf-item .item-img{
+        width: 100%;
+        height: 210px;
+        max-height: 210px;
+        position: relative;
+        box-shadow: 5px 0 10px rgba(0, 0,0,0.1), -5px -5px 10px rgba(0, 0,0,0.1);
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+    }
+    .f-inf-item  .item-img .overlay{
+        width: 100%;
+        height: 100%;
+        background: #252567;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0.45;
+    }
+    .f-inf-item .item-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .f-inf-item .item-content{
+        /* height: auto; */
+        padding: 7%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 0 0 5px 5px;
+        overflow: hidden;
+        background: #ffffff ;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.1), -5px 0 10px rgba(0,0,0,0.1);
+    }
+    .f-inf-item .item-text {
+        margin: 2% 0;
+    }
+    .f-inf-item .item-text h3{
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 600;
+        color: #352660;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .f-inf-item .item-text p{
+        font-size: 13px;
+        line-height: 23px;
+        color: #9193a5;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        background: #ffffff;
+    }
+    
+    .item-footer{ 
+        display: flex;
+        align-items: center;
+    }
+    .item-footer .profile { 
+        display: flex;
+        align-items: center;
+        padding:0; 
+    }
+    .item-footer  p{ 
+       margin: 0;
+       font-size: clamp(10px,1.5vw,14px);
+       color: #9193a5;
+       font-weight: 600;
+    }
+    .item-footer .profile .profile-img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 8px;
+    }
+    .item-footer .profile .profile-img img{
+        width: 100%;
+    }
+    
+    .item-footer .location{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .item-footer .location i{ 
+        margin: 0;
+        font-size: clamp(0.6em,1.3vw,1em);
+        color: #faa604;
+        margin-right: 8px;
+    }
 /* ===============================
 ------FEATURED Brands STYLES------
 =============================== */
@@ -538,7 +548,7 @@ header .header-content{
 .f-brands-title P{
     color: #352660;
     font-size: 17px;
-    line-height: 23px;
+    line-height: 28px;
     font-weight: 600;
 }
 .f-brands-con{
@@ -614,7 +624,7 @@ button.carousel-control-prev, button.carousel-control-next{
 .testimonials-title P{
     color: #ffffff;
     font-size: 17px;
-    line-height: 23px;
+    line-height: 28px;
     font-weight: 600;
 }
 .testimonial-carousel-con{
@@ -650,7 +660,7 @@ button.carousel-control-prev, button.carousel-control-next{
     border-radius: 15px;
     overflow: hidden;
     left: -10%;
-    background-image: url(../images/testimonial.png);
+    background-image: url(../images/testimonial.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -697,7 +707,7 @@ button.carousel-control-prev, button.carousel-control-next{
     width: 100%;
     height: auto;
     padding: 140px 0 40px;
-    background-image: url(../images/footer-bg.png);
+    background-image: url(../images/footer-bg.jpg);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -711,7 +721,8 @@ button.carousel-control-prev, button.carousel-control-next{
     margin-bottom: 140px;
     color: #ffffff;
     text-align: center;
-    padding: 0.5em 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -737,7 +748,12 @@ button.carousel-control-prev, button.carousel-control-next{
     line-height: 30px;
     font-weight: 600;
     margin-top: 20px;
-    padding: 13px 47px;
+    padding: 13px 45px;
+	transition: all .4s ease-in-out;
+}
+.signup-sec-con .btn-signup:hover{
+	background: #bc76ff;
+	box-shadow: 0px 9px 18px 0px rgba(24,48,167,0.12);
 }
 footer{
     width: 100%;
@@ -768,8 +784,8 @@ footer .social-menu{
     
 }
 footer .social-menu li a{
-    color: #ffffff;
-    font-size: clamp(1em,2vw,1.8em);
+    color: #a498e5;
+    font-size: 26px;
     opacity: 0.4;
 }
 footer .social-menu li a:hover{
@@ -792,7 +808,9 @@ footer hr{
     line-height: 30px;
     font-weight: 700;
 }
-
+.navbar-nav.footer-nav li a:hover{
+    color: #9637f1;
+}
 .copyrights{
     display: flex;
     justify-content: flex-end;

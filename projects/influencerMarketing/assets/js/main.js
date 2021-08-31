@@ -23,3 +23,29 @@ fInfBtnPrev.addEventListener('click', function(){
     fInfItem.style.left = left+"%";
     fInfItem.style.transition = "all 0.3s ease";
 })
+
+
+$(document).on('click','.navbar-collapse',function(e) {
+    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+        $(this).collapse('hide');
+    }
+});
+
+$(document).ready(function () {
+	if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+		$(".navbar").addClass("fixed-nav");
+	} else {
+		$(".navbar").removeClass("fixed-nav");
+	}
+});
+
+$(document).scroll(function () {
+	if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+		$(".navbar").addClass("fixed-nav");
+	} else {
+		$(".navbar").removeClass("fixed-nav");
+	}
+});
+
+
+

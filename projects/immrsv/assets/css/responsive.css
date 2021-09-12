@@ -1,0 +1,278 @@
+@media only screen and (max-width:1366px) {
+    .navbar-brand{
+        width: auto;
+        max-width: 230px;
+        margin-right: 0;
+        font-size: clamp(14px,2vw,20px);
+        display: flex;
+        align-items: center;
+    }
+    .navbar-brand a{
+        font-size: clamp(14px,2vw,20px);
+    }
+    .navbar-brand a img{
+        width: 20% ;
+    }
+    .nav-menu .navbar-nav .nav-link{
+        font-size: clamp(10px,2vw,14px);
+        line-height: 16px;
+    }
+    .nav-menu .button.btn-signup{
+        width: auto;
+        font-size: clamp(10px,2vw,14px);
+    }
+    header .header-text{
+        margin-top: 8%;
+    }
+    .header-text .button.header-btn{
+        font-size: clamp(12px,2vw,16px);
+    }
+}
+@media only screen and (max-width:992px){
+    .header-section nav{
+        /* background-color: #9838f4; */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 2;
+    }
+    .nav-menu {
+       text-align: center;
+       padding: 2em 1em;
+    }
+    .nav-menu .navbar-nav{
+        align-items: center;
+    }
+    .nav-menu .navbar-nav .nav-item{
+        margin:0.6em 0;
+    }
+    .nav-menu .navbar-nav .nav-link{
+        font-weight: 700;
+    }
+    .nav-menu .navbar-nav .nav-item.active{
+        border-bottom: none
+    }
+    .nav-menu .navbar-nav .nav-item:hover{
+        border-bottom: none
+    }
+    .nav-menu .btn-signup{
+        padding:  0.6em 3em;
+        padding: 0;
+        text-align: center;
+        display: inline;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .header-section header{
+        display: flex;
+        align-items: flex-start;
+        margin-top: 0;
+        padding: 5% 16px;
+    }
+    header .header-text{
+        margin-top: 15%;
+    }
+    
+}
+
+@media only screen and (max-width:640px){
+    .navbar-brand a{
+        font-size:18px;
+    }
+    .navbar-brand a img{
+        width: 18% ;
+    }
+    .nav-menu .navbar-nav .nav-link{
+        font-size: 1em;
+    }
+    /* .main-wrapper .header-section{
+        background-image: url(../images/);
+    } */
+    header .header-text{
+        margin-top: 25%;
+    }
+    .header-text h3{
+        width: 70%;
+    }
+}
+@media only screen and (max-width:452px){
+    .button{
+        padding: 8px 30px;
+    }
+    .navbar-brand{
+        font-size:16px;
+        margin-right: 0;
+    }
+    .navbar-brand img{
+        width: 20%;
+        margin-right: 5px;
+    }
+    .main-wrapper .hero-section header{
+        padding: 0 0.5em;
+    }
+    header .header-text {
+        margin-top: 40%;
+    }
+    .header-text h2{
+       font-size: 48px;
+    }
+    .header-text h3{
+        width: 80%;
+       font-size: 15px;
+       line-height: 20px;
+    }
+}
+
+/* ==============================
+------Face Section STYLES--------
+============================== */
+
+@media only screen and (max-width:1366px){
+    .button{
+        padding: 13px 20px;
+    }
+    .face-tryon-section .section-con{
+        padding: 30px 30px;
+    }
+    .source-face .source-face-img{
+        height: 300px;
+    }
+    .source-face-items p{
+        font-size: 18px;
+    }
+    .dest-face .dest-face-img{
+        height: 300px;
+    }
+    .dest-face-items p{
+        font-size: 18px;
+    }
+    .custom-file-btn{
+        font-size: 18px;
+    }
+
+    .face-sec-res-item .item-img{
+        width: 100%;
+        height: 350px;
+    }
+    .face-sec-res-item .merge-btn-con a.button{
+        font-size: clamp(14px,1.4vw,20px);
+        padding: 10px 0 ;
+    }
+    .face-sec-btn-con .face-sec-btn{
+        font-size:  clamp(10px,2.5vw,24px);
+    }
+}
+@media only screen and (max-width:992px){
+    .section-title p{
+        width: 100%;
+    }
+    .section-content .face-sec-items{
+        padding: 15px 0;
+    }
+    .source-face .source-face-img{
+        height: 250px;
+    }
+    .source-face-items p{
+        font-size: 16px;
+    }
+    .dest-face .dest-face-img{
+        height: 250px;
+    }
+    .dest-face-items p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .source-face-items .sf-item{
+        margin: 5px 0 ;
+    }
+    .dest-face-items .df-item{
+        margin: 5px 0;
+    }
+    .face-sec-res-item .item-img{
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .source-face .source-face-img{
+        height: 300px;
+    }
+    .dest-face .dest-face-img{
+        height: 300px;
+    }
+    .face-sec-res-item .item-img{
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 640px){
+    .source-face .source-face-img{
+        height: 400px;
+    }
+    .dest-face .dest-face-img{
+        height: 400px;
+    }
+    .face-sec-res-item .item-img{
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 420px){
+    .source-face .source-face-img{
+        height: 300px;
+    }
+    .dest-face .dest-face-img{
+        height: 300px;
+    }
+    .face-sec-res-item .item-img{
+        height: 300px;
+    }
+    .face-sec-btn-con{
+        padding: 0;
+    }
+}
+
+/* ==============================
+------Dress Section STYLES--------
+============================== */
+@media only screen and (max-width: 992px){
+    .full-image-item .full-item-img{
+        height: 200px;
+    }
+    .dress-image-item .dress-item-img{
+        height: 150px;
+    }
+    .dress-sec-res-item .item-img{
+        height: 300px;
+    }
+    .dress-sec-items .custom-file-btn{
+        font-size: 14px;
+    }
+    .dress-sec-items .custom-file-btn i{
+        font-size: 30px;
+    }
+    .section-content .dress-tryon-res-item{
+        padding: 15px 0;
+    }
+    .dress-sec-res-item .merge-btn-con a.button{
+        font-size:  clamp(14px,3vw,18px);
+        padding: 13px 0;
+    }
+    .dress-sec-btn-con .face-sec-btn{
+        font-size:  clamp(10px,3vw,18px);
+    }
+}
+@media only screen and (max-width:768px){
+    .full-image-item .full-item-img{
+        height: 200px;
+    }
+    .dress-image-item .dress-item-img{
+        height: 150px;
+    }
+    .dress-sec-res-item .item-img{
+        height: 650px;
+    }
+}
+@media only screen and (max-width:640px){
+    .section-content .dress-tryon-res-item{
+        padding: 15px;
+    }
+}

@@ -16,7 +16,7 @@
     }
     .main-wrapper .header-section{
         min-height: 73vh;
-        background-position: right center;
+        background-position: left center;
     }
     .navbar-brand{
         width: auto;
@@ -113,6 +113,10 @@
 }
 
 @media only screen and (max-width:640px){
+    .main-wrapper .header-section{
+        min-height: 80vh;
+        background-position: left bottom;
+    }
     .navbar-brand a{
         font-size:18px;
     }
@@ -122,9 +126,6 @@
     .nav-menu .navbar-nav .nav-link{
         font-size: 1em;
     }
-    /* .main-wrapper .header-section{
-        background-image: url(../images/);
-    } */
     header .header-text{
         margin-top: 25%;
     }
@@ -254,16 +255,22 @@
         padding: 0px 10px;
     }
     .source-face .source-face-img{
-        height: 300px;
+        height: 200px;
     }
     .dest-face .dest-face-img{
-        height: 300px;
+        height: 200px;
     }
     .face-sec-result .face-sec-res-item{
-        height: 530px;
+        height: 330px;
     }
     .face-sec-res-item .item-img{
-        height: 400px;
+        height: 230px;
+    }
+    .source-face-items .sf-item .item-img{
+        height: 75px;
+    }
+    .dest-face-items .df-item .item-img{
+        height: 75px;
     }
 }
 @media only screen and (max-width: 640px){
@@ -347,14 +354,17 @@
     }
 }
 @media only screen and (max-width:768px){
+    .dress-tryon-section .section-con{
+        padding: 30px 10px;
+    }
     .full-image-item .full-item-img{
-        height: 200px;
+        height: 180px;
     }
     .dress-image-item .dress-item-img{
-        height: 150px;
+        height: 130px;
     }
     .dress-sec-res-item .item-img{
-        height: 650px;
+        height: 250px;
     }
 }
 @media only screen and (max-width:640px){
@@ -367,10 +377,10 @@
 ------Signup Section STYLES--------
 ============================== */
 
-@media only screen and (max-width:640px){
+@media only screen and (max-width:768px){
     .signup-form-con .signup-form input{
         width: 100%;
-        height: 40px;
+        height: 35px;
     }
 
 }

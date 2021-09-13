@@ -124,7 +124,7 @@ p{
     line-height: 30px;
     font-weight: 600;
     background: #ffffff;
-    color: #9838f4;
+    color: #5bccf6;
     border-radius: 5px;
     padding: 5px 11px;
     text-transform: uppercase;
@@ -151,7 +151,7 @@ header .header-text:before{
     width: 150px;
     top: 0;
     left: 0;
-    background: #e64837;
+    background: #fcde67;
 }
 .header-text h2{
     color: #ffffff;
@@ -162,7 +162,7 @@ header .header-text:before{
     margin-bottom: 50px;
 }
 .header-text .button.header-btn{
-    background-color: #061d5d;
+    background-color: #fcde67;
     color: #ffffff;
     transition: all 0.2s;
     border-radius: 5px;
@@ -316,6 +316,7 @@ header .header-text:before{
 }
 .face-sec-result .face-sec-res-item{
     padding: 20px;
+    height: 550px;
     background: #f4f2ee;
     border-radius: 10px;
 }
@@ -332,11 +333,10 @@ header .header-text:before{
     margin: 30px 0 20px;
     text-align: center;
     display: flex;
-    justify-content: stretch;
 }
 .face-sec-res-item .merge-btn-con a.button{
     width: 100%;
-    background: linear-gradient(to right, #852bed, #9838f4);
+    background: #5bccf6;
     color: #ffffff;
     margin: 0 auto;
     font-size:  clamp(14px,2vw,24px);
@@ -352,7 +352,7 @@ header .header-text:before{
 }
 .face-sec-btn-con .face-sec-btn{
     width: 100%;
-    background: linear-gradient(to right, #852bed, #9838f4);
+    background: #5bccf6;
     color: #ffffff;
     font-size:  clamp(14px,2vw,24px);
 }
@@ -400,7 +400,7 @@ header .header-text:before{
     border-radius: 8px;
 }
 .full-item-img input[type="radio"]:checked + span.selected{
-    border: 8px solid #9838f430;
+    border: 8px solid #5bccf630;
 }
 .full-image-item .full-item-img{
     height: 300px;
@@ -454,7 +454,7 @@ header .header-text:before{
     height: 100%;
 }
 .dress-item-img input[type="radio"]:checked + span.selected{
-    border: 8px solid #9838f430;
+    border: 8px solid #5bccf630;
 }
 
 
@@ -486,7 +486,7 @@ header .header-text:before{
 }
 .dress-sec-res-item .merge-btn-con a.button{
     width: 100%;
-    background: linear-gradient(to right, #852bed, #9838f4);
+    background: #5bccf6;
     color: #ffffff;
     margin: 0 auto;
     font-size:  clamp(14px,2vw,24px);
@@ -502,23 +502,97 @@ header .header-text:before{
 }
 .dress-sec-btn-con .face-sec-btn{
     width: 100%;
-    background: linear-gradient(to right, #852bed, #9838f4);
+    background: #5bccf6;
     color: #ffffff;
     font-size:  clamp(10px,2vw,24px);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-.header-section, .face-tryon-section{
-    /* display: none; */
+/* ==============================
+------Signup Section STYLES--------
+============================== */
+.signup-section{
+    width: 100%;
+    height: auto;
+    padding: 80px 0 0;
+    background-color: #5bccf6;
+    color: #ffffff;
 }
+.signup-section .section-con{
+    padding: 30px 10px;
+}
+.signup-section .section-con .section-title{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333333;
+}
+.section-content{
+    color: #333333;
+}
+.section-content ul li{
+    font-size: clamp(16px,1vw,20px);
+    font-weight: 600;
+    color: #444444;
+    font-family: 'Poppins', sans-serif;
+}
+.section-content h4{
+    font-size: clamp(16px,1.3vw,24px);
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+
+}
+.signup-section .section-content .signup-form-con{
+    width: 100%;
+    padding: 0;
+}
+.signup-form-con .signup-form label{
+    font-size: clamp(16px,1vw,20px);
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.signup-form-con .signup-form input{
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    background: #ffffff;
+    border: none;
+    outline: none;
+    margin: 5px 0;
+    font-size: 22px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #444444;
+    font-weight: 600;
+}
+.signup-form-con .signup-form .user-type input{
+    width: 100%;
+    height: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+.signup-form-con .signup-form input.btn-submit{
+    height: auto;
+    background: linear-gradient(to right, #ffcb24, #fcde67);
+    color: #333333;
+    font-size: clamp(16px,1.3vw,24px);
+    font-weight: bold;
+    padding: 13px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.signup-section .section-content footer{
+    padding: 10px 0;
+    margin-top: 80px;
+}
+.signup-section .section-content footer .copyright p{
+    color: #ffffff;
+}
+
+
+
+.custom-file-btn{
+    opacity: 0.3 !important;
+}
+
+

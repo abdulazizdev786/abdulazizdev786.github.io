@@ -30,7 +30,7 @@
 }
 @media only screen and (max-width:992px){
     .header-section nav{
-        /* background-color: #9838f4; */
+        background-color: #5bccf6;
         position: absolute;
         top: 0;
         left: 0;
@@ -150,7 +150,9 @@
     .custom-file-btn{
         font-size: 18px;
     }
-
+    .face-sec-result .face-sec-res-item{
+        height: 500px;
+    }
     .face-sec-res-item .item-img{
         width: 100%;
         height: 350px;
@@ -189,6 +191,9 @@
     .dest-face-items .df-item{
         margin: 5px 0;
     }
+    .face-sec-result .face-sec-res-item{
+        height: 430px;
+    }
     .face-sec-res-item .item-img{
         height: 300px;
     }
@@ -199,6 +204,9 @@
     }
     .dest-face .dest-face-img{
         height: 300px;
+    }
+    .face-sec-result .face-sec-res-item{
+        height: 530px;
     }
     .face-sec-res-item .item-img{
         height: 400px;
@@ -211,6 +219,7 @@
     .dest-face .dest-face-img{
         height: 400px;
     }
+  
     .face-sec-res-item .item-img{
         height: 400px;
     }
@@ -221,6 +230,9 @@
     }
     .dest-face .dest-face-img{
         height: 300px;
+    }
+    .face-sec-result .face-sec-res-item{
+        height: 450px;
     }
     .face-sec-res-item .item-img{
         height: 300px;
@@ -275,4 +287,16 @@
     .section-content .dress-tryon-res-item{
         padding: 15px;
     }
+}
+
+/* ==============================
+------Signup Section STYLES--------
+============================== */
+
+@media only screen and (max-width:640px){
+    .signup-form-con .signup-form input{
+        width: 100%;
+        height: 40px;
+    }
+
 }

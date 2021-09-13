@@ -1,4 +1,19 @@
 @media only screen and (max-width:1366px) {
+    
+    h2{
+        font-size: clamp(60px, 34vw, 60px);
+    }
+    h3{
+        font-size: clamp(14px, 1.5vw, 18px);
+        line-height: clamp(18px, 2vw, 28px);
+    }
+    .button{
+        padding: 12px 20px;
+    }
+    .main-wrapper .header-section{
+        min-height: 70vh;
+        background-position: right center;
+    }
     .navbar-brand{
         width: auto;
         max-width: 230px;
@@ -24,8 +39,12 @@
     header .header-text{
         margin-top: 8%;
     }
+    header .header-text:before{
+        width: 100px;
+    }
     .header-text .button.header-btn{
         font-size: clamp(12px,2vw,16px);
+        padding: 13px 50px;
     }
 }
 @media only screen and (max-width:992px){
@@ -73,7 +92,20 @@
     header .header-text{
         margin-top: 15%;
     }
+    .header-text h3{
+        margin-bottom: 30px;
+    }
+    .header-text .button.header-btn{
+        padding: 10px 40px;
+    }
     
+}
+
+@media only screen and (max-width:768px){
+    .main-wrapper .header-section{
+        min-height: 60vh;
+        background-position: right center;
+    }
 }
 
 @media only screen and (max-width:640px){
@@ -136,33 +168,39 @@
         padding: 30px 30px;
     }
     .source-face .source-face-img{
-        height: 300px;
+        height: 260px;
     }
     .source-face-items p{
         font-size: 18px;
     }
+    .source-face-items .sf-item .item-img{
+        height: 65px;
+    }
     .dest-face .dest-face-img{
-        height: 300px;
+        height: 260px;
     }
     .dest-face-items p{
         font-size: 18px;
+    }
+    .dest-face-items .df-item .item-img{
+        height: 65px;
     }
     .custom-file-btn{
         font-size: 18px;
     }
     .face-sec-result .face-sec-res-item{
-        height: 500px;
+        height: 400px;
     }
     .face-sec-res-item .item-img{
         width: 100%;
-        height: 350px;
+        height: 280px;
     }
     .face-sec-res-item .merge-btn-con a.button{
-        font-size: clamp(14px,1.4vw,20px);
+        font-size: clamp(10px,1.4vw,20px);
         padding: 10px 0 ;
     }
     .face-sec-btn-con .face-sec-btn{
-        font-size:  clamp(10px,2.5vw,24px);
+        font-size:  clamp(10px,1.4vw,20px);
     }
 }
 @media only screen and (max-width:992px){
@@ -199,6 +237,12 @@
     }
 }
 @media only screen and (max-width: 768px){
+    .face-tryon-section{
+        padding: 0 0 10px;
+    }
+    .face-tryon-section .section-con{
+        padding: 0px 10px;
+    }
     .source-face .source-face-img{
         height: 300px;
     }
@@ -245,6 +289,23 @@
 /* ==============================
 ------Dress Section STYLES--------
 ============================== */
+@media only screen and (max-width: 1366px){
+    .full-image-item .full-item-img{
+        height: 220px;
+    }
+    .dress-image-item .dress-item-img{
+        height: 160px;
+    }
+    .dress-sec-res-item .item-img{
+        height: 350px;
+    }
+    .dress-sec-res-item .merge-btn-con a.button{
+        font-size:  clamp(13px,1.4vw,20px);
+    }
+    .dress-sec-btn-con .dress-sec-btn{
+        font-size:  clamp(13px,1.4vw,20px);
+    }
+}
 @media only screen and (max-width: 992px){
     .full-image-item .full-item-img{
         height: 200px;

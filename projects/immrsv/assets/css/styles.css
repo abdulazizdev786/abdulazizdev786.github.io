@@ -9,7 +9,7 @@ body{
     box-sizing: border-box;
 }
 h2{
-    font-size: clamp(60px, 6vw, 120px);
+    font-size: clamp(60px, 4vw, 120px);
     font-family: 'Montserrat', sans-serif;
     font-weight: bold; 
 }
@@ -51,7 +51,7 @@ p{
 }
 .main-wrapper .header-section{
     width: 100%;
-    min-height: 100vh;
+    min-height: 85vh;
     height: auto;
     box-sizing: border-box;
     background-image: url(../images/banner-bg.svg);
@@ -88,7 +88,6 @@ p{
 }
 .navbar-brand a img{
     width: 15.5% ;
-    /* margin-right: 0.6em; */
 }
 .nav-menu .navbar-nav{
     margin-right: 1em;
@@ -177,7 +176,7 @@ header .header-text:before{
 .face-tryon-section{
     width: 100%;
     height: auto;
-    padding: 80px 0;
+    padding: 10px 0;
 }
 .face-tryon-section .section-con{
     padding: 30px 10px;
@@ -362,7 +361,7 @@ header .header-text:before{
 .dress-tryon-section{
     width: 100%;
     height: auto;
-    padding: 80px 0;
+    padding: 20px 0 80px;
 }
 .dress-tryon-section .section-con{
     padding: 30px 10px;
@@ -396,7 +395,7 @@ header .header-text:before{
     height: 100%;
     top: 0;
     left: 0;
-    z-index: 0;
+    z-index: 1;
     border-radius: 8px;
 }
 .full-item-img input[type="radio"]:checked + span.selected{
@@ -500,7 +499,7 @@ header .header-text:before{
     margin-top: 20px;
     padding: 0 10%;
 }
-.dress-sec-btn-con .face-sec-btn{
+.dress-sec-btn-con .dress-sec-btn{
     width: 100%;
     background: #5bccf6;
     color: #ffffff;
@@ -513,12 +512,12 @@ header .header-text:before{
 .signup-section{
     width: 100%;
     height: auto;
-    padding: 80px 0 0;
+    padding: 20px 0 0;
     background-color: #5bccf6;
     color: #ffffff;
 }
 .signup-section .section-con{
-    padding: 30px 10px;
+    padding: 30px 10px 0;
 }
 .signup-section .section-con .section-title{
     text-align: center;

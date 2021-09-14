@@ -15,8 +15,8 @@
         padding: 12px 20px;
     }
     .main-wrapper .header-section{
-        min-height: 73vh;
-        background-position: left center;
+        min-height: 53vh;
+        background-position: left bottom;
     }
     .navbar-brand{
         width: auto;
@@ -41,7 +41,7 @@
         font-size: clamp(10px,2vw,14px);
     }
     header .header-text{
-        margin-top: 8%;
+        margin-top: 2%;
     }
     header .header-text:before{
         width: 100px;
@@ -114,7 +114,7 @@
 
 @media only screen and (max-width:640px){
     .main-wrapper .header-section{
-        min-height: 80vh;
+        min-height: 50vh;
         background-position: left bottom;
     }
     .navbar-brand a{
@@ -173,7 +173,7 @@
         font-size: clamp(18px, 1.8vw, 28px);
     }
     .face-tryon-section .section-con{
-        padding: 30px 130px;
+        padding: 0 130px 20px;
     }
     .source-face .source-face-img{
         height: 210px;
@@ -213,7 +213,7 @@
 }
 @media only screen and (max-width:992px){
     .face-tryon-section .section-con{
-        padding: 30px 100px;
+        padding: 0px 100px 20px;
     }
     .section-title p{
         width: 100%;
@@ -308,7 +308,7 @@
 ============================== */
 @media only screen and (max-width: 1366px){
     .dress-tryon-section .section-con{
-        padding: 30px 100px;
+        padding: 10px 100px 20px;
     }
     .full-image-item .full-item-img{
         height: 200px;

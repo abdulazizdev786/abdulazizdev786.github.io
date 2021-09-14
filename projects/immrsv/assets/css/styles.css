@@ -56,7 +56,7 @@ p{
     box-sizing: border-box;
     background-image: url(../images/banner-bg.svg);
     background-size: cover;
-    background-position: right top;
+    background-position: left bottom;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -141,7 +141,7 @@ p{
 header .header-text{
     margin-top: 10%;
     position: relative;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 header .header-text:before{
     content: "";
@@ -158,7 +158,7 @@ header .header-text:before{
 .header-text h3{
     width: 50%;
     color: #efefef;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .header-text .button.header-btn{
     background-color: #fcde67;
@@ -166,9 +166,7 @@ header .header-text:before{
     transition: all 0.2s;
     border-radius: 5px;
 }
-.header-text .button.header-btn:hover{
-    transform: scale(1.65);
-}
+
 
 /* ==============================
 ------Face Section STYLES--------
@@ -176,7 +174,7 @@ header .header-text:before{
 .face-tryon-section{
     width: 100%;
     height: auto;
-    padding: 10px 0;
+    padding: 0 0 10px;
 }
 .face-tryon-section .section-con{
     padding: 30px 10px;
@@ -212,7 +210,7 @@ header .header-text:before{
 }
 
 .source-face-items{
-    margin-top: 30px !important;
+    margin-top: 15px !important;
 }
 .source-face-items p{
     font-weight: 600;
@@ -273,7 +271,7 @@ header .header-text:before{
 }
 
 .dest-face-items{
-    margin-top: 30px !important;
+    margin-top: 15px !important;
 }
 .dest-face-items p{
     font-weight: 600;
@@ -346,7 +344,7 @@ header .header-text:before{
     display: flex;
     justify-content:stretch;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0;
     padding: 0 10%;
 }
 .face-sec-btn-con .face-sec-btn{
@@ -568,7 +566,7 @@ header .header-text:before{
 .signup-form-con .signup-form .user-type input{
     width: 100%;
     height: 20px;
-    margin: 10px 0;
+    margin: 5px 0;
     border-radius: 8px;
 }
 .signup-form-con .signup-form input.btn-submit{

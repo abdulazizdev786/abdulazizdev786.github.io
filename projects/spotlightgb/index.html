@@ -1,0 +1,1830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Google Fonts CSS  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+
+    <!-- Styles link -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <link rel="icon" href="favicon.svg" type="image/svg" sizes="16x16">
+    <title>SpotLightGB</title>
+</head>
+
+<body>
+    <div class="main-wrapper" id="main-wrapper">
+        <div class="whatsapp-chat">
+            <div class="whatsapp-icon" id="whatsapp-icon">
+                <label for="chat-check"><i class="fa fa-whatsapp"></i></label>
+                <input type="checkbox" name="chkbox" id="chat-check" style="display: none;">
+                <div class="chat-frame-con" id="chat-con">
+                    <div class="chat-frame-header">
+                        <div class="chat-profile-pic">
+                            <img src="assets/img/LogoSpotLight.svg" alt="">
+                        </div>
+                        <div class="chat-profile-name">
+                            <h6>Spotlight GB</h6>
+                            <p>Typically replies within a day</p>
+                        </div>
+                    </div>
+                    <div class="chat-section">
+                        <div class="chat-buble">
+                            <h6>Spotlight GB</h6>
+                            <p>Hi there!<br>How can we help you?</p>
+                        </div>
+                    </div>
+                    <div class="chat-footer">
+                        <div class="chat-start-btn">
+                            <a href="https://api.whatsapp.com/send?phone=+447594456758" target="_blank" id="wp-icon">
+                        Start Chat 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logo" id="logo">
+            <a href="http://spotlightgb.com/" class="logo-DP">
+                <img src="assets/img/SpotlightLogoWhite.png" alt="" draggable="false"  id="logo-white" />
+                <img src="assets/img/SpotlightLogoRed.png" alt="" draggable="false" id="logo-red"/>
+            </a>
+        </div>
+        <div class="header-menu-icon" id="header-menu-icon">
+            <label id="header-menu-btn" class="menu-icon"><img src="assets/img/menu-icon.svg" alt=""
+                    draggable="false" /></label>
+            <label id="header-menu-close-btn" class="menu-close-icon">
+                &times;
+            </label>
+        </div>
+        <!--Popup Modal code -->
+        <div class="modal" role="dialog" id="popUpModal">
+            <div class="modal-content">
+                <span class="close" id="close-modal">&times;</span>
+                <button id="btn-modal-contact" class="btn-modal-contact">Contact Us</button>
+                <!--<div class="modal-text">-->
+                <!--    <div class="modal-logo">-->
+                <!--        <img src="assets/img/SpotlightLogoRed.png" alt="" draggable="false">-->
+                <!--    </div>-->
+                <!--    <div class="modal-details">-->
+                <!--        <ul>-->
+                <!--            <li>Reduction</li>-->
+                <!--            <li>News</li>-->
+                <!--            <li>Upcoming events</li>-->
+                <!--        </ul>-->
+                <!--    </div>-->
+                <!--</div>-->
+                <!--<form class="modal-form">-->
+
+                <!--    <div class="row3 moda-btn-con">-->
+                <!--        <button type="submit" class="btn btn-modal">Let's make it happen</button>-->
+                <!--    </div>-->
+
+                <!--</form>-->
+            </div>
+        </div>
+        <!-- PopUp modal end  -->
+        <nav id="nav">
+            <div class="nav-items">
+                <div class="hamburger">
+                    <label id="menuButton" class="menu-icon"><img src="assets/img/menu-icon.svg" alt=""
+                            draggable="false" /></label>
+                    <label id="menuCloseButton" class="menu-close-icon">
+                        &times;
+                    </label>
+                </div>
+                <div class="navigator">
+                    <ul class="nav-list buttons-group">
+                        <li id="nav-dot-1" class="slider-1 active">
+                            <button id="moveTo1" class="btn-nav"></button>
+                        </li>
+                        <li id="nav-dot-anim-1" class="nav-anim active slider-1">
+                            <span></span>
+                        </li>
+                        <li id="nav-dot-2" class="slider-2">
+                            <button id="moveTo2" class="btn-nav"></button>
+                        </li>
+                        <li id="nav-dot-anim-2" class="nav-anim slider-2">
+                            <span></span>
+                        </li>
+                        <li id="nav-dot-3" class="slider-3">
+                            <button id="moveTo3" class="btn-nav"></button>
+                        </li>
+                        <li id="nav-dot-anim-3" class="nav-anim slider-3">
+                            <span></span>
+                        </li>
+                        <li id="nav-dot-4" class="slider-4">
+                            <button id="moveTo4" class="btn-nav"></button>
+                        </li>
+                        <li id="nav-dot-anim-4" class="nav-anim slider-4">
+                            <span></span>
+                        </li>
+                        <li id="nav-dot-5" class="slider-5">
+                            <button id="moveTo5" class="btn-nav"></button>
+                        </li>
+                        <li id="nav-dot-anim-5" class="nav-anim slider-5">
+                            <span></span>
+                        </li>
+                        <li id="nav-dot-6" class="slider-6">
+                            <button id="moveTo6" class="btn-nav"></button>
+                        </li>
+                        <li id="nav-dot-anim-6" class="nav-anim slider-6">
+                            <span></span>
+                        </li>
+                        <li id="nav-dot-7" class="slider-7">
+                            <button id="moveTo7" class="btn-nav"></button>
+                        </li>
+                        <li id="nav-dot-anim-7" class="nav-anim slider-7">
+                            <span></span>
+                        </li>
+                        <li id="nav-dot-8" class="slider-8">
+                            <button id="moveTo8" class="btn-nav"></button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="scroll-btn-con">
+                    <div class="scroll-btn">
+                        S<br>C<br>R<br>O<br>L<br>L
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="nav-menu">
+            <div class="nav-menu-list-con" id="menuList">
+                <ul class="nav-menu-list">
+                    <li id="menuListItem1" class="active">
+                        <a><span>01</span>Home</a>
+                    </li>
+                    <li id="menuListItem2" class="">
+                        <a><span>02</span>Services</a>
+                    </li>
+                    <li id="menuListItem3" class="">
+                        <a><span>03</span>Why Choose Us?</a>
+                    </li>
+                    <li id="menuListItem4" class="">
+                        <a><span>04</span>About Us</a>
+                    </li>
+                    <li id="menuListItem5" class="">
+                        <a><span>05</span>Our Customers</a>
+                    </li>
+                    <li id="menuListItem6" class="">
+                        <a><span>06</span>Packages</a>
+                    </li>
+                    <li id="menuListItem7" class="">
+                        <a><span>07</span>Current Market</a>
+                    </li>
+                    <li id="menuListItem8" class="">
+                        <a><span>08</span>Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-container" id="fullpage">
+            <section id="home-section" class="section">
+                <header class="jumbotron slideOutUp">
+                    <div class="header-nav-con">
+                        <div id="nav" class="header-nav">
+                            <div class="nav-items">
+                                <div class="navigator">
+                                    <ul class="nav-list buttons-group">
+                                        <li id="header-nav-dot-1" class="slider-1 active">
+                                            <button id="moveTo1" class="btn-nav"></button>
+                                        </li>
+                                        <li id="header-nav-dot-anim-1" class="nav-anim active slider-1">
+                                            <span></span>
+                                        </li>
+                                        <li id="nav-dot-2" class="slider-2">
+                                            <button id="moveTo2" class="btn-nav"></button>
+                                        </li>
+                                        <li id="nav-dot-anim-2" class="nav-anim slider-2">
+                                            <span></span>
+                                        </li>
+                                        <li id="nav-dot-3" class="slider-3">
+                                            <button id="moveTo3" class="btn-nav"></button>
+                                        </li>
+                                        <li id="nav-dot-anim-3" class="nav-anim slider-3">
+                                            <span></span>
+                                        </li>
+                                        <li id="nav-dot-4" class="slider-4">
+                                            <button id="moveTo4" class="btn-nav"></button>
+                                        </li>
+                                        <li id="nav-dot-anim-4" class="nav-anim slider-4">
+                                            <span></span>
+                                        </li>
+                                        <li id="nav-dot-5" class="slider-5">
+                                            <button id="moveTo5" class="btn-nav"></button>
+                                        </li>
+                                        <li id="nav-dot-anim-5" class="nav-anim slider-5">
+                                            <span></span>
+                                        </li>
+                                        <li id="nav-dot-6" class="slider-6">
+                                            <button id="moveTo6" class="btn-nav"></button>
+                                        </li>
+                                        <li id="nav-dot-anim-6" class="nav-anim slider-6">
+                                            <span></span>
+                                        </li>
+                                        <li id="nav-dot-7" class="slider-7">
+                                            <button id="moveTo7" class="btn-nav"></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" id="header-con">
+                        <div class="bg-text">
+                            <!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In  -->
+                            <svg version="1.1" id="bg-text" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="810.81px"
+                                height="311.04px" viewBox="0 0 810.81 311.04" style="
+                    overflow: visible;
+                    enable-background: new 0 0 810.81 311.04;
+                  " xml:space="preserve">
+                                <style type="text/css">
+                                    .st0 {
+                                        stroke: #cacaca;
+                                        stroke-width: 3;
+                                        stroke-miterlimit: 10;
+                                    }
+                                </style>
+                                <defs></defs>
+                                <g>
+                                    <path class="st0" d="M1.85,220.12l18.7-41.48c20.06,14.62,49.98,24.82,78.54,24.82c32.64,0,45.9-10.88,45.9-25.5
+                                c0-44.54-138.38-13.94-138.38-102.34c0-40.46,32.64-74.12,100.3-74.12c29.92,0,60.52,7.14,82.62,21.08l-17,41.82
+                                c-22.1-12.58-44.88-18.7-65.96-18.7c-32.64,0-45.22,12.24-45.22,27.2c0,43.86,138.38,13.6,138.38,100.98
+                                c0,39.78-32.98,73.78-100.98,73.78C61.01,247.66,22.93,236.44,1.85,220.12z" />
+                                    <path class="st0"
+                                        d="M432.97,152.12c0,57.46-39.78,94.18-91.12,94.18c-22.78,0-41.48-7.14-55.08-22.1v85.34h-53.04V60.66h50.66
+                                v21.08c13.26-15.98,32.98-23.8,57.46-23.8C393.19,57.94,432.97,94.66,432.97,152.12z M379.25,152.12
+                                c0-31.62-20.06-50.66-46.58-50.66s-46.58,19.04-46.58,50.66s20.06,50.66,46.58,50.66S379.25,183.74,379.25,152.12z" />
+                                    <path class="st0" d="M454.72,152.12c0-55.08,42.5-94.18,100.64-94.18c58.14,0,100.3,39.1,100.3,94.18s-42.16,94.18-100.3,94.18
+                                C497.22,246.3,454.72,207.2,454.72,152.12z M601.94,152.12c0-31.62-20.06-50.66-46.58-50.66s-46.92,19.04-46.92,50.66
+                                s20.4,50.66,46.92,50.66S601.94,183.74,601.94,152.12z" />
+                                    <path class="st0"
+                                        d="M809,234.74c-10.88,7.82-26.86,11.56-43.18,11.56c-43.18,0-68.34-22.1-68.34-65.62v-75.14h-28.22v-40.8h28.22
+                                V20.2h53.04v44.54h45.56v40.8h-45.56V180c0,15.64,8.5,24.14,22.78,24.14c7.82,0,15.64-2.38,21.42-6.8L809,234.74z" />
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="scroll-mobile" id="scrollMobile">
+                            <span class="boundary"></span>
+                            <span class="tab"></span>
+                        </div>
+                        <div class="header-col-con">
+                            <div class="header-col1">
+                                <div class="header-text">
+                                    <h1 id="your-h1">YOUR</h1>
+                                    <h1 id="ostop-h1">
+                                        <span class="one" id="one">ONE</span> STOP
+                                    </h1>
+                                    <h1 id="DAgency-h1">DIGITAL&nbsp;AGENCY</h1>
+                                    <div class="btn-quote" id="btn-quote">
+                                        <label>GET A QUOTE</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-col2" id="header-col-2">
+                                <div class="header-circle-con">
+                                    <div class="circle" id="heade-circle">
+                                        <div class="header-img" id="header-img">
+                                            <img src="assets/img/header-bg.svg" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-details-con" id="header-details-con">
+                            <div class="header-detail detail-box-1">
+                                <span class="det-icon"><i class="fa fa-check"></i></span>
+                                <div class="counter-con">
+                                    <span class="counter" data-target="300">0</span><span>+</span>
+                                </div>
+                                <span>Projects Completed</span>
+                            </div>
+                            <div class="header-detail detail-box-2">
+                                <span class="det-icon"><i class="fa fa-coffee"></i></span>
+                                <div class="counter-con">
+                                    <span class="counter" data-target="500">0</span><span>+</span>
+                                </div>
+                                <span>Coffee Consumed</span>
+                            </div>
+                            <div class="header-detail detail-box-3">
+                                <span class="det-icon"><i class="fa fa-heart"></i></span>
+                                <div class="counter-con">
+                                    <span class="counter" data-target="300">0</span><span>+</span>
+                                </div>
+                                <span>Happy Customers</span>
+                            </div>
+                            <div class="header-detail detail-last detail-box-4">
+                                <span class="det-icon"><i class="fa fa-code"></i></span>
+                                <div class="counter-con">
+                                    <span class="counter" data-target="10000">0</span><span>+</span>
+                                </div>
+                                <span>Lines Code</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </section>
+            <!-- Home section End -->
+
+            <section id="services-section" class="section">
+                <div class="services-area">
+                    <div class="bg-lines-con">
+                        <span class="bg-line"></span>
+                        <span class="bg-line"></span>
+                        <span class="bg-line"></span>
+                    </div>
+                    <div class="services-con">
+                        <div class="services-header">
+                            <div class="services-title">
+                                <h1><span class="our">Our</span><br />Services</h1>
+                            </div>
+                        </div>
+                        <div class="services">
+                            <div class="service-cards-con">
+                                <div class="btn-all-services">
+                                    <a href="./services.html">View all Services <i class="fa fa-arrow-right"></i></a>
+                                </div>
+                                <div class="service-row row-1">
+                                    <a id="service-card-1" class="service-card-1">
+                                        <div class="service-card card-1">
+                                            <div class="card-img">
+                                                <img src="assets/img/services/Consultation.svg" alt=""
+                                                    draggable="false" />
+                                            </div>
+                                            <div class="card-text">
+                                                <div class="card-title">
+                                                    <h2>Consultation</h2>
+                                                </div>
+                                                <div class="card-detail">
+                                                    <p>
+                                                        We provide the free Consultation services for any technical
+                                                        issues and ideas.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!--Service Card 1-->
+
+                                    <a id="service-card-2" class="service-card-2">
+                                        <div class="service-card card-2">
+                                            <div class="card-img">
+                                                <img src="assets/img/services/branding.svg" alt="" draggable="false" />
+                                            </div>
+                                            <div class="card-text">
+                                                <div class="card-title">
+                                                    <h2>Branding & Rebranding</h2>
+                                                </div>
+                                                <div class="card-detail">
+                                                    <p>
+                                                        Our tools allow us to help you create or re-imagine your
+                                                        company’s concept.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!--Service Card 2-->
+
+                                    <a id="service-card-3" class="service-card-3">
+                                        <div class="service-card card-3">
+                                            <div class="card-img">
+                                                <img src="assets/img/services/social media management.svg" alt=""
+                                                    draggable="false" />
+                                            </div>
+                                            <div class="card-text">
+                                                <div class="card-title">
+                                                    <h2>Social Media Managements</h2>
+                                                </div>
+                                                <div class="card-detail">
+                                                    <p>
+                                                        Is your brand being talked about online? The number of active
+                                                        social media users continues to increase every day.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!--Service Card 3-->
+
+                                    <a id="service-card-4" class="service-card-1-1">
+                                        <div class="service-card card-1-1">
+                                            <div class="card-img">
+                                                <img src="assets/img/services/basic web site.svg" alt=""
+                                                    draggable="false" />
+                                            </div>
+                                            <div class="card-text">
+                                                <div class="card-title">
+                                                    <h2>Basic Websites</h2>
+                                                </div>
+                                                <div class="card-detail">
+                                                    <p>
+                                                        We develop custom and responsive web sites to meet your business
+                                                        needs
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!--Service Card 4-->
+
+                                    <a id="service-card-5" class="service-card-2-2">
+                                        <div class="service-card card-2-2">
+                                            <div class="card-img">
+                                                <img src="assets/img/services/production.svg" alt=""
+                                                    draggable="false" />
+                                            </div>
+                                            <div class="card-text">
+                                                <div class="card-title">
+                                                    <h2>Production</h2>
+                                                </div>
+                                                <div class="card-detail">
+                                                    <p>
+                                                        When it comes to creativity and content creation and production,
+                                                        we believe in collaboration.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!--Service Card 5-->
+
+                                    <a id="service-card-6" class="service-card-3-3">
+                                        <div class="service-card card-3-3">
+                                            <div class="card-img">
+                                                <img src="assets/img/services/Search.svg" alt="" draggable="false" />
+                                            </div>
+                                            <div class="card-text">
+                                                <div class="card-title">
+                                                    <h2>Paid Searches</h2>
+                                                </div>
+                                                <div class="card-detail">
+                                                    <p>
+                                                        Our team will ensure that you get maximum sales from clicks on
+                                                        your paid ads.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!--Service Card 6-->
+                                </div>
+                                <!-- Service Row-1 End-->
+
+                                <div class="service-row row-2">
+                                    <a id="service-card-7" class="service-card-4">
+                                        <div class="service-card card-4">
+                                            <div class="card-img">
+                                                <img src="assets/img/services/Consultation.svg" alt=""
+                                                    draggable="false" />
+                                            </div>
+                                            <div class="card-text">
+                                                <div class="card-title">
+                                                    <h2>Consultation</h2>
+                                                </div>
+                                                <div class="card-detail">
+                                                    <p>
+                                                        We provide the free Consultation services for any technical
+                                                        issues and ideas.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!--Service Card 7-->
+
+                                    <a id="service-card-8" class="service-card-5">
+                                        <div class="service-card card-5">
+                                            <div class="card-img">
+                                                <img src="assets/img/services/event management.svg" alt=""
+                                                    draggable="false" />
+                                            </div>
+                                            <div class="card-text">
+                                                <div class="card-title">
+                                                    <h2>Event management</h2>
+                                                </div>
+                                                <div class="card-detail">
+                                                    <p>
+                                                        Events for your brand can help to boost your
+                                                        public relations to the next level.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!--Service Card 8 -->
+
+                                    <a id="service-card-9" class="service-card-6">
+                                        <div class="service-card card-6">
+                                            <div class="card-img">
+                                                <img src="assets/img/services/Email campaign.svg" alt=""
+                                                    draggable="false" />
+                                            </div>
+                                            <div class="card-text">
+                                                <div class="card-title">
+                                                    <h2>Email-Marketing</h2>
+                                                </div>
+                                                <div class="card-detail">
+                                                    <p>
+                                                        we can develop a low-cost, high-impact HTML email marketing
+                                                        campaign that will engage with the target market.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!--Service Card 9-->
+
+                                    <a id="service-card-10" class="service-card-4-4">
+                                        <div class="service-card card-4-4">
+                                            <div class="card-img">
+                                                <img src="assets/img/services/ecomm.svg" alt="" draggable="false" />
+                                            </div>
+                                            <div class="card-text">
+                                                <div class="card-title">
+                                                    <h2>E-Commerce</h2>
+                                                </div>
+                                                <div class="card-detail">
+                                                    <p>
+                                                        We have mastered the art of developing best E-commerce websites
+                                                        that help business realize their full potential.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!--Service Card 10-->
+
+
+                                    <a id="service-card-11" class="service-card-5-5">
+                                        <div class="service-card card-5-5">
+                                            <div class="card-img">
+                                                <img src="assets/img/services/organic search.svg" alt=""
+                                                    draggable="false" />
+                                            </div>
+                                            <div class="card-text">
+                                                <div class="card-title">
+                                                    <h2>Organic Searches</h2>
+                                                </div>
+                                                <div class="card-detail">
+                                                    <p>
+                                                        PPC (Pay-per-click) is ranked among the most powerful digital
+                                                        marketing campaign strategies.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!--Service Card 11-->
+
+                                    <a id="service-card-12" class="service-card-6-6">
+                                        <div class="service-card card-6-6">
+                                            <div class="card-img">
+                                                <img src="assets/img/services/SEO.svg" alt="" draggable="false" />
+                                            </div>
+                                            <div class="card-text">
+                                                <div class="card-title">
+                                                    <h2>Search Engine Optimization(SEO)</h2>
+                                                </div>
+                                                <div class="card-detail">
+                                                    <p>
+                                                        We have a team of highly skilled and talented search engine
+                                                        optimization (SEO) experts who will work to rank your site high.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!--Service Card 12-->
+
+                                </div>
+                                <!-- Service Row-2 End-->
+                            </div>
+                            <!--service-cards-Con-->
+                        </div>
+                        <!--Services-->
+
+                        <!-- =======================================================================
+                        Services Modals Containe                        
+                        ======================================================================= -->
+                        <div class="services-modal-container" id="services-modal">
+                            <div class="services-modal-header">
+                                <div class="services-modal-title">
+                                    <h1><span class="our">Our</span><br />Services</h1>
+                                </div>
+                                <div class="services-modal-btn-close" id="services-modal-btn-close">
+                                    <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="services-modal s1-modal" id="s1-modal">
+                                <div class="s-modal-text-con">
+                                    <div class="s-modal-text">
+                                        <h1>Consultation</h1>
+                                        <p>
+                                            Our consultancy team works to provide you examplary marketing services. 
+                                            Our goal is to provide a broad and yet deep insight on your needs and the strategies we recommend. <br>
+                                            Our approach, putting the customer at the center of your company's strategy allows us to test every element of your cusomer's experience and enhance it. 
+                                            We help businesses to grow and have a positive impact on the UK’s economy.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="s-modal-img">
+                                    <img src="assets/img/services/Consultation.svg" alt="" draggable="false" />
+                                </div>
+                            </div>
+                            <!--Service 1 modal-->
+
+                            <div class="services-modal s2-modal" id="s2-modal">
+                                <div class="s-modal-text-con">
+                                    <div class="s-modal-text">
+                                        <h1>Branding & Rebranding</h1>
+                                        <p>
+                                            Our tools allow us to help you create or re-imagine your company’s concept.
+                                            Whether it’s for a product or service, our in-depth market research will
+                                            ensure that your brand can stand out from the crowd. Branding and concept is
+                                            the foundation of all business strategy and consumer perception, so we at
+                                            SpotlightGB do the most we can to ensure that your core values shine.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="s-modal-img">
+                                    <img src="assets/img/services/branding.svg" alt="" draggable="false" />
+                                </div>
+                            </div>
+                            <!--Service 2 modal-->
+
+                            <div class="services-modal s3-modal" id="s3-modal">
+                                <div class="s-modal-text-con">
+                                    <div class="s-modal-text">
+                                        <h1>Social Media Managements</h1>
+                                        <p>
+                                            Is your brand being talked about online? The number of active social media
+                                            users continues to increase every day. Marketing your brand on these
+                                            platforms will give you immense popularity which will, in turn, result in
+                                            more sales and web traffic. Our experienced and social-savvy digital
+                                            marketers will work closely with your team to ensure that you leverage these
+                                            platforms.<br>We will help you connect with customers through these platforms,
+                                            share information about your products, and create a brilliant brand identity
+                                            that will set you apart from the crowd.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="s-modal-img">
+                                    <img src="assets/img/services/social media management.svg" alt=""
+                                        draggable="false" />
+                                </div>
+                            </div>
+                            <!--Service 3 modal-->
+
+                            <div class="services-modal s4-modal" id="s4-modal">
+                                <div class="s-modal-text-con">
+                                    <div class="s-modal-text">
+                                        <h1>Basic Websites</h1>
+                                        <p>
+                                            Create a new revenue stream for your business by investing intuitive and
+                                            user-friendly mobile applications. We have the skills and ability to develop
+                                            apps for both Android and iOS mobile operating systems. Contact our mobile
+                                            app development team to create an application that your customers can use to
+                                            access your services, products, and even communicate with the support team.
+
+                                            With the current cut throat competition in the business world, a minor flaw
+                                            can chase away customers to your competitors. To avoid such scenarios, we
+                                            use Object C and Java technologies to develop flawless mobile applications
+                                            that are designed with the interests and needs of the users in mind.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="s-modal-img">
+                                    <img src="assets/img/services/basic web site.svg" alt="" draggable="false" />
+                                </div>
+                            </div>
+                            <!--Service 4 modal-->
+
+                            <div class="services-modal s5-modal" id="s5-modal">
+                                <div class="s-modal-text-con">
+                                    <div class="s-modal-text">
+                                        <h1>Production</h1>
+                                        <p>
+                                            When it comes to creativity and content creation and production, we believe
+                                            in collaboration. With all of our tools we want to help you with your
+                                            project, below you’ll find a list of what best describe our tools.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="s-modal-img">
+                                    <img src="assets/img/services/production.svg" alt="" draggable="false" />
+                                </div>
+                            </div>
+                            <!--Service 5 modal-->
+
+                            <div class="services-modal s6-modal" id="s6-modal">
+                                <div class="s-modal-text-con">
+                                    <div class="s-modal-text">
+                                        <h1>Paid Searches</h1>
+                                        <p>
+                                            PPC (Pay-per-click) is ranked among the most powerful digital marketing
+                                            campaign strategies. Our team will ensure that you get maximum sales from
+                                            clicks on your paid ads. To achieve this goal, we carry out extensive
+                                            keyword research and market analysis to find out the most relevant keywords
+                                            to use in the campaign. Also, we will optimize your land pages and run AB
+                                            tests to ensure that you get the most conversions without spending a
+                                            fortune.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="s-modal-img">
+                                    <img src="assets/img/services/Search.svg" alt="" draggable="false" />
+                                </div>
+                            </div>
+                            <!--Service 6 modal-->
+
+                            <div class="services-modal s8-modal" id="s8-modal">
+                                <div class="s-modal-text-con">
+                                    <div class="s-modal-text">
+                                        <h1>Event Management</h1>
+                                        <p>
+                                            Event Planning is a vast and versatile service but whatever your event may
+                                            be, we can help.<br>
+                                            Showcase your products, network with potential clients. Events for your
+                                            brand can help to boost your public relations to the next level. Boost your
+                                            network to gain potential clientele and beneficial business relations.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="s-modal-img">
+                                    <img src="assets/img/services/event.svg" alt="" draggable="false" />
+                                </div>
+                            </div>
+                            <!--Service 8 modal end-->
+
+                            <div class="services-modal s9-modal" id="s9-modal">
+                                <div class="s-modal-text-con">
+                                    <div class="s-modal-text">
+                                        <h1>Email-Marketing</h1>
+                                        <p>
+                                            Most of your customers use email to communicate with colleagues, friends,
+                                            clients. Start conversing with them directly by sending emails packed with
+                                            information about your products and services. Using our vast cross-industry
+                                            experience and resources, we can develop a low-cost, high-impact HTML email
+                                            marketing campaign that will engage with the target market and increase web
+                                            traffic as well as conversion rate. We will come up with catchy email
+                                            templates and images that will motivate the clients to open and read the
+                                            emails thereby increasing their chances of visiting your website and placing
+                                            an order. More importantly, we maintain a high level of professionalism and
+                                            diligence throughout the campaign, so rest assured that we will not bombard
+                                            potential clients with inappropriate emails.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="s-modal-img">
+                                    <img src="assets/img/services/Email campaign.svg" alt="" draggable="false" />
+                                </div>
+                            </div>
+                            <!--Service 9 modal end-->
+
+                            <div class="services-modal s10-modal" id="s10-modal">
+                                <div class="s-modal-text-con">
+                                    <div class="s-modal-text">
+                                        <h1>E-Commerce</h1>
+                                        <p>
+                                            We have mastered the art of developing future-facing e-commerce websites
+                                            that help business realize their full potential. After designing the site,
+                                            our team will apply SEO best practices to ensure that it ranks high on SERPs
+                                            as well as run tests to ensure it is flawless and fully functional.<br>
+                                            Technology is dynamic, not static. With the help of our experienced web
+                                            developers and designers, your site will always be updated. They will team
+                                            up and come up with a simple, intuitive back-end design that will give you
+                                            full control of your e-commerce site. You will be able to keep track of
+                                            inventory, monitor customers’ behaviors on-site, upload products, update
+                                            prices, run promotions and much more without breaking a sweat.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="s-modal-img">
+                                    <img src="assets/img/services/ecomm.svg" alt="" draggable="false" />
+                                </div>
+                            </div>
+                            <!--Service 10 modal end-->
+
+                            <div class="services-modal s11-modal" id="s11-modal">
+                                <div class="s-modal-text-con">
+                                    <div class="s-modal-text">
+                                        <h1>Organic Searches</h1>
+                                        <p>
+                                            PPC (Pay-per-click) is ranked among the most powerful digital marketing
+                                            campaign strategies. Our team will ensure that you get maximum sales from
+                                            clicks on your paid ads. To achieve this goal, we carry out extensive
+                                            keyword research and market analysis to find out the most relevant keywords
+                                            to use in the campaign. Also, we will optimize your land pages and run AB
+                                            tests to ensure that you get the most conversions without spending a
+                                            fortune.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="s-modal-img">
+                                    <img src="assets/img/services/organic search.svg" alt="" draggable="false" />
+                                </div>
+                            </div>
+                            <!--Service 11 modal end-->
+
+                            <div class="services-modal s12-modal" id="s12-modal">
+                                <div class="s-modal-text-con">
+                                    <div class="s-modal-text">
+                                        <h1>Search Engine Optimization (SEO)</h1>
+                                        <p>
+                                            Finally, you have a responsive and beautiful website in place. The next step
+                                            that you need to take entails optimizing the site to enable search engines
+                                            to crawl and index it correctly. We have a team of highly skilled and
+                                            talented search engine optimization (SEO) experts who will work on your site
+                                            to ensure that it complies with all search engine algorithms. To achieve
+                                            this objective, we will;</p>
+                                        <ul style="list-style: disc;">
+                                            <li>Conduct extensive SEO keyword research</li>
+                                            <li>Carry out a competitor analysis to find out what they are doing and what
+                                                you can start doing to get ahead</li>
+                                            <li>On-site SEO</li>
+                                            <li>Backlinking</li>
+                                            <li>Content Marketing and much more</li>
+                                        </ul>
+                                        <p> All these efforts will help your brand to gain mileage online and tell the
+                                            target audience that you exist.</p>
+                                    </div>
+                                </div>
+                                <div class="s-modal-img">
+                                    <img src="assets/img/services/SEO.svg" alt="" draggable="false" />
+                                </div>
+                            </div>
+                            <!--Service 12 modal end-->
+                        </div>
+                        <!--Services modals con-->
+                    </div>
+                    <!--Services con-->
+                    <div class="nav"></div>
+                </div>
+                <!-- Service-area -->
+            </section>
+            <!-- services section End -->
+
+            <section id="whyUs" class="section">
+                <div class="whyus-area">
+                    <div class="whyus-container">
+                        <div class="whyus-header">
+                            <div class="whyus-title">
+                                <h1><span class="why">Why</span><br />Choose Us?</h1>
+                            </div>
+                        </div>
+                        <div class="whyus-details-con">
+                            <input type="button" name="" id="btn-slide-left" onclick="WUmoveLeft()"
+                                style="display: none" />
+                            <input type="button" name="" id="btn-slide-right" onclick="WUmoveRight()"
+                                style="display: none" />
+                            <div class="slider-btns">
+                                <label for="btn-slide-left"><i class="fa fa-chevron-left left"></i></label>
+                                <label for="btn-slide-right"><i class="fa fa-chevron-right right"></i></label>
+                            </div>
+                            <div class="whyus-cards-con" id="wu-cards-carousel">
+                                <!-- Cards start-->
+                                <div class="wu-cards-row wu-cards-row1">
+                                    <div class="whyus-card wu-card-1">
+                                        <div class="wu-card-img">
+                                            <img src="assets/img/Wu/digital-marketing.svg" alt="" draggable="false" />
+                                        </div>
+                                        <div class="wu-card-details">
+                                            <div class="wu-card-text">
+                                                <p>
+                                                    Highly experienced digital marketers with digital
+                                                    presence in your city.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card 1 end-->
+
+                                    <div class="whyus-card wu-card-2">
+                                        <div class="wu-card-img">
+                                            <img src="assets/img/Wu/high results.svg" alt="" draggable="false" />
+                                        </div>
+                                        <div class="wu-card-details">
+                                            <div class="wu-card-text">
+                                                <p>
+                                                    To get the best results, we use up to date
+                                                    information and techniques.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card 2 end-->
+
+                                    <div class="whyus-card wu-card-3">
+                                        <div class="wu-card-img">
+                                            <img src="assets/img/Wu/new tech.svg" alt="" draggable="false" />
+                                        </div>
+                                        <div class="wu-card-details">
+                                            <div class="wu-card-text">
+                                                <p>We apply advanced methodologies and tactics.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card 3 end-->
+
+                                    <div class="whyus-card wu-card-4">
+                                        <div class="wu-card-img">
+                                            <img src="assets/img/Wu/Website Creator.svg" alt="" draggable="false" />
+                                        </div>
+                                        <div class="wu-card-details">
+                                            <div class="wu-card-text">
+                                                <p>
+                                                    Websites we create are not just pretty but also
+                                                    optimised for performance and reliability.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card 4 end-->
+                                </div>
+
+                                <div class="wu-cards-row wu-cards-row2">
+                                    <div class="whyus-card wu-card-1">
+                                        <div class="wu-card-img">
+                                            <img src="assets/img/Wu/quality.svg" alt="" draggable="false" />
+                                        </div>
+                                        <div class="wu-card-details">
+                                            <div class="wu-card-text">
+                                                <p>We believe in quality, not quantity.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card 5 end-->
+                                    <div class="whyus-card wu-card-2">
+                                        <div class="wu-card-img">
+                                            <img src="assets/img/Wu/higher results.svg" alt="" draggable="false" />
+                                        </div>
+                                        <div class="wu-card-details">
+                                            <div class="wu-card-text">
+                                                <p>
+                                                    We use all our skills, expertise and resources to
+                                                    ensure that every aspect of a project is completed
+                                                    to the highest standards.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card 6 end-->
+
+                                    <div class="whyus-card wu-card-3">
+                                        <div class="wu-card-img">
+                                            <img src="assets/img/Wu/Pair programming-pana.svg" alt=""
+                                                draggable="false" />
+                                        </div>
+                                        <div class="wu-card-details">
+                                            <div class="wu-card-text">
+                                                <p>
+                                                    Every project is handled by professionals who have
+                                                    the necessary skills and expertise.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card 7 end-->
+
+                                    <div class="whyus-card wu-card-4">
+                                        <div class="wu-card-img">
+                                            <img src="assets/img/Wu/creator.svg" alt="" draggable="false" />
+                                        </div>
+                                        <div class="wu-card-details">
+                                            <div class="wu-card-text">
+                                                <p>
+                                                    Quality and
+                                                    timely completion of the project is guaranteed.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card 8 end-->
+                                </div>
+                            </div>
+                            <!-- Cards container end-->
+                        </div>
+                        <!-- WhyUs details COntainer end-->
+                    </div>
+                    <!--WhyUs end-->
+                </div>
+                <!-- WhyUs area end-->
+            </section>
+            <!-- Why Us section end-->
+
+            <!--About Us Section-->
+            <section id="about" class="section">
+                <div class="about-area">
+                    <div class="about-container">
+                        <div class="about-header">
+                            <div class="about-title">
+                                <h1>About <span class="us">Us</span></h1>
+                            </div>
+                        </div>
+                        <div class="about-details">
+                            <div class="about-text-con">
+                                <div class="about-text">
+                                    <h1>We are . . .</h1>
+                                    <p>
+                                        SpotlightGB is a full-service digital agency. Implemented
+                                        in different countries, we always seek to expend and
+                                        provide a costumed service to our clients. We provide a
+                                        comprehensive range of digital marketing solutions to our
+                                        client so that they can shop for everything under one-roof
+                                        and have always had customer satisfaction as our top
+                                        priority.<br />At SpotlightGB we are strongly committed to
+                                        serve you with the same passion and fervour with which we
+                                        began our journey. We continue to provide premier digital
+                                        services maintaining our core values of friendliness,
+                                        flexibility and fairness.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="about-img">
+                                <img src="assets/img/About us.svg" alt="" draggable="false" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--About us Section End-->
+
+             <!--Our Customers Section-->
+             <section id="our-customrs" class="section">
+                <div class="customer-area">
+                    <div class="customer-container">
+                        <div class="customer-header">
+                            <div class="customer-title">
+                                <h1><span class="current">Our<br></span>Customers</h1>
+                            </div>
+                        </div>
+                        <div class="customer-details-con">
+                            <div class="customer-btns-con">
+                                <label for="customer-btn-left" class="customer-btn-left"><i
+                                        class="fa fa-chevron-left"></i></label>
+                                <label for="customer-btn-right" class="customer-btn-right"><i
+                                        class="fa fa-chevron-right"></i></label>
+                            </div>
+                            <div class="customer-details">
+                                <input type="button" id="customer-btn-left" onclick="customerMoveBack()"
+                                    style="display: none" />
+                                <input type="button" id="customer-btn-right" onclick="customerMoveForward()"
+                                    style="display: none" />
+                                <div class="customer-carousel" id="customer-carousel">
+                                    
+                                    <div class="customer-detail customer-detail-1">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/cust-Icon.png" alt="" draggable="false" />
+                                        </div>  
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-2">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/cust-icon-2.png" alt="" draggable="false" />
+                                        </div>  
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-3">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/cust-icon-3.png" alt="" draggable="false" />
+                                        </div>   
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-4">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/cust-icon-4.png" alt="" draggable="false" />
+                                        </div>  
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-5">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/cust-icon-5.png" alt="" draggable="false" />
+                                        </div>  
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-6">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/fushion-cl.jpg" alt="" draggable="false" />
+                                        </div>  
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-7">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/instarem.jpg" alt="" draggable="false" />
+                                        </div> 
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-8">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/khana-khazana.jpg" alt="" draggable="false" />
+                                        </div>  
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-9">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/legends-of-india.jpg" alt="" draggable="false" />
+                                        </div> 
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-10">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/logo-es-1.png" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="customer-detail customer-detail-11">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/logo-qc-1.png" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-12">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/looks.jpg" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-13">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/maxwell-1.png" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-14">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/natsteel-1.png" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-15">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/ntuc.png" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-16">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/nus-1.png" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-17">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/one-nature.jpg" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-18">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/papa-johns.jpg" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-19">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/rmg-1.png" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-20">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/rmg-tours.jpg" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-21">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/sfs.jpg" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-22">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/shawarma-not.jpg" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-23">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/simone-irani.jpg" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-24">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/singapore-airlines-1.png" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-25">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/spices.jpg" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-26">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/spl.jpg" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-27">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/tadoori.jpg" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-28">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/the-old-monk.jpg" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-29">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/trinity-cargo.jpg" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-30">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/winter-time-1.png" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-31">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/actioncity.png" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-32">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/aibi_style-1.png" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-33">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/anj.jpg" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-34">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/azvant.jpg" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-35">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/biotailor.jpg" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                    <div class="customer-detail customer-detail-36">
+                                        <div class="customer-detail-icon">
+                                            <img src="assets/img/customers/champagne.jpg" alt="" draggable="false" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Our Customers Section End-->
+
+            <!--Packages Section-->
+            <section id="packages-section" class="section">
+                <div class="packages-area">
+                    <div class="packages-container">
+                        <div class="packages-header">
+                            <div class="packages-title">
+                                <h1><span class="our">Our</span> Packages</h1>
+                            </div>
+                        </div>
+                        <div class="pkg-btns-con">
+                            <label for="pkg-btn-left" class="pkg-btn-left pkg-btn"><i
+                                    class="fa fa-chevron-left"></i></label>
+                            <label for="pkg-btn-right" class="pkg-btn-right pkg-btn"><i
+                                    class="fa fa-chevron-right"></i></label>
+                        </div>
+                        <div class="btn-all-packages">
+                            <a href="./packages.html">View all Packages <i class="fa fa-arrow-right"></i></a>
+                        </div>
+                        <div class="packages-details">
+                            <input type="button" name="pkg-btn" onclick="PkgmoveLeft()" id="pkg-btn-left"
+                                style="display: none" />
+                            <input type="button" name="pkg-btn" onclick="PkgmoveRight()" id="pkg-btn-right"
+                                style="display: none" />
+                            <div class="packages-cards-con" id="pkgs-cards-con">
+                                <!--Packages Cards-->
+                                <div class="pkgs-cards-row pkgs-cards-row1">
+                                    <div class="packages-card pkg-card-1">
+                                        <div class="pkg-card-overlay"></div>
+                                        <div class="pkg-card-img">
+                                            <img src="assets/img/services/branding.svg" alt="" draggable="false" />
+                                        </div>
+                                        <div class="pkg-card-details">
+                                            <div class="pkg-card-icon-con">
+                                                <div class="pkg-card-icon">
+                                                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                            <div class="pkg-card-text">
+                                                <h2>£0</h2>
+                                                <h3><span>to</span> £5K</h3>
+                                            </div>
+                                            <div class="pkg-card-title">
+                                                <h2>Branding & Rebranding</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Packages Card 1 end-->
+
+                                    <div class="packages-card pkg-card-2">
+                                        <div class="pkg-card-overlay"></div>
+                                        <div class="pkg-card-img">
+                                            <img src="assets/img/services/production.svg" alt="" draggable="false" />
+                                        </div>
+                                        <div class="pkg-card-details">
+                                            <div class="pkg-card-icon-con">
+                                                <div class="pkg-card-icon">
+                                                    <i class="fa fa-flag" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                            <div class="pkg-card-text">
+                                                <h2>£0</h2>
+                                                <h3><span>to</span> £2K</h3>
+                                            </div>
+                                            <div class="pkg-card-title">
+                                                <h2>Production</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Packages Card 2 end-->
+
+                                    <div class="packages-card pkg-card-3">
+                                        <div class="pkg-card-overlay"></div>
+                                        <div class="pkg-card-img">
+                                            <img src="assets/img/services/social media management.svg" alt=""
+                                                draggable="false" />
+                                        </div>
+                                        <div class="pkg-card-details">
+                                            <div class="pkg-card-icon-con">
+                                                <div class="pkg-card-icon">
+                                                    <i class="fa fa-rocket" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                            <div class="pkg-card-text">
+                                                <h2>£0</h2>
+                                                <h3><span>to</span> £2K</h3>
+                                            </div>
+                                            <div class="pkg-card-title">
+                                                <h2>Social Media Management</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Packages Card 3 end-->
+
+                                    <div class="packages-card pkg-card-4">
+                                        <div class="pkg-card-overlay"></div>
+                                        <div class="pkg-card-img">
+                                            <img src="assets/img/services/production.svg" alt="" draggable="false" />
+                                        </div>
+                                        <div class="pkg-card-details">
+                                            <div class="pkg-card-icon-con">
+                                                <div class="pkg-card-icon">
+                                                    <i class="fa fa-print" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                            <div class="pkg-card-text">
+                                                <h2>£0</h2>
+                                                <h3><span>to</span> £500</h3>
+                                            </div>
+                                            <div class="pkg-card-title">
+                                                <h2>Printing</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Packages Card 4 end-->
+                                </div>
+
+                                <div class="pkgs-cards-row pkgs-cards-row2">
+                                    <div class="packages-card pkg-card-5">
+                                        <div class="pkg-card-overlay"></div>
+                                        <div class="pkg-card-img">
+                                            <img src="assets/img/services/basic web site.svg" alt=""
+                                                draggable="false" />
+                                        </div>
+                                        <div class="pkg-card-details">
+                                            <div class="pkg-card-icon-con">
+                                                <div class="pkg-card-icon">
+                                                    <i class="fa fa-laptop" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                            <div class="pkg-card-text">
+                                                <h2>£0</h2>
+                                                <h3><span>to</span> £500</h3>
+                                            </div>
+                                            <div class="pkg-card-title">
+                                                <h2>Basic Website</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Packages Card 5 end-->
+
+                                    <div class="packages-card pkg-card-6">
+                                        <div class="pkg-card-overlay"></div>
+                                        <div class="pkg-card-img">
+                                            <img src="assets/img/services/Search.svg" alt="" draggable="false" />
+                                        </div>
+                                        <div class="pkg-card-details">
+                                            <div class="pkg-card-icon-con">
+                                                <div class="pkg-card-icon">
+                                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                            <div class="pkg-card-text">
+                                                <h2>£0</h2>
+                                                <h3><span>to</span> £500</h3>
+                                            </div>
+                                            <div class="pkg-card-title">
+                                                <h2>Paid Searches</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Packages Card 6 end-->
+
+                                    <div class="packages-card pkg-card-7">
+                                        <div class="pkg-card-overlay"></div>
+                                        <div class="pkg-card-img">
+                                            <img src="assets/img/services/organic search.svg" alt=""
+                                                draggable="false" />
+                                        </div>
+                                        <div class="pkg-card-details">
+                                            <div class="pkg-card-icon-con">
+                                                <div class="pkg-card-icon">
+                                                    <i class="fa fa-cog" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                            <div class="pkg-card-text">
+                                                <h2>£0</h2>
+                                                <h3><span>to</span> £500</h3>
+                                            </div>
+                                            <div class="pkg-card-title">
+                                                <h2>Organic Search</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Packages Card 7 end-->
+
+                                    <div class="packages-card pkg-card-extra">
+                                    </div>
+                                </div>
+                                <!-- <div class="pkgs-cards-row pkgs-cards-row3">
+                                    <div class="packages-card pkg-card-7">
+                                        <div class="pkg-card-overlay"></div>
+                                        <div class="pkg-card-img">
+                                            <img src="assets/img/services/production.svg" alt="" draggable="false" />
+                                        </div>
+                                        <div class="pkg-card-details">
+                                            <div class="pkg-card-icon-con">
+                                                <div class="pkg-card-icon">
+                                                    <i class="fa fa-print" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                            <div class="pkg-card-text">
+                                                <h2>£0</h2>
+                                                <h3><span>to</span> £500</h3>
+                                            </div>
+                                            <div class="pkg-card-title">
+                                                <h2>Printing</h2>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                    <!--Packages Card 7 end-->
+                                <!-- </div> -->
+                            </div>
+                            <!--Packages Cards container-->
+                        </div>
+                        <!--Packages details-->
+                    </div>
+                    <!--Packages container-->
+                </div>
+                <!--Packages area-->
+            </section>
+            <!--Packages section end-->
+
+            <!--Data Section-->
+            <section id="current-market" class="section">
+                <div class="data-area">
+                    <div class="data-container">
+                        <div class="data-header">
+                            <div class="data-title">
+                                <h1><span class="current">Current<br></span>Market&nbsp;Situation</h1>
+                            </div>
+                        </div>
+                        <div class="data-details-con">
+                            <div class="data-btns-con">
+                                <label for="data-btn-left" class="data-btn-left"><i
+                                        class="fa fa-chevron-left"></i></label>
+                                <label for="data-btn-right" class="data-btn-right"><i
+                                        class="fa fa-chevron-right"></i></label>
+                            </div>
+                            <div class="data-details">
+                                <input type="button" id="data-btn-left" onclick="dataMoveBack()"
+                                    style="display: none" />
+                                <input type="button" id="data-btn-right" onclick="dataMoveForward()"
+                                    style="display: none" />
+                                <div class="data-carousel" id="data-carousel">
+                                    <div class="data-detail data-detail-1">
+                                        <div class="data-detail-icon">
+                                            <img src="assets/img/data/data-Icon.png" alt="" draggable="false" />
+                                        </div>
+                                        <div class="data-detail-text">
+                                            <p>
+                                                Almost all online interactions begin with a search engine
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="data-detail data-detail-2">
+                                        <div class="data-detail-icon">
+                                            <img src="assets/img/data/data-Icon1.png" alt="" draggable="false" />
+                                        </div>
+                                        <div class="data-detail-text">
+                                            <p>
+                                                The UK is one of the most digitally advanced markets in the world
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="data-detail data-detail-3">
+                                        <div class="data-detail-icon">
+                                            <img src="assets/img/data/data-Icon2.png" alt="" draggable="false" />
+                                        </div>
+                                        <div class="data-detail-text">
+                                            <p>
+                                                In the UK, 20% is digital enthusiast
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="data-detail data-detail-4">
+                                        <div class="data-detail-icon">
+                                            <img src="assets/img/data/data-Icon3.png" alt="" draggable="false" />
+                                        </div>
+                                        <div class="data-detail-text">
+                                            <p>
+                                                38% of users will avoid a business if their website is unattractive.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="data-detail data-detail-5">
+                                        <div class="data-detail-icon">
+                                            <img src="assets/img/data/data-Icon4.png" alt="" draggable="false" />
+                                        </div>
+                                        <div class="data-detail-text">
+                                            <p>
+                                                The top 5 search results on Google get 70% of the clicks
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="data-detail data-detail-6">
+                                        <div class="data-detail-icon">
+                                            <img src="assets/img/data/data-Icon5.png" alt="" draggable="false" />
+                                        </div>
+                                        <div class="data-detail-text">
+                                            <p>
+                                                49% of users like a Facebook page to support a brand they like.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="data-detail data-detail-7">
+                                        <div class="data-detail-icon">
+                                            <img src="assets/img/data/data-Icon6.png" alt="" draggable="false" />
+                                        </div>
+                                        <div class="data-detail-text">
+                                            <p>
+                                                More than 9 million check their Instagram everyday
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="data-detail data-detail-8">
+                                        <div class="data-detail-icon">
+                                            <img src="assets/img/data/data-Icon7.png" alt="" draggable="false" />
+                                        </div>
+                                        <div class="data-detail-text">
+                                            <p>
+                                                It takes About 50 Milliseconds (That’s 0.05 Seconds) for Users to Form
+                                                an Opinion about Your Website
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="data-detail data-detail-9">
+                                        <div class="data-detail-icon">
+                                            <img src="assets/img/data/data-Icon8.png" alt="" draggable="false" />
+                                        </div>
+                                        <div class="data-detail-text">
+                                            <p>
+                                                Most of the people do not scoll down after the pass
+                                                5th result on google
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Data Section End-->
+
+            <!--Contact us section-->
+            <section id="contact" name="contact" class="section">
+                <div class="contact-area">
+                    <div class="contact-container">
+                        <div class="contact-header">
+                            <div class="contact-title">
+                                <h1>Contact <span class="us">Us</span></h1>
+                            </div>
+                        </div>
+                        <div class="contact-details">
+                            <div class="contact-col-1">
+                                <div class="contact-form-con">
+                                    <form class="contact-form" id="contact-form" action="mail.php" method="POST">
+                                        <input type="text" name="fname" id="fname" class="name" placeholder="Enter your full name" required/>
+                                        <input type="email" name="email" id="email" class="email" placeholder="Enter your Email" required/>
+                                        <input type="tel" name="phone" id="phone" class="phone" placeholder="Phone" required/>
+                                        <input type="text" name="company" id="company" class="company" placeholder="Company" required/>
+                                        <select name="service-dropdown" id="service-dropdown" aria-placeholder="" required>
+                                            <option value="" disabled selected hidden>How can we help you?</option>
+                                            <option value="Consultation">Consultation</option>
+                                            <option value="Branding & Rebranding">Branding & Rebranding</option>
+                                            <option value="Social Media Management">Social Media Management</option>
+                                            <option value="Basic Website">Basic Website</option>
+                                            <option value="Searh Engine Optimization">Searh Engine Optimization</option>
+                                            <option value="Production">Production</option>
+                                            <option value="Paid Searches">Paid Searches</option>
+                                            <option value="Organic Searches">Organic Searches</option>
+                                            <option value="Event Management">Event Management</option>
+                                            <option value="E-Commerce">E-Commerce</option>
+                                            <option value="Email Marketing">Email Marketing</option>
+                                        </select>
+                                        <textarea name="message" id="message" class="message" cols="30" rows="10"
+                                            placeholder="Message" required></textarea>
+                                        <input type="submit" name="btn-submit" id="btn-submit" class="btn-submit" />
+                                    </form>
+                                </div>
+                                <div class="address-con">
+                                    <h3>We are based in</h3>
+                                    <div class="address-flags">
+                                        <ul class="address-list">
+                                            <li id="btn-UK">
+                                                <label for=""><img src="assets/img/flags/uk-flag.png" alt=""></label>
+                                                <label for="">United Kingdom</label>
+                                            </li>
+                                            <li id="btn-Sing">
+                                                <label for=""><img src="assets/img/flags/singapore flag.png" alt=""></label>
+                                                <label for="">Singapore</label>
+                                            </li>
+                                            <li id="btn-Aus">
+                                                <label for=""><img src="assets/img/flags/australia-flag.png" alt=""></label>
+                                                <label for="">Australia</label>
+                                            </li>
+                                            <li id="btn-HK">
+                                                <label for=""><img src="assets/img/flags/hongKong flag.png" alt=""></label>
+                                                <label for="">Hong Kong</label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="social-links-con">
+                                    <div class="social-links">
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/Spotlight-Gb-102104371752011" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.instagram.com/spotlight.gb/" target="_blank"><i class="fa fa-instagram"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/company/spotlightgb" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact-col-2" id="contact-col-2">
+                                <div class="map-container" id="map-container">
+                                    <div class="map-header">
+                                        <i class="fa fa-arrow-circle-o-left map-close-btn" aria-hidden="true"
+                                            id="map-close-btn"></i>
+                                        <div class="map-title" id="map-title">United Kingdom</div>
+                                    </div>
+                                    <style>
+                                        .mapouter {
+                                            position: relative;
+                                            text-align: right;
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                        .gmap_canvas {
+                                            overflow: hidden;
+                                            background: none !important;
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                    </style>
+                                    <div class="map HK-map" id="HK-map">
+                                        <div class="mapouter">
+                                            <div class="gmap_canvas"><iframe width="100%" height="100%" frameborder="0"
+                                                    scrolling="no" marginheight="0" marginwidth="0"
+                                                    src="https://maps.google.com/maps?width=600&amp;height=700&amp;hl=en&amp;q=Hong Kong&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                
+                                    <div class="map UK-map" id="UK-map">
+                                        <div class="mapouter">
+                                            <div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0"
+                                                    scrolling="no" marginheight="0" marginwidth="0"
+                                                    src="https://maps.google.com/maps?width=600&amp;height=700&amp;hl=en&amp;q=160 Gooch Street, Birmingham B57he&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                                            <style>
+                                                .mapouter {
+                                                    position: relative;
+                                                    text-align: right;
+                                                    width: 100%;
+                                                    height: 100%;
+                                                }
+
+                                                .gmap_canvas {
+                                                    overflow: hidden;
+                                                    background: none !important;
+                                                    width: 100%;
+                                                    height: 100%;
+                                                }
+
+                                                .gmap_iframe {
+                                                    width: 100% !important;
+                                                    height: 100% !important;
+                                                }
+                                            </style>
+                                        </div>
+                                    </div>
+                                    <div class="map Aus-map" id="Aus-map">
+                                        <div class="mapouter">
+                                            <div class="gmap_canvas"><iframe width="100%" height="100%" frameborder="0"
+                                                    scrolling="no" marginheight="0" marginwidth="0"
+                                                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Australia&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="map Sing-map" id="Sing-map">
+                                        <div class="mapouter">
+                                            <div class="gmap_canvas"><iframe width="100%" height="100%" frameborder="0"
+                                                    scrolling="no" marginheight="0" marginwidth="0"
+                                                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=singapore&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--Contact Col 2-->
+                        </div><!--Contact Details-->
+                    </div><!--Contact Container-->
+                </div><!--Contact Area-->
+            </section><!--Contact Section End-->
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"
+        integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw=="
+        crossorigin="anonymous" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -51,7 +51,7 @@ p{
 }
 .main-wrapper .header-section{
     width: 100%;
-    min-height: 85vh;
+    min-height: 53vh;
     height: auto;
     box-sizing: border-box;
     background-image: url(../images/banner-bg.svg);
@@ -139,7 +139,7 @@ p{
     box-sizing: border-box;
 }
 header .header-text{
-    margin-top: 10%;
+    margin-top: 3%;
     position: relative;
     padding: 10px 0;
 }
@@ -177,7 +177,7 @@ header .header-text:before{
     padding: 0 0 10px;
 }
 .face-tryon-section .section-con{
-    padding: 30px 10px;
+    padding: 0 10px 20px;
 }
 .section-con .section-title{
     text-align: center;
@@ -201,7 +201,7 @@ header .header-text:before{
     border-radius: 10px;
 }
 .source-face .source-face-img{
-    height: 355px;
+    height: 320px;
     background-image: url(../images/face1.jpeg);
     background-size: cover;
     background-position: top center;
@@ -262,7 +262,7 @@ header .header-text:before{
     border-radius: 10px;
 }
 .dest-face .dest-face-img{
-    height: 355px;
+    height: 320px;
     background-image: url(../images/dest1.jpeg);
     background-size: cover;
     background-position: top center;
@@ -313,13 +313,13 @@ header .header-text:before{
 }
 .face-sec-result .face-sec-res-item{
     padding: 20px;
-    height: 550px;
+    height: 480px;
     background: #f4f2ee;
     border-radius: 10px;
 }
 .face-sec-res-item .item-img{
     width: 100%;
-    height: 400px;
+    height: 350px;
     background-image: url(../images/rslt1.png);
     background-size: cover;
     background-position: top center;
@@ -362,7 +362,7 @@ header .header-text:before{
     padding: 20px 0 80px;
 }
 .dress-tryon-section .section-con{
-    padding: 30px 10px;
+    padding: 10px 10px 20px;
 }
 .section-con .section-title{
     text-align: center;
@@ -400,7 +400,7 @@ header .header-text:before{
     border: 8px solid #5bccf630;
 }
 .full-image-item .full-item-img{
-    height: 300px;
+    height: 260px;
     width: 100%;
     border-radius: 8px;
     overflow: hidden;
@@ -440,7 +440,7 @@ header .header-text:before{
     position: relative;
 }
 .dress-image-item .dress-item-img{
-    height: 250px;
+    height: 230px;
     width: 100%;
     border-radius: 8px;
     overflow: hidden;
@@ -466,7 +466,7 @@ header .header-text:before{
 }
 .dress-sec-res-item .item-img{
     width: 100%;
-    height: 500px;
+    height: 400px;
     background-image: url(../images/5.jpg);
     background-size: cover;
     background-position: top center;

@@ -602,7 +602,7 @@ header .header-text:before{
 .section-content .ul .li{
     top: 0;
     position: relative;
-    animation: text-slide 9s infinite;
+    animation: text-slide 9s infinite alternate;
     transition: all 0.2s ease-in-out;
     color: #635bff;
     margin: 0;

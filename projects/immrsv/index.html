@@ -4,12 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-GMZES6WBW3"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-GMZES6WBW3');
+    </script> -->
 
     <!-- fonts style links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -53,7 +65,7 @@
                     <div class="header-text">
                         <h2>immrsv</h2>
                         <h3>Enabling hyper personlized immersive experiences</h3>
-                        <a href="" class="button header-btn">Try it Out</a>
+                        <a href="#face-tryon" class="button header-btn">Try it Out</a>
                     </div>
                 </div>
             </header>
@@ -64,7 +76,7 @@
         <section id="face-tryon" class="face-tryon-section">
             <div class="section-con container-md">
                 <div class="section-title col-12">
-                    <h2>Face Swapping For Virtual Trial</h2>
+                    <h2>Face Swapping For Virtual Makeover</h2>
                     <p>Simply Swap the Face to see how a particular outfit or style would look on you - retaining the pose, accessories etc.,  Choose a face and a look, and let our algorithm do the magic..</p>
                 </div>
                 <div class="section-content row m-0">
@@ -119,30 +131,30 @@
                                 <div class="df-item col-3 col-md-5 col-lg-3">
                                     <label  for="dest-face-2" class="df-item-img item-img">
                                         <img class="req-item-img" src="./assets/images/dest2.png" alt="">
-                                        <input hidden type="radio" name="dest-face" id="dest-face-2" class="srcFaceRadio" checked="true">
+                                        <input hidden type="radio" name="dest-face" id="dest-face-2" class="srcFaceRadio">
                                     </label>
                                 </div>
                             </div>
-                            <div class="dest-face-file">
+                            <!-- <div class="dest-face-file">
                                 <button onclick="defaultDestBtnActive()" class="custom-file-btn" id="custom-dest-file-btn">
                                     Upload a file
                                     <i class="fas fa-cloud-upload-alt"></i>
                                 </button>
                                 <input id="default-dest-btn" type="file" hidden>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="face-sec-result col-12 col-md-4 d-flex justify-content-center">
                         <div class="face-sec-res-item col-12 col-sm-9 col-md-12">
-                            <div class="item-img">
-                            </div>
+                            <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+                            <div class="item-img"></div>
                             <div class="merge-btn-con">
-                                <a href="" class="button btn-merge">Merge Faces</a>
+                                <a class="button btn-merge" id="mergeFaceBtn" type="button">New Outfit</a>
                             </div>
                         </div>
                     </div>
                     <div class="face-sec-btn-con col-12">
-                        <a href="" class="face-sec-btn button">Would you like to upload a face to try on?</a>
+                        <a href=""  class="face-sec-btn button" type="button" data-bs-toggle="modal" data-bs-target="#questModal">Would you like to upload a face to try on?</a>
                     </div>
                 </div>
             </div>
@@ -157,58 +169,62 @@
                     <p>Choose a dress and a look, and let our algorithm do the magic..</p>
                 </div>
                 <div class="section-content row m-0">
-                    <div class="dress-sec-items col-12 col-md-8">
-                        <p>Select a Full body image</p>
-                        <div class="full-img-items row m-0 col-12 justify-content-evenly">
-                            <div class="full-image-item col col-lg-3">
-                                <label  for="full-img-1" class="full-item-img item-img">
-                                    <img class="req-item-img" src="./assets/images/2.jpg" alt="">
-                                    <input hidden type="radio" name="full-img" id="full-img-1" class="fullImgRadio" checked="true">
-                                    <span  class="selected"></span>
-                                </label>
+                    <div class="dress-sec-items row m-0 col-12 col-md-8">
+                        <div class="dress-sec-item item-1 col-12 col-sm-6">
+                            <div class="full-img-con col-12">
+                                <div class="full-img"></div>
                             </div>
-                            <div class="full-image-item col col-lg-3">
-                                <label  for="full-img-2" class="full-item-img item-img">
-                                    <img class="req-item-img" src="./assets/images/1.png" alt="">
-                                    <input hidden type="radio" name="full-img" id="full-img-2" class="fullImgRadio">
-                                    <span  class="selected"></span>
-                                </label>
+                            <div class="full-img-items col-12 row m-0 d-flex justify-content-evenly">
+                                <p>Select a Full Image</p>
+                                <div class="fi-item col-4 col-md-5 col-lg-3">
+                                    <label  for="full-img-1" class="full-item-img item-img">
+                                        <img class="req-item-img" src="./assets/images/2.jpg" alt="">
+                                        <input hidden type="radio" name="full-img" id="full-img-1" class="FullImgRadio" checked="true">
+                                    </label >
+                                </div>
+                                <div class="fi-item col-4 col-md-5 col-lg-3">
+                                    <label  for="full-img-2" class="full-item-img item-img">
+                                        <img class="req-item-img" src="./assets/images/1.png" alt="">
+                                        <input hidden type="radio" name="full-img" id="full-img-2" class="FullImgeRadio">
+                                    </label>
+                                </div>
+                                
                             </div>
-                            <div class="full-image-item col col-lg-3">
-                                <label  for="full-img-file" class="full-item-img item-img">
-                                    <a onclick="defaultDestBtnActive()" class="custom-file-btn" id="custom-dest-file-btn">
-                                        <i class="fas fa-cloud-upload-alt"></i>
-                                        Upload a file
-                                    </a>
-                                    <input id="default-dest-btn" id="full-img-file" type="file" hidden>
-                                </label>
+                            <div class="full-img-file">
+                                <button onclick="defaultFullImgBtnActive()" class="custom-file-btn" id="custom-full-file-btn">
+                                    Upload a file
+                                    <i class="fas fa-cloud-upload-alt"></i>
+                                </button>
+                                <input id="default-full-img-btn" type="file" hidden>
                             </div>
                         </div>
-                        <p>Select a Dress</p>
-                        <div class="dress-items row m-0 col-12 justify-content-evenly">
-                            <div class="dress-image-item col col-lg-3">
-                                <label  for="dress-img-1" class="dress-item-img item-img">
-                                    <img class="req-item-img" src="./assets/images/3.jpg" alt="">
-                                    <input hidden type="radio" name="dress-img" id="dress-img-1" class="dressImgRadio" checked="true">
-                                    <span  class="selected"></span>
-                                </label>
+                        <div class="dress-sec-item item-2 col-12 col-sm-6">
+                            <div class="dress-img-con col-12">
+                                <div class="dress-img"></div>
                             </div>
-                            <div class="dress-image-item col col-lg-3">
-                                <label  for="dress-img-2" class="dress-item-img item-img">
-                                    <img class="req-item-img" src="./assets/images/4.jpg" alt="">
-                                    <input hidden type="radio" name="dress-img" id="dress-img-2" class="dressImgRadio">
-                                    <span  class="selected"></span>
-                                </label>
+                            
+                            <div class="dress-items col-12 row m-0 d-flex justify-content-evenly">
+                                <p>Select a Destination Look</p>
+                                <div class="dress-item col-4 col-md-5 col-lg-4">
+                                    <label  for="dress-1" class="dress-item-img item-img">
+                                        <img class="req-item-img" src="./assets/images/3.jpg" alt="">
+                                        <input hidden type="radio" name="dress-img" id="dress-1" class="dressImgRadio" checked="true">
+                                    </label>
+                                </div>
+                                <div class="dress-item col-4 col-md-5 col-lg-4">
+                                    <label  for="dress-2" class="dress-item-img item-img">
+                                        <img class="req-item-img" src="./assets/images/4.jpg" alt="">
+                                        <input hidden type="radio" name="dress-img" id="dress-2" class="dressImgRadio">
+                                    </label>
+                                </div>
                             </div>
-                            <div class="dress-image-item col col-lg-3">
-                                <label  for="dress-img-file" class="dress-item-img item-img">
-                                    <a onclick="defaultDestBtnActive()" class="custom-file-btn" id="custom-dest-file-btn">
-                                        <i class="fas fa-cloud-upload-alt"></i>
-                                        Upload a file
-                                    </a>
-                                    <input id="default-dest-btn" id="full-img-file" type="file" hidden>
-                                </label>
-                            </div>
+                            <!-- <div class="dress-file">
+                                <button onclick="defaultDressBtnActive()" class="custom-file-btn" id="custom-dress-file-btn">
+                                    Upload a file
+                                    <i class="fas fa-cloud-upload-alt"></i>
+                                </button>
+                                <input id="default-dress-btn" type="file" hidden>
+                            </div> -->
                         </div>
                     </div>
                     <div class="dress-tryon-res-item col-12 col-md-4 d-flex justify-content-center">
@@ -216,12 +232,12 @@
                             <div class="item-img">
                             </div>
                             <div class="merge-btn-con">
-                                <a href="" class="button btn-merge">Merge Faces</a>
+                                <a class="button btn-merge" id="mergeDressBtn" type="button">Try Outfit</a>
                             </div>
                         </div>
                     </div>
                     <div class="dress-sec-btn-con col-12">
-                        <a href="" class="dress-sec-btn button">Would you like to upload a face to try on?</a>
+                        <a href=""  class="dress-sec-btn button" type="button" data-bs-toggle="modal" data-bs-target="#questModal">Would you like to upload a full image to try on?</a>
                     </div>
                 </div>
             </div>
@@ -235,43 +251,61 @@
                     <h2>Join the Private Beta</h2>
                 </div>
                 <div class="section-content">
-                    <h3>We are continuously improving our virtual try-on algorithms with</h3>
-                    <ul>
-                        <li>Better texture</li>
-                        <li>AI Generated Poses</li>
-                        <li>Short Videos</li>
-                        <li>Social integerations</li>
-                    </ul>
+                    <h3>We are continuously improving our virtual try-on algorithms with
+                        <span class="ul-con">
+                            <span class="ul">
+                                <span class="li">Better texture</span>
+                                <span class="li">AI Generated Poses</span>
+                                <span class="li">Short Videos</span>
+                                <span class="li">Social integerations</span>
+                            </span>
+                        </span>
+                    </h3>
                     <h4>Sign up below to get more information on joining the private beta.</h4>
                     <div class="signup-form-con d-flex col-12 justify-content-center">
-                        <form action="" class="signup-form col-12 col-xl-10 row m-0">
+                        <form action="https://sheetdb.io/api/v1/44r0f9ucwf9vj" method="POST" id="signupForm" class="signup-form col-12 col-xl-10 row m-0">
                             <div class="f-name col-12 col-sm-6 mt-2">
                                 <label for="firstName">First Name</label><br>
-                                <input type="text" name="firstName" id="firstName" required>
+                                <input type="text" name="data[firstName]" id="firstName" required>
                             </div>
                             <div class="l-name col-12 col-sm-6 mt-2">
                                 <label for="lastName">Last Name</label><br>
-                                <input type="text" name="lastName" id="lastName" required>
+                                <input type="text" name="data[lastName]" id="lastName" required>
                             </div>
                             <div class="email col-12 mt-2">
                                 <label for="email">Email</label><br>
-                                <input type="email" name="email" id="email" required>
+                                <input type="email" name="data[email]" id="email" required>
                             </div>
                             <div class="user-type row m-0 col-12 col-sm-10 col-xxl-8 mt-3">
                                 <label>User Type</label><br>
-                                <div class="user-consumer col-6 text-center mt-2">
+                                <div class="user-consumer col-5 text-center mt-2">
                                     <label for="user-consumer">Consumer</label><br>
-                                    <input type="radio" name="userType" id="user-consumer" value="Consumer" required>
+                                    <input type="radio" name="data[userType]" id="user-consumer" value="Consumer" required>
                                 </div>
                                 <div class="user-worker col-6 text-center mt-2">
                                     <label for="user-worker">Work in Fashion Industry</label><br>
-                                    <input type="radio" name="userType" id="user-worker" value="Work in Fashion Industry" required>
+                                    <input type="radio" name="data[userType]" id="user-worker" value="Work in Fashion Industry" required>
                                 </div>
                             </div>
                             <div class="submit-btn-con col-12 d-flex justify-content-center mt-3">
                                 <input type="submit" class="btn-submit" value="Signup Now">
                             </div>
                         </form>
+                        <script>
+                            var form = document.getElementById('signupForm');
+                            form.addEventListener("submit", e => {
+                              e.preventDefault();
+                              fetch(form.action, {
+                                  method : "POST",
+                                  body: new FormData(document.getElementById("signupForm")),
+                              }).then(
+                                  response => response.json()
+                              ).then((html) => {
+                                alert('Thank You For your registration. We will get back to you soon')
+                                window.open('https://immrsv.io/','_self');
+                              });
+                            });
+                          </script>
                     </div>
                     <footer>
                         <div class="copyright  d-flex justify-content-between">
@@ -282,7 +316,25 @@
                 </div>
             </div>
          </section>
-            
+         <div class="quest-modal-con container">
+            <div class="quest-modal">                
+                <!-- Questionaire Modal -->
+                <div class="modal fade" id="questModal" tabindex="-1" aria-labelledby="questModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="container" id="ff-compose"></div>
+                            <script  async defer src="https://formfacade.com/include/112173756172188734201/form/1FAIpQLSdpJC0_waF4cJaE5HGcXsvyC0tpclc4u3qkgFR_yJvbd7qloA/bootstrap.js?div=ff-compose"></script>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" onclick="setFormStatus()" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

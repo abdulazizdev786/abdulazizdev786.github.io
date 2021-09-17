@@ -4,11 +4,11 @@
         font-size: clamp(60px, 34vw, 60px);
     }
     h3{
-        font-size: clamp(14px, 1.5vw, 18px);
+        font-size: clamp(15px, 1.5vw, 18px);
         line-height: clamp(18px, 2vw, 28px);
     }
     p{
-        font-size: clamp(10px, 1.3vw, 14px);
+        font-size: clamp(13px, 1.3vw, 14px);
         line-height: clamp(18px, 3vw, 26px);
     }
     .button{
@@ -35,6 +35,9 @@
     .nav-menu .button.btn-signup{
         width: auto;
         font-size: clamp(10px,2vw,14px);
+    }
+    .header-section .container{
+        max-width: 1000px;
     }
     header .header-text{
         margin-top: 2%;
@@ -103,16 +106,11 @@
 
 @media only screen and (max-width:768px){
     .main-wrapper .header-section{
-        min-height: 60vh;
-        background-position: right center;
+        padding-bottom: 40px;
     }
 }
 
 @media only screen and (max-width:640px){
-    .main-wrapper .header-section{
-        min-height: 50vh;
-        background-position: left bottom;
-    }
     .navbar-brand a{
         font-size:18px;
     }
@@ -192,24 +190,66 @@
     .custom-file-btn{
         font-size: 18px;
     }
-    .face-sec-result .face-sec-res-item{
-        height: 340px;
-    }
     .face-sec-res-item .item-img{
         width: 100%;
-        height: 230px;
+        height: 400px;
     }
     .face-sec-res-item .merge-btn-con a.button{
-        font-size: clamp(10px,1.3vw,16px);
+        font-size: clamp(14px,3vw,18px);
         padding: 10px 0 ;
     }
     .face-sec-btn-con .face-sec-btn{
-        font-size:  clamp(10px,1.3vw,16px);
+        font-size:  clamp(14px,3vw,18px);
+    }
+}
+@media only screen and (max-width:1140px){
+    .button{
+        padding: 13px 20px;
+    }
+    .section-title h2{
+        font-size: clamp(18px, 1.8vw, 28px);
+    }
+    .face-tryon-section .section-con{
+        padding: 0 100px 20px;
+    }
+    .source-face .source-face-img{
+        height: 210px;
+    }
+    .source-face-items p{
+        font-size: 18px;
+    }
+    .source-face-items .sf-item{
+        padding: 7px;
+    }
+    .source-face-items .sf-item .item-img{
+        height: 40px;
+    }
+    .face-sec-item .source-face, .face-sec-item .dest-face, .face-sec-result .face-sec-res-item{
+        padding: 10px;
+    }
+    .dest-face .dest-face-img{
+        height: 210px;
+    }
+    .dest-face-items p{
+        font-size: 18px;
+    }
+    .dest-face-items .df-item{
+        padding: 7px;
+    }
+    .dest-face-items .df-item .item-img{
+        height: 40px;
+    }
+    .custom-file-btn{
+        font-size: 18px;
+    }
+    .face-sec-res-item .item-img{
+        width: 100%;
+        height: 400px;
     }
 }
 @media only screen and (max-width:992px){
     .face-tryon-section .section-con{
-        padding: 0px 100px 20px;
+        padding: 0px 40px 20px;
     }
     .section-title p{
         width: 100%;
@@ -218,13 +258,13 @@
         padding: 15px 0;
     }
     .source-face .source-face-img{
-        height: 250px;
+        height: 160px;
     }
     .source-face-items p{
         font-size: 16px;
     }
     .dest-face .dest-face-img{
-        height: 250px;
+        height: 160px;
     }
     .dest-face-items p{
         font-size: 16px;
@@ -236,8 +276,8 @@
     .dest-face-items .df-item{
         margin: 5px 0;
     }
-    .face-sec-result .face-sec-res-item{
-        height: 430px;
+    .section-content .face-sec-result{
+        padding: 15px 0;
     }
     .face-sec-res-item .item-img{
         height: 300px;
@@ -251,16 +291,13 @@
         padding: 0px 10px;
     }
     .source-face .source-face-img{
-        height: 200px;
+        height: 260px;
     }
     .dest-face .dest-face-img{
-        height: 200px;
-    }
-    .face-sec-result .face-sec-res-item{
-        height: 330px;
+        height: 260px;
     }
     .face-sec-res-item .item-img{
-        height: 230px;
+        height: 720px;
     }
     .source-face-items .sf-item .item-img{
         height: 75px;
@@ -276,23 +313,34 @@
     .dest-face .dest-face-img{
         height: 400px;
     }
-  
+    .source-face-items .sf-item .item-img{
+        height: 120px;
+    }
+    .dest-face-items .df-item .item-img{
+        height: 120px;
+    }
     .face-sec-res-item .item-img{
-        height: 400px;
+        height: 700px;
+    }
+    .dress-sec-btn-con{
+        padding: 0 10px;
     }
 }
 @media only screen and (max-width: 420px){
     .source-face .source-face-img{
-        height: 300px;
+        height: 340px;
     }
     .dest-face .dest-face-img{
-        height: 300px;
-    }
-    .face-sec-result .face-sec-res-item{
-        height: 450px;
+        height: 340px;
     }
     .face-sec-res-item .item-img{
-        height: 300px;
+        height: 580px;
+    }
+    .source-face-items .sf-item .item-img{
+        height: 80px;
+    }
+    .dest-face-items .df-item .item-img{
+        height: 100px;
     }
     .face-sec-btn-con{
         padding: 0;
@@ -302,70 +350,194 @@
 /* ==============================
 ------Dress Section STYLES--------
 ============================== */
-@media only screen and (max-width: 1366px){
+@media only screen and (max-width:1366px){
     .dress-tryon-section .section-con{
-        padding: 10px 100px 20px;
+        padding: 0 130px 20px;
     }
-    .full-image-item .full-item-img{
-        height: 200px;
+    .dress-sec-item .full-img-con, .dress-sec-item .dress-img-con, .dress-tryon-res-item .dress-sec-res-item{
+        padding: 10px;
     }
-    .dress-image-item .dress-item-img{
-        height: 130px;
+    .full-img-con .full-img{
+        height: 320px;
+    }
+    .full-img-items p{
+        font-size: clamp(14px,1.3vw,20px);
+    }
+    .full-img-items .fi-item .item-img{
+        height: 100px;
+    }
+    .dress-img-con .dress-img{
+        height: 320px;
+    }
+    .dress-items p{
+        font-size: clamp(14px,1.3vw,20px);
+    }
+    .dress-item .item-img{
+        height: 100px;
+    }
+    .custom-file-btn{
+        font-size: clamp(14px,3vw,18px);
     }
     .dress-sec-res-item .item-img{
-        height: 300px;
+        width: 100%;
+        height: 400px;
     }
     .dress-sec-res-item .merge-btn-con a.button{
-        font-size:  clamp(13px,1.3vw,16px);
+        font-size: clamp(14px,3vw,18px);
+        padding: 10px 0 ;
     }
     .dress-sec-btn-con .dress-sec-btn{
-        font-size:  clamp(13px,1.3vw,16px);
+        font-size:  clamp(14px,3vw,18px);
     }
 }
-@media only screen and (max-width: 992px){
-    .full-image-item .full-item-img{
-        height: 200px;
+@media only screen and (max-width:1140px){
+    .button{
+        padding: 13px 20px;
     }
-    .dress-image-item .dress-item-img{
-        height: 150px;
+    .section-title h2{
+        font-size: clamp(18px, 1.8vw, 28px);
+    }
+    .dress-tryon-section .section-con{
+        padding: 0 100px 20px;
+    }
+    .full-img-items .fi-item{
+        padding: 7px;
+    }
+    .full-img-con .full-img{
+        height: 260px;
+    }
+    .dress-img-con .dress-img{
+        height: 260px;
+    }
+    .dest-face-items p{
+        font-size: 18px;
+    }
+    .dress-items .dress-item{
+        padding: 7px;
+    }
+    .dress-item .item-img{
+        height: 80px;
+    }
+
+    .custom-file-btn{
+        font-size:  clamp(14px,3vw,18px);
     }
     .dress-sec-res-item .item-img{
-        height: 300px;
+        width: 100%;
+        height: 420px;
     }
-    .dress-sec-items .custom-file-btn{
-        font-size: 14px;
+}
+@media only screen and (max-width:992px){
+    .dress-tryon-section .section-con{
+        padding: 0 40px 20px;
     }
-    .dress-sec-items .custom-file-btn i{
-        font-size: 30px;
+    
+    .full-img-con .full-img{
+        height: 240px;
+    }
+    .dress-img-con .dress-img{
+        height: 240px;
+    }
+    .dress-items p{
+        font-size:  clamp(14px,3vw,18px);
+    }
+    .custom-file-btn{
+        font-size:  clamp(14px,3vw,18px);
     }
     .section-content .dress-tryon-res-item{
         padding: 15px 0;
     }
-    .dress-sec-res-item .merge-btn-con a.button{
-        font-size:  clamp(14px,3vw,18px);
-        padding: 13px 0;
+    .dress-sec-res-item .item-img{
+        width: 100%;
+        height: 330px;
     }
-    .dress-sec-btn-con .face-sec-btn{
-        font-size:  clamp(10px,3vw,18px);
+    .full-img-items .fi-item {
+        margin: 5px 0 ;
+    }
+    .dress-items .dress-item{
+        margin: 5px 0;
     }
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width: 768px){
     .dress-tryon-section .section-con{
-        padding: 30px 10px;
+        padding: 0 40px 20px;
     }
-    .full-image-item .full-item-img{
-        height: 180px;
+    .full-img-con .full-img{
+        height: 440px;
     }
-    .dress-image-item .dress-item-img{
-        height: 130px;
+    .dress-img-con .dress-img{
+        height: 440px;
+    }
+    .dress-items p{
+        font-size:  clamp(14px,3vw,16px);
+    }
+    .custom-file-btn{
+        font-size:  clamp(14px,3vw,16px);
     }
     .dress-sec-res-item .item-img{
-        height: 250px;
+        width: 100%;
+        height: 630px;
     }
 }
-@media only screen and (max-width:640px){
-    .section-content .dress-tryon-res-item{
-        padding: 15px;
+@media only screen and (max-width: 640px){
+    .dress-tryon-section .section-con{
+        padding: 0 20px 20px;
+    }
+    .full-img-con .full-img{
+        height: 400px;
+    }
+    .dress-img-con .dress-img{
+        height: 400px;
+    }
+    .dress-sec-res-item .item-img{
+        width: 100%;
+        height: 630px;
+    }
+}
+@media only screen and (max-width: 580px){
+    .dress-tryon-section .section-con{
+        padding: 0 20px 20px;
+    }
+    .full-img-con .full-img{
+        height: 600px;
+    }
+    .dress-img-con .dress-img{
+        height:400px;
+    }
+    .full-img-items .fi-item .item-img{
+        height: 200px;
+    }
+    .dress-items .dress-item .item-img{
+        height: 140px;
+    }
+    .dress-sec-res-item .item-img{
+        width: 100%;
+        height: 630px;
+    }
+    .dress-sec-btn-con{
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .dress-tryon-section .section-con{
+        padding: 0 10px 20px;
+    }
+    .full-img-con .full-img{
+        height: 450px;
+    }
+    .dress-img-con .dress-img{
+        height:350px;
+    }
+    .full-img-items .fi-item .item-img{
+        height: 180px;
+    }
+    .dress-items .dress-item .item-img{
+        height: 120px;
+    }
+    .dress-sec-res-item .item-img{
+        width: 100%;
+        height: 600px;
     }
 }
 
@@ -377,6 +549,9 @@
     .signup-form-con .signup-form input{
         width: 100%;
         height: 35px;
+    }
+    .signup-section .section-content h3{
+        margin-bottom: 30px;
     }
 
 }

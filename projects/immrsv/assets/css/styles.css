@@ -9,33 +9,35 @@ body{
     box-sizing: border-box;
 }
 h2{
-    font-size: clamp(60px, 4vw, 120px);
-    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(60px, 6vw, 110px);
+    font-family: 'Roboto', sans-serif;
     font-weight: bold; 
+    color: #0a2540;
 }
 .section-title h2{
-    font-size: clamp(18px, 3vw, 35px);
+    font-size: clamp(18px, 3vw, 38px);
 }
 h3{
     font-size: clamp(16px, 2vw, 28px);
     line-height: clamp(28px, 3vw, 38px);
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
+    color: #0a2540;
 }
 p{
-    font-size: clamp(13px, 1.3vw, 18px);
+    font-size: clamp(13px, 1.3vw, 20px);
     line-height: clamp(18px, 3vw, 26px);
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    color: #444444;
+    color: #425466;
 }
 .button{
     width: auto;
-    min-width: 140px;
+    min-width: 80px;
     align-items: center;
     padding: 13px 60px;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     transition: all 300ms ease 0ms;
@@ -51,7 +53,7 @@ p{
 }
 .main-wrapper .header-section{
     width: 100%;
-    min-height: 53vh;
+    padding-bottom: 100px;
     height: auto;
     box-sizing: border-box;
     background-image: url(../images/banner-bg.svg);
@@ -82,7 +84,7 @@ p{
 .navbar-brand a{
     color: #ffffff !important;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size:25px;
     text-decoration: none;
 }
@@ -157,7 +159,7 @@ header .header-text:before{
 }
 .header-text h3{
     width: 50%;
-    color: #efefef;
+    color: #fefefe;
     margin-bottom: 30px;
 }
 .header-text .button.header-btn{
@@ -165,6 +167,7 @@ header .header-text:before{
     color: #ffffff;
     transition: all 0.2s;
     border-radius: 5px;
+    text-transform: uppercase;
 }
 
 
@@ -184,6 +187,17 @@ header .header-text:before{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    padding-top: 30px;
+}
+.section-con .section-title:before{
+    content: "";
+    width: 150px;
+    height: 7px;
+    background: #635bff;
+    position: absolute;
+    top: 0;
+    border-radius: 8px;
 }
 .section-title p{
     width: 80%;
@@ -194,6 +208,11 @@ header .header-text:before{
 }
 .face-sec-items .face-sec-item{
     padding: 0 2%;
+}
+.face-sec-items p{
+    font-weight: 600;
+    font-size: 22px;
+    color: #0a2540;
 }
 .face-sec-item .source-face{
     padding: 20px;
@@ -208,13 +227,8 @@ header .header-text:before{
     background-repeat: no-repeat;
     border-radius: 10px;
 }
-
 .source-face-items{
     margin-top: 15px !important;
-}
-.source-face-items p{
-    font-weight: 600;
-    font-size: 22px;
 }
 .source-face-items .sf-item{
     padding: 10px;
@@ -250,9 +264,10 @@ header .header-text:before{
     border: none;
     position: relative;
     font-size: 20px;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-    color: #444444;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #0a2540;
+    border-radius: 30px;
 }
 
 
@@ -272,10 +287,6 @@ header .header-text:before{
 
 .dest-face-items{
     margin-top: 15px !important;
-}
-.dest-face-items p{
-    font-weight: 600;
-    font-size: 22px;
 }
 .dest-face-items .df-item{
     padding: 10px;
@@ -310,20 +321,36 @@ header .header-text:before{
 
 .section-content .face-sec-result{
     padding: 15px;
+    display: flex;
+    align-items: flex-start;
 }
 .face-sec-result .face-sec-res-item{
-    padding: 20px;
-    height: 480px;
+    padding: 20px 20px 0;
     background: #f4f2ee;
     border-radius: 10px;
+    position: relative;
+}
+.face-sec-res-item .fa-spinner{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    left: 0;
+}
+.face-sec-res-item .fa-spinner:before{
+    width: 50%;
+    color: #cfcfcf;
+    z-index: 1;
 }
 .face-sec-res-item .item-img{
     width: 100%;
-    height: 350px;
+    height: 550px;
     background-image: url(../images/rslt1.png);
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
 }
 .face-sec-res-item .merge-btn-con{
     width: 100%;
@@ -374,112 +401,134 @@ header .header-text:before{
     font-size: clamp(14px,1.5vw,20px);
     font-weight: 600;
 }
-.section-content .dress-sec-items .full-img-items{
-    padding: 15px;
-}
-.full-img-items .full-image-item{
-    padding: 10px;
-    background: #f4f2ee;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px ;
-    position: relative;
-}
-.dress-sec-items span.selected{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    border-radius: 8px;
-}
-.full-item-img input[type="radio"]:checked + span.selected{
-    border: 8px solid #5bccf630;
-}
-.full-image-item .full-item-img{
-    height: 260px;
-    width: 100%;
-    border-radius: 8px;
-    overflow: hidden;
-    background: #ffffff;
-    position: relative;
-}
-.full-image-item .full-item-img img{
-    width: 100%;
-    height: 100%;
-}
-
-.dress-sec-items .custom-file-btn{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-    color: #444444;
-}
-.dress-sec-items .custom-file-btn i{
-    font-size: 40px;
-}
 
 
-
-.dress-items .dress-image-item{
-    padding: 10px;
-    background: #f4f2ee;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px ;
-    position: relative;
-}
-.dress-image-item .dress-item-img{
-    height: 230px;
-    width: 100%;
-    border-radius: 8px;
-    overflow: hidden;
-    background: #ffffff;
-}
-.dress-image-item .dress-item-img img{
-    width: 100%;
-    height: 100%;
-}
-.dress-item-img input[type="radio"]:checked + span.selected{
-    border: 8px solid #5bccf630;
-}
-
-
-.section-content .dress-tryon-res-item{
-    padding: 15px;
-}
-.dress-tryon-res-item .dress-sec-res-item{
-    padding: 15px;
+.dress-sec-item .full-img-con{
+    padding: 20px;
     background: #f4f2ee;
     border-radius: 10px;
-    margin-top: 13%;
 }
-.dress-sec-res-item .item-img{
-    width: 100%;
-    height: 400px;
-    background-image: url(../images/5.jpg);
+.full-img-con .full-img{
+    height: 420px;
+    background-image: url(../images/2.jpg);
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
     border-radius: 10px;
+}
+
+.full-img-items{
+    margin-top: 15px !important;
+}
+.full-img-items p{
+    font-weight: 600;
+    font-size: 22px;
+}
+.full-img-items .fi-item{
+    padding: 10px;
+    background: #f4f2ee;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px ;
+}
+.full-img-items .fi-item .item-img{
+    height: 130px;
+    width: 100%;
+    border-radius: 3px;
     overflow: hidden;
+}
+.full-img-items .fi-item .item-img img{
+    height: 100%;
+    width: 100%;
+}
+.full-img-items .fi-item input{
+    margin: 10px auto 0;
+}
+.dress-sec-item .full-img-file{
+    padding: 0;
+    text-align: center;
+    margin: 15px 0;
+}
+
+
+
+.dress-sec-item .dress-img-con{
+    padding: 20px;
+    background: #f4f2ee;
+    border-radius: 10px;
+}
+.dress-img-con .dress-img{
+    height: 420px;
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.dress-items{
+    margin-top: 15px !important;
+}
+.dress-items p{
+    font-weight: 600;
+    font-size: 22px;
+}
+.dress-items .dress-item{
+    padding: 10px;
+    background: #f4f2ee;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px ;
+}
+.dress-item .item-img{
+    height: 130px;
+    width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.dress-items .dress-item .item-img img{
+    width: 100%;
+    height: 100%;
+}
+.dress-items .dress-item input{
+    margin: 10px auto 0;
+}
+
+.dress-sec-item .dress-file{
+    padding: 0;
+    text-align: center;
+    border-radius: 5px;
+    margin: 15px 0;
+    position: relative;
+}
+
+.section-content .dress-tryon-res-item{
+    padding: 15px;
+    display: flex;
+    align-items: flex-start;
+}
+.dress-tryon-res-item .dress-sec-res-item{
+    padding: 20px 20px 0;
+    background: #f4f2ee;
+    border-radius: 10px;
+}
+.dress-sec-res-item .item-img{
+    width: 100%;
+    height: 550px;
+    background-image: url(../images/5.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
 }
 .dress-sec-res-item .merge-btn-con{
     width: 100%;
-    margin: 80px 0 10px;
+    margin: 30px 0 20px;
     text-align: center;
     display: flex;
-    justify-content: stretch;
 }
 .dress-sec-res-item .merge-btn-con a.button{
     width: 100%;
@@ -494,16 +543,15 @@ header .header-text:before{
     display: flex;
     justify-content:stretch;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0;
     padding: 0 10%;
 }
 .dress-sec-btn-con .dress-sec-btn{
     width: 100%;
     background: #5bccf6;
     color: #ffffff;
-    font-size:  clamp(10px,2vw,24px);
+    font-size:  clamp(14px,2vw,24px);
 }
-
 /* ==============================
 ------Signup Section STYLES--------
 ============================== */
@@ -511,8 +559,8 @@ header .header-text:before{
     width: 100%;
     height: auto;
     padding: 20px 0 0;
-    background-color: #5bccf6;
-    color: #ffffff;
+    background-color:  #f6f9fc;
+    color: #0a2520;
 }
 .signup-section .section-con{
     padding: 30px 10px 0;
@@ -522,31 +570,84 @@ header .header-text:before{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #333333;
+
 }
 .section-content{
     color: #333333;
 }
-.section-content ul li{
-    font-size: clamp(16px,1vw,20px);
-    font-weight: 600;
-    color: #444444;
+.signup-section .section-content h3{
+    font-size: clamp(15px,1.3vw,26px);
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    position: relative;
+    height: 2vw;
+    min-height: 18px;
+    max-height: 38px;
+    margin-bottom: 10px;
+    color: #0a2540;
+}
+.section-content .ul-con{
+    position: relative;
+}
+.section-content .ul-con .ul{
+    position:relative;
+    display: inline-flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 2vw;
+    min-height: 18px;
+    max-height: 38px;
+}
+
+.section-content .ul .li{
+    top: 0;
+    position: relative;
+    animation: text-slide 9s infinite;
+    transition: all 0.2s ease-in-out;
+    color: #635bff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+@keyframes text-slide{
+    0%{
+        top: 0;
+    }
+    23%{
+        top: 0;
+    }
+    25%{
+        top: -100%;
+    }
+    47%{
+        top: -100%;
+    }
+    50%{
+        top: -200%;
+    }
+    72%{
+        top: -200%;
+    }
+    75%{
+        top: -300%;
+    }
+    100%{
+        top: -300%;
+    }
 }
 .section-content h4{
-    font-size: clamp(16px,1.3vw,24px);
+    font-size: clamp(15px,1.3vw,24px);
     font-family: 'Poppins', sans-serif;
-    color: #333333;
-
+    font-weight: 600;
+    color: #5bccf6;
 }
 .signup-section .section-content .signup-form-con{
     width: 100%;
     padding: 0;
 }
 .signup-form-con .signup-form label{
-    font-size: clamp(16px,1vw,20px);
-    color: #333333;
-    font-family: 'Poppins', sans-serif;
+    font-size: clamp(13px,1vw,20px);
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
 }
 .signup-form-con .signup-form input{
@@ -554,7 +655,7 @@ header .header-text:before{
     height: 50px;
     border-radius: 6px;
     background: #ffffff;
-    border: none;
+    border: 1px solid #cfcfcf;
     outline: none;
     margin: 5px 0;
     font-size: 22px;
@@ -571,8 +672,9 @@ header .header-text:before{
 }
 .signup-form-con .signup-form input.btn-submit{
     height: auto;
-    background: linear-gradient(to right, #ffcb24, #fcde67);
-    color: #333333;
+    background-color: #5bccf6;
+    border: none;
+    color: #ffffff;
     font-size: clamp(16px,1.3vw,24px);
     font-weight: bold;
     padding: 13px 0;
@@ -583,13 +685,15 @@ header .header-text:before{
     margin-top: 80px;
 }
 .signup-section .section-content footer .copyright p{
-    color: #ffffff;
+    color: #0a2540;
 }
 
 
 
 .custom-file-btn{
-    opacity: 0.3 !important;
+    opacity: 0.3;
 }
 
-
+.ff-form .ff-powered-img img {
+    display: none !important;
+}

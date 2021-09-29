@@ -1,0 +1,37 @@
+/* ===============================
+-----------Navbar Styles-------
+=============================== */
+@media only screen and (max-width: 992px){
+    nav.navbar{
+        /* position: relative; */
+        z-index: 9999;
+    }
+    .navbar .navbar-nav.nav-list{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        background: #1f3f81;
+        transition: all 0.3s ease-in-out;
+        padding: 1%;
+        text-align: center;
+        z-index: 1;
+    }
+    /* .navbar  .navbar-nav{
+       justify-content: flex-end;
+    } */
+}
+@media only screen and (max-width:640px){
+    .header-banner .header-search {
+        display: none
+    }
+    .banner-con .banner-slider-con .carousel .carousel-item img{
+        width: auto;
+       height: 100%;
+    }
+    .banner-content .banner-text a{
+        padding: 10px 30px;
+        border: 1px solid #ffffff;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+     }
+}

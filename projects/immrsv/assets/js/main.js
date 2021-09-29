@@ -35,26 +35,26 @@ mergeFaceBtn.addEventListener("click", function(){
   else{
     if(document.querySelector("#source-face-1").checked){
       if(document.querySelector("#dest-face-1").checked){
-        faceResItem.style.backgroundImage = "url(./assets/images/rslt1.png)"
+        faceResItem.style.backgroundImage = "url(./assets/images/rslt1.png)" //Face Result Images | Set path for result 1
       }
       else if(document.querySelector("#dest-face-2").checked){
-        faceResItem.style.backgroundImage = "url(./assets/images/rslt4.png)"
+        faceResItem.style.backgroundImage = "url(./assets/images/rslt4.png)" //Face Result Images | Set path for result 2
       }
     }
     if(document.querySelector("#source-face-2").checked){
       if(document.querySelector("#dest-face-1").checked){
-        faceResItem.style.backgroundImage = "url(./assets/images/rslt2.png)"
+        faceResItem.style.backgroundImage = "url(./assets/images/rslt2.png)" //Face Result Images | Set path for result 3
       }
       else if(document.querySelector("#dest-face-2").checked){
-        faceResItem.style.backgroundImage = "url(./assets/images/rslt5.png)"
+        faceResItem.style.backgroundImage = "url(./assets/images/rslt5.png)" //Face Result Images | Set path for result 4
       }
     }
     if(document.querySelector("#source-face-3").checked){
       if(document.querySelector("#dest-face-1").checked){
-        faceResItem.style.backgroundImage = "url(./assets/images/rslt3.png)"
+        faceResItem.style.backgroundImage = "url(./assets/images/rslt3.png)" //Face Result Images | Set path for result 5
       }
       else if(document.querySelector("#dest-face-2").checked){
-        faceResItem.style.backgroundImage = "url(./assets/images/rslt6.png)"
+        faceResItem.style.backgroundImage = "url(./assets/images/rslt6.png)" //Face Result Images | Set path for result 6
       }
     }
     
@@ -102,11 +102,12 @@ $(document).ready(function () {
 })
 
 function setFormStatus(){
-  if(!document.querySelector('.btn.btn-primary.ff-submit')){
-      formFilled= true;
+        formFilled= true;
+        setTimeout(function(){
+          document.getElementById("btnclose").click()
+      }, 2000);
       setWithExpiry("formFilled", true, 3600000);
       changeOpacity(".custom-file-btn")
-  }
 }
 function setWithExpiry(key, value, ttl) {
   const now = new Date()

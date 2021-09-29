@@ -1,0 +1,1826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awsome Links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!-- Swiper Slider -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+    <!-- stylesheet links -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>Apna Ghar</title>
+</head>
+
+<body onload="rangeSlider()">
+    <div  class="main-wrapper">
+        <!-- header banner start  -->
+        <section class="header-section">
+            <header class="layout_default">
+                <div class="topbar gray">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <p>We are Best in Town With 40 years of Experience.</p>
+                            </div>
+                            <div class="col-md-7 text-right">
+                                <ul class="breadcrumb_top text-left">
+                                    <li>
+                                        <a type="button" class="like-btn">
+                                            <i class="bi bi-heart"></i>Favorite
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-home"></i>Submit Property
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-home"></i>My Poperty
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-user"></i>Profile
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-sign-in-alt"></i>Login / Register
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-upper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-2">
+                                <div class="logo">
+                                    <a href="#">
+                                        <img src="./assets/images/Darklogohome.png" title="Logo" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-9 col-sm-12 right">
+                                <div class="info-box first">
+                                    <div class="icons">
+                                        <img src="./assets/images/icons/call.svg" alt="">
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <strong>Phone Number</strong>
+                                        </li>
+                                        <li>+1 90000 234 567 - 68</li>
+                                    </ul>
+                                </div>
+                                <div class="info-box">
+                                    <div class="icons">
+                                        <img src="./assets/images/icons/placeholder.svg" alt="">
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <strong>Castle Melbourne</strong>
+                                        </li>
+                                        <li>Castle Melbourne, australia</li>
+                                    </ul>
+                                </div>
+                                <div class="info-box">
+                                    <div class="icons">
+                                        <img src="./assets/images/icons/email.svg" alt="">
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <strong>Email Address</strong>
+                                        </li>
+                                        <li><a href="mailto:info@homofy.com">info@homofy.com</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-color">
+                    <div class="container-md navbar-con">
+                        <div class="logo-light-con">
+                            <a class="navbar-brand logo-light" href="#">
+                                <img src="./assets/images/Lightlogohome.png" alt="">
+                            </a>
+                        </div>
+                        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="nav-menu collapse navbar-collapse" id="main_nav">
+                            <ul class="navbar-nav nav-list">
+                                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./listing.html">Properties</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./projects.html">Projects</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Dropdown right </a>
+                                        <ul class="dropdown-menu dropdown-menu-right">
+                                            <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                                            <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                                        </ul>
+                                </li>
+                            </ul>
+                        </div> <!-- navbar-collapse.// -->
+                        <div class="social-links text-right dpnone"> 
+                            <ul class="social_share">
+                                <li>
+                                    <a href="#" class="facebook">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16" style="color: white;">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                        </svg> 
+                                    </a>
+                                </li>
+                                <li>
+                                      <a href="#" class="facebook">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"  fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16" style="color: white;">
+                                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="facebook">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16" style="color: white;">
+                                            <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div> <!-- container-fluid.// -->
+                </nav>
+            </header>
+            <div class="header-banner">
+                <div class="banner-con">
+                    <!--Slider-->
+                    <div class="banner-slider-con">
+                        <div class="overlay"></div>
+                        <div id="bannerSlider" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./assets/images/banner-img-1.jpg" class="d-block w-100" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/images/banner-img-2.jpg" class="d-block w-100" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/images/banner-img-3.jpg" class="d-block w-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Slider ends-->
+                    <div class="banner-content row m-0">
+                        <div class="banner-text col-12 col-md-7">
+                            <h2 class="t-white">We can find just right<br> property for you</h2>
+                            <p class="t-white">We deal with different kind of properties no matter you need a house and
+                                appartment or garage. You wil find a good option on our website</p>
+                            <a class="t-white text-uppercase" href="">View Properties</a>
+                        </div>
+                        <!-- header property search form  -->
+                        <div class="collapse header-search col-12 col-md-5 ">
+                            <div class="header-search-con">
+                                <div class="form-title">
+                                    <h2 class="t-white text-uppercase bottom15">Advanced Search</h2>
+                                </div>
+                                <div class="search-form">
+                                    <form action="">
+                                        <div class="row m-0">
+                                            <div class="col-12 col-sm-6">
+                                                <div class="single-query bottom15">
+                                                    <input type="text" class="keyword-input"
+                                                        placeholder="Keyword (e.g. 'office')" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <div class="single-query bottom15">
+                                                    <div class="intro">
+                                                        <select required>
+                                                            <option selected="" value="any">Location</option>
+                                                            <option>All areas</option>
+                                                            <option>Bayonne </option>
+                                                            <option>Greenville</option>
+                                                            <option>Manhattan</option>
+                                                            <option>Queens</option>
+                                                            <option>The Heights</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <div class="single-query bottom15">
+                                                    <div class="intro">
+                                                        <select required>
+                                                            <option class="active">Property Type</option>
+                                                            <option>All areas</option>
+                                                            <option>Bayonne </option>
+                                                            <option>Greenville</option>
+                                                            <option>Manhattan</option>
+                                                            <option>Queens</option>
+                                                            <option>The Heights</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <div class="single-query bottom15">
+                                                    <div class="intro">
+                                                        <select>
+                                                            <option class="active">Property Status</option>
+                                                            <option>All areas</option>
+                                                            <option>Bayonne </option>
+                                                            <option>Greenville</option>
+                                                            <option>Manhattan</option>
+                                                            <option>Queens</option>
+                                                            <option>The Heights</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row row-3 m-0 p-0">
+                                                <div class="col-6 col-sm-3 col-xs-3">
+                                                    <div class="single-query bottom15">
+                                                        <div class="intro">
+                                                            <select>
+                                                                <option class="active">Min Beds</option>
+                                                                <option>1</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                                <option>6</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6 col-sm-3 col-xs-3">
+                                                    <div class="single-query bottom15">
+                                                        <div class="intro">
+                                                            <select>
+                                                                <option class="active">Min Baths</option>
+                                                                <option>1</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                                <option>6</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-6 col-sm-3 col-xs-3">
+                                                    <div class="single-query bottom15">
+                                                        <input type="text" class="keyword-input"
+                                                            placeholder="Min Area (sq ft)">
+                                                    </div>
+                                                </div>
+                                                <div class="col-6 col-sm-3 col-xs-3">
+                                                    <div class="single-query bottom15">
+                                                        <input type="text" class="keyword-input"
+                                                            placeholder="Max Area (sq ft)">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row m-0">
+                                                <div class="col-12 col-md-8  bottom15">
+                                                    <div class="price-range-slider center">
+                                                        <div
+                                                            class="price-range-slider-text col-12 bottom15 d-flex  justify-content-between">
+                                                            <label class="pull-left">Price Range:</label>
+                                                            <div class="price text-right d-flex m-0 ">
+                                                                <span>$</span>
+                                                                <p class="min-price-range">0</p>
+                                                                <span>&nbsp;to $</span>
+                                                                <p class="max-price-range">1500000</p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="dual-range" data-min="0" data-max="1500000">
+                                                            <span class="handle left"></span>
+                                                            <span class="highlight"></span>
+                                                            <span class="handle right"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-4  submit-btn-con">
+                                                    <button type="submit"
+                                                        class="btn btn-submit radius btn-yellow text-uppercase">Search</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- header banner end  -->
+            </div>
+        </section>
+    </div>
+
+    <!-- ===========PROJECT PORTFOLIO================ -->
+    <section class="bg-projectgallery" id="project">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="title-wrap d-flex justify-content-between">
+                        <div class="project-text">
+                            <h2 class="uppercase">
+                                Latest projects
+                            </h2>
+                            <p>
+                            BROWSE HOT OFFERS
+                            </p> 
+                        </div>
+                        <div id="filter-project" class="project-btngroup">
+                            <a id="btnpro-1" class="btn firstbtn filter-button1 btn-proj btnactive" data-filter="projectalltype">All types</a>
+                            <a id="btnpro-2" class="btn filter-button1 btn-proj" data-filter="projectsale">Sale</a>
+                            <a id="btnpro-3" class="btn filter-button1 btn-proj lastbtn" data-filter="projectrent">Rent</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="project-gallery" class="poject-items row">
+                <div class="project-cards col-lg-4 col-md-6 col-sm-6 col-xs-12 projfilter projectalltype projectsale">
+                    <div class="project-item">
+                        <div class="project-image card-img">
+                            <a href="./property-details.html">
+                                <img src="./assets/images/Project GAll/3.jpg" class="img-responsive w-100" alt="">
+                                <div class="overlay"></div>
+                            </a>
+                            <div class="project-location">
+                                <a href="#" class="single-map-item">
+                                    <span class=" tag projlocation"> 
+                                        <i class="fas fa-map-marker-alt">
+                                        </i> &nbsp; 34-42 Montgomery St , NY, USA
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="project-img-counter">
+                                <span class="tag tag-tbr"><i class="fas fa-camera"></i>&nbsp; 6</span>
+                            </div>
+                            <div class="tag tag-tpr">
+                                <div ><a type="button" class="like-btn"><i class="bi bi-heart"></i></a></div>
+                                <div class="">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16" >
+                                            <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tag tag-tpl">
+                                <div><span class="sale">Sale</span></div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-heading">
+                                <h3 class="title">
+                                    <a href="#">Luxury Family Home</a>
+                                </h3>
+                                <div class="project-price">
+                                    $&nbsp; 50000
+                                </div>
+                            </div>
+                            <div class="project-discription">
+                                <div class="dis-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla.</p>
+                                </div>
+                                <div class="project-detail">
+                                    <ul class="project-icon">
+                                        <li><i class="fas fa-bed"></i><span>&nbsp;4</span></li>
+                                        <li><i class="fas fa-shower"></i><span>&nbsp;3</span></li>
+                                        <li><i class="fas fa-vector-square"></i><span>&nbsp; 510 ft2</span></li>
+                                    </ul>
+                                </div>
+                                <div class="project-footer justify-content-between">
+                                    <a href="#" class="author">
+                                        <img src="./assets/images/Project GAll/projauthor.jpg" height="40px" width="40px" alt="">
+                                        <span>By Ali Zahid</span>
+                                    </a>
+                                    <div class="project-rating">
+                                        <span class="stars-wrapper">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-cards col-lg-4 col-md-6 col-sm-6 col-xs-12 projfilter projectalltype projectsale">
+                    <div class="project-item">
+                        <div class="project-image card-img">
+                            <a href="./property-details.html">
+                                <img src="./assets/images/Project GAll/2.jpg" class="img-responsive w-100" alt="">
+                                <span class="overlay"></span>
+                            </a>
+                            <div class="project-location">
+                                <a href="#" class="single-map-item">
+                                    <span class=" tag projlocation"> 
+                                        <i class="fas fa-map-marker-alt">
+                                        </i> &nbsp; 34-42 Montgomery St , NY, USA
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="project-img-counter">
+                                <span class="tag tag-tbr"><i class="fas fa-camera"></i>&nbsp; 6</span>
+                            </div>
+                            <div class="tag tag-tpr">
+                                <div ><a type="button" class="like-btn"><i class="bi bi-heart"></i></a></div>
+                                <div class="">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16" >
+                                            <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tag tag-tpl">
+                                <div><span class="featured">Featured</span></div>
+                                <div><span class="sale">Sale</span></div>
+                            </div>
+                            
+                        </div>
+                        <div class="project-content">
+                            <div class="project-heading">
+                                <h3 class="title">
+                                    <a href="#">Luxury Family Home</a>
+                                </h3>
+                                <div class="project-price">
+                                    $&nbsp; 50000
+                                </div>
+                            </div>
+                            <div class="project-discription">
+                                <div class="dis-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla.</p>
+                                </div>
+                                <div class="project-detail">
+                                    <ul class="project-icon">
+                                        <li><i class="fas fa-bed"></i><span>&nbsp;4</span></li>
+                                        <li><i class="fas fa-shower"></i><span>&nbsp;3</span></li>
+                                        <li><i class="fas fa-vector-square"></i><span>&nbsp; 510 ft2</span></li>
+                                    </ul>
+                                </div>
+                                <div class="project-footer justify-content-between">
+                                    <a href="#" class="author">
+                                        <img src="./assets/images/Project GAll/projauthor.jpg" height="40px" width="40px" alt="">
+                                        <span>By Ali Zahid</span>
+                                    </a>
+                                    <div class="project-rating">
+                                        <span class="stars-wrapper">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-cards col-lg-4 col-md-6 col-sm-6 col-xs-12 projfilter projectalltype projectrent">
+                    <div class="project-item">
+                        <div class="project-image card-img">
+                            <a href="./property-details.html">
+                                <img src="./assets/images/Project GAll/3-1.jpg" class="img-responsive w-100" alt="">
+                                <span class="overlay"></span>
+                            </a>
+                            <div class="project-location">
+                                <a href="#" class="single-map-item">
+                                    <span class=" tag projlocation"> 
+                                        <i class="fas fa-map-marker-alt">
+                                        </i> &nbsp; 34-42 Montgomery St , NY, USA
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="project-img-counter">
+                                <span class="tag tag-tbr"><i class="fas fa-camera"></i>&nbsp; 6</span>
+                            </div>
+                            <div class="tag tag-tpr">
+                                <div ><a type="button" class="like-btn"><i class="bi bi-heart"></i></a></div>
+                                <div class="">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16" >
+                                            <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tag tag-tpl">
+                                <div><span class="featured">Featured</span></div>
+                                <div><span class="rent">Rent</span></div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-heading">
+                                <h3 class="title">
+                                    <a href="#">Luxury Family Home</a>
+                                </h3>
+                                <div class="project-price">
+                                    $&nbsp; 50000
+                                </div>
+                            </div>
+                            <div class="project-discription">
+                                <div class="dis-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla.</p>
+                                </div>
+                                <div class="project-detail">
+                                    <ul class="project-icon">
+                                        <li><i class="fas fa-bed"></i><span>&nbsp;4</span></li>
+                                        <li><i class="fas fa-shower"></i><span>&nbsp;3</span></li>
+                                        <li><i class="fas fa-vector-square"></i><span>&nbsp; 510 ft2</span></li>
+                                    </ul>
+                                </div>
+                                <div class="project-footer justify-content-between">
+                                    <a href="#" class="author">
+                                        <img src="./assets/images/Project GAll/projauthor.jpg" height="40px" width="40px" alt="">
+                                        <span>By Ali Zahid</span>
+                                    </a>
+                                    <div class="project-rating">
+                                        <span class="stars-wrapper">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-cards col-lg-4 col-md-6 col-sm-6 col-xs-12 projfilter projectalltype projectrent">
+                    <div class="project-item">
+                        <div class="project-image card-img">
+                            <a href="./property-details.html">
+                                <img src="./assets/images/Project GAll/2.jpg" class="img-responsive w-100" alt="">
+                                <span class="overlay"></span>
+                            </a>
+                            <div class="project-location">
+                                <a href="#" class="single-map-item">
+                                    <span class=" tag projlocation"> 
+                                        <i class="fas fa-map-marker-alt">
+                                        </i> &nbsp; 34-42 Montgomery St , NY, USA
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="project-img-counter">
+                                <span class="tag tag-tbr"><i class="fas fa-camera"></i>&nbsp; 6</span>
+                            </div>
+                            <div class="tag tag-tpr">
+                                <div><a type="button" class="like-btn"><i class="bi bi-heart"></i></a></div>
+                                <div class="">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16" >
+                                            <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tag tag-tpl">
+                                <div><span class="sale">Sale</span></div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-heading">
+                                <h3 class="title">
+                                    <a href="#">Luxury Family Home</a>
+                                </h3>
+                                <div class="project-price">
+                                    $&nbsp; 50000
+                                </div>
+                            </div>
+                            <div class="project-discription">
+                                <div class="dis-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla.</p>
+                                </div>
+                                <div class="project-detail">
+                                    <ul class="project-icon">
+                                        <li><i class="fas fa-bed"></i><span>&nbsp;4</span></li>
+                                        <li><i class="fas fa-shower"></i><span>&nbsp;3</span></li>
+                                        <li><i class="fas fa-vector-square"></i><span>&nbsp; 510 ft2</span></li>
+                                    </ul>
+                                </div>
+                                <div class="project-footer justify-content-between">
+                                    <a href="#" class="author">
+                                        <img src="./assets/images/Project GAll/projauthor.jpg" height="40px" width="40px" alt="">
+                                        <span>By Ali Zahid</span>
+                                    </a>
+                                    <div class="project-rating">
+                                        <span class="stars-wrapper">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-cards col-lg-4 col-md-6 col-sm-6 col-xs-12 projfilter projectalltype projectsale">
+                    <div class="project-item">
+                        <div class="project-image card-img">
+                            <a href="./property-details.html">
+                                <img src="./assets/images/Project GAll/2.jpg" class="img-responsive w-100" alt="">
+                                <span class="overlay"></span>
+                            </a>
+                            <div class="project-location">
+                                <a href="#" class="single-map-item">
+                                    <span class=" tag projlocation"> 
+                                        <i class="fas fa-map-marker-alt">
+                                        </i> &nbsp; 34-42 Montgomery St , NY, USA
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="project-img-counter">
+                                <span class="tag tag-tbr"><i class="fas fa-camera"></i>&nbsp; 6</span>
+                            </div>
+                            <div class="tag tag-tpr">
+                                <div><a type="button" class="like-btn"><i class="bi bi-heart"></i></a></div>
+                                <div class="">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16" >
+                                            <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tag tag-tpl">
+                                <div><span class="featured">Featured</span></div>
+                                <div><span class="sale">Sale</span></div>
+                            </div>
+                            
+                        </div>
+                        <div class="project-content">
+                            <div class="project-heading">
+                                <h3 class="title">
+                                    <a href="#">Luxury Family Home</a>
+                                </h3>
+                                <div class="project-price">
+                                    $&nbsp; 50000
+                                </div>
+                            </div>
+                            <div class="project-discription">
+                                <div class="dis-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla.</p>
+                                </div>
+                                <div class="project-detail">
+                                    <ul class="project-icon">
+                                        <li><i class="fas fa-bed"></i><span>&nbsp;4</span></li>
+                                        <li><i class="fas fa-shower"></i><span>&nbsp;3</span></li>
+                                        <li><i class="fas fa-vector-square"></i><span>&nbsp; 510 ft2</span></li>
+                                    </ul>
+                                </div>
+                                <div class="project-footer justify-content-between">
+                                    <a href="#" class="author">
+                                        <img src="./assets/images/Project GAll/projauthor.jpg" height="40px" width="40px" alt="">
+                                        <span>By Ali Zahid</span>
+                                    </a>
+                                    <div class="project-rating">
+                                        <span class="stars-wrapper">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-cards col-lg-4 col-md-6 col-sm-6 col-xs-12 projfilter projectalltype projectrent">
+                    <div class="project-item">
+                        <div class="project-image card-img">
+                            <a href="./property-details.html">
+                                <img src="./assets/images/Project GAll/3.jpg" class="img-responsive w-100" alt="">
+                                <span class="overlay"></span>
+                            </a>
+                            <div class="project-location">
+                                <a href="#" class="single-map-item">
+                                    <span class=" tag projlocation"> 
+                                        <i class="fas fa-map-marker-alt">
+                                        </i> &nbsp; 34-42 Montgomery St , NY, USA
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="project-img-counter">
+                                <span class="tag tag-tbr"><i class="fas fa-camera"></i>&nbsp; 6</span>
+                            </div>
+                            <div class="tag tag-tpr">
+                                <div ><a type="button" class="like-btn"><i class="bi bi-heart"></i></a></div>
+                                <div class="">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16" >
+                                            <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tag tag-tpl">
+                                <div><span class="featured">Featured</span></div>
+                                <div><span class="rent">Rent</span></div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-heading">
+                                <h3 class="title">
+                                    <a href="#">Luxury Family Home</a>
+                                </h3>
+                                <div class="project-price">
+                                    $&nbsp; 50000
+                                </div>
+                            </div>
+                            <div class="project-discription">
+                                <div class="dis-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla.</p>
+                                </div>
+                                <div class="project-detail">
+                                    <ul class="project-icon">
+                                        <li><i class="fas fa-bed"></i><span>&nbsp;4</span></li>
+                                        <li><i class="fas fa-shower"></i><span>&nbsp;3</span></li>
+                                        <li><i class="fas fa-vector-square"></i><span>&nbsp; 510 ft2</span></li>
+                                    </ul>
+                                </div>
+                                <div class="project-footer justify-content-between">
+                                    <a href="#" class="author">
+                                        <img src="./assets/images/Project GAll/projauthor.jpg" height="40px" width="40px" alt="">
+                                        <span>By Ali Zahid</span>
+                                    </a>
+                                    <div class="project-rating">
+                                        <span class="stars-wrapper">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-sm-12 text-center mt-3">
+                    <a href="./listing.html" class="more-project-btn">more listing</a>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Project Portfolio Section -->
+
+    <!-- ===========Property Portfolio================ -->
+    <section class="padding bg-gallery" id="property">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="uppercase">
+                        featured properties
+                    </h2>
+                    <p class="heading_space">
+                        We have Properties in these Areas View a list of Featured Properties.
+                    </p>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div id="filter-property" class="text-center property_bittons mb-3">
+                    <button id="btnproperty1" class="btn btn-property-active btn-default filter-button" data-filter="latest">LATEST</button>
+                    <button id="btnproperty2" class="btn btn-default filter-button" data-filter="sale">SALE</button>
+                    <button id="btnproperty3" class="btn btn-default filter-button" data-filter="rent">RENT</button>
+                </div>
+            </div>
+            <div class="container">
+                <div id="property-gallery" class="row">
+                    <div  class="gallery_product col-lg-4 col-md-6 col-sm-6 col-xs-12 propertyfilter latest sale">
+                        <div class="property-item">
+                            <div class="image card-img" style="position: relative;">
+                                <a href="./property-details.html"> <img src="./assets/images/Property Portfolio/listing1.jpg" alt="" class="img-responsive"></a>
+                                <span class="price">$8,600 Per Month</span>
+                                <span class="tag_t">For Sale</span>
+                                <span class="tag_l">Featured</span>
+                            </div>
+                            <div class="property-content">
+                                <div class="property-heading">
+                                    <h3 class="capital">
+                                        <a href="#">Park avenue apartment</a>
+                                    </h3>
+                                    <p>45 Regent Street, London, UK</p>
+                                </div>
+                                <div class="property-dis">
+                                    <span>
+                                        <i class="fas fa-vector-square"></i>
+                                        4800 sq ft
+                                    </span>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 512 512"><path d="M496,344h-8V280a32.042,32.042,0,0,0-32-32V112a32.042,32.042,0,0,0-32-32H88a32.042,32.042,0,0,0-32,32V248a32.042,32.042,0,0,0-32,32v64H16a8,8,0,0,0-8,8v32a8,8,0,0,0,8,8h8v32a8,8,0,0,0,8,8H56a7.99,7.99,0,0,0,7.84-6.43L70.56,392H441.44l6.72,33.57A7.99,7.99,0,0,0,456,432h24a8,8,0,0,0,8-8V392h8a8,8,0,0,0,8-8V352A8,8,0,0,0,496,344ZM72,112A16.021,16.021,0,0,1,88,96H424a16.021,16.021,0,0,1,16,16V248H424V216a32.042,32.042,0,0,0-32-32H296a32.042,32.042,0,0,0-32,32v32H248V216a32.042,32.042,0,0,0-32-32H120a32.042,32.042,0,0,0-32,32v32H72ZM408,216v32H280V216a16.021,16.021,0,0,1,16-16h96A16.021,16.021,0,0,1,408,216Zm-176,0v32H104V216a16.021,16.021,0,0,1,16-16h96A16.021,16.021,0,0,1,232,216ZM40,280a16.021,16.021,0,0,1,16-16H456a16.021,16.021,0,0,1,16,16v64H40Zm9.44,136H40V392H54.24ZM472,416h-9.44l-4.8-24H472Zm16-40H24V360H488Z"/></svg>
+                                        2 office room
+                                    </span>
+                                    <span>
+                                        <i class="fas fa-shower"></i>
+                                        1 Bathroom
+                                    </span>
+                                </div>
+                                <div class="property-dis mb-4">
+                                    <span>
+                                        <i class="fas fa-tv"></i>
+                                        TV Lounge
+                                    </span>
+                                    <span>
+                                        <i class="fas fa-warehouse"></i>
+                                        1 Bathroom
+                                    </span>
+                                    <span></span>
+                                </div>
+                                <div class="fav clearfix">
+                                    <p>
+                                        <i class="far fa-calendar-alt"></i>
+                                        &nbsp;5 Days ago
+                                    </p>
+                                    <ul class="pull-right">
+                                        <li>
+                                            <a type="button" class="like-btn">
+                                                <i class="bi bi-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="20" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                    <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+                                                  </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="gallery_product col-lg-4 col-md-6 col-sm-6 col-xs-12 propertyfilter latest sale">
+                        <div class="property-item">
+                            <div class="image card-img">
+                                <a href="./property-details.html"> <img src="./assets/images/Property Portfolio/listing2.jpg" alt="" class="img-responsive"></a>
+                                <span class="price">$8,600 Per Month</span>
+                                <span class="tag_t">For Sale</span>
+                                <span class="tag_l">Featured</span>
+                            </div>
+                            <div class="property-content">
+                                <div class="property-heading">
+                                    <h3 class="capital">
+                                        <a href="#">Park avenue apartment</a>
+                                    </h3>
+                                    <p>45 Regent Street, London, UK</p>
+                                </div>
+                                <div class="property-dis">
+                                    <span>
+                                        <i class="fas fa-vector-square"></i>
+                                        4800 sq ft
+                                    </span>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 512 512"><path d="M496,344h-8V280a32.042,32.042,0,0,0-32-32V112a32.042,32.042,0,0,0-32-32H88a32.042,32.042,0,0,0-32,32V248a32.042,32.042,0,0,0-32,32v64H16a8,8,0,0,0-8,8v32a8,8,0,0,0,8,8h8v32a8,8,0,0,0,8,8H56a7.99,7.99,0,0,0,7.84-6.43L70.56,392H441.44l6.72,33.57A7.99,7.99,0,0,0,456,432h24a8,8,0,0,0,8-8V392h8a8,8,0,0,0,8-8V352A8,8,0,0,0,496,344ZM72,112A16.021,16.021,0,0,1,88,96H424a16.021,16.021,0,0,1,16,16V248H424V216a32.042,32.042,0,0,0-32-32H296a32.042,32.042,0,0,0-32,32v32H248V216a32.042,32.042,0,0,0-32-32H120a32.042,32.042,0,0,0-32,32v32H72ZM408,216v32H280V216a16.021,16.021,0,0,1,16-16h96A16.021,16.021,0,0,1,408,216Zm-176,0v32H104V216a16.021,16.021,0,0,1,16-16h96A16.021,16.021,0,0,1,232,216ZM40,280a16.021,16.021,0,0,1,16-16H456a16.021,16.021,0,0,1,16,16v64H40Zm9.44,136H40V392H54.24ZM472,416h-9.44l-4.8-24H472Zm16-40H24V360H488Z"/></svg>
+                                        2 office room
+                                    </span>
+                                    <span>
+                                        <i class="fas fa-shower"></i>
+                                        1 Bathroom
+                                    </span>
+                                </div>
+                                <div class="property-dis mb-4">
+                                    <span>
+                                        <i class="fas fa-tv"></i>
+                                        TV Lounge
+                                    </span>
+                                    <span>
+                                        <i class="fas fa-warehouse"></i>
+                                        1 Bathroom
+                                    </span>
+                                    <span></span>
+                                </div>
+                                <div class="fav clearfix">
+                                    <p>
+                                        <i class="far fa-calendar-alt"></i>
+                                        &nbsp;5 Days ago
+                                    </p>
+                                    <ul class="pull-right">
+                                        <li>
+                                            <a type="button" class="like-btn">
+                                                <i class="bi bi-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="20" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                    <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+                                                  </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="gallery_product col-lg-4 col-md-6 col-sm-6 col-xs-12 propertyfilter latest rent">
+                        <div class="property-item">
+                            <div class="image card-img">
+                                <a href="./property-details.html"> <img src="./assets/images/Property Portfolio/listing4.jpg" alt="" class="img-responsive"></a>
+                                <span class="price">$8,600 Per Month</span>
+                                <span class="tag_t">For Rent</span>
+                                <span class="tag_l">Featured</span>
+                            </div>
+                            <div class="property-content">
+                                <div class="property-heading">
+                                    <h3 class="capital">
+                                        <a href="#">Park avenue apartment</a>
+                                    </h3>
+                                    <p>45 Regent Street, London, UK</p>
+                                </div>
+                                <div class="property-dis">
+                                    <span>
+                                        <i class="fas fa-vector-square"></i>
+                                        4800 sq ft
+                                    </span>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 512 512"><path d="M496,344h-8V280a32.042,32.042,0,0,0-32-32V112a32.042,32.042,0,0,0-32-32H88a32.042,32.042,0,0,0-32,32V248a32.042,32.042,0,0,0-32,32v64H16a8,8,0,0,0-8,8v32a8,8,0,0,0,8,8h8v32a8,8,0,0,0,8,8H56a7.99,7.99,0,0,0,7.84-6.43L70.56,392H441.44l6.72,33.57A7.99,7.99,0,0,0,456,432h24a8,8,0,0,0,8-8V392h8a8,8,0,0,0,8-8V352A8,8,0,0,0,496,344ZM72,112A16.021,16.021,0,0,1,88,96H424a16.021,16.021,0,0,1,16,16V248H424V216a32.042,32.042,0,0,0-32-32H296a32.042,32.042,0,0,0-32,32v32H248V216a32.042,32.042,0,0,0-32-32H120a32.042,32.042,0,0,0-32,32v32H72ZM408,216v32H280V216a16.021,16.021,0,0,1,16-16h96A16.021,16.021,0,0,1,408,216Zm-176,0v32H104V216a16.021,16.021,0,0,1,16-16h96A16.021,16.021,0,0,1,232,216ZM40,280a16.021,16.021,0,0,1,16-16H456a16.021,16.021,0,0,1,16,16v64H40Zm9.44,136H40V392H54.24ZM472,416h-9.44l-4.8-24H472Zm16-40H24V360H488Z"/></svg>
+                                        2 office room
+                                    </span>
+                                    <span>
+                                        <i class="fas fa-shower"></i>
+                                        1 Bathroom
+                                    </span>
+                                </div>
+                                <div class="property-dis mb-4">
+                                    <span>
+                                        <i class="fas fa-tv"></i>
+                                        TV Lounge
+                                    </span>
+                                    <span>
+                                        <i class="fas fa-warehouse"></i>
+                                        1 Bathroom
+                                    </span>
+                                    <span></span>
+                                </div>
+                                <div class="fav clearfix">
+                                    <p>
+                                        <i class="far fa-calendar-alt"></i>
+                                        &nbsp;5 Days ago
+                                    </p>
+                                    <ul class="pull-right">
+                                        <li >
+                                            <a type="button" class="like-btn">
+                                                <i class="bi bi-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="20" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                    <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+                                                  </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="gallery_product col-lg-4 col-md-6 col-sm-6 col-xs-12 propertyfilter latest sale">
+                        <div class="property-item">
+                            <div class="image card-img" style="position: relative;">
+                                <a href="./property-details.html"> <img src="./assets/images/Property Portfolio/listing7.jpg" alt="" class="img-responsive"></a>
+                                <span class="price">$8,600 Per Month</span>
+                                <span class="tag_t">For Sale</span>
+                                <span class="tag_l">Featured</span>
+                            </div>
+                            <div class="property-content">
+                                <div class="property-heading">
+                                    <h3 class="capital">
+                                        <a href="#">Park avenue apartment</a>
+                                    </h3>
+                                    <p>45 Regent Street, London, UK</p>
+                                </div>
+                                <div class="property-dis">
+                                    <span>
+                                        <i class="fas fa-vector-square"></i>
+                                        4800 sq ft
+                                    </span>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 512 512"><path d="M496,344h-8V280a32.042,32.042,0,0,0-32-32V112a32.042,32.042,0,0,0-32-32H88a32.042,32.042,0,0,0-32,32V248a32.042,32.042,0,0,0-32,32v64H16a8,8,0,0,0-8,8v32a8,8,0,0,0,8,8h8v32a8,8,0,0,0,8,8H56a7.99,7.99,0,0,0,7.84-6.43L70.56,392H441.44l6.72,33.57A7.99,7.99,0,0,0,456,432h24a8,8,0,0,0,8-8V392h8a8,8,0,0,0,8-8V352A8,8,0,0,0,496,344ZM72,112A16.021,16.021,0,0,1,88,96H424a16.021,16.021,0,0,1,16,16V248H424V216a32.042,32.042,0,0,0-32-32H296a32.042,32.042,0,0,0-32,32v32H248V216a32.042,32.042,0,0,0-32-32H120a32.042,32.042,0,0,0-32,32v32H72ZM408,216v32H280V216a16.021,16.021,0,0,1,16-16h96A16.021,16.021,0,0,1,408,216Zm-176,0v32H104V216a16.021,16.021,0,0,1,16-16h96A16.021,16.021,0,0,1,232,216ZM40,280a16.021,16.021,0,0,1,16-16H456a16.021,16.021,0,0,1,16,16v64H40Zm9.44,136H40V392H54.24ZM472,416h-9.44l-4.8-24H472Zm16-40H24V360H488Z"/></svg>
+                                        2 office room
+                                    </span>
+                                    <span>
+                                        <i class="fas fa-shower"></i>
+                                        1 Bathroom
+                                    </span>
+                                </div>
+                                <div class="property-dis mb-4">
+                                    <span>
+                                        <i class="fas fa-tv"></i>
+                                        TV Lounge
+                                    </span>
+                                    <span>
+                                        <i class="fas fa-warehouse"></i>
+                                        1 Bathroom
+                                    </span>
+                                    <span></span>
+                                </div>
+                                <div class="fav clearfix">
+                                    <p>
+                                        <i class="far fa-calendar-alt"></i>
+                                        &nbsp;5 Days ago
+                                    </p>
+                                    <ul class="pull-right">
+                                        <li>
+                                            <a type="button" class="like-btn">
+                                                <i class="bi bi-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="20" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                    <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+                                                  </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="gallery_product col-lg-4 col-md-6 col-sm-6 col-xs-12 propertyfilter latest rent">
+                        <div class="property-item">
+                            <div class="image card-img" style="position: relative;">
+                                <a href="./property-details.html"> <img src="./assets/images/Property Portfolio/listing8.jpg" alt="" class="img-responsive"></a>
+                                <span class="price">$8,600 Per Month</span>
+                                <span class="tag_t">For Sale</span>
+                                <span class="tag_l">Featured</span>
+                            </div>
+                            <div class="property-content">
+                                <div class="property-heading">
+                                    <h3 class="capital">
+                                        <a href="#">Park avenue apartment</a>
+                                    </h3>
+                                    <p>45 Regent Street, London, UK</p>
+                                </div>
+                                <div class="property-dis">
+                                    <span>
+                                        <i class="fas fa-vector-square"></i>
+                                        4800 sq ft
+                                    </span>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 512 512"><path d="M496,344h-8V280a32.042,32.042,0,0,0-32-32V112a32.042,32.042,0,0,0-32-32H88a32.042,32.042,0,0,0-32,32V248a32.042,32.042,0,0,0-32,32v64H16a8,8,0,0,0-8,8v32a8,8,0,0,0,8,8h8v32a8,8,0,0,0,8,8H56a7.99,7.99,0,0,0,7.84-6.43L70.56,392H441.44l6.72,33.57A7.99,7.99,0,0,0,456,432h24a8,8,0,0,0,8-8V392h8a8,8,0,0,0,8-8V352A8,8,0,0,0,496,344ZM72,112A16.021,16.021,0,0,1,88,96H424a16.021,16.021,0,0,1,16,16V248H424V216a32.042,32.042,0,0,0-32-32H296a32.042,32.042,0,0,0-32,32v32H248V216a32.042,32.042,0,0,0-32-32H120a32.042,32.042,0,0,0-32,32v32H72ZM408,216v32H280V216a16.021,16.021,0,0,1,16-16h96A16.021,16.021,0,0,1,408,216Zm-176,0v32H104V216a16.021,16.021,0,0,1,16-16h96A16.021,16.021,0,0,1,232,216ZM40,280a16.021,16.021,0,0,1,16-16H456a16.021,16.021,0,0,1,16,16v64H40Zm9.44,136H40V392H54.24ZM472,416h-9.44l-4.8-24H472Zm16-40H24V360H488Z"/></svg>
+                                        2 office room
+                                    </span>
+                                    <span>
+                                        <i class="fas fa-shower"></i>
+                                        1 Bathroom
+                                    </span>
+                                </div>
+                                <div class="property-dis mb-4">
+                                    <span>
+                                        <i class="fas fa-tv"></i>
+                                        TV Lounge
+                                    </span>
+                                    <span>
+                                        <i class="fas fa-warehouse"></i>
+                                        1 Bathroom
+                                    </span>
+                                    <span></span>
+                                </div>
+                                <div class="fav clearfix">
+                                    <p>
+                                        <i class="far fa-calendar-alt"></i>
+                                        &nbsp;5 Days ago
+                                    </p>
+                                    <ul class="pull-right">
+                                        <li >
+                                            <a type="button" class="like-btn">
+                                                <i class="bi bi-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="20" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                    <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+                                                  </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="gallery_product col-lg-4 col-md-6 col-sm-6 col-xs-12 propertyfilter latest sale">
+                        <div class="property-item">
+                            <div class="image card-img" style="position: relative;">
+                                <a href="./property-details.html"> <img src="./assets/images/Property Portfolio/listing9.jpg" alt="" class="img-responsive"></a>
+                                <span class="price">$8,600 Per Month</span>
+                                <span class="tag_t">For Sale</span>
+                                <span class="tag_l">Featured</span>
+                            </div>
+                            <div class="property-content">
+                                <div class="property-heading">
+                                    <h3 class="capital">
+                                        <a href="#">Park avenue apartment</a>
+                                    </h3>
+                                    <p>45 Regent Street, London, UK</p>
+                                </div>
+                                <div class="property-dis">
+                                    <span>
+                                        <i class="fas fa-vector-square"></i>
+                                        4800 sq ft
+                                    </span>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 512 512"><path d="M496,344h-8V280a32.042,32.042,0,0,0-32-32V112a32.042,32.042,0,0,0-32-32H88a32.042,32.042,0,0,0-32,32V248a32.042,32.042,0,0,0-32,32v64H16a8,8,0,0,0-8,8v32a8,8,0,0,0,8,8h8v32a8,8,0,0,0,8,8H56a7.99,7.99,0,0,0,7.84-6.43L70.56,392H441.44l6.72,33.57A7.99,7.99,0,0,0,456,432h24a8,8,0,0,0,8-8V392h8a8,8,0,0,0,8-8V352A8,8,0,0,0,496,344ZM72,112A16.021,16.021,0,0,1,88,96H424a16.021,16.021,0,0,1,16,16V248H424V216a32.042,32.042,0,0,0-32-32H296a32.042,32.042,0,0,0-32,32v32H248V216a32.042,32.042,0,0,0-32-32H120a32.042,32.042,0,0,0-32,32v32H72ZM408,216v32H280V216a16.021,16.021,0,0,1,16-16h96A16.021,16.021,0,0,1,408,216Zm-176,0v32H104V216a16.021,16.021,0,0,1,16-16h96A16.021,16.021,0,0,1,232,216ZM40,280a16.021,16.021,0,0,1,16-16H456a16.021,16.021,0,0,1,16,16v64H40Zm9.44,136H40V392H54.24ZM472,416h-9.44l-4.8-24H472Zm16-40H24V360H488Z"/></svg>
+                                        2 office room
+                                    </span>
+                                    <span>
+                                        <i class="fas fa-shower"></i>
+                                        1 Bathroom
+                                    </span>
+                                </div>
+                                <div class="property-dis mb-4">
+                                    <span>
+                                        <i class="fas fa-tv"></i>
+                                        TV Lounge
+                                    </span>
+                                    <span>
+                                        <i class="fas fa-warehouse"></i>
+                                        1 Bathroom
+                                    </span>
+                                    <span></span>
+                                </div>
+                                <div class="fav clearfix">
+                                    <p>
+                                        <i class="far fa-calendar-alt"></i>
+                                        &nbsp;5 Days ago
+                                    </p>
+                                    <ul class="pull-right">
+                                        <li >
+                                            <a type="button" class="like-btn">
+                                                <i class="bi bi-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="20" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                    <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+                                                  </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-center mt-3">
+                        <a href="./listing.html" class="btn-dark">more listing</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- ============Property Portfolio End============ -->
+
+    <!-- ============Latest News============ -->
+    <section class="section-news section-t8">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+                <div class="title-wrap d-flex justify-content-between bottom40">
+                <div class="title-box">
+                    <h2 class="title-a">Latest News</h2>
+                </div>
+                <div class="title-link">
+                    <a href="#">All News
+                    <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+                </div>
+            </div>
+            </div>
+    
+            <div id="news-carousel" class="swiper">
+            <div class="swiper-wrapper">
+    
+                <div class="carousel-item-c swiper-slide">
+                <div class="card-box-b card-shadow news-box">
+                    <div class="img-box-b">
+                    <img src="./assets/images/news/post-1.jpg" alt="" class="img-b img-fluid w-100">
+                    </div>
+                    <div class="card-overlay">
+                    <div class="card-header-b">
+                        <div class="card-category-b">
+                        <a href="#" class="category-b">House</a>
+                        </div>
+                        <div class="card-title-b">
+                        <h2 class="title-2">
+                            <a href="blog-single.html">House is comming
+                            <br> new</a>
+                        </h2>
+                        </div>
+                        <div class="card-date">
+                        <span class="date-b">18 Sep. 2017</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div><!-- End carousel item -->
+    
+                <div class="carousel-item-c swiper-slide">
+                <div class="card-box-b card-shadow news-box">
+                    <div class="img-box-b">
+                    <img src="./assets/images/news/post-2.jpg" alt="" class="img-b img-fluid">
+                    </div>
+                    <div class="card-overlay">
+                    <div class="card-header-b">
+                        <div class="card-category-b">
+                        <a href="#" class="category-b">Travel</a>
+                        </div>
+                        <div class="card-title-b">
+                        <h2 class="title-2">
+                            <a href="blog-single.html">Travel is comming
+                            <br> new</a>
+                        </h2>
+                        </div>
+                        <div class="card-date">
+                        <span class="date-b">18 Sep. 2017</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div><!-- End carousel item -->
+    
+                <div class="carousel-item-c swiper-slide">
+                <div class="card-box-b card-shadow news-box">
+                    <div class="img-box-b">
+                    <img src="./assets/images/news/post-4.jpg" alt="" class="img-b img-fluid">
+                    </div>
+                    <div class="card-overlay">
+                    <div class="card-header-b">
+                        <div class="card-category-b">
+                        <a href="#" class="category-b">Park</a>
+                        </div>
+                        <div class="card-title-b">
+                        <h2 class="title-2">
+                            <a href="blog-single.html">Park is comming
+                            <br> new</a>
+                        </h2>
+                        </div>
+                        <div class="card-date">
+                        <span class="date-b">18 Sep. 2017</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div><!-- End carousel item -->
+    
+                <div class="carousel-item-c swiper-slide">
+                <div class="card-box-b card-shadow news-box">
+                    <div class="img-box-b">
+                    <img src="./assets/images/news/post-5.jpg" alt="" class="img-b img-fluid">
+                    </div>
+                    <div class="card-overlay">
+                    <div class="card-header-b">
+                        <div class="card-category-b">
+                        <a href="#" class="category-b">Travel</a>
+                        </div>
+                        <div class="card-title-b">
+                        <h2 class="title-2">
+                            <a href="#">Travel is comming
+                            <br> new</a>
+                        </h2>
+                        </div>
+                        <div class="card-date">
+                        <span class="date-b">18 Sep. 2017</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div><!-- End carousel item -->
+    
+            </div>
+            </div>
+    
+            <div class="news-carousel-pagination carousel-pagination"></div>
+        </div>
+    </section><!-- End Latest News Section -->
+
+
+    <!-- ===========Short Links================ -->
+    <div class="shortlink-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="shortlinks-section-heading text-center">
+                        Popular Locations
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="shortlinks">
+        <div class="container PCFP">
+            <div class="row">
+                <div class="sub-heading">
+                    <div class="col-sm-12">
+                        <h4>
+                            Popular Cities to Buy Properties
+                        </h4>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 c0l-md-6 col-sm-12">
+                    <div class="PCFP-heading">
+                        <h4>Houses</h4>
+                    </div>
+                    <div class="PCFP-list shortlist-lists">
+                        <ul>
+                            <li><a href="#" title="House for sale in Lahore">House for sale in Lahores <span class="lahore-house">(28,366)</span></a></li>
+                            <li><a href="#" title="House for sale in Karachi">House for sale in Karachi <span class="lahore-house">(15,980)</span></a></li>
+                            <li><a href="#" title="House for sale in Islamabad">House for sale in Islamabad <span class="lahore-house">(10,848)</span></a></li>
+                            <li><a href="#" title="House for sale in Peshawar">House for sale in Peshawar <span class="lahore-house">(8,481)</span></a></li>
+                            <li><a href="#" title="House for sale in Faisalabad">House for sale in Faisalabad <span class="lahore-house">(504)</span></a></li>
+                            <li><a href="#" title="House for sale in Gujrat">House for sale in Gujrat <span class="lahore-house"></span>(1,366)</a></li>
+                            <li><a href="#" title="House for sale in Gujranwala">House for sale in Gujranwala <span class="lahore-house">(5,366)</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 c0l-md-6 col-sm-12">
+                    <div class="PCFP-heading">
+                        <h4>Plots</h4>
+                    </div>
+                    <div class="PCFP-list shortlist-lists">
+                        <ul>
+                            <li><a href="#" title="House for sale in Lahore">House for sale in Lahores <span class="lahore-house">(28,366)</span></a></li>
+                            <li><a href="#" title="House for sale in Karachi">House for sale in Karachi <span class="lahore-house">(15,980)</span></a></li>
+                            <li><a href="#" title="House for sale in Islamabad">House for sale in Islamabad <span class="lahore-house">(10,848)</span></a></li>
+                            <li><a href="#" title="House for sale in Peshawar">House for sale in Peshawar <span class="lahore-house">(8,481)</span></a></li>
+                            <li><a href="#" title="House for sale in Faisalabad">House for sale in Faisalabad <span class="lahore-house">(504)</span></a></li>
+                            <li><a href="#" title="House for sale in Gujrat">House for sale in Gujrat <span class="lahore-house"></span>(1,366)</a></li>
+                            <li><a href="#" class="view-all">View All Cities</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 c0l-md-6 col-sm-12">
+                    <div class="PCFP-heading">
+                        <h4>Flats & Appartment</h4>
+                    </div>
+                    <div class="PCFP-list shortlist-lists">
+                        <ul>
+                            <li><a href="#" title="House for sale in Lahore">House for sale in Lahores <span class="lahore-house">(28,366)</span></a></li>
+                            <li><a href="#" title="House for sale in Karachi">House for sale in Karachi <span class="lahore-house">(15,980)</span></a></li>
+                            <li><a href="#" title="House for sale in Islamabad">House for sale in Islamabad <span class="lahore-house">(10,848)</span></a></li>
+                            <li><a href="#" title="House for sale in Peshawar">House for sale in Peshawar <span class="lahore-house">(8,481)</span></a></li>
+                            <li><a href="#" title="House for sale in Faisalabad">House for sale in Faisalabad <span class="lahore-house">(504)</span></a></li>
+                            <li><a href="#" title="House for sale in Gujrat">House for sale in Gujrat <span class="lahore-house"></span>(1,366)</a></li>
+                            <li><a href="#" class="view-all">View All Cities</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container PLFPL">
+            <div class="row">
+                <div class="sub-heading">
+                    <div class="col-sm-12">
+                        <h4>
+                            Popular Locations for Plots
+                        </h4>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 c0l-md-6 col-sm-12">
+                    <div class="PCFP-heading">
+                        <h4>Lahore</h4>
+                    </div>
+                    <div class="PCFP-list shortlist-lists">
+                        <ul>
+                            <li><a href="#" title="Plots for sale in DHA Defence">Plots for sale in DHA Defence<span class="lahore-plots">(18,712)</span></a></li>
+                            <li><a href="#" title="Plots for sale in Bahria Town">Plots for sale in Bahria Town<span class="lahore-plots">(5,854)</span></a></li>
+                            <li><a href="#" title="Plots for sale in Bahria Orchard">Plots for sale in Bahria Orchard<span class="lahore-plots">(4,086)</span></a></li>
+                            <li><a href="#" title="Plots for sale in Raiwind Road">Plots for sale in Raiwind Road <span class="lahore-plots">(4,384)</span></a></li>
+                            <li><a href="#" title="Plots for sale in State Life Housing Society">Plots for sale in State Life Housing Society <span class="lahore-plots">(663)</span></a></li>
+                            <li><a href="#" title="Plots for sale in DHA 11 Rahbar">Plots for sale in DHA 11 Rahbar <span class="lahore-plots"></span>(2,062)</a></li>
+                            <li><a href="#" title="Plots for sale in Central Park Housing Scheme">Plots for sale in Central Park Housing Scheme <span class="lahore-plots">(1,779)</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 c0l-md-6 col-sm-12">
+                    <div class="PCFP-heading">
+                        <h4>Rawalpindi/islamabad</h4>
+                    </div>
+                    <div class="PCFP-list shortlist-lists">
+                        <ul>
+                            <li><a href="#" title="House for sale in Lahore">House for sale in Lahores <span class="lahore-house">(28,366)</span></a></li>
+                            <li><a href="#" title="House for sale in Karachi">House for sale in Karachi <span class="lahore-house">(15,980)</span></a></li>
+                            <li><a href="#" title="House for sale in Islamabad">House for sale in Islamabad <span class="lahore-house">(10,848)</span></a></li>
+                            <li><a href="#" title="House for sale in Peshawar">House for sale in Peshawar <span class="lahore-house">(8,481)</span></a></li>
+                            <li><a href="#" title="House for sale in Faisalabad">House for sale in Faisalabad <span class="lahore-house">(504)</span></a></li>
+                            <li><a href="#" title="House for sale in Gujrat">House for sale in Gujrat <span class="lahore-house"></span>(1,366)</a></li>
+                            <li><a href="#" class="view-all">View All Cities</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 c0l-md-6 col-sm-12">
+                    <div class="PCFP-heading">
+                        <h4>Karachi</h4>
+                    </div>
+                    <div class="PCFP-list shortlist-lists">
+                        <ul>
+                            <li><a href="#" title="Plots for sale in Bahria Town Karachi">Plots for sale in Bahria Town Karachi <span class="karachi-plots">(10,948)</span></a></li>
+                            <li><a href="#" title="Plots for sale in Scheme 33">Plots for sale in Scheme 33 <span class="karachi-plots">(4,538)</span></a></li>
+                            <li><a href="#" title="House for sale in Islamabad">House for sale in Islamabad <span class="karachi-plots">(10,848)</span></a></li>
+                            <li><a href="#" title="House for sale in Peshawar">House for sale in Peshawar <span class="karachi-plots">(8,481)</span></a></li>
+                            <li><a href="#" title="Plots for sale in Bahria Town Karachi">Plots for sale in Bahria Town Karachi <span class="karachi-plots">(10,948)</span></a></li>
+                            <li><a href="#" title="House for sale in Faisalabad">House for sale in Faisalabad <span class="karachi-plots">(504)</span></a></li>
+                            <li><a href="#" title="House for sale in Gujrat">House for sale in Gujrat <span class="karachi-plots"></span>(1,366)</a></li>
+                            <li><a href="#" class="view-all">View All Cities</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container PLFPR">
+            <div class="row">
+                <div class="sub-heading">
+                    <div class="col-sm-12">
+                        <h4>
+                            Popular Locations for Projects
+                        </h4>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 c0l-md-6 col-sm-12">
+                    <div class="PCFP-heading">
+                        <h4>Lahore</h4>
+                    </div>
+                    <div class="PCFP-list shortlist-lists">
+                        <ul>
+                            <li><a href="#" title="Plots for sale in DHA Defence">Plots for sale in DHA Defence<span class="lahore-plots">(18,712)</span></a></li>
+                            <li><a href="#" title="Plots for sale in Bahria Town">Plots for sale in Bahria Town<span class="lahore-plots">(5,854)</span></a></li>
+                            <li><a href="#" title="Plots for sale in Bahria Orchard">Plots for sale in Bahria Orchard<span class="lahore-plots">(4,086)</span></a></li>
+                            <li><a href="#" title="Plots for sale in Raiwind Road">Plots for sale in Raiwind Road <span class="lahore-plots">(4,384)</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 c0l-md-6 col-sm-12">
+                    <div class="PCFP-heading">
+                        <h4>islamabad</h4>
+                    </div>
+                    <div class="PCFP-list shortlist-lists">
+                        <ul>
+                            <li><a href="#" title="House for sale in Lahore">House for sale in Lahores <span class="lahore-house">(28,366)</span></a></li>
+                            <li><a href="#" title="House for sale in Karachi">House for sale in Karachi <span class="lahore-house">(15,980)</span></a></li>
+                            <li><a href="#" title="House for sale in Islamabad">House for sale in Islamabad <span class="lahore-house">(10,848)</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 c0l-md-6 col-sm-12">
+                    <div class="PCFP-heading">
+                        <h4>Karachi</h4>
+                    </div>
+                    <div class="PCFP-list shortlist-lists">
+                        <ul>
+                            <li><a href="#" title="Plots for sale in Bahria Town Karachi">Plots for sale in Bahria Town Karachi <span class="karachi-plots">(10,948)</span></a></li>
+                            <li><a href="#" title="Plots for sale in Scheme 33">Plots for sale in Scheme 33 <span class="karachi-plots">(4,538)</span></a></li>
+                            <li><a href="#" title="House for sale in Islamabad">House for sale in Islamabad <span class="karachi-plots">(10,848)</span></a></li>
+                            <li><a href="#" title="House for sale in Peshawar">House for sale in Peshawar <span class="karachi-plots">(8,481)</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============ShortLinks End============ -->
+
+    <!-- ===========App Section================ -->
+    <!-- <section class="app-section">
+        <div class="container">
+            <div class="row app-bg-img">
+                <div class="col-md-6 col-sm-12">
+                    <div class="heading-left text-left">
+                        <h3>
+                            Get the Homofy App
+                        </h3>
+                        <p>Buy and Rent Property faster and <br> better using our app.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="app-right text-right">
+                        <div class="app-btn">
+                            <a href="#" title="Open iTunes to Download and Install this App" aria-label="Open ITunes to Download and Install this App">
+                                <img src="./assets/images/appimgs/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg" width="20%" height="" alt="">
+                            </a>
+                            <a href="#" title="Open iTunes to Download and Install this App" aria-label="Open ITunes to Download and Install this App">
+                                <img src="./assets/images/appimgs/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg" width="20%" height="" alt="">
+                            </a>
+                        </div>
+                        <div class="qr d-flex justify-content-end">
+                            <div class="text-right qr-text">
+                                <p>Scan the QR code to <br> get the app</p>
+                                <img src="./assets/images/appimgs/qrCodeArrow_noinline.bdbb701e7f5440b514ee75133dc37bc1.svg" class="qr-arrow" alt="">
+                            </div>
+                            <div class="qr-code">
+                                <img src="/assets/images/appimgs/qrCode_noinline.e5d2f443b62e7e309972440f4958e107.svg" width="75px" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="app-section">
+        <div class="app-section-con container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="app-caption">
+                        <span class="sub-title">Get Our App</span>
+                        <h1 class="title">
+                            Get Things Done <br> With Makkan App
+                        </h1>
+                        <p>
+                            Buy and Rent Property faster and better using our app.
+                        </p>
+                    </div>
+                    <div class="button">
+                        <button type="button" class="btn btn-default app-download-btn"><span class="bg-span"></span><span>Download</span></button>
+                    </div>
+                </div>
+                <div class="col-lg-6 app-img">
+                    <img src="./assets/images/app.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============Footer============ -->
+     <!-- footer-section  -->
+     <section class="footer-section">
+        <footer class="footer">
+            <div class="container contactfields">
+                <div class="row">
+                    <div class="col-sm-4 text-center">
+                        <div class="info-box first">
+                            <div class="icon d-flex justify-content-center">
+                                <img src="./assets/images/icons/callLi8.svg" alt="">
+                            </div>
+                            <div class="text-center">
+                                <ul>
+                                    <li><strong>Phone Number</strong></li>
+                                    <li>+1 900 234 567 - 68</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <div class="info-box">
+                            <div class="icon d-flex justify-content-center">
+                                <img src="./assets/images/icons/placeholderLi8.svg" alt="">
+                            </div>
+                            <div class="text-center">
+                                <ul>
+                                    <li><strong>Manhattan Hall,</strong></li>
+                                    <li>Castle Melbourne, australia</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <div class="info-box">
+                            <div class="icon d-flex justify-content-center">
+                                <img src="./assets/images/icons/emailli8.svg" alt="">
+                            </div>
+                            <div class="text-center">
+                                <ul>
+                                    <li><strong>Email Address</strong></li>
+                                    <li><a href="mailto:info@homofy.com">info@homofy.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container fotterpaddingtop">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-widget footer-widget1">
+                            <a href="#" class="logo">
+                                <img src="./assets/images/Lightlogohome.png" alt="">
+                            </a>
+                            <p class="mb15">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur illum dolorem nostrum repellendus. Aliquam rem sunt, culpa animi natus blanditiis nesciunt ullam libero temporibus, amet voluptatibus expedita magni, maiores doloremque.
+                            </p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-widget footer-widget2">
+                            <h4 class="heading">
+                                    About Us
+                            </h4>
+                            <table style="width: 100%;">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <ul class="links">
+                                                <li><a href="./about.html"><i></i>About Us</a></li>
+                                                <li><a href="./contact.html"><i></i>Contact Us</a></li>
+                                                <li><a href=""><i></i>Jobs</a></li>
+                                                <li><a href=""><i></i>Help & Support</a></li>
+                                                <li><a href=""><i></i>Advertise</a></li>
+                                                <li><a href=""><i></i>Term Of Uses</a></li>
+                                            </ul>
+                                        </td>
+                                        <td class="text-right">
+                                            <ul class="links text-left">
+                                                <li><a href=""><i></i>Blog</a></li>
+                                                <li><a href=""><i></i>News</a></li>
+                                                <li><a href=""><i></i>Forum</a></li>
+                                                <li><a href=""><i></i>Expo</a></li>
+                                                <li><a href=""><i></i>Real Estate Agent</a></li>
+                                                <li><a href=""><i></i>Add Property</a></li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-widget footer-widget3">
+                            <h4 class="heading">
+                                Head Office
+                            </h4>
+                            <div class="icon address d-flex">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p class="add-text">Pearl One, 94-B/I, MM Alam Road, Gulberg III, Lahore, Pakistan</p>
+                            </div>
+                            <div class="icon address d-flex">
+                                <i class="fas fa-phone"></i>
+                                <p class="phone-number">0800 5353 7979</p>
+                            </div>
+                            <div class="icon address d-flex">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:info@gmail.com" class="mail">info@homofy.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-widget footer-widget4">
+                            <h4 class="heading">
+                                Subscribe 
+                            </h4>
+                            <p class="mb15">
+                                Sign up with your email to get latest updates and offers
+                            </p>
+                            <form action="" class="footer-form">
+                                <input type="email" class="subscribefield" placeholder="Enter you email">
+                                <a href="#" class="footersubmit-btn">
+                                    <i class="fas fa-envelope-open-text"></i>
+                                </a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright col-12">
+                    <div class="row m-0">
+                        <div class="col-12 col-sm-5 d-flex align-items-center">
+                            <p class="copyright-text m-0">
+                                Copyright ©️ 2020 Homofy. All rights reserved.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-7 text-right">
+                            <ul class="social_share">
+                                <li><a href="#" class="fb-icon footer-icon"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="#" class="insta-icon footer-icon"><i class="fab fa-instagram-square"></i></a></li>
+                                <li><a href="#" class="twitter-icon footer-icon"><i class="fab fa-twitter-square"></i></a></li>
+                                <li><a href="#" class="google-icon footer-icon"><i class="fab fa-google-plus-square"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- ============Footer End============ -->
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <!-- =================================================
+        -------------------Swiper Slider-----------=-----
+        ================================================= -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom Js  -->
+    <script src="./assets/js/main.js"></script>
+    <script>
+        new Swiper('#news-carousel', {
+            speed: 600,
+            loop: true,
+            autoplay: {
+            delay: 5000,
+            disableOnInteraction: false
+            },
+            slidesPerView: 'auto',
+            pagination: {
+            el: '.news-carousel-pagination',
+            type: 'bullets',
+            clickable: true
+            },
+            breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 20
+            },
+
+            1200: {
+                slidesPerView: 3,
+                spaceBetween: 20
+            }
+            }
+        });
+        const btnProperty1 = document.getElementById("btnproperty1");
+        const btnProperty2 = document.getElementById("btnproperty2");
+        const btnProperty3 = document.getElementById("btnproperty3");
+        btnProperty1.addEventListener("click", function () {
+        btnProperty2.classList.remove("btn-property-active");
+        btnProperty3.classList.remove("btn-property-active");
+        btnProperty1.classList.add("btn-property-active");
+        });
+        btnProperty2.addEventListener("click", function () {
+        btnProperty1.classList.remove("btn-property-active");
+        btnProperty3.classList.remove("btn-property-active");
+        btnProperty2.classList.add("btn-property-active");
+        });
+        btnProperty3.addEventListener("click", function () {
+        btnProperty1.classList.remove("btn-property-active");
+        btnProperty2.classList.remove("btn-property-active");
+        btnProperty3.classList.add("btn-property-active");
+        });
+        //  Active color change script For Project
+        const btnMainProj1 = document.getElementById("btnpro-1");
+        const btnMainProj2 = document.getElementById("btnpro-2");
+        const btnMainProj3 = document.getElementById("btnpro-3");
+        btnMainProj1.addEventListener("click", function () {
+        btnMainProj2.classList.remove("btnactive");
+        btnMainProj3.classList.remove("btnactive");
+        btnMainProj1.classList.add("btnactive");
+        });
+        btnMainProj2.addEventListener("click", function () {
+        btnMainProj1.classList.remove("btnactive");
+        btnMainProj3.classList.remove("btnactive");
+        btnMainProj2.classList.add("btnactive");
+        });
+        btnMainProj3.addEventListener("click", function () {
+        btnMainProj1.classList.remove("btnactive");
+        btnMainProj2.classList.remove("btnactive");
+        btnMainProj3.classList.add("btnactive");
+        });
+
+
+    </script>
+</body>
+
+</html>

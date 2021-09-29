@@ -221,7 +221,7 @@ header .header-text:before{
 }
 .source-face .source-face-img{
     height: 320px;
-    background-image: url(../images/face1.jpeg);
+    background-image: url(../images/face1.jpeg); /*Source face image | Change this path to cange the image of Source face */
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -278,7 +278,7 @@ header .header-text:before{
 }
 .dest-face .dest-face-img{
     height: 320px;
-    background-image: url(../images/dest1.jpeg);
+    background-image: url(../images/dest1.jpeg); /* Destination face image | Change this path to cange the image of Destination face */
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -345,7 +345,7 @@ header .header-text:before{
 .face-sec-res-item .item-img{
     width: 100%;
     height: 550px;
-    background-image: url(../images/rslt1.png);
+    background-image: url(../images/rslt1.png); /* Face Result image | Change this path to cange the image of Result image of face section */
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -364,6 +364,7 @@ header .header-text:before{
     color: #ffffff;
     margin: 0 auto;
     font-size:  clamp(14px,2vw,24px);
+    -webkit-appearance: none;
 }
 
 .face-sec-btn-con{
@@ -379,6 +380,7 @@ header .header-text:before{
     background: #5bccf6;
     color: #ffffff;
     font-size:  clamp(14px,2vw,24px);
+    -webkit-appearance: none;
 }
 /* ==============================
 ------Dress Section STYLES--------
@@ -410,7 +412,7 @@ header .header-text:before{
 }
 .full-img-con .full-img{
     height: 420px;
-    background-image: url(../images/2.jpg);
+    background-image: url(../images/2.jpg);/* Full body image | Change this path to cange the image of Result image of full body */
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -461,7 +463,7 @@ header .header-text:before{
 }
 .dress-img-con .dress-img{
     height: 420px;
-    background-image: url(../images/3.jpg);
+    background-image: url(../images/3.jpg); /* Dress image | Change this path to cange the image of Result image of Dress */
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -519,7 +521,7 @@ header .header-text:before{
 .dress-sec-res-item .item-img{
     width: 100%;
     height: 550px;
-    background-image: url(../images/5.jpg);
+    background-image: url(../images/5.jpg); /* Dress Result image | Change this path to cange the image of Result image of Dress section */
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -536,6 +538,7 @@ header .header-text:before{
     color: #ffffff;
     margin: 0 auto;
     font-size:  clamp(14px,2vw,24px);
+    -webkit-appearance: none;
 }
 
 .dress-sec-btn-con{
@@ -551,6 +554,7 @@ header .header-text:before{
     background: #5bccf6;
     color: #ffffff;
     font-size:  clamp(14px,2vw,24px);
+    -webkit-appearance: none;
 }
 /* ==============================
 ------Signup Section STYLES--------
@@ -696,4 +700,37 @@ header .header-text:before{
 
 .ff-form .ff-powered-img img {
     display: none !important;
+}
+/* ========================
+---- Modal Styles ------
+======================== */
+.modal.fade{
+    overflow: hidden;
+    margin: 0 auto;
+}
+.modal.fade .modal-dialog{
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.modal.fade .modal-dialog .modal-content{
+    width: 90vw;
+    min-height: 500px;
+    max-width: 700px;
+    height: 85vh;
+    padding: 1% 0;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+ .modal-content .modal-body{
+     width: 100%;
+     height: 100%;
+     padding: 0;
+}
+ .modal-content .modal-body iframe{
+     width: 100%;
+     height: 100%;
 }

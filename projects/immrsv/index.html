@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-GMZES6WBW3"></script>
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GMZES6WBW3"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'G-GMZES6WBW3');
-    </script> -->
+    </script>
 
     <!-- fonts style links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,7 +47,7 @@
                             immrsv
                         </a>
                     </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="nav-menu collapse navbar-collapse" id="navbarSupportedContent">
@@ -89,18 +89,21 @@
                                 <p>Select a Source Face</p>
                                 <div class="sf-item col-3 col-md-5 col-lg-3">
                                     <label  for="source-face-1" class="sf-item-img item-img">
+                                        <!-- source face image 1  -->
                                         <img class="req-item-img" src="./assets/images/face1.jpeg" alt="">
                                         <input hidden type="radio" name="source-face" id="source-face-1" class="srcFaceRadio" checked="true">
                                     </label >
                                 </div>
                                 <div class="sf-item col-3 col-md-5 col-lg-3">
                                     <label  for="source-face-2" class="sf-item-img item-img">
+                                        <!-- source face image 2 -->
                                         <img class="req-item-img" src="./assets/images/face2.jpeg" alt="">
                                         <input hidden type="radio" name="source-face" id="source-face-2" class="srcFaceRadio">
                                     </label>
                                 </div>
                                 <div class="sf-item col-3 col-md-5 col-lg-3">
                                     <label  for="source-face-3" class="sf-item-img item-img">
+                                        <!-- source face image 3 -->
                                         <img class="req-item-img" src="./assets/images/face3.jpeg" alt="">
                                         <input hidden type="radio" name="source-face" id="source-face-3" class="srcFaceRadio">
                                     </label>
@@ -124,12 +127,14 @@
                                 <p>Select a Destination Look</p>
                                 <div class="df-item col-3 col-md-5 col-lg-3">
                                     <label  for="dest-face-1" class="df-item-img item-img">
+                                        <!--Destination face image 1  -->
                                         <img class="req-item-img" src="./assets/images/dest1.jpeg" alt="">
                                         <input hidden type="radio" name="dest-face" id="dest-face-1" class="srcFaceRadio" checked="true">
                                     </label>
                                 </div>
                                 <div class="df-item col-3 col-md-5 col-lg-3">
                                     <label  for="dest-face-2" class="df-item-img item-img">
+                                        <!--Destination face image 2  -->
                                         <img class="req-item-img" src="./assets/images/dest2.png" alt="">
                                         <input hidden type="radio" name="dest-face" id="dest-face-2" class="srcFaceRadio">
                                     </label>
@@ -154,7 +159,7 @@
                         </div>
                     </div>
                     <div class="face-sec-btn-con col-12">
-                        <a href=""  class="face-sec-btn button" type="button" data-bs-toggle="modal" data-bs-target="#questModal">Would you like to upload a face to try on?</a>
+                        <a type="button" class="face-sec-btn button"  data-bs-toggle="modal" data-bs-target="#questModal">Would you like to upload a face to try on?</a>
                     </div>
                 </div>
             </div>
@@ -178,12 +183,14 @@
                                 <p>Select a Full Image</p>
                                 <div class="fi-item col-4 col-md-5 col-lg-3">
                                     <label  for="full-img-1" class="full-item-img item-img">
+                                        <!-- Full Body image 1  -->
                                         <img class="req-item-img" src="./assets/images/2.jpg" alt="">
                                         <input hidden type="radio" name="full-img" id="full-img-1" class="FullImgRadio" checked="true">
                                     </label >
                                 </div>
                                 <div class="fi-item col-4 col-md-5 col-lg-3">
                                     <label  for="full-img-2" class="full-item-img item-img">
+                                        <!-- Full Body image 2  -->
                                         <img class="req-item-img" src="./assets/images/1.png" alt="">
                                         <input hidden type="radio" name="full-img" id="full-img-2" class="FullImgeRadio">
                                     </label>
@@ -207,12 +214,14 @@
                                 <p>Select a Destination Look</p>
                                 <div class="dress-item col-4 col-md-5 col-lg-4">
                                     <label  for="dress-1" class="dress-item-img item-img">
+                                        <!-- Dress image 1  -->
                                         <img class="req-item-img" src="./assets/images/3.jpg" alt="">
                                         <input hidden type="radio" name="dress-img" id="dress-1" class="dressImgRadio" checked="true">
                                     </label>
                                 </div>
                                 <div class="dress-item col-4 col-md-5 col-lg-4">
                                     <label  for="dress-2" class="dress-item-img item-img">
+                                         <!-- Dress image 2  -->
                                         <img class="req-item-img" src="./assets/images/4.jpg" alt="">
                                         <input hidden type="radio" name="dress-img" id="dress-2" class="dressImgRadio">
                                     </label>
@@ -232,12 +241,12 @@
                             <div class="item-img">
                             </div>
                             <div class="merge-btn-con">
-                                <a class="button btn-merge" id="mergeDressBtn" type="button">Try Outfit</a>
+                                <a type="button" class="button btn-merge" id="mergeDressBtn" >Try Outfit</a>
                             </div>
                         </div>
                     </div>
                     <div class="dress-sec-btn-con col-12">
-                        <a href=""  class="dress-sec-btn button" type="button" data-bs-toggle="modal" data-bs-target="#questModal">Would you like to upload a full image to try on?</a>
+                        <a  type="button" class="dress-sec-btn button"  data-bs-toggle="modal" data-bs-target="#questModal">Would you like to upload a full image to try on?</a>
                     </div>
                 </div>
             </div>
@@ -320,16 +329,26 @@
             <div class="quest-modal">                
                 <!-- Questionaire Modal -->
                 <div class="modal fade" id="questModal" tabindex="-1" aria-labelledby="questModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <div class="container" id="ff-compose"></div>
-                            <script  async defer src="https://formfacade.com/include/112173756172188734201/form/1FAIpQLSdpJC0_waF4cJaE5HGcXsvyC0tpclc4u3qkgFR_yJvbd7qloA/bootstrap.js?div=ff-compose"></script>
+                    <div class="modal-dialog" >
+                        <div class="modal-content" >
+                            <div class="modal-body" >
+                                <script type="text/javascript">
+                                    var i = 0;
+                                    var totalSections = 2;
+                                    check = () => {
+                                        console.log(i);
+                                        if (++i > totalSections) {
+                                            setFormStatus();
+                                        }
+                                    };
+            
+                                </script>
+                                <iframe class="questForm" onload="check()" src="https://docs.google.com/forms/d/e/1FAIpQLSdpJC0_waF4cJaE5HGcXsvyC0tpclc4u3qkgFR_yJvbd7qloA/viewform?embedded=true"  frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" id="btnclose" data-bs-dismiss="modal">Close</button>
+                            </div>
                         </div>
-                        <div class="modal-footer">
-                        <button type="button" onclick="setFormStatus()" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    </div>
                     </div>
                 </div>
             </div>

@@ -173,7 +173,6 @@ $(document).ready(function () {
 });
 
 function carouselLoad() {
-  // $(document).ready(function(){
   $(".prop-gal-crsl.owl-carousel").owlCarousel({
     loop: true,
     margin: 10,
@@ -228,7 +227,26 @@ function carouselLoad() {
       },
     },
   });
-  // });
+
+  $(".recent-posts-crsl.owl-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      1000: {
+        items: 3,
+      },
+    },
+  });
+
 // owl carousel control buttons scripts
   var owlPropGallery = $(".prop-gal-crsl.owl-carousel");
   $(".btn-gal-crsl.btn-crsl-next").click(function () {
@@ -246,6 +264,14 @@ function carouselLoad() {
     owlSimProp.trigger("prev.owl.carousel", [300]);
   });
 
+  var owlRecentPost = $(".recent-posts-crsl.owl-carousel");
+  $(".btn-r-post-crsl.btn-crsl-next").click(function () {
+    owlRecentPost.trigger("next.owl.carousel");
+  });
+  $(".btn-btn-r-post-crsl.btn-crsl-prev").click(function () {
+    owlRecentPost.trigger("prev.owl.carousel", [300]);
+  });
+
   var owlLatProj = $(".lat-proj-crsl.owl-carousel");
   $(".btn-proj-crsl.btn-crsl-next").click(function () {
     owlLatProj.trigger("next.owl.carousel");
@@ -255,7 +281,8 @@ function carouselLoad() {
   });
   let crslImg = "";
 	const propMainImg = document.querySelector(".prop-gallery-main .gallery-img-main img");
-	// $(document).ready(function () {
+
+
 	if (document.querySelector(".prop-gal-crsl .owl-item ")) {
 		document.querySelectorAll(".prop-gal-crsl .owl-item ").forEach(function (el) {
 			el.addEventListener("click", function (e) {
@@ -267,7 +294,7 @@ function carouselLoad() {
 			});
 		});
 	}
-	// });
+
 }
 
 function showMore(){

@@ -166,21 +166,52 @@
                 </nav>
             </header>
     </section>
-    <section id="page-banner" class="page-banner prop-details-banner">
-        <div class="overlay"></div>
-        <div class="page-banner-con container  center text-center">
-            <div class="banner-text">
-                <h1 class="text-uppercase t-white">Projects</h1>
-                <p class="t-white">Serving you since 1999. Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                <ul class="breadcrumb t-white">
-                    <li><a href="./index.html">Home</a></li>
-                    <li class="active t-yellow">Projects</li>
-                </ul>
+     <div class="project-pg-banner">
+        <div class="banner-slider-con">
+            
+            <div id="bannerSlider" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="overlay"></div>
+                        <img src="./assets/images/banner-img-1.jpg" class="d-block w-100" alt="">
+                        <div class="slide-text">
+                            <h3>Icon Valey Pase 2</h3>
+                            <p>Raiwind Road, Lahore</p>
+                            <a href="" class="btn-proj-banner">Project Details</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="overlay"></div>
+                        <img src="./assets/images/banner-img-2.jpg" class="d-block w-100" alt="">
+                        <div class="slide-text">
+                            <h3>Ideal Gold Vista</h3>
+                            <p>Raiwind Road, Lahore</p>
+                            <a href="" class="btn-proj-banner">Project Details</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="overlay"></div>
+                        <img src="./assets/images/banner-img-3.jpg" class="d-block w-100" alt="">
+                        <div class="slide-text">
+                            <h3>Residence 15</h3>
+                            <p>Gulberg 3, Lahore</p>
+                            <a href="" class="btn-proj-banner">Project Details</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#bannerSlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#bannerSlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
             </div>
         </div>
-    </section>
+     </div>
     <!-- banner section end  -->
-    <section class="latest-projects-sec mt-4 mb-4">
+    <section class="latest-projects-sec mt-5 mb-4">
         <div class="latest-projects-con container">
             <h2 class="text-uppercase"><strong>Most Popular Projects</strong></h2>
             <div class="lat-proj-crsl-con mt-4">
@@ -906,8 +937,13 @@
                             Buy and Rent Property faster and better using our app.
                         </p>
                     </div>
-                    <div class="button">
-                        <button type="button" class="btn btn-default app-download-btn"><span class="bg-span"></span><span>Download</span></button>
+                    <div class="dnld-btns-con">
+                        <a href="" class="btn btn-default app-download-btn">
+                            <img src="./assets/images/app-store-download.svg" alt="">
+                        </a>
+                        <a href="" class="btn btn-default app-download-btn">
+                            <img src="./assets/images/play-store-download.svg" alt=""> 
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-6 app-img">

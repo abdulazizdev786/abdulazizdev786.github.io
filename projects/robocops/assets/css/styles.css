@@ -501,6 +501,16 @@ body{
     position: relative;
     left: -7px;
 }
+@media only screen and (min-width:1400px){
+    .roadmap-content .roadmap-item.right .item-content{
+        left: -6px;
+    }
+}
+@media only screen and (min-width:5000px){
+    .roadmap-content .roadmap-item.right .item-content{
+        left: -2px;
+    }
+}
 .roadmap-content .roadmap-item.right .item-content::after{
     content: "";
     position: absolute;

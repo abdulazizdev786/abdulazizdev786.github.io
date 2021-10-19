@@ -47,6 +47,10 @@ body{
 .navbar{
     width: 100%;
     position: fixed;
+    z-index: 999;
+}
+.navbar.navbar-bg{
+    background: #16181dcc;
 }
 .navbar .container-fluid .nav-menu{
     width: 45%;
@@ -250,7 +254,7 @@ body{
     justify-content: center;
     font-weight: 700;
     padding: 0 30px;
-    margin: 5px;
+    margin: 0 5px;
 }
 .banner-text .header-btns-con .mint-btn-con{
     padding: 0 10px;
@@ -290,6 +294,9 @@ body{
     .banner-text .header-btns-con{
         width: 60%;
         flex-direction: column;
+    }
+    .banner-text .header-btns-con .btn.btn-discord{
+        margin: 5px;
     }
     .banner-text .header-btns-con .mint-btn-con{
         padding: 0 5px;
@@ -509,6 +516,9 @@ body{
         margin-top: 30px;
         padding: 20px 10px;
     }
+    .our-roadmap-sec .roadmap-content{
+        padding: 0;
+    }
     .roadmap-content .roadmap-item{
         border-bottom: 4px solid var(--clr-prim);
     }
@@ -528,18 +538,10 @@ body{
     }
     .roadmap-content .roadmap-item.right .item-content{
         border-left: 5px solid var(--clr-prim);
-        padding: 30px 15px 30px 35px;
+        padding: 30px 10px 30px 35px;
         left: 0;
     }
     .roadmap-content .roadmap-item.right .item-content::after{
-        content: "";
-        position: absolute;
-        width: 0;
-        height: 0;
-        left: -5px;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 2;
         border-left: 30px solid var(--clr-prim) ;
         border-top: 30px solid transparent ;
         border-bottom: 30px solid transparent ;
@@ -594,6 +596,7 @@ body{
     justify-content: end;
     align-items: center;
     margin: 0;
+    padding: 0;
 }
 .footer-sec .copyright .social-menu li{
     width: 40px;
@@ -637,5 +640,8 @@ body{
     }
     .footer-sec .copyright .social-menu{
         justify-content: center;
+    }
+    .footer-sec .copyright .social-menu li.item-1{
+        margin-left: 0;
     }
 }

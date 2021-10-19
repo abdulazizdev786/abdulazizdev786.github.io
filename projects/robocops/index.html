@@ -81,7 +81,7 @@
                                 <a href="" class="header-btn btn btn-discord">Join Discord</a>
                                 <div class="mint-btn-con  d-flex flex-column justify-content-center">
                                     <button disable href="" class="header-btn btn mint-btn">Mint Button</button>
-                                    <input hidden type="text" name="" id="">
+                                    <input type="text" name="" id="" class="header-input">
                                 </div>
                             </div>
                         </div>
@@ -166,10 +166,10 @@
                     <div class="team-item col-12 col-sm-6 col-md-3">
                         <div class="item-content">
                             <div class="item-img">
-                                <img src="./assets/images/team_01-300x300.png" alt="">
+                                <img src="./assets/images//team_03-300x300.png" alt="">
                             </div>
                             <div class="item-title">
-                                <h3>Mr. Bob</h3>
+                                <h3>Gili Gilik</h3>
                             </div>
                             <div class="item-detail">
                                 <p>Machine learning engineer by trade and surfer at heart.</p>
@@ -292,7 +292,7 @@
                     </div>
                     <div class="footer-social-menu col-12 col-sm-6">
                         <ul class="social-menu">
-                            <li class="social-menu-item">
+                            <li class="social-menu-item item-1">
                                 <a href="" class="social-link">
                                     <img src="./assets/images/discord.svg" alt="">
                                 </a>
@@ -316,35 +316,6 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="./assets/js/owl.carousel.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $(".show-case-crsl.owl-carousel").owlCarousel({
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                autoplayTimeout: 3000,
-                autoplayHoverPause: true,
-                responsive: {
-                0: {
-                    items: 1,
-                },
-                600: {
-                    items: 2,
-                },
-                768: {
-                    items: 3,
-                },
-                },
-            });
-        })
-
-        var showCaseCrsl = $(".show-case-crsl.owl-carousel");
-        $(".crsl-btn.btn-next").click(function () {
-            showCaseCrsl.trigger("next.owl.carousel");
-        });
-        $(".crsl-btn.btn-prev").click(function () {
-            showCaseCrsl.trigger("prev.owl.carousel", [300]);
-        });
-    </script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>

@@ -50,7 +50,7 @@ body{
     z-index: 999;
 }
 .navbar.navbar-bg{
-    background: #16181dcc;
+    background: #16181dd7;
 }
 .navbar .container-fluid .nav-menu{
     width: 45%;
@@ -73,6 +73,7 @@ body{
     font-weight: bold;
     font-size: 32px;
     color: var(--clr-prim);
+    margin: 0;
 }
 .navbar .container-fluid .social-menu-con{
     width: 45%;
@@ -193,17 +194,22 @@ body{
   }
   @media only screen and (max-width:450px){
     .navbar .container-fluid  .navbar-toggler{
-        width: 20%;
+        width: 30%;
         text-align: left;
     }
     .navbar .container-fluid .logo{
-        width: 60%;
+        width: 40%;
     }
     .navbar .container-fluid .social-menu-con{
-        width: 20%;
+        width: 30%;
+    }
+    .navbar .container-fluid .social-menu-con .social-menu{
+        padding: 0;
     }
     .navbar .container-fluid .social-menu-con .social-menu li{
-        display: none;
+        width: 25px;
+        height: 25px;
+        font-size: 18px;
     }
   }
 /* -----------------------

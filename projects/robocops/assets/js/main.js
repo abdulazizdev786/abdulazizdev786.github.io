@@ -35,7 +35,7 @@ $(document).ready(function(){
         }
         }
     });
-    // $(".header-input").hide();
+    $(".header-input").hide();
     $(".header-btn.btn.mint-btn").on("click", ()=>{
         $(".header-input").show();
     })

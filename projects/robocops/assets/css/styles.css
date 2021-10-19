@@ -197,6 +197,9 @@ body{
         width: 30%;
         text-align: left;
     }
+    .navbar .container-fluid {
+        padding-right: 0;
+    }
     .navbar .container-fluid .logo{
         width: 40%;
     }
